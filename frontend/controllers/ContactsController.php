@@ -41,7 +41,7 @@ class ContactsController extends Controller
 
         $this->lang = $lang_model;
 
-        $this->view->registerLinkTag(['href' => Yii::$app->request->absoluteUrl, 'rel'=>'alternate', 'hreflang'=>$this->lang->hreflang ],'alternate_link');
+        //$this->view->registerLinkTag(['href' => Yii::$app->request->absoluteUrl, 'rel'=>'alternate', 'hreflang'=>$this->lang->hreflang ],'alternate_link');
 
         Yii::$app->controller->enableCsrfValidation = false;
         return parent::beforeAction($a);

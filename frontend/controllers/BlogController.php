@@ -81,7 +81,7 @@ class BlogController extends Controller
 
         $this->lang = $lang_model;
 
-        $this->view->registerLinkTag(['href' => Yii::$app->request->absoluteUrl, 'rel'=>'alternate', 'hreflang'=>$this->lang->hreflang ],'alternate_link');
+        //$this->view->registerLinkTag(['href' => Yii::$app->request->absoluteUrl, 'rel'=>'alternate', 'hreflang'=>$this->lang->hreflang ],'alternate_link');
 
         return parent::beforeAction($action);
     }
