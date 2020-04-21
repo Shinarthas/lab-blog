@@ -19,8 +19,8 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'For business owne
 				<li>Cost effectiveness. You could imagine the cost that you would have to undergo if you set up Near Field Communication in your office rather than iBeacons</li>
 				<li>Micro location. You could conveniently download navigation even inside your office premises</li>
 			</ul>
-			<p>Thunderrise employment iBeacon for personal business and business of our client. With the help of it we increase monthly income exponentially.</p>
-			<p>Thunderrise - let's create great things together!</p>
+			<p>lab3m employment iBeacon for personal business and business of our client. With the help of it we increase monthly income exponentially.</p>
+			<p>lab3m - let's create great things together!</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

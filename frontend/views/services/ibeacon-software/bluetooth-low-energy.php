@@ -18,8 +18,8 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'BLE is a technolo
 				<li>Allows for some of the government-grade security with 128-bit AES data encryption</li>
 			</ul>
 			<p>Bluetooth LE is inviting to consumer electronics and Internet-connected machine manufacturers because of its low cost, long battery life, and easy of arrangement. From thermometers and heart rate monitors to smart watches and nearness sensors, Bluetooth LE facilitates rare short-range wireless data communication between devices, powered by nothing more than a dime-sized battery.</p>
-			<p>Thunderrise interacts with this system. We always use it in our mobile projects, that's why we innovative technique.</p>
-			<p>Thunderrise - let's create great things together!</p>
+			<p>lab3m interacts with this system. We always use it in our mobile projects, that's why we innovative technique.</p>
+			<p>lab3m - let's create great things together!</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

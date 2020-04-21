@@ -1,6 +1,6 @@
 <?php $this->registerCssFile("/styles/bootstrap.min.css");
 $this->registerCssFile("/styles/services-inner.css");
-$this->registerMetaTag(['name' => 'description', 'content' => 'Thunderrise is a company of highly qualified specialists in app development sphere which will offer you an outclassed service through all stages of app development process. Not to take your precious time we’ll be succinct.']);
+$this->registerMetaTag(['name' => 'description', 'content' => 'lab3m is a company of highly qualified specialists in app development sphere which will offer you an outclassed service through all stages of app development process. Not to take your precious time we’ll be succinct.']);
 ?>
 <?= $this->render('//layouts/_headerWhite',['lang'=>$lang]) ?><?= $this->render('//layouts/_head-red') ?>
 <div class="services-inner">
@@ -9,7 +9,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Thunderrise is a 
 	<h1><?=$h1?></h1>
 		<div class="content">
 			<h2>Mobile development</h2>
-			<p>4543544Thunderrise is a company of highly qualified specialists in app development sphere which will offer you an outclassed service through all stages of app development process. Not to take your precious time we’ll be succinct. Our advantages are:</p>
+			<p>4543544lab3m is a company of highly qualified specialists in app development sphere which will offer you an outclassed service through all stages of app development process. Not to take your precious time we’ll be succinct. Our advantages are:</p>
 			<ul>
 			  <li>entire project lifecycle maintenance;</li>
 			  <li>Android and iOs mobile platforms;</li>

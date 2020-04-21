@@ -59,7 +59,7 @@ $this->title = 'We design and develop apps native iOS and Android apps';
             <div class="first-screen1">
                 <div style="display:none" class="first-screen__light"></div>
                 <div class="first-screen__textures">
-                    <img style="display:none" class="first-screen__thunderrise" src="/images/main/logo.png" alt="thunderrise">
+                    <img style="display:none" class="first-screen__lab3m" src="/images/main/logo.png" alt="lab3m">
                     <img class="first-screen__flash" src="/images/logo-b.png" alt="flash">
                 </div>
                 
@@ -98,7 +98,7 @@ $this->title = 'We design and develop apps native iOS and Android apps';
                     <img src="/images/sp3.png" alt="tc">
                 </div>
                 <div class="second-screen__hr"><p><?= Yii::t('app', 'Clients') ?></p></div>
-                <div class="second-screen__logo"><img src="/images/main/logo.png" alt="thunderrise"></div>
+                <div class="second-screen__logo"><img src="/images/main/logo.png" alt="lab3m"></div>
                 <p class="second-screen__title" style="margin-top: 32px"><img src="/images//lab3m.png" alt="lab3m"></p>
                 <div class="second-screen__arrow"></div>
                 <div class="second-screen__deploy">

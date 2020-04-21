@@ -40,7 +40,7 @@ $this->title = ucfirst(Yii::$app->controller->id);
             <h1>About Us</h1>
             <div class="info">
                 <p class="text">
-                    ThunderRise. Start UP oriented digital agency.
+                    lab3m. Start UP oriented digital agency.
                 </p>
                 <p class="text">
                     We are a team of like-minded people who are united with the idea to do the best Web and Mobile products. If we are engaged in a contract with you, our dear customer — we believe in your idea, and we’re ready to work hard to get your project done in the best way for sure.

@@ -759,7 +759,7 @@ class ServicesController extends Controller
 //        {
 //            $div_class="content";
 //            $category_id = ServicesCategory::find()->where(['name'=>isset($item['name']) ? $item['name'] : ucfirst(str_replace('-',' ',$id))])->one()->id;
-//            $html = file_get_contents('https://thunderrise.com/services/'.$id);
+//            $html = file_get_contents('https://lab3m.com/services/'.$id);
 //
 //
 //            $service = new Services();
@@ -781,7 +781,7 @@ class ServicesController extends Controller
 //
 //            foreach ($item['pages'] as $sub_id =>$sub_service)
 //            {
-//                $html = file_get_contents('https://thunderrise.com/services/'.$id.'/'.$sub_id);
+//                $html = file_get_contents('https://lab3m.com/services/'.$id.'/'.$sub_id);
 //                $service = new Services();
 //                $service->category_id = $category_id;
 //                preg_match('/<title>(.*)<\/title>/isU',$html,$out);

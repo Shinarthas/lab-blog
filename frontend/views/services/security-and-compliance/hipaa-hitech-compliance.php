@@ -14,8 +14,8 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'According to U.S.
 			<p><strong>HITECH</strong> is the Health Information Technology for Economic and Clinical Health Act. It brings extra standards to healthcare organizations. <strong>HITECH</strong> requires companies to use security technologies meaningfully. <strong>HITECH</strong> requires healthcare organizations to apply "meaningful use" of security technology to ensure the confidentiality, integrity, and availability of protected data.</p>
 			<p>People expect healthcare organizations to keep their personal information confidential and safe from data fractures and other acts.</p>
 			<p><strong>HITECH</strong> 	punishment can be at least $50K per violation up to a total of $1.5 million in a calendar year. Other breach-related costs will be undergo for discovery and inhibition, investigation of the occurence, correction expenses, lawyer and legal fees, loss of customer confidence, lost sales and revenue, brand degradation, and so on. Compliance is a serious responsibility on many levels.</p>
-			<p>Thunderrise back this technologies up. Our team connsidered this topic and we resumed, that this structures is entirely right!</p>
-			<p>Thunderrise - let's create great things together! We're waiting for your message!</p>
+			<p>lab3m back this technologies up. Our team connsidered this topic and we resumed, that this structures is entirely right!</p>
+			<p>lab3m - let's create great things together! We're waiting for your message!</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

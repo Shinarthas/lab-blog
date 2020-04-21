@@ -19,8 +19,8 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'There is no doubt
             </ul>
             <?= $this->render('//layouts/_estimate') ?>
             <p>Nowadays, iBeacons are scarcely available but still, you could expect to get it in the coming months. You just need simple iBeacon hardware, and it could night and day inclusion to the wall or on any counter with a battery enabled Bluetooth connection. You must have an Android or iOS app and your potential client too might own an iOS device with your app installed. As soon as the customer would be in the range of your iBeacon, all the wished functionalities would be made available.</p>
-            <p>In Thunderrise we can create an IBeacon system for you so contact us and implement it in your own business.</p>
-            <p>Thunderrise - follow your dream and let us bring in to life!</p>
+            <p>In lab3m we can create an IBeacon system for you so contact us and implement it in your own business.</p>
+            <p>lab3m - follow your dream and let us bring in to life!</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

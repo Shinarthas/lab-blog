@@ -355,8 +355,10 @@ class BlogController extends Controller
                     $model->background = $model->translation->background;
                     $model->background_path = $model->translation->background_path;
                 }
+
                 if(!empty($model))
                 {
+
                     if($this->lang->lang_default == 1) {
                         $relatedPostModel = PostRelated::find()
                             ->where([PostRelated::tableName() . '.id_post' => $model->id])
@@ -386,7 +388,7 @@ class BlogController extends Controller
                             ->all();
                     }
 
-                    if(empty($models))
+                    if(empty($model))
                         throw new NotFoundHttpException('Post not found');
                     $trans_list = PostTranslations::find()->select(['id_lang'])->where(['id_post'=>$model->id])->asArray()->all();
                     return $this->render('post-show',['model'=>$model,'lang'=>$this->lang,'relatedPosts'=>$relatedPostModel,'trans_list'=>$trans_list]);

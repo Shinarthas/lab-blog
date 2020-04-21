@@ -22,7 +22,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Unity is the best
 			</ul>
 			<?= $this->render('//layouts/_estimate') ?>
 			<p>Moreover <strong>Unity</strong> is used as a form of an additional memory and resources that enabling users to work on two and more projects simultaneously. This attribute   significantly increased  efficiency development workflow. Unity promotes agile game creation, allowing current releases and quick prototyping, once you got the essence of how it works. Game developers in our company work with great inspiration to create something great following your idea!</p>
-			<p>Thunderrise Dev Team with Unity-chan assistance will be glad to collaborate with you in creating engaging and fun 3D project. Contact us right away.</p>
+			<p>lab3m Dev Team with Unity-chan assistance will be glad to collaborate with you in creating engaging and fun 3D project. Contact us right away.</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

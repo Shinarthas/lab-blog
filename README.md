@@ -1,20 +1,34 @@
-Yii 2 Advanced Project Template
+Lab3M.
 ===============================
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
-
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
-
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
+[Lab3M](https://lab3m.com/en) is full cycle product company working on complexity fintech, IoT, mobile and blockchain solutions. We see potential and no reason not to implement it. Our company is not limited to the development department but we have great design, marketing, business analytics and customer support team.
 
 Documentation is at [docs/guide/README.md](docs/guide/README.md).
 
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-advanced/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-advanced/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Build Status](https://travis-ci.org/yiisoft/yii2-app-advanced.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-advanced)
+Tech Info
+-------------------
+
+
+Background is [Yii2 advanced template](https://github.com/yiisoft/yii2-app-advanced).
+
+Deployment:
+```
+    composer install
+    php init
+    configure DB settings in common/config/main-local.php
+    configure domain settings in common/config/main-local.php
+    php yii migrate
+    disable notices in frontend/web/index.php
+```
+
+Routing logic (contained in /frontend/config/main.php):
+
+<b>/anything</b> - blog/show-post or services/show-service-category
+
+<b>/service-category/service</b> - services/show-db-servicey
+
+
+
 
 DIRECTORY STRUCTURE
 -------------------

@@ -3,7 +3,7 @@ $this->title = 'Error 404! We have other pages for you!';
 
 $this->registerCssFile("/styles/bootstrap.min.css");
 $this->registerCssFile("/styles/error.css");
-$this->registerMetaTag(['name' => 'description', 'content' => 'Error 404! Thunderrise - we develop native apps for iOS and Android!']);
+$this->registerMetaTag(['name' => 'description', 'content' => 'Error 404! lab3m - we develop native apps for iOS and Android!']);
 ?>
 
 <div class="e404w">

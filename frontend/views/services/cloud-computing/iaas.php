@@ -19,8 +19,8 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'IaaS or Infrastru
 			<?= $this->render('//layouts/_estimate') ?>
 			<p><strong>IaaS</strong> providers handle tasks including and users applications system maintenance, backup and resiliency planning. This platform offer confident resources that solve on-request. It makes this service work well for different availability that are temporary, trial or change by chance. On the other hand, IaaS environments include the automation of executive aims, dynamic scaling, desktop virtualization and policy-based services.</p>
 			<p><strong>IaaS</strong> has its providers such as: Amazon Web Services (AWS), Windows Azure, Google Compute Engine, Rackspace Open Cloud, and others.</p>
-			<p>Thunderrise clients use IaaS typically by the hour, week or month pay. We think, that users should monitor their IaaS environments closely to avoid being burdened for counterfeit software.</p>
-			<p>Thunderrise - let us bring to life your project! Contact us right now!</p>
+			<p>lab3m clients use IaaS typically by the hour, week or month pay. We think, that users should monitor their IaaS environments closely to avoid being burdened for counterfeit software.</p>
+			<p>lab3m - let us bring to life your project! Contact us right now!</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

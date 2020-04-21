@@ -12,7 +12,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 --
--- База данных: `thunderrise_db`
+-- База данных: `lab3m_db`
 --
 
 
@@ -80,8 +80,8 @@ CREATE TABLE IF NOT EXISTS `blog_user` (
 --
 
 INSERT INTO `blog_user` (`id`, `username`, `password_hash`, `password_reset_token`, `auth_key`, `name`, `position`, `photo`, `status`, `created_at`, `updated_at`) VALUES
-(1, \'admin\', \'$2y$13$2WaMHhEFXU5jMFZUZFAXf.8pebDoqVWBlnhXx/mefQQeMz/0gK0su\', \'\', \'\', \'Team\', \'ThunderRise\', \'team.png\', 10, 0, 1479389662),
-(2, \'editor\', \'$2y$13$xxvm3jWWGmHYcR5Egm0kt.YJrMOZv31UluT454GaxVhJKk9PXyFAa\', \'\', \'\', \'Team\', \'ThunderRise\', \'user.png\', 10, 0, 1479389734);
+(1, \'admin\', \'$2y$13$2WaMHhEFXU5jMFZUZFAXf.8pebDoqVWBlnhXx/mefQQeMz/0gK0su\', \'\', \'\', \'Team\', \'lab3m\', \'team.png\', 10, 0, 1479389662),
+(2, \'editor\', \'$2y$13$xxvm3jWWGmHYcR5Egm0kt.YJrMOZv31UluT454GaxVhJKk9PXyFAa\', \'\', \'\', \'Team\', \'lab3m\', \'user.png\', 10, 0, 1479389734);
 
 --
 -- Индексы сохранённых таблиц

@@ -14,7 +14,7 @@ return [
     ],
     'components' => [
         'db' => [
-            'dsn' => 'mysql:host=localhost;dbname=thunderrise_advanced_tests',
+            'dsn' => 'mysql:host=localhost;dbname=lab3m_advanced_tests',
         ],
         'mailer' => [
             'useFileTransport' => true,

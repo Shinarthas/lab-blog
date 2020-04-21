@@ -1,7 +1,7 @@
 <?php
 
 // Отправитель
-$sender = 'contacts@thunderrise.com';
+$sender = 'contacts@lab3m.com';
 
 // Получатель
 $recipient = 'ceofdi2016@gmail.com';
@@ -26,7 +26,7 @@ if ($mail == '') die();
 $title = 'TR Contacts';
 
 // Сообщение
-$message = 'Письмо с контактной формы ThunderRise.' . "<br>\n" . "<br>\n" .
+$message = 'Письмо с контактной формы lab3m.' . "<br>\n" . "<br>\n" .
     'Имя: ' . $name . "<br>\n" .
     'Почта: ' . $mail . "<br>\n" .
     'Бюджет: ' . $budget . "<br>\n" . "<br>\n" .

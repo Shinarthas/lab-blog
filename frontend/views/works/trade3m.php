@@ -1,6 +1,6 @@
 <?php
 $description = 'Innovative start up in the niche of retail that we provide full cycle of development.';
-$this->title = ucfirst("Thunderrise project - Lafka. Future is today.");
+$this->title = ucfirst("lab3m project - Lafka. Future is today.");
 $this->registerMetaTag([
     'name' => 'description',
     'content' => $description,
@@ -97,7 +97,7 @@ html{
 .first-screen__desc{line-height:40px;font-size:25px;color:#ffffff;margin-bottom:14px; margin-top: 0;}
 .first-screen__content{margin:0 auto;padding-top:240px;max-width:960px;}
 .first-screen__textures{position:fixed;z-index:101;top:0;left:0;right:0;height:730px;pointer-events:none;}
-.first-screen__thunderrise{position:absolute;top:384px;left:calc(50% - 128px);left:-webkit-calc(50% - 128px);-moz-left:calc(50% - 128px);width:685px;}
+.first-screen__lab3m{position:absolute;top:384px;left:calc(50% - 128px);left:-webkit-calc(50% - 128px);-moz-left:calc(50% - 128px);width:685px;}
 .first-screen__flash{position:absolute;left:48%;left:calc(50% + 15px);width:554px;z-index:2;}
 </style>
 

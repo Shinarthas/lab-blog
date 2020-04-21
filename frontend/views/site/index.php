@@ -46,7 +46,7 @@ $this->title = Yii::t('app','meta_home_title');
         <div class="row">
             <div class="first-screen1">
                 <div class="first-screen__textures">
-                    <img style="display:none" class="first-screen__thunderrise" src="/images/main/logo.png" alt="lab3m">
+                    <img style="display:none" class="first-screen__lab3m" src="/images/main/logo.png" alt="lab3m">
                     <img class="first-screen__flash" src="/images/logo-b.png" alt="flash">
                 </div>
                 

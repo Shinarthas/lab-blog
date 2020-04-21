@@ -97,7 +97,7 @@ $this->title = 'We design and develop apps native iOS and Android apps';
 .first-screen__desc{line-height:40px;font-size:25px;color:#ffffff;margin-bottom:14px; margin-top: 0;}
 .first-screen__content{margin:0 auto;padding-top:240px;max-width:960px;}
 .first-screen__textures{position:fixed;z-index:101;top:0;left:0;right:0;height:730px;pointer-events:none;}
-.first-screen__thunderrise{position:absolute;top:384px;left:calc(50% - 128px);left:-webkit-calc(50% - 128px);-moz-left:calc(50% - 128px);width:685px;}
+.first-screen__lab3m{position:absolute;top:384px;left:calc(50% - 128px);left:-webkit-calc(50% - 128px);-moz-left:calc(50% - 128px);width:685px;}
 .first-screen__flash{position:absolute;left:48%;left:calc(50% + 15px);width:554px;z-index:2;}
 .button-sic_center{text-align:center;}
 .button-sic__item{position:relative;z-index:0;display:inline-block;border-radius:25px;background-color:#ffba00;box-shadow:0 8px 15px 0 rgba(128, 56, 9, 0.07);overflow:hidden;}
@@ -250,8 +250,8 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
 .header__social-link:nth-child(6){transition-delay:240ms;}
 .header__social-link img{position:absolute;right:30px;top:50%;transform:translateY(-50%);}
 /**/.first-screen__light{background-position:50% 0;}
-.first-screen__thunderrise{position:absolute;top:140px;left:50%;transform:translateX(-50%) !important;height:144px;width:500px;visibility:visible;transition-duration:2000ms;}
-.first-screen__thunderrise_scale{transition-duration:2000ms;transform:translateX(-50%) scale(0.5) !important;}
+.first-screen__lab3m{position:absolute;top:140px;left:50%;transform:translateX(-50%) !important;height:144px;width:500px;visibility:visible;transition-duration:2000ms;}
+.first-screen__lab3m_scale{transition-duration:2000ms;transform:translateX(-50%) scale(0.5) !important;}
 .first-screen__flash{display:none;}
 .first-screen__content{padding-top:350px;width:100%;text-align:center;}
 .first-screen__title{padding:0px 20px 12px;font-size:50px;}
@@ -273,7 +273,7 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
 .first-screen__content{padding-top:287px;}
 .first-screen__desc{padding:0 20px 45px;line-height:30px;font-size:20px;}
 .first-screen__title{line-height:40px;font-size:30px;padding-bottom:1px;}
-.first-screen__thunderrise{top:120px;height:112px;}
+.first-screen__lab3m{top:120px;height:112px;}
 .first-screen__desc{padding:0 20px 45px;line-height:30px;font-size:20px;}
 .second-screen__hr{margin-top:46px;}
 .second-screen__arrow{margin:5px 0 -5px;}
@@ -287,7 +287,7 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
 }
 
 @media screen and (max-width: 493px){
-    .first-screen__thunderrise{
+    .first-screen__lab3m{
         width: 425px;
     }
 }
@@ -313,7 +313,7 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
 .header_white .header__social-mobile-control_active{background:url('/images/social.svg') no-repeat 18px 50%, #000;}
 .first-screen{height:560px;}
 .first-screen__light{background-size:auto 50%;}
-.first-screen__thunderrise{top:110px;height:76px; width: 380px;}
+.first-screen__lab3m{top:110px;height:76px; width: 380px;}
 .first-screen__content{padding-top:220px;}
 .first-screen__title{padding:0 10px;line-height:40px;font-size:29px;}
 .second-screen__mass-media img,
@@ -330,7 +330,7 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
 }
 
 @media only screen and (max-width: 380px){
-    .first-screen__thunderrise{
+    .first-screen__lab3m{
         width: 300px;
     }
 }
@@ -376,10 +376,10 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
     <div class="header__content" style="background: #000">
         <div class="header__logo">
             <a href="/" class="tt1 dis-n1">
-                <img style="max-width: 43px; max-width: 100px;" src="/images/l3m.png" alt="thunderrise-logo">
+                <img style="max-width: 43px; max-width: 100px;" src="/images/l3m.png" alt="lab3m-logo">
             </a>
             <a href="/" class="tt1 dis-b1">
-                <img style="max-width: 43px;" src="/images/header/logo.png" alt="thunderrise-logo">
+                <img style="max-width: 43px;" src="/images/header/logo.png" alt="lab3m-logo">
             </a>
             
         </div>
@@ -419,12 +419,12 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
             </div>
         </div>
         <div class="header__social">
-            <a href="https://clutch.co/profile/thunderrise" class="header__social-link">Clutch <img src="/images/header/clutch.svg" alt="clutch"></a>
+            <a href="https://clutch.co/profile/lab3m" class="header__social-link">Clutch <img src="/images/header/clutch.svg" alt="clutch"></a>
             <!-- <a href="https://twitter.com/Thunder_rise" class="header__social-link">Twitter <img src="/images/header/twitter.svg" alt="twitter"></a> -->
-            <a href="https://www.linkedin.com/company/thunderrise" class="header__social-link">Linkedin <img src="/images/header/linkedin.svg" alt="linkedin"></a>
-            <a href="https://dribbble.com/Thunderrise" class="header__social-link">Dribbble <img src="/images/header/dribble.svg" alt="dribble"></a>
-            <a href="https://github.com/thunderrise" class="header__social-link">GitHub <img src="/images/header/github.svg" alt="github"></a>
-<!--            <a href="https://www.facebook.com/thunderrise" class="header__social-link">Facebook <img src="/images/header/facebook.svg" alt="facebook"></a>-->
+            <a href="https://www.linkedin.com/company/lab3m" class="header__social-link">Linkedin <img src="/images/header/linkedin.svg" alt="linkedin"></a>
+            <a href="https://dribbble.com/lab3m" class="header__social-link">Dribbble <img src="/images/header/dribble.svg" alt="dribble"></a>
+            <a href="https://github.com/lab3m" class="header__social-link">GitHub <img src="/images/header/github.svg" alt="github"></a>
+<!--            <a href="https://www.facebook.com/lab3m" class="header__social-link">Facebook <img src="/images/header/facebook.svg" alt="facebook"></a>-->
         </div>
         <div  style="background-color: #000;" class="clearfix"></div>
     </div>
@@ -439,7 +439,7 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
             <div class="first-screen1">
                 <div style="display:none" class="first-screen__light"></div>
                 <div class="first-screen__textures">
-                    <img style="display:none" class="first-screen__thunderrise" src="/images/main/logo.png" alt="thunderrise">
+                    <img style="display:none" class="first-screen__lab3m" src="/images/main/logo.png" alt="lab3m">
                     <img class="first-screen__flash" src="/images/logo-b.png" alt="flash">
                 </div>
                 
@@ -479,7 +479,7 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
                     <img src="/images/sp3.png" alt="tc">
                 </div>
                 <!--<div class="second-screen__hr"><p>They feature our clients</p></div>-->
-                <div class="second-screen__logo"><img src="/images/main/logo.png" alt="thunderrise"></div>
+                <div class="second-screen__logo"><img src="/images/main/logo.png" alt="lab3m"></div>
                 <p class="second-screen__title"><img src="/images//lab3m.png" alt="lab3m"></p>
                 <div class="second-screen__arrow"></div>
                 <div class="second-screen__deploy">

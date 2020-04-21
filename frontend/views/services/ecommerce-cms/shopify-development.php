@@ -9,8 +9,8 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'If you want to se
 	<h1><?=$h1?></h1>
 		<div class="content">
 			<h2>Shopify development</h2>
-            <p>If you want to sell something online, Shopify is definitely what you need. It’s one the most popular platforms to deal with online transactions. It is in a great request among small internet stores, which are seeking for their actual audience. At Thunderrise we are able to build eCommerce software of any complexity on the basis of Shopify. You can use these stores for portfolio intention, or as the first step in signing up clients for Shopify.</p>
-            <p>There is content management system (CMS) which is included to Shopify, a system for creating blogs and customers profiles. Traders have an ability to surveille the popularity and condition of their Shopify shop. Shopify also offers a huge amount of applications which will help to make your site more convenient to manage. You can order a Shopify app development here at Thunderrise.</p>
+            <p>If you want to sell something online, Shopify is definitely what you need. It’s one the most popular platforms to deal with online transactions. It is in a great request among small internet stores, which are seeking for their actual audience. At lab3m we are able to build eCommerce software of any complexity on the basis of Shopify. You can use these stores for portfolio intention, or as the first step in signing up clients for Shopify.</p>
+            <p>There is content management system (CMS) which is included to Shopify, a system for creating blogs and customers profiles. Traders have an ability to surveille the popularity and condition of their Shopify shop. Shopify also offers a huge amount of applications which will help to make your site more convenient to manage. You can order a Shopify app development here at lab3m.</p>
             <?= $this->render('//layouts/_estimate') ?>
             <p>Shopify has a lot of advantages and it’s very simple. Let’s have a look at some benefits:</p>
             <ul>
@@ -20,15 +20,15 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'If you want to se
                 <li>Flexibility</li>
                 <li>Additional plug-in support</li>
             </ul>
-            <p>If you don’t want to waste your precious time, trust your Shopify development to Thunderrise and concentrate on your core goals.</p>
-            <p>Thunderrise has plan in development <strong>Advanced Shopify</strong>. Let's pull down it:</p>
+            <p>If you don’t want to waste your precious time, trust your Shopify development to lab3m and concentrate on your core goals.</p>
+            <p>lab3m has plan in development <strong>Advanced Shopify</strong>. Let's pull down it:</p>
             <ul>
                 <li>Discount engine. Ingenious approach to appeal your future customers</li>
                 <li>Gave up checkout recovery. Customers will lay out upwards</li>
                 <li>Real time of shipping. Clients will trust you!</li>
             </ul>
             <p>If you stand by this tips, you will increase your income! What do you think about our strategy? Contact with us and let's discuss it!</p>
-            <p>Thunderrise - follow your dream and let's us bring it to life!</p>
+            <p>lab3m - follow your dream and let's us bring it to life!</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

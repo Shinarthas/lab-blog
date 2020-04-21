@@ -1,11 +1,11 @@
 function firstscreenanimate() {
-    var thunderrise, flash;
+    var lab3m, flash;
 
-    thunderrise = Math.floor($(window).scrollTop() * (200 / 750));
+    lab3m = Math.floor($(window).scrollTop() * (200 / 750));
     flash = Math.floor($(window).scrollTop() * (200 / 750));
 
-    $('.first-screen__thunderrise').css({
-        'transform': 'translateX(' + thunderrise + 'px)',
+    $('.first-screen__lab3m').css({
+        'transform': 'translateX(' + lab3m + 'px)',
     });
 
     $('.first-screen__flash').css({

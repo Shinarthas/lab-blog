@@ -331,7 +331,7 @@ color: #FFFFFF;" >Отправить</a>
     </div>',
     'company_block' => '<div class="info text-center">
     <h1>О нас</h1>
-    <img src="/images/company/arrow.png" alt="arrow-thunderrise" class="arrow">
+    <img src="/images/company/arrow.png" alt="arrow-lab3m" class="arrow">
     <p class="tagline">Мы запускаем передовые финтех продукты</p>
     <p>
     Сложно конкурировать на таком растущем и масштабируемом рынке, как ИТ. Чтобы стать успешной компанией, вам нужно собрать талантливых людей под руководством настоящего провидца.

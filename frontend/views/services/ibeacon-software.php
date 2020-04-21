@@ -22,8 +22,8 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'IBeacon is a tech
 			<?= $this->render('//layouts/_estimate') ?>
 			<p>With an iBeacon network, all brands, tradesfolk, app, or platform will be able to understand exactly where a customer is located. This provides an opportunity to send customers highly hyperlocal, significant messages and advertisements on their smartphones.</p>
 			<p>Let's consider the typical motion script. A customer carrying a smartphone walks into a store. Apps installed on a client’s smartphone listen for iBeacons. When an app hears an iBeacon, it informs the relevant data to its server, which then trigger circuits an action. This is like a push message [“Welcome to Target! Check out Doritos on Aisle 3!”], and could include other things like targeted advertisements, special offers, and helpful reminders [“You’re out of Milk!”]. Other possible applications include mobile payments and shopper analytics and  consummation outside of retail, at airports, theme parks, and more. The potential is	unrestricted.</p>
-			<p>Thunderrise uses this technology in our project! With the help of it we can increase our client's income and steamline interaction with customers.</p>
-			<p>Thunderrise - follow your dream and let's us bring to life your project!</p>
+			<p>lab3m uses this technology in our project! With the help of it we can increase our client's income and steamline interaction with customers.</p>
+			<p>lab3m - follow your dream and let's us bring to life your project!</p>
           </div>
 <?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
     

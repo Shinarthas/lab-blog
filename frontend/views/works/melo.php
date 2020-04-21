@@ -1,5 +1,5 @@
 <?php
-$this->title = ucfirst("Thunderrise project - Melo. Let's enjoy music together");
+$this->title = ucfirst("lab3m project - Melo. Let's enjoy music together");
 
 /*$this->registerJsFile('/scripts/jquery-1.12.4.min.js');
 $this->registerJsFile('/scripts/mCustomScrollbar.min.js');*/
@@ -141,7 +141,7 @@ body .container{max-width: 990px;width: 100%;}
                     <li>create a joint list with your friends and add music that you can listen on parties, picnics, etc</li>
                     <li>to enjoy modern and fast build-in player that will become a natural continuation of your headphones and a lifestyle</li>
                 </ul>
-                <p>It’s an original application designed and developed by Thunderrise Dev Team. An idea came as an attempt to revive traditional radio in the new format of social interaction.</p>
+                <p>It’s an original application designed and developed by lab3m Dev Team. An idea came as an attempt to revive traditional radio in the new format of social interaction.</p>
             </div>
         </div>
     </div>

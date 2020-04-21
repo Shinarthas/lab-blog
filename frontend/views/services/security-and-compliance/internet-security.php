@@ -18,7 +18,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Internet security
 				<li>Password managers. A password manager is a software application that helps a user store and organize passwords. Password managers usually store passwords ciphered, requiring the user to create a master password; a single, ideally very strong password which ensure the user access to their entire password database.</li>
 				<li>Security suites. They offer larceny protection, portable storage device safety check, private Internet browsing, cloud anti-spam, a file shredder or make security-related decisions (answering popup windows) and several were free of charge</li>
 			</ul>
-			<p>Thunderrise encourage all of this products. Our team provides clear development without any virus programme. So, our future customer, you don't bother about it!</p>
+			<p>lab3m encourage all of this products. Our team provides clear development without any virus programme. So, our future customer, you don't bother about it!</p>
 			<p>Have fun and follow your dream! Finally, we will produce something incredible!</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>

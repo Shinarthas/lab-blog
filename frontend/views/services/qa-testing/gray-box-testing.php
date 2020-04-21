@@ -13,7 +13,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Black-box and whi
             <p>Gray-box technique is utilized to detect problems connected to continuous stream of data, because this sort of errors are difficult to find by using black-box or white-box method.</p>
             <p>Mostly gray-box method is used for testing web applications; they are composed of software and hardware components and require to be revised on the accuracy of their interaction. It includes high-level design, operating environment and compatibility conditions.</p>
             <?= $this->render('//layouts/_estimate') ?>
-            <p>In Thunderrise we use such techniques of gray-box testing:</p>
+            <p>In lab3m we use such techniques of gray-box testing:</p>
             <ul>
                 <li>Matrix Testing;</li>
                 <li>Regression testing;</li>
@@ -21,7 +21,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Black-box and whi
                 <li>Orthogonal array testing.</li>
             </ul>
             <p>As Gray-box testing is combined of white-box and black-box testing, it serves advantages from both testing processes. Also it has non-invasive nature which is beneficial since no code changes are implied.</p>
-            <p>There are many subtle aspects about gray-box testing appliance, but we can make you assure that Thunderrise QA engineers will fix one and every problem they locate during testing process. If you have concrete questions about gray-box testing our consultants are always ready to give you full report on your point of interest.</p>
+            <p>There are many subtle aspects about gray-box testing appliance, but we can make you assure that lab3m QA engineers will fix one and every problem they locate during testing process. If you have concrete questions about gray-box testing our consultants are always ready to give you full report on your point of interest.</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

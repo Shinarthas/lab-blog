@@ -1,5 +1,5 @@
 <?php
-$this->title = 'ThunderRise';
+$this->title = 'lab3m';
 ?>
 <div class="animate">
     <img src="/images/coming/circle.svg" class="r1">

@@ -169,8 +169,8 @@ body .container{max-width: 990px;width: 100%;}
             <li itemprop="itemListElement" itemscope
                 itemtype="http://schema.org/ListItem">
                 <a itemscope itemtype="http://schema.org/Thing"
-                   itemprop="item" href="https://thunderrise.com/">
-                    <span itemprop="name">Thunderrise</span>
+                   itemprop="item" href="https://lab3m.com/">
+                    <span itemprop="name">lab3m</span>
                    </a>
                 <meta itemprop="position" content="1" />
             </li>
@@ -178,7 +178,7 @@ body .container{max-width: 990px;width: 100%;}
             <li itemprop="itemListElement" itemscope
                 itemtype="http://schema.org/ListItem">
                 <a itemscope itemtype="http://schema.org/Thing"
-                   itemprop="item" href="https://thunderrise.com/blog">
+                   itemprop="item" href="https://lab3m.com/blog">
                     <span itemprop="name">Blog</span></a>
 
                 <meta itemprop="position" content="2" />
@@ -187,7 +187,7 @@ body .container{max-width: 990px;width: 100%;}
             <li itemprop="itemListElement" itemscope
                 itemtype="http://schema.org/ListItem">
                 <a itemscope itemtype="http://schema.org/Thing"
-                   itemprop="item" href="https://thunderrise.com/blog/<?=$model->seo_url?>">
+                   itemprop="item" href="https://lab3m.com/blog/<?=$model->seo_url?>">
                     <span itemprop="name"><?=$model->title?></span>
                     </a>
                 <meta itemprop="position" content="3" />
@@ -214,7 +214,7 @@ body .container{max-width: 990px;width: 100%;}
                 <img itemprop="image" src="/images/blog/team.png" alt="team">
             </div>
             <div class="info">
-                <span itemprop="publisher" class="position">ThunderRise</span>
+                <span itemprop="publisher" class="position">lab3m</span>
                 <span itemprop="author" class="author">Team</span>
             </div>
             <div class="social">

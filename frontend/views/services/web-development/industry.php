@@ -21,7 +21,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Mobile technologi
 				<li>SEO</li>
 				<li>Design</li>
 			</ul>
-			<p>Thunderrise Dev Team consist of highly qualified tested and proven web developers that correspond to the listed specifications. Thus you may stay positive that your website project will be conducted on a high standard.</p>
+			<p>lab3m Dev Team consist of highly qualified tested and proven web developers that correspond to the listed specifications. Thus you may stay positive that your website project will be conducted on a high standard.</p>
 			<p>Please consider collaboration with us and contact our consultants. We are looking for your message!</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>

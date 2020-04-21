@@ -19,13 +19,13 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'We safeguard your
 				<p>In this statement we describe different aspect, such us: Internet Security, PCI DSS Compliance, HIPAA & Hitech Compliance, Cobit Compliance.</p>
 				<p>This problem is really essential and nowadays, problem of cyber security is important for all sort of people. We think, that web site security logs should be audited on a continuous basis and stored in a secure location</p>
 				<?= $this->render('//layouts/_estimate') ?>
-				<p>Thunderrise uses modern security arrangement. In our project we interact with powerful defence system. Our <strong>Security Defense Strategy</strong> has two main roads:</p>
+				<p>lab3m uses modern security arrangement. In our project we interact with powerful defence system. Our <strong>Security Defense Strategy</strong> has two main roads:</p>
 				<ul>
 					<li>First, you would grantee all of the resources needed to maintain constant alert to new security issues. You would ensure that all patches and updates are done at once!</li>
 					<li>Second, use a web scanning applicatons to test your existing equipment and web site code to see if a known sensibilities actually exists. Network and web site sensitivity scanning is the most efficient security investment of all</li>
 				</ul>
-				<p>Our team provides secure way of development. Thunderrise's project are permanent verified by special applications. Our developers use licensed software and that's why you may rest assured that your project would be developed in right company!</p>
-				<p>Thunderrise - follow your dream and let us bring it to life!</p>
+				<p>Our team provides secure way of development. lab3m's project are permanent verified by special applications. Our developers use licensed software and that's why you may rest assured that your project would be developed in right company!</p>
+				<p>lab3m - follow your dream and let us bring it to life!</p>
           </div>
 <?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
     

@@ -24,7 +24,9 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-
+<h1>Паша уйди от сюда</h1>
+<h1>Паша уйди от сюда</h1>
+<h1>Паша уйди от сюда</h1>
 <div class="wrap">
     <?php
     NavBar::begin([

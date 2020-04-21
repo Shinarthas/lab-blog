@@ -150,7 +150,7 @@ $contact_model = new \frontend\models\ContactsForm();
                         text: 'eye',
                         icon: false,
                         onclick: function () {
-                            ed.insertContent('<div class="look"> <img class="eye" src="https://thunderrise.com/images/blog/eye.png" alt="eye thunderrise"> <div class="related"><span>Related: </span><a href="#">Why You Need In-App Purchases in Your Android App</a></div> </div>');
+                            ed.insertContent('<div class="look"> <img class="eye" src="https://lab3m.com/images/blog/eye.png" alt="eye lab3m"> <div class="related"><span>Related: </span><a href="#">Why You Need In-App Purchases in Your Android App</a></div> </div>');
                         }
                     });
                 ed.addButton('contact-form', {

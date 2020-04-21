@@ -112,7 +112,7 @@ function saveTempArticleData(){
             data: form.serialize(),
             success: function(response) {
                 if(response.status==200){
-                    $('.link-preview').attr('href','https://thunderrise.com/test?seo_name='+$("#postnewform-seo_url").val()+'&time='+response.time);
+                    $('.link-preview').attr('href','https://lab3m.com/test?seo_name='+$("#postnewform-seo_url").val()+'&time='+response.time);
                     setTimeout('saveProgressFlag=true', 60000);
                 }
             }

@@ -1,6 +1,6 @@
 <?php
 $description = 'Innovative start up in the niche of retail that we provide full cycle of development.';
-$this->title = ucfirst("Thunderrise project - Lafka. Future is today.");
+$this->title = ucfirst("lab3m project - Lafka. Future is today.");
 $this->registerMetaTag([
     'name' => 'description',
     'content' => $description,

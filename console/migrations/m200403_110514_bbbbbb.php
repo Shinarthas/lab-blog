@@ -7,7 +7,7 @@ class m200403_110514_bbbbbb extends Migration
     public function up()
     {
         $this->execute('
-ALTER TABLE `thunderrise`.`blog_services_category_translations` 
+ALTER TABLE `lab3m`.`blog_services_category_translations` 
 ADD COLUMN `content` MEDIUMTEXT NULL AFTER `description`;
 
 ');

@@ -17,7 +17,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'These are wearabl
                 <li>Video streaming. It can be used in many situations. For example, having an conference doesn’t require actual presence of members</li>
                 <li>Online consultations. Imagine that your computer breaks and you need to repair it because all the work has stopped. Call the service center and they will know where is the trouble examining it “with your eyes”</li>
             </ul>
-            <p>Thunderrise specialists provide excellent service in everything that is near smartglasses so contact us and order your own.</p>
+            <p>lab3m specialists provide excellent service in everything that is near smartglasses so contact us and order your own.</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

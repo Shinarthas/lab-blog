@@ -10,7 +10,7 @@ return [
         ],
     ],
     'aliases' => [
-        '@front' => 'https://thunderrise.com',
-        '@back' => 'http://editor.thunderrise.com',
+        '@front' => 'https://lab3m.com',
+        '@back' => 'http://a.lab3m.com',
     ],
 ];

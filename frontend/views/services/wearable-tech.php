@@ -27,7 +27,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'About just ten ye
             <p>In our subcategories of this section, we will describe some main kinds of wearables gadgets such as: Personal and business solutions, Fitness & sports , Smartwatch, Smartglasses, Augmented reality, Wearable future, Health & medicine</p>
             <p>We really can't imagine our life without these gadgets. It has become an integral part of our lives!</p>
             <p>Read our next statement about <strong>wearable tech</strong> and contact us for developing your own app for this gadgets! We're waiting for your message!</p>
-            <p>Thunderrise - follow your dream and let us bring it to life!</p>
+            <p>lab3m - follow your dream and let us bring it to life!</p>
           </div>
 <?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
     

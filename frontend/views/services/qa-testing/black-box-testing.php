@@ -22,7 +22,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Back Box method i
             <?= $this->render('//layouts/_estimate') ?>
             <p>We will not describe each method minutely  since it’s a work for a whole new article. Instead you can always contact us to specify details you’re interested in.</p>
             <p>Black-box testing is the first phase of the long QA testing process. Since an application as well as a website is a complex working we apply a complex testing process accordingly. It contains multiple iterations that are testing not the whole program but a small subset to explore the data more thoroughly.</p>
-            <p>Thunderrise will investigate each tiny aspect to make it ascertain that your app or website user gets the best user experience he ever had.</p>
+            <p>lab3m will investigate each tiny aspect to make it ascertain that your app or website user gets the best user experience he ever had.</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

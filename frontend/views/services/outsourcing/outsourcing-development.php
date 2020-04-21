@@ -12,7 +12,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Hard times requir
 			<h2>Outsourcing development</h2>
 			<p>Hard times require hard decisions to be made. Especially if you are a small business or a startup it’s a common sense to seek for the most practical ways to improve your situation on the market. Outsourcing might be one of the wise decisions in your development strategy. Everyone knows outsourcing has plenty of advantages and we should admit there is also a grain of risk to get a foul product in the end. That is precisely why you should carefully consider each development team while choosing.</p>
 			<?= $this->render('//layouts/_estimate') ?>
-			<p>Thunderrise assure you will get a high-class product and service through all the way collaborating with us. To make such claims we’ve executed diligent work at picking out best of the best specialists to join our team. Because we understand that quality is the only factor that determinates one’s reputation.</p>
+			<p>lab3m assure you will get a high-class product and service through all the way collaborating with us. To make such claims we’ve executed diligent work at picking out best of the best specialists to join our team. Because we understand that quality is the only factor that determinates one’s reputation.</p>
 			<p>We can cooperate in two ways:</p>
 			<ol>
 			  <li>Dedicated Team Model</li>

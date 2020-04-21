@@ -28,7 +28,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'In order to impro
 			  <li>Flexible conditions of collaboration;</li>
 			  <li>Assurance in stability of your business model and more.</li>
 			</ol>
-			<p>Partnership with Thunderrise is a nice choice because our priority is customer’s contentment and success.</p>
+			<p>Partnership with lab3m is a nice choice because our priority is customer’s contentment and success.</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

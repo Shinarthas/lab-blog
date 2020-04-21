@@ -25,7 +25,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Depending on your
                 <li>Less money expenditure. Cloud computing obliterates the high cost on hardware. All you need is to pay a subscription.</li>
                 <li>Increased security. Lost or stolen laptops are no longer a problem. Using a Cloud Computing, you have an access to your data no matter what happens to you machine. You can also perform a bulk erase all the data from the lost laptop so it won’t get into the hands of wrong people.</li>
             </ul>
-                <p>Thunderrise provides the implementation of the most popular cloud computing models. Let’s list them to have a better understanding from what to choose:</p>
+                <p>lab3m provides the implementation of the most popular cloud computing models. Let’s list them to have a better understanding from what to choose:</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

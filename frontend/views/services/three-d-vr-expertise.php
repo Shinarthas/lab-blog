@@ -3,7 +3,7 @@ $this->title = ucfirst(Yii::$app->controller->id);
 
 $this->registerCssFile("/styles/bootstrap.min.css");
 $this->registerCssFile("/styles/services-inner.css");
-$this->registerMetaTag(['name' => 'description', 'content' => 'Our team of 3D expert is ready to deliver astonishing solutions for VR, AR and 3D apps. Create your own 3D universe with Thunderrise.']);
+$this->registerMetaTag(['name' => 'description', 'content' => 'Our team of 3D expert is ready to deliver astonishing solutions for VR, AR and 3D apps. Create your own 3D universe with lab3m.']);
 ?>
 <?= $this->render('//layouts/_headerWhite',['lang'=>$lang]) ?><?= $this->render('//layouts/_head-red') ?>
 <div class="services-inner">
@@ -15,8 +15,8 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Our team of 3D ex
 <div class="container">
     <div class="row">
           <div class="content">
-            <p>Some of the various fields of Thunderrise Dev Team expertise include 3D, Virtual Reality and Augmented Reality app development. <strong>3D, VR and AR  apps</strong> can be used as an impactful method to bring additional virtue in product or service development. We create unparalleled virtual experiences and work with our customers to adjust them to their business needs. Our team is a bunch of experts in creating amazing AR overlays, interactive videos, markerless AR, real-time effects on static images, 2D and 3D simulations of a product model and more. We strive to prove our skills and take part in new great projects!</p>
-			<p>Assigning your <strong>3D, VR or AR app</strong> development projects to Thunderrise Dev Team automatically means getting a competent solution tailored by highly qualified specialists in computer graphics and software engineering. Thus you will be provided with:</p>
+            <p>Some of the various fields of lab3m Dev Team expertise include 3D, Virtual Reality and Augmented Reality app development. <strong>3D, VR and AR  apps</strong> can be used as an impactful method to bring additional virtue in product or service development. We create unparalleled virtual experiences and work with our customers to adjust them to their business needs. Our team is a bunch of experts in creating amazing AR overlays, interactive videos, markerless AR, real-time effects on static images, 2D and 3D simulations of a product model and more. We strive to prove our skills and take part in new great projects!</p>
+			<p>Assigning your <strong>3D, VR or AR app</strong> development projects to lab3m Dev Team automatically means getting a competent solution tailored by highly qualified specialists in computer graphics and software engineering. Thus you will be provided with:</p>
 			<ul>
 				<li>High-quality coding</li>
 				<li>Expert consulting during development process</li>

@@ -76,14 +76,14 @@ class Contacts extends ActiveRecord
 				'screen' => ['width'=>(int)$_POST['width'],'height'=>(int)$_POST['height']]
 			];
 			
-			$headers = "From: support@thunderrise.com\r\n";
+			$headers = "From: support@lab3m.com\r\n";
 			$headers.= "Content-Type: text/html; charset=UTF-8\r\n";
 
 			$text = "Имя: ".$this->username.'. Email: '.$this->email.'. Бюджет: '.$this->budget.'. Описание: '.$this->details;
 			
 			mail("ceofdi2016@gmail.com", "New request on site", \Yii::$app->controller->renderPartial("../mail/layout", ['name'=>'Dmitriy','content'=>$text]), $headers);
-			mail("yu.dedzel@thunderrise.com", "New request on site", \Yii::$app->controller->renderPartial("../mail/layout", ['name'=>'Yuliya','content'=>$text]), $headers);
-			mail("sale@thunderrise.com", "New request on site", \Yii::$app->controller->renderPartial("../mail/layout", ['name'=>'Sale manager','content'=>$text]), $headers);
+			mail("yu.dedzel@lab3m.com", "New request on site", \Yii::$app->controller->renderPartial("../mail/layout", ['name'=>'Yuliya','content'=>$text]), $headers);
+			mail("sale@lab3m.com", "New request on site", \Yii::$app->controller->renderPartial("../mail/layout", ['name'=>'Sale manager','content'=>$text]), $headers);
 			mail("unilex6@gmail.com", "New request on site", \Yii::$app->controller->renderPartial("../mail/layout", ['name'=>'Alex','content'=>$text]), $headers);
 		}
 
@@ -94,7 +94,7 @@ class Contacts extends ActiveRecord
 	{	
 		if($insert)
 		{
-			$headers = "From: support@thunderrise.com\r\n";
+			$headers = "From: support@lab3m.com\r\n";
 			$headers.= "Content-Type: text/html; charset=UTF-8\r\n";
 			
 			$client_text = '<p style="margin:0;line-height: 20px; ">Your request #'.$this->id.' is created!</p>'; 

@@ -321,7 +321,7 @@ body{
                     </div>
                     <h2><a href="/three-d-vr-expertise" class="name">3D, VR expertise</a></h2>
                     <p>Our team of 3D expert is ready to deliver astonishing solutions for VR, AR and 3D apps.
-                        Create your own 3D universe with Thunderrise.
+                        Create your own 3D universe with lab3m.
                     </p>
                     <a href="/three-d-vr-expertise" class="info">More info<i class="arrow-right"></i></a>
                 </div>

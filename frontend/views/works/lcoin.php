@@ -1,5 +1,5 @@
 <?php
-$this->title = ucfirst("Thunderrise project - Lcoin. Lcoin - future of cryptocurrencies!");
+$this->title = ucfirst("lab3m project - Lcoin. Lcoin - future of cryptocurrencies!");
 
 /*$this->registerJsFile('/scripts/jquery-1.12.4.min.js');
 $this->registerJsFile('/scripts/mCustomScrollbar.min.js');*/
@@ -382,7 +382,7 @@ body .container{max-width: 990px;width: 100%;}
                     <li>transit money from Lcoins into fiat money and back in a few taps</li>
                     <li>pay in every shop with Lcoins</li>
                 </ul>
-                <p>Thunderrise Dev Team is on guard of your payment safety and security. We use innovational technologies to create great products. Lcoin is a new step into future of cryptocurrencies. Make this step with us!</p>
+                <p>lab3m Dev Team is on guard of your payment safety and security. We use innovational technologies to create great products. Lcoin is a new step into future of cryptocurrencies. Make this step with us!</p>
             </div>
         </div>
     </div>

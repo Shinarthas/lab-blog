@@ -37,7 +37,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Websites have bec
             </ul>
             <p>Developing a huge website is a process that may have wide budgetary and public relations consequences for an organization, both during the development of the site and long after its disposal. Too many websites begin life as the moment arises, created by small interest groups working in isolation from their peers elsewhere in the organization and without fully considering the site’s goals within the context of the organization’s overall mission. The result of poorly planned, hasty development efforts often is an “orphan site,” starved of resources and attention.</p>
             <?= $this->render('//layouts/_estimate') ?>
-            <p>Thunderrise thinks a lot before starting act. We make sure that we have the organizational approval, budget, and staff. In this case, we will make a successful project!</p>
+            <p>lab3m thinks a lot before starting act. We make sure that we have the organizational approval, budget, and staff. In this case, we will make a successful project!</p>
             <p>Our web-development team consist of such departments: front-end developers, back-end developers, Q&A, Project Management.</p>
             <p>For more details please proceed to next sections:</p> 
             <ul>

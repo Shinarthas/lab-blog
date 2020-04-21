@@ -68,19 +68,19 @@ $this->title = ucfirst(Yii::$app->controller->id);
             <p itemprop="addressLocality" class="city">San Francisco</p>
             <p itemprop="streetAddress" class="adress">679 Titicus Road North-Salem</p>
             <p class="adress">10560 San Francisco, USA</p>
-            <p itemprop="email" class="mail">hi@thunderrise.com</p>
+            <p itemprop="email" class="mail">hi@lab3m.com</p>
         </div>
         <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="item">
             <p itemprop="addressLocality" class="city">London</p>
             <p itemprop="streetAddress" class="adress">Mansfield Road, 12</p>
             <p class="adress">01032 London, United Kingdom</p>
-            <p itemprop="email" class="mail">hi@thunderrise.com</p>
+            <p itemprop="email" class="mail">hi@lab3m.com</p>
         </div>
          <div class="item">
             <p class="city">Dnipropetrovsk</p>
             <p class="adress">Kapelanka 13B</p>
             <p class="adress">30-347 Dnipropetrovsk, Ukraine</p>
-            <p class="mail">hi@thunderrise.com</p>
+            <p class="mail">hi@lab3m.com</p>
         </div>
     </div> -->
     <div class="map"></div>

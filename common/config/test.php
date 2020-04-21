@@ -5,7 +5,7 @@ return yii\helpers\ArrayHelper::merge(
     [
         'components' => [
             'db' => [
-                'dsn' => 'mysql:host=localhost;dbname=thunderrise_advanced_tests',
+                'dsn' => 'mysql:host=localhost;dbname=lab3m_advanced_tests',
             ]
         ]
     ]

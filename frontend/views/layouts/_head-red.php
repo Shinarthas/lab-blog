@@ -18,7 +18,7 @@ $this->registerCssFile("/styles/blog-random.css");
               <path id="Shape_4_copy_9" data-name="Shape 4 copy 9" class="cls-2" d="M378,87.008L379,87Z"/>
             </svg>
             <div class="top-mail">
-                <p>hi@thunderrise.com</p>
+                <p>hi@lab3m.com</p>
                 <span>Do you have a question?</span>
             </div>
         </div>

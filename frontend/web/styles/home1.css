@@ -199,7 +199,7 @@
     pointer-events: none;
 }
 
-.first-screen__thunderrise {
+.first-screen__lab3m {
     position: absolute;
     top: 384px;
     left: calc(50% - 128px);
@@ -1562,7 +1562,7 @@ div.footer p.desc-min,
     .first-screen__light {
         background-position: 50% 0;
     }
-    .first-screen__thunderrise {
+    .first-screen__lab3m {
         position: absolute;
         top: 140px;
         left: 50%;
@@ -1576,7 +1576,7 @@ div.footer p.desc-min,
         -o-transition-duration: 2000ms;
         transition-duration: 2000ms;
     }
-    .first-screen__thunderrise_scale {
+    .first-screen__lab3m_scale {
         -webkit-transition-duration: 2000ms;
         -o-transition-duration: 2000ms;
         transition-duration: 2000ms;
@@ -1814,7 +1814,7 @@ div.footer p.desc-min,
         font-size: 35px;
         padding-bottom: 1px;
     }
-    .first-screen__thunderrise {
+    .first-screen__lab3m {
         top: 120px;
         height: 112px;
     }
@@ -2043,7 +2043,7 @@ div.footer p.desc-min,
     .first-screen__light {
         background-size: auto 50%;
     }
-    .first-screen__thunderrise {
+    .first-screen__lab3m {
         top: 110px;
         height: 76px;
     }

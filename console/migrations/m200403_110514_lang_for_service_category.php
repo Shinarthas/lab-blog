@@ -16,7 +16,7 @@ class m200403_110514_lang_for_service_category extends Migration
   PRIMARY KEY (`id`))');
         $this->execute('ALTER TABLE `blog_services_category_translations` 
 CHANGE COLUMN `id` `id` INT(11) NOT NULL AUTO_INCREMENT ;');
-        /*ALTER TABLE `thunderrise`.`blog_services_category_translations`
+        /*ALTER TABLE `lab3m`.`blog_services_category_translations`
 CHANGE COLUMN `id` `id` INT(11) NOT NULL AUTO_INCREMENT ;*/
 
         $this->execute("ALTER TABLE blog_services_category_translations CHANGE title title VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL, CHANGE description description MEDIUMTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;");

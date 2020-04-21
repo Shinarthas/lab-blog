@@ -92,7 +92,7 @@ $this->title = 'We design and develop apps native iOS and Android apps';
 .first-screen__desc{line-height:40px;font-size:25px;color:#ffffff;margin-bottom:14px; margin-top: 0;}
 .first-screen__content{margin:0 auto;padding-top:240px;max-width:960px;}
 .first-screen__textures{position:fixed;z-index:101;top:0;left:0;right:0;height:730px;pointer-events:none;}
-.first-screen__thunderrise{position:absolute;top:384px;left:calc(50% - 128px);left:-webkit-calc(50% - 128px);-moz-left:calc(50% - 128px);width:685px;}
+.first-screen__lab3m{position:absolute;top:384px;left:calc(50% - 128px);left:-webkit-calc(50% - 128px);-moz-left:calc(50% - 128px);width:685px;}
 .first-screen__flash{position:absolute;left:48%;left:calc(50% + 15px);width:554px;z-index:2;}
 .first-screen__clouds{position:absolute;z-index:102;top:0;left:0;bottom:0;width:100%;background-image:url(/images/clouds1.png), url(/images/clouds2.png);background-repeat:repeat-x;background-position:50% 100%;pointer-events:none;}
 .button-sic_center{text-align:center;}
@@ -258,8 +258,8 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
 .header__social-link:nth-child(6){transition-delay:240ms;}
 .header__social-link img{position:absolute;right:30px;top:50%;transform:translateY(-50%);}
 /**/.first-screen__light{background-position:50% 0;}
-.first-screen__thunderrise{position:absolute;top:140px;left:50%;transform:translateX(-50%) !important;height:144px;width:500px;visibility:visible;transition-duration:2000ms;}
-.first-screen__thunderrise_scale{transition-duration:2000ms;transform:translateX(-50%) scale(0.5) !important;}
+.first-screen__lab3m{position:absolute;top:140px;left:50%;transform:translateX(-50%) !important;height:144px;width:500px;visibility:visible;transition-duration:2000ms;}
+.first-screen__lab3m_scale{transition-duration:2000ms;transform:translateX(-50%) scale(0.5) !important;}
 .first-screen__flash{display:none;}
 .first-screen__content{padding-top:350px;width:100%;text-align:center;}
 .first-screen__title{padding:0px 20px 12px;font-size:50px;}
@@ -281,7 +281,7 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
 .first-screen__content{padding-top:287px;}
 .first-screen__desc{padding:0 20px 45px;line-height:30px;font-size:20px;}
 .first-screen__title{line-height:40px;font-size:30px;padding-bottom:1px;}
-.first-screen__thunderrise{top:120px;height:112px;}
+.first-screen__lab3m{top:120px;height:112px;}
 .first-screen__desc{padding:0 20px 45px;line-height:30px;font-size:20px;}
 .second-screen__hr{margin-top:46px;}
 .second-screen__arrow{margin:5px 0 -5px;}
@@ -295,7 +295,7 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
 }
 
 @media screen and (max-width: 493px){
-    .first-screen__thunderrise{
+    .first-screen__lab3m{
         width: 425px;
     }
 }
@@ -321,7 +321,7 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
 .header_white .header__social-mobile-control_active{background:url('/images/social.svg') no-repeat 18px 50%, #fff;}
 .first-screen{height:560px;}
 .first-screen__light{background-size:auto 50%;}
-.first-screen__thunderrise{top:110px;height:76px; width: 380px;}
+.first-screen__lab3m{top:110px;height:76px; width: 380px;}
 .first-screen__content{padding-top:220px;}
 .first-screen__title{padding:0 10px;line-height:40px;font-size:29px;}
 .second-screen__mass-media img,
@@ -338,7 +338,7 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
 }
 
 @media only screen and (max-width: 380px){
-    .first-screen__thunderrise{
+    .first-screen__lab3m{
         width: 300px;
     }
 }
@@ -362,13 +362,13 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
     <div class="header__content">
         <div class="header__logo">
             <a href="/" class="tt1">
-                <img style="max-width: 43px;" src="/images/header/logo.png" alt="thunderrise-logo">
+                <img style="max-width: 43px;" src="/images/header/logo.png" alt="lab3m-logo">
             </a>
             <a href="/" class="tt2">
-                <img src="/images/header/logo2.svg" alt="thunderrise-logo">
+                <img src="/images/header/logo2.svg" alt="lab3m-logo">
             </a>
             <a href="/" class="tt3">
-                <img src="/images/header/logo3.svg" alt="thunderrise-logo">
+                <img src="/images/header/logo3.svg" alt="lab3m-logo">
             </a>
         </div>
         <div class="header__menu-mobile-control"></div>
@@ -380,12 +380,12 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
             <a itemprop="url" href="/contacts" class="header__menu-link"><span itemprop="name">Contacts</span></a>
         </div>
         <div class="header__social">
-            <a href="https://clutch.co/profile/thunderrise" class="header__social-link">Clutch <img src="/images/header/clutch.svg" alt="clutch"></a>
+            <a href="https://clutch.co/profile/lab3m" class="header__social-link">Clutch <img src="/images/header/clutch.svg" alt="clutch"></a>
             <!-- <a href="https://twitter.com/Thunder_rise" class="header__social-link">Twitter <img src="/images/header/twitter.svg" alt="twitter"></a> -->
-            <a href="https://www.linkedin.com/company/thunderrise" class="header__social-link">Linkedin <img src="/images/header/linkedin.svg" alt="linkedin"></a>
-            <a href="https://dribbble.com/Thunderrise" class="header__social-link">Dribbble <img src="/images/header/dribble.svg" alt="dribble"></a>
-            <a href="https://github.com/thunderrise" class="header__social-link">GitHub <img src="/images/header/github.svg" alt="github"></a>
-<!--            <a href="https://www.facebook.com/thunderrise" class="header__social-link">Facebook <img src="/images/header/facebook.svg" alt="facebook"></a>-->
+            <a href="https://www.linkedin.com/company/lab3m" class="header__social-link">Linkedin <img src="/images/header/linkedin.svg" alt="linkedin"></a>
+            <a href="https://dribbble.com/lab3m" class="header__social-link">Dribbble <img src="/images/header/dribble.svg" alt="dribble"></a>
+            <a href="https://github.com/lab3m" class="header__social-link">GitHub <img src="/images/header/github.svg" alt="github"></a>
+<!--            <a href="https://www.facebook.com/lab3m" class="header__social-link">Facebook <img src="/images/header/facebook.svg" alt="facebook"></a>-->
         </div>
         <div  style="background-color: #151515;" class="clearfix"></div>
     </div>
@@ -401,7 +401,7 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
             <div class="first-screen1">
                 <div style="display:none" class="first-screen__light"></div>
                 <div class="first-screen__textures">
-                    <img style="display:none" class="first-screen__thunderrise" src="/images/main/logo.png" alt="thunderrise">
+                    <img style="display:none" class="first-screen__lab3m" src="/images/main/logo.png" alt="lab3m">
                     <img class="first-screen__flash" src="/images/logo-b.png" alt="flash">
                 </div>
                 <div class="first-screen__fixed">
@@ -430,8 +430,8 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
                     <img src="/images/tc.svg" alt="tc">
                 </div>
                 <div class="second-screen__hr"><p>They feature our clients</p></div>
-                <div class="second-screen__logo"><img src="/images/main/logo.png" alt="thunderrise"></div>
-                <p class="second-screen__title">ThunderRise</p>
+                <div class="second-screen__logo"><img src="/images/main/logo.png" alt="lab3m"></div>
+                <p class="second-screen__title">lab3m</p>
                 <div class="second-screen__arrow"></div>
                 <div class="second-screen__deploy">
                     <p class="second-screen__desc">
@@ -627,7 +627,7 @@ div.blockTouch div.content{margin:0 auto;padding:80px 0;max-width:960px;width: 1
              <div class="col-md-4 col-sm-12 text-center item">
                 <div class="outer-img"><img src="/images/services/outstaff.svg" alt="outstaff"></div>
                 <h2><a href="/outsourcing-service" class="name">Outsourcing</a></h2>
-                <p>Thunderrise provides IT-outstaffing services of high quality and assures that even most challenging
+                <p>lab3m provides IT-outstaffing services of high quality and assures that even most challenging
                     and complicated projects will be developed in strict accordance with your requirements and within
                     the agreed deadlines.
                 </p>

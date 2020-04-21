@@ -128,7 +128,7 @@ color: #FFFFFF;" >Send</a>
         </div>',
     'company_block' => '<div class="info text-center">
     <h1>About Us</h1>
-    <img src="/images/company/arrow.png" alt="arrow-thunderrise" class="arrow">
+    <img src="/images/company/arrow.png" alt="arrow-lab3m" class="arrow">
     <p class="tagline">We launch advanced fintech products</p>
     <p>
     It’s hard to compete in such growing and scalable market as IT. To become successful company you need to gather talented people under visioneer management.

@@ -21,7 +21,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'The Augmented Rea
 				<li>gaming</li>
 				<li>heavy industry</li>
 			</ul>
-			<p>Thunderrise Development Team has experienced qualified experts that possess deep knowledge of 3D modelling, computer vision and imaging expertise. If you have a terrific idea about your app involving AR we have suitable solutions in this field that are  most innovative and intuitive specially for you. Let us help you provide rich user experience to your customers with our <strong>Augmented Reality technologies</strong>.</p>
+			<p>lab3m Development Team has experienced qualified experts that possess deep knowledge of 3D modelling, computer vision and imaging expertise. If you have a terrific idea about your app involving AR we have suitable solutions in this field that are  most innovative and intuitive specially for you. Let us help you provide rich user experience to your customers with our <strong>Augmented Reality technologies</strong>.</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

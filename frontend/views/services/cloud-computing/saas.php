@@ -14,7 +14,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'SaaS (Software-as
 			<?= $this->render('//layouts/_estimate') ?>
 			<p>Because of its structure, SaaS graves the need to adjust and run applications on personal computers. With SaaS, it’s easy for concern to streamline their maintenance and support, because everything can be controlled by vending machine: applications, runtime, data, cross-platform software, OSes, virtualization, servers, storage and networking.</p>
 			<p>Popular SaaS offering types include email and collaboration, clients relationship management, and healthcare-related applications. Some large enterprises that are not traditionally thought of as software vending machine have started building SaaS as an additional source of proceeds in order to job a rivalrous preference.</p>
-			<p>Thunderrise introduces this system in web projects. This way makes our working process more easier. Our development team use it for interact with Data Base and customers personal data. Let's do great thing together! Thunderrise - We design and develop apps!</p>
+			<p>lab3m introduces this system in web projects. This way makes our working process more easier. Our development team use it for interact with Data Base and customers personal data. Let's do great thing together! lab3m - We design and develop apps!</p>
 		</div>
 	<?= $this->render('//layouts/_servicesBar',['pages'=>$pages]) ?>
 	</div>

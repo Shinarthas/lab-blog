@@ -90,7 +90,7 @@ $my_requests = Contacts::myRequestsList();
     .first-screen__desc{line-height:40px;font-size:25px;color:#ffffff;margin-bottom:14px; margin-top: 0;}
     .first-screen__content{margin:0 auto;padding-top:240px;max-width:960px;}
     .first-screen__textures{position:fixed;z-index:101;top:0;left:0;right:0;height:730px;pointer-events:none;}
-    .first-screen__thunderrise{position:absolute;top:384px;left:calc(50% - 128px);left:-webkit-calc(50% - 128px);-moz-left:calc(50% - 128px);width:685px;}
+    .first-screen__lab3m{position:absolute;top:384px;left:calc(50% - 128px);left:-webkit-calc(50% - 128px);-moz-left:calc(50% - 128px);width:685px;}
     .first-screen__flash{position:absolute;left:48%;left:calc(50% + 15px);width:554px;z-index:2;}
     .first-screen__clouds{position:absolute;z-index:102;top:0;left:0;bottom:0;width:100%;background-repeat:repeat-x;background-position:50% 100%;pointer-events:none;}
     .button-sic_center{text-align:center;}
@@ -244,8 +244,8 @@ $my_requests = Contacts::myRequestsList();
         .header__social-link:nth-child(6){transition-delay:240ms;}
         .header__social-link img{position:absolute;right:30px;top:50%;transform:translateY(-50%);}
         /**/.first-screen__light{background-position:50% 0;}
-        .first-screen__thunderrise{position:absolute;top:140px;left:50%;transform:translateX(-50%) !important;height:144px;width:500px;visibility:visible;transition-duration:2000ms;}
-        .first-screen__thunderrise_scale{transition-duration:2000ms;transform:translateX(-50%) scale(0.5) !important;}
+        .first-screen__lab3m{position:absolute;top:140px;left:50%;transform:translateX(-50%) !important;height:144px;width:500px;visibility:visible;transition-duration:2000ms;}
+        .first-screen__lab3m_scale{transition-duration:2000ms;transform:translateX(-50%) scale(0.5) !important;}
         .first-screen__flash{display:none;}
         .first-screen__content{padding-top:350px;width:100%;text-align:center;}
         .first-screen__title{padding:0px 20px 12px;font-size:50px;}
@@ -266,7 +266,7 @@ $my_requests = Contacts::myRequestsList();
         .first-screen__content{padding-top:287px;}
         .first-screen__desc{padding:0 20px 45px;line-height:30px;font-size:20px;}
         .first-screen__title{line-height:40px;font-size:30px;padding-bottom:1px;}
-        .first-screen__thunderrise{top:120px;height:112px;}
+        .first-screen__lab3m{top:120px;height:112px;}
         .first-screen__desc{padding:0 20px 45px;line-height:30px;font-size:20px;}
         .second-screen__hr{margin-top:46px;}
         .second-screen__arrow{margin:5px 0 -5px;}
@@ -280,7 +280,7 @@ $my_requests = Contacts::myRequestsList();
     }
 
     @media screen and (max-width: 493px){
-        .first-screen__thunderrise{
+        .first-screen__lab3m{
             width: 425px;
         }
     }
@@ -308,7 +308,7 @@ $my_requests = Contacts::myRequestsList();
         .header_white .header__social-mobile-control_active{background:url('/images/social.svg') no-repeat 18px 50%, #000;}
         .first-screen{height:560px;}
         .first-screen__light{background-size:auto 50%;}
-        .first-screen__thunderrise{top:110px;height:76px; width: 380px;}
+        .first-screen__lab3m{top:110px;height:76px; width: 380px;}
         .first-screen__content{padding-top:220px;}
         .first-screen__title{padding:0 10px;line-height:40px;font-size:29px;}
         .second-screen__mass-media img,
@@ -325,7 +325,7 @@ $my_requests = Contacts::myRequestsList();
     }
 
     @media only screen and (max-width: 380px){
-        .first-screen__thunderrise{
+        .first-screen__lab3m{
             width: 300px;
         }
     }
@@ -341,10 +341,10 @@ $my_requests = Contacts::myRequestsList();
 <div class="header__content" style="background: #000">
     <div class="header__logo">
         <a href="/<?=Yii::$app->language?>" class="tt1 dis-n1">
-            <img class="max-d" style="max-width: 43px; max-width: 100px; margin-top: 10px" src="/images/l3m-t.png" alt="thunderrise-logo">
+            <img class="max-d" style="max-width: 43px; max-width: 100px; margin-top: 10px" src="/images/l3m-t.png" alt="lab3m-logo">
         </a>
         <a href="/<?=Yii::$app->language?>" class="tt1 dis-b1">
-            <img class="min-d" style="max-width: 43px;" src="/images/header/logo.png" alt="thunderrise-logo">
+            <img class="min-d" style="max-width: 43px;" src="/images/header/logo.png" alt="lab3m-logo">
         </a>
         <style>
         .max-d{

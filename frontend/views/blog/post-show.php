@@ -10,7 +10,7 @@ use common\models\Lang;
 $url = $model->seo_url;
 if(strlen($model->h1) == 0)
 {
-    $this->title = $model->title.' - ThunderRise'.$model->h1;
+    $this->title = $model->title.' - lab3m'.$model->h1;
 }else{
     $this->title = $model->h1;
 }
@@ -132,7 +132,7 @@ body .container{max-width: 990px;width: 100%;}
             <li itemprop="itemListElement" itemscope
                 itemtype="http://schema.org/ListItem">
                 <a itemscope itemtype="http://schema.org/Thing"
-                   itemprop="item" href="https://thunderrise.com/">
+                   itemprop="item" href="https://lab3m.com/">
                     <span itemprop="name">Lab3M</span>
                    </a>
                 <meta itemprop="position" content="1" />
@@ -141,7 +141,7 @@ body .container{max-width: 990px;width: 100%;}
             <li itemprop="itemListElement" itemscope
                 itemtype="http://schema.org/ListItem">
                 <a itemscope itemtype="http://schema.org/Thing"
-                   itemprop="item" href="https://thunderrise.com/blog">
+                   itemprop="item" href="https://lab3m.com/blog">
                     <span itemprop="name">Blog</span></a>
 
                 <meta itemprop="position" content="2" />
@@ -150,7 +150,7 @@ body .container{max-width: 990px;width: 100%;}
             <li itemprop="itemListElement" itemscope
                 itemtype="http://schema.org/ListItem">
                 <a itemscope itemtype="http://schema.org/Thing"
-                   itemprop="item" href="https://thunderrise.com/<?=$model->seo_url?>">
+                   itemprop="item" href="https://lab3m.com/<?=$model->seo_url?>">
                     <span itemprop="name"><?=$model->title?></span>
                     </a>
                 <meta itemprop="position" content="3" />

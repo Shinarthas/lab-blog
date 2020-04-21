@@ -212,7 +212,7 @@ class ServicesController extends Controller
 //        {
 //            echo '
 //            <url>
-//                <loc>https://thunderrise.com/services/'.$main_key.'</loc>
+//                <loc>https://lab3m.com/services/'.$main_key.'</loc>
 //                <changefreq>daily</changefreq>
 //                <priority>0.4</priority>
 //            </url>
@@ -221,7 +221,7 @@ class ServicesController extends Controller
 //            {
 //                echo '
 //            <url>
-//                <loc>https://thunderrise.com/services/'.$main_key.'/'.$key.'</loc>
+//                <loc>https://lab3m.com/services/'.$main_key.'/'.$key.'</loc>
 //                <changefreq>daily</changefreq>
 //                <priority>0.8</priority>
 //            </url>

@@ -16,7 +16,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Usually QA testin
     <div class="row">
           <div class="content">
             <p>Usually QA testing takes the most time in the app development process foremost because our team values the outcome product greatly. Utilizing newest tools, standards and technologies our IT-adepts endeavour to mould it approximately close to perfection.</p>
-            <p>As every member of the Thunderrise team our QA and testing engineers are highly qualified specialists. To avoid possible pitfalls we established multilevel QA testing during whole cycle of both app and website development; this decision saves the time and money in the long term.</p>
+            <p>As every member of the lab3m team our QA and testing engineers are highly qualified specialists. To avoid possible pitfalls we established multilevel QA testing during whole cycle of both app and website development; this decision saves the time and money in the long term.</p>
             <?= $this->render('//layouts/_estimate') ?>
             <p>We work in accordance to international quality standards and we’ll make it ascertain that your app meets iTunes and Google Play quality standards. Through testing we detect bugs and errors in the control logics and design while close rapport of our test engineers and programmers allows to promptly rectify all errors.</p>
             <ul>
@@ -26,7 +26,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Usually QA testin
                 <li>Usability testing;</li>
                 <li>A/B testing, etc.</li>
             </ul>
-            <p>Thunderrise is a perfect match for your your QA testing needs because:</p>
+            <p>lab3m is a perfect match for your your QA testing needs because:</p>
             <ol>
                 <li>We are a team of experienced specialists in detecting errors and bugs, fixing them and stabilizing your app or website.</li>
                 <li>We provide a full-cycle multilevel QA testing to improve our outcome product.</li>

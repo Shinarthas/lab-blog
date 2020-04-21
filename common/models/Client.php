@@ -29,7 +29,7 @@ class Client extends \yii\db\ActiveRecord
      * @inheritdoc
      */
 	 
-	public static $from_where_array = ['unknown','UpWork','thunderrise.com'];
+	public static $from_where_array = ['unknown','UpWork','lab3m.com'];
 	public static $category_array = ['unknown','web','ios','android','server','refactoring','UI/UX','ios+android'];
 	public static $status_array = ['unknown','no contact','first contact','meeting','demo version','we declined','client declined', 'in tracker'];
 	 
