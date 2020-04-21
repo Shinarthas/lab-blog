@@ -20,9 +20,9 @@ if(strlen($model->h1) == 0)
     'content' => $model->meta_desc
 ]);
 
-$metaimage = 'https://demol3m.fun/'. Yii::$app->ImageComponent->getCacheImage($model->background,$model->background_path,1920,600);
+$metaimage = Yii::getAlias('@front'). Yii::$app->ImageComponent->getCacheImage($model->background,$model->background_path,1920,600);
 if(isset($model->background2))
-    $metaimage = 'https://demol3m.fun/'. Yii::$app->ImageComponent->getCacheImage($model->background2,$model->background_path2,1920,600);
+    $metaimage = Yii::getAlias('@front'). Yii::$app->ImageComponent->getCacheImage($model->background2,$model->background_path2,1920,600);
 $this->registerLinkTag([
     'rel' => 'image_src',
     'type' => 'image/jpg',

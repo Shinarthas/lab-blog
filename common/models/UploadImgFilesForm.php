@@ -39,7 +39,6 @@ class UploadImgFilesForm extends Model
                 $name_saved =  $uid.$file->baseName.'.'.$file->extension;
                 $name_dir = Yii::$app->ImageComponent->getCurrentDir();
                 if($file->saveAs($private_dir.DIRECTORY_SEPARATOR.$name_saved)){
-                    echo "Aaa";
                     list($width, $height, $type, $attr) = getimagesize($private_dir.DIRECTORY_SEPARATOR.$name_saved);
 
                     $model = new Img();

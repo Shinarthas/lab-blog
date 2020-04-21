@@ -17,7 +17,7 @@ $this->registerJsFile("/scripts/jquery-1.12.4.min.js");
 $this->registerJsFile("/scripts/services_bar.js");
 $this->registerMetaTag(['name' => 'description', 'content' => $model['description']]);
 $this->registerMetaTag(['name' => 'image', 'content' => $model['image']]);
-$this->registerMetaTag(['name' => 'og:image', 'content' => 'https://demol3m.fun/'.$model['image']]);
+$this->registerMetaTag(['name' => 'og:image', 'content' => Yii::getAlias('@front').$model['image']]);
 
 $lang_list = Lang::getLangList();
 
