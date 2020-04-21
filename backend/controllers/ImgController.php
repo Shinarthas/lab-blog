@@ -12,6 +12,7 @@ use common\models\Img;
 use Yii;
 use common\models\UploadImgFilesForm;
 use yii\base\Controller;
+use yii\helpers\ArrayHelper;
 use yii\web\UploadedFile;
 
 
@@ -66,27 +67,28 @@ class ImgController extends Controller
     {
         Yii::$app->response->format = 'json';
 
-     //   if(Yii::$app->request->isAjax ) {
-            $images = Img::find()->orderBy(['id' => SORT_DESC])->limit(100)->where(['>','date_create',strtotime("2020-01-01")])->all();
-            $result = [];
-            foreach ($images as $image)
-            {
-                if((time()-86400)<$image->date_create) {
-                    $class='load-today';
-                }else{
-                    $class ='';
-                }
+        //   if(Yii::$app->request->isAjax ) {
+        $images = Img::find()->orderBy(['id' => SORT_DESC])->limit(100)->where(['>','date_create',strtotime("2020-01-01")])->all();
+        $result = [];
 
-                $imageSizes = Img::getCachedImgPostSize($image->img_width,$image->img_height);
-
-                $result[] =[
-                    'link'=>Yii::getAlias('@front').'/'.Yii::$app->ImageComponent->getCacheImage($image->name,$image->dir,Img::IMG_CACHE_PREV_WIDTH,Img::IMG_CACHE_PREV_HEIGHT),
-                    'class'=>$class,
-                    'link_post'=>Yii::getAlias('@front').'/'.Yii::$app->ImageComponent->getCacheImage($image->name,$image->dir,Img::IMG_CACHE_INNER_POST_WIDTH,Img::IMG_CACHE_INNER_POST_HEIGHT,true),
-                ];
+        foreach ($images as $image)
+        {
+            if((time()-86400)<$image->date_create) {
+                $class='load-today';
+            }else{
+                $class ='';
             }
 
-            return $result;
-      //  }
+            //$imageSizes = Img::getCachedImgPostSize($image->img_width,$image->img_height);
+
+            $result[] =[
+                'link'=>Yii::getAlias('@front').'/'.Yii::$app->ImageComponent->getCacheImage($image->name,$image->dir,Img::IMG_CACHE_PREV_WIDTH,Img::IMG_CACHE_PREV_HEIGHT),
+                'class'=>$class,
+                'link_post'=>Yii::getAlias('@front').'/'.Yii::$app->ImageComponent->getCacheImage($image->name,$image->dir,Img::IMG_CACHE_INNER_POST_WIDTH,Img::IMG_CACHE_INNER_POST_HEIGHT,true),
+            ];
+        }
+
+        return $result;
+        //  }
     }
 }

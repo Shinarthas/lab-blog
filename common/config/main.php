@@ -10,7 +10,7 @@ return [
         ],
     ],
     'aliases' => [
-        '@front' => 'https://lab3m.com',
-        '@back' => 'http://a.lab3m.com',
+        '@front' => 'https://lab3m.com/',
+        '@back' => 'http://admin.lab3m.com/',
     ],
 ];
