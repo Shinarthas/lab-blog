@@ -23,7 +23,7 @@ $lang_list = Lang::getLangList();
 
     foreach ($lang_list as $lang_item)
     {
-        foreach ($trans_list as $trans){
+        /*foreach ($trans_list as $trans){
             if($trans['id_lang'] == $lang_item['id'] && $lang->id !=$lang_item['id'] && $lang_item['lang_default']!=1)
             {
                 $this->registerLinkTag([
@@ -33,7 +33,7 @@ $lang_list = Lang::getLangList();
                 ]);
                // <link rel="alternate" hreflang="es" href="http://es.example.com/" />
             }
-        }
+        }*/
     }
 
 ?>
