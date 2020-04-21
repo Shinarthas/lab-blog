@@ -33,7 +33,6 @@ body .container{max-width: 990px;width: 100%;}
 }
 .main1{
     background-color: #3c3b3b;
-    margin-top: 70px;
     text-align: center;
     height: 1109px;
     overflow: hidden;
@@ -52,10 +51,11 @@ body .container{max-width: 990px;width: 100%;}
 }
 
 .video_taxi{
-    height:120%;
+    height:130%;
     position: absolute;
     top: 0;
     left: 0;
+    min-width: 100%;
 
 }
 
