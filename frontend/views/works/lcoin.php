@@ -196,30 +196,30 @@ body .container{max-width: 990px;width: 100%;}
 <!-- <?= $this->render('//layouts/_headerWhite',['lang'=>$lang]) ?> -->
 <section class="main main1" style="overflow: hidden;">
 
-<video src="/videos/D40_29_093_comp.mp4" autoplay loop class="video_taxi"></video>
+<!-- <video src="/videos/D40_29_093_comp.mp4" autoplay loop class="video_taxi"></video> -->
 
    <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>Lcoin</h1>
+                <h1><?= Yii::t('app', 'dex_name') ?></h1>
                 <div class="arrow grey"></div>
-                <h2>We develop native iOS and Android apps</h2>
-                <p>Meet Lcoin, a fast and easy conversion app of fiat money into cryptocurrency that also provides comfortable transference and free usage of cryptocurrency as a payment tool.</p>
+                <h2><?= Yii::t('app', 'dex_des') ?></h2>
+                <p><?= Yii::t('app', 'dex_sub_des') ?></p>
             </div>
         </div>
     </div>
     <img class="top-img" src="/images/cases/lcoin/top-lcoin.png" alt="Lcoin gadget">
-    <video class="video" preload="metadata" autoplay="autoplay" playsinline loop="loop" poster="">
+    <!-- <video class="video" preload="metadata" autoplay="autoplay" playsinline loop="loop" poster="">
         <source src="/videos/lcoin.mp4" type='video/mp4;'>
-    </video>
+    </video> -->
 </section>
 <section class="main main2">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2>Product Details</h2>
+                <h2><?= Yii::t('app', 'dex_Product_Details') ?></h2>
                 <div class="arrow"></div>
-                <h4>We launch advanced commerce platforms</h4>
+                <h4><?= Yii::t('app', 'dex_Main_Features_des') ?></h4>
                 <p>Technical app specification</p>
                 <ul>
                     <li>two platforms - iOS and Android</li>
@@ -249,7 +249,7 @@ body .container{max-width: 990px;width: 100%;}
         </div>
     </div>
 </section>
-<section class="main main4" style="background: #151515;">
+<section class="main main4" style="background: #151515; display: none">
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
@@ -272,6 +272,74 @@ body .container{max-width: 990px;width: 100%;}
                 </div>
                 <p class="title">Timeline</p>
                 <p class="sign">January 2017</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="main main5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>No Identity Verification</h2>
+                <div class="arrow"></div>
+                <h4><?= Yii::t('app', 'dex_Main_Features_des') ?></h4>
+                <p style="text-align: center;" class="desc">Instantly Accessible. No need for registration or approval from a central authority.</p>
+                <div class="col3">
+                    <div class="img">
+                        <img src="/images/cases/icons/1.svg" alt="frontend">
+                    </div>
+                    <p class="title">Decentralized</p>
+                    <p class="desc" style="padding: 0 10px; text-align: center;">Trading takes place on a global P2P network of users running BIKI DEX on their own machines.</p>
+                </div>
+                <div class="col3">
+                    <div class="img">
+                        <img src="/images/cases/icons/2.svg" alt="backend">
+                    </div>
+                    <p class="title">Safe</p>
+                    <p class="desc" style="padding: 0 10px; text-align: center;">BIKI DEX never holds your funds. Security deposits and multisig trade wallets encourage safe, successful trades.</p>
+                </div>
+                <div class="col3">
+                    <div class="img">
+                        <img src="/images/cases/icons/3.svg" alt="design">
+                    </div>
+                    <p class="title">Private</p>
+                    <p class="desc" style="padding: 0 10px; text-align: center;">No one except trading partners exchange personally identifying data. All personal data is stored locally.</p>
+                </div>
+                <div class="col3">
+                    <div class="img">
+                        <img src="/images/cases/icons/4.svg" alt="graphic">
+                    </div>
+                    <p class="title">Open</p>
+                    <p class="desc" style="padding: 0 10px; text-align: center;">Code is open source, and project strategy is discussed openly on Keybase and GitHub.</p>
+                </div>
+                <div class="col3">
+                    <div class="img">
+                        <img src="/images/cases/icons/5.svg" alt="support">
+                    </div>
+                    <p class="title">Easy to Use</p>
+                    <p class="desc" style="padding: 0 10px; text-align: center;">We've made all this sophistication simple—make your first trade in under 5 minutes!</p>
+                </div>
+                <div class="col3">
+                    <div class="img">
+                        <img src="/images/cases/icons/6.svg" alt="support">
+                    </div>
+                    <p class="title">No fees</p>
+                    <p class="desc" style="padding: 0 10px; text-align: center;">No complicated trading fees to have to track and manage. It’s truly free..</p>
+                </div>
+                <!-- <div class="col3">
+                    <div class="img">
+                        <img src="/images/cases/icons/7.svg" alt="support">
+                    </div>
+                    <p class="title">Intuitive</p>
+                    <p class="desc">Easy-to-use design with you in mind. Buy or sell your favorite tokens in under a minute.</p>
+                </div> -->
+                <div class="col3">
+                    <div class="img">
+                        <img src="/images/cases/icons/7.svg" alt="support">
+                    </div>
+                    <p class="title">Liquid</p>
+                    <p class="desc" style="padding: 0 10px; text-align: center;">Easy onboarding for market makers. Fill any size order at the most competitive prices–with no spending limits.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -330,30 +398,30 @@ body .container{max-width: 990px;width: 100%;}
     <div class="container">
         <div class="row">
             <div class="col-12">
-            <h2>Main Features</h2>
+            <h2><?= Yii::t('app', 'dex_Main_Features') ?></h2>
             <div class="arrow grey"></div>
-            <h4>We launch advanced commerce platforms</h4>
+            <h4><?= Yii::t('app', 'dex_Main_Features_des') ?></h4>
             </div>
             <div class="col-sm-4">
                 <div class="img">
                     <img src="/images/cases/lcoin/purse.svg" alt="purse">
                 </div>
-                <p class="title">Wallet Keeper</p>
-                <span>Combines all your cryptocurrency wallets & payment cards</span>
+                <p class="title"><?= Yii::t('app', 'dex_Main_Features_name_1') ?></p>
+                <span><?= Yii::t('app', 'dex_Main_Features_name_1_des') ?></span>
             </div>
             <div class="col-sm-4">
                 <div class="img">
                     <img src="/images/cases/lcoin/left-right.svg" alt="left-right">
                 </div>
-                <p class="title">Financial transactions</p>
-                <span>It makes the transactions between wallets and cards even faster</span>
+                <p class="title"><?= Yii::t('app', 'dex_Main_Features_name_2') ?></p>
+                <span><?= Yii::t('app', 'dex_Main_Features_name_2_des') ?></span>
             </div>
             <div class="col-sm-4">
                 <div class="img">
                     <img src="/images/cases/lcoin/discover.svg" alt="discover">
                 </div>
-                <p class="title">Security</p>
-                <span>It keeps safe all your personal data and payments</span>
+                <p class="title"><?= Yii::t('app', 'dex_Main_Features_name_3') ?></p>
+                <span><?= Yii::t('app', 'dex_Main_Features_name_3_des') ?></span>
             </div>
         </div>
     </div>
@@ -399,19 +467,19 @@ body .container{max-width: 990px;width: 100%;}
                 <div class="img">
                     <img src="/images/cases/lcoin/Letter.svg" alt="Letter">
                 </div>
-                <p>Letter</p>
+                <!-- <p>Letter</p> -->
             </div>
             <div class="col-sm-4 pr2">
                 <div class="img">
                     <img src="/images/cases/lcoin/Coin.svg" alt="Coin">
                 </div>
-                <p>Coin</p>
+                <!-- <p>Coin</p> -->
             </div>
             <div class="col-sm-4">
                 <div class="img">
                     <img src="/images/cases/lcoin/L-coin.svg" alt="Lcoin">
                 </div>
-                <p>Lcoin</p>
+                <!-- <p>Lcoin</p> -->
             </div>
         </div>
     </div>
@@ -420,17 +488,18 @@ body .container{max-width: 990px;width: 100%;}
     <div class="container">
         <div class="row">
         <div class="col-12">
-            <h2>Iconography</h2>
+            <h2><?= Yii::t('app', 'dex_Iconography_name') ?></h2>
             <div class="arrow"></div>
-            <h4>We launch advanced commerce platforms</h4>
+            <h4><?= Yii::t('app', 'dex_Main_Features_des') ?></h4>
             </div>
         </div>
-        <div class="col6"><img src="/images/cases/lcoin/circle.png" alt="circle"></div>
-        <div class="col6"><img src="/images/cases/lcoin/table.png" alt="table"></div>
-        <div class="col6"><img src="/images/cases/lcoin/settings.png" alt="settings"></div>
-        <div class="col6"><img src="/images/cases/lcoin/info.png" alt="info"></div>
-        <div class="col6"><img src="/images/cases/lcoin/purse-black.png" alt="purse-black"></div>
-        <div class="col6"><img src="/images/cases/lcoin/clock.png" alt="clock"></div>
+        <div class="col6"><img src="/images/cases/lcoin/Iconography/1.png" alt="circle"></div>
+        <div class="col6"><img src="/images/cases/lcoin/Iconography/2.png" alt="table"></div>
+        <div class="col6"><img src="/images/cases/lcoin/Iconography/3.png" alt="settings"></div>
+        <div class="col6"><img src="/images/cases/lcoin/Iconography/4.png" alt="info"></div>
+        <div class="col6"><img src="/images/cases/lcoin/Iconography/5.png" alt="purse-black"></div>
+        <div class="col6"><img src="/images/cases/lcoin/Iconography/6.png" alt="clock"></div>
+        <div class="col6"><img src="/images/cases/lcoin/Iconography/7.png" alt="clock"></div>
     </div>
 </section>
 <section class="main main11"  style="background: #151515;">
@@ -445,43 +514,43 @@ body .container{max-width: 990px;width: 100%;}
             <div class="option">
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tech/1.png" alt="javascript">
+                        <img src="/images/techy/1.png" alt="javascript">
                     </div>
                     <!--<p class="title">JavaScript</p>-->
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/2.png" alt="javascript">
+                    <img src="/images/techy/2.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/3.png" alt="javascript">
+                    <img src="/images/techy/3.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/4.png" alt="javascript">
+                    <img src="/images/techy/4.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/5.png" alt="javascript">
+                    <img src="/images/techy/5.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/6.png" alt="javascript">
+                    <img src="/images/techy/6.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/7.png" alt="javascript">
+                    <img src="/images/techy/7.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/8.png" alt="javascript">
+                    <img src="/images/techy/8.png" alt="javascript">
                     </div>
                 </div>
             </div>
