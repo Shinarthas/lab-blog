@@ -19,7 +19,6 @@ if(strlen($model->h1) == 0)
     'name' => 'description',
     'content' => $model->meta_desc
 ]);
-
 $metaimage = Yii::getAlias('@front'). Yii::$app->ImageComponent->getCacheImage($model->background,$model->background_path,1920,600);
 if(isset($model->background2))
     $metaimage = Yii::getAlias('@front'). Yii::$app->ImageComponent->getCacheImage($model->background2,$model->background_path2,1920,600);
