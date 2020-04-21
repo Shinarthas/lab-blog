@@ -1,0 +1,749 @@
+/**/
+
+.main.wrapper3 .content {
+    margin: 0 auto;
+    padding: 0 0 336px;
+}
+
+.main.wrapper3 .round {
+    margin-top: 280px;
+}
+
+.block.red h2 {
+    margin-top: 3px;
+}
+
+.block.red .block {
+    margin: 118px auto 115px;
+}
+
+.main.wrapper3 .round .design .item {
+    top: -155px;
+    left: -45px;
+}
+
+.main.wrapper3 .round .analysis .item {
+    top: -159px;
+    left: -75px;
+}
+
+.main.wrapper3 .round .development .item {
+    top: 152px;
+    left: -40px;
+}
+
+.main.wrapper3 .round .product .item {
+    top: 153px;
+    left: -90px;
+}
+
+@keyframes appearance-left {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes appearance-right {
+    100% {
+        opacity: 1;
+    }
+}
+
+.second-screen__title {
+    letter-spacing: 3px;
+}
+
+.second-screen__mass-media {
+    position: relative;
+}
+
+.second-screen__content {
+    padding: 150px 30px 131px;
+    width: auto;
+    overflow: hidden;
+}
+
+.second-screen__mass-media img:last-child,
+.second-screen__mass-media img:first-child,
+.second-screen__mass-media img {
+    margin: 30px 35px 50px;
+}
+
+.second-screen__hr {
+    padding: 26px 0 26px;
+}
+
+.second-screen__logo {
+    margin-top: 69px;
+}
+
+.block.lafka {
+    padding: 119px 0 145px;
+}
+
+.block.lafka .outer-phone p.title {
+    padding-right: 3px;
+    margin-top: 62px;
+}
+
+.block.lafka .phone {
+    height: 600px;
+}
+
+.block.lafka .outer-phone .lafka-platform {
+    margin-top: 53px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+.lafka {
+    padding-left: 5px;
+}
+
+.block.lafka .outer-phone {
+    margin-bottom: 0;
+}
+
+.block.lafka .outer-phone a.button {
+    margin-left: 5px;
+    margin-top: 40px;
+    text-align: center;
+    background-position: 154px 50%;
+    padding: 0 30px 0 0;
+}
+
+.block.lafka .outer-phone p.desc {
+    padding: 0 4px 0 40px;
+    letter-spacing: .1px;
+}
+
+.main.wrapper2 .wrap2 .title {
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 20px;
+    float: left;
+    width: calc(100% - 228px);
+}
+
+.main.wrapper2 .wrap2 .img {
+    float: left;
+    width: 228px;
+}
+
+.main.wrapper2 .wrap2 .desc {
+    padding-top: 4px;
+    line-height: 32px;
+    text-align: left;
+    float: left;
+    width: calc(100% - 228px);
+    padding-left: 20px;
+}
+
+.img img {
+    padding-top: 10px;
+}
+
+.main.wrapper2 .wrap2:nth-child(2) {
+    margin-bottom: 82px;
+}
+
+.main.wrapper2 .wrap2:nth-child(3) {
+    margin-bottom: 72px;
+}
+
+div.buttonSicWrapper.center {
+    margin-top: 109px;
+    margin-bottom: 0;
+}
+
+.main.wrapper3 div.round {
+    margin-top: 268px;
+}
+
+.main.wrapper3 div.round p.title {
+    padding-bottom: 0;
+    margin-bottom: 8px;
+}
+
+.white-block {
+    margin: 117px auto 7px;
+    max-width: 710px;
+    padding: 61px 0 53px;
+}
+
+.startap .stap {
+    float: left;
+    width: 232px;
+}
+
+.block.red .startap .title,
+.block.red .startap .desc,
+.block.red .startap .price {
+    float: left;
+    width: calc(100% - 232px);
+    text-align: left;
+}
+
+.block.red .startap .title {
+    padding: 1px 0 13px 14px;
+}
+
+.block.red .startap:not(:last-child) {
+    border-right: medium none;
+    margin-bottom: 58px;
+}
+
+.block.red .startap:nth-child(2) {
+    margin-bottom: 68px;
+}
+
+.block.red .startap .desc {
+    padding: 20px 14px;
+}
+
+.block.red .startap .price {
+    padding: 26px 0 0 14px;
+}
+
+.block.red img.shadow {
+    bottom: 335px;
+    width: 95%;
+}
+
+
+}
+@media only screen and (max-width:767px) {
+    .first-screen__title {
+        padding: 0 30px;
+    }
+    
+    .first-screen__light {
+        background-size: auto 70%;
+    }
+    
+    .first-screen__content {
+        padding-top: 287px;
+    }
+    
+    .first-screen__desc {
+        padding: 0 20px 45px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    
+    .first-screen__title {
+        line-height: 40px;
+        font-size: 35px;
+        padding-bottom: 1px;
+    }
+    
+    .first-screen__thunderrise {
+        top: 120px;
+        height: 112px;
+    }
+    
+    .first-screen__desc {
+        padding: 0 20px 45px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    
+    .second-screen__hr {
+        margin-top: 46px;
+    }
+    
+    .second-screen__arrow {
+        margin: 5px 0 -5px;
+    }
+    
+    div.main.wrapper3 div.arrow {
+        margin-bottom: 3px;
+    }
+    
+    .second-screen__content {
+        padding-top: 115px;
+    }
+    
+    .second-screen__mass-media {
+        padding-bottom: 0;
+    }
+    
+    .second-screen__mass-media img:first-child {
+        position: static;
+        transform: none;
+        margin: 0 auto 90px;
+    }
+    
+    .second-screen__mass-media img {
+        display: block;
+        margin: 0 auto 90px;
+    }
+    
+    .second-screen__mass-media img:last-child {
+        margin: 0 auto;
+    }
+    
+    .second-screen__deploy {
+        width: auto;
+    }
+    
+    .language-program {
+        overflow: auto;
+        padding-right: 20px;
+    }
+    
+    .block.lafka {
+        padding: 59px 0 113px;
+    }
+    
+    .block.lafka .outer-phone p.title {
+        margin-top: 42px;
+        text-align: center;
+    }
+    
+    .block.lafka .outer-phone p.desc {
+        padding: 0;
+        text-align: center;
+    }
+    
+    .block.lafka .outer-phone .lafka-platform {
+        margin-top: 41px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .lafka {
+        padding-left: 11px;
+        text-align: center;
+    }
+    
+    .block.lafka .outer-phone a.button {
+        margin-left: 0px;
+        padding: 2px 30px 0 0;
+    }
+    
+    .main.wrapper2 {
+        padding: 39px 0 120px;
+    }
+    
+    .main.wrapper2 .wrap2 .img,
+    .main.wrapper2 .wrap2 .title,
+    .main.wrapper2 .wrap2 .desc,
+    .startap .stap,
+    .block.red .startap .title,
+    .block.red .startap .desc,
+    .block.red .startap .price {
+        float: none;
+        width: auto;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .main.wrapper2 h2 {
+        margin-bottom: 64px;
+    }
+    
+    .main.wrapper2 .wrap2 .title {
+        margin-top: 37px;
+        margin-bottom: 13px;
+    }
+    
+    .main.wrapper2 .wrap2:nth-child(2) {
+        margin-bottom: 99px;
+    }
+    
+    .main.wrapper2 .wrap2:nth-child(3) {
+        margin-bottom: 103px;
+    }
+    
+    .main.wrapper3 {
+        padding: 60px 0 0;
+    }
+    
+    .main.wrapper3 h3 {
+        line-height: 51px;
+        padding: 0 10px;
+    }
+    
+    .main.wrapper3 h2 {
+        margin-top: -7px;
+    }
+    
+    .main.wrapper3 div.round {
+        margin-top: 281px;
+        width: 420px;
+        height: 420px;
+    }
+    
+    .main.wrapper3 .round .analysis .item {
+        top: -198px;
+        left: 16px;
+        width: 180px;
+    }
+    
+    .main.wrapper3 .round .design .item {
+        top: -198px;
+        left: -65px;
+        width: 180px;
+    }
+    
+    .main.wrapper3 .round .product .item {
+        top: 169px;
+        left: 15px;
+        width: 180px;
+    }
+    
+    .main.wrapper3 .round .development .item {
+        top: 169px;
+        left: -64px;
+        width: 180px;
+    }
+    
+    .main.wrapper3 .content {
+        padding-bottom: 307px;
+    }
+    
+    .block.red {
+        padding: 58px 0 150px;
+    }
+    
+    .white-block {
+        max-width: 390px;
+        margin-top: 83px;
+        padding-top: 35px;
+    }
+    
+    .startap .stap {
+        float: none;
+        line-height: 200px;
+    }
+    
+    .block.red .startap .title {
+        margin-top: 48px;
+        margin-bottom: 20px;
+    }
+    
+    .block.red .startap .desc {
+        display: block;
+        padding: 22px 0;
+        margin-bottom: 22px;
+    }
+    
+    .block.red .startap:not(:last-child) {
+        margin-bottom: 76px;
+    }
+}
+@media only screen and (max-width:449px) {
+    .header__logo .tt1 img {
+        width: 146px;
+    }
+    
+    .header__content:after {
+        left: 20px;
+        right: 20px;
+    }
+    
+    .header__logo {
+        height: 60px;
+        line-height: 60px;
+    }
+    
+    .header_white .tt2 {
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .header_white .tt3 {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .header__menu-mobile-control {
+        width: 70px;
+        height: 60px;
+        background-position-x: 21px;
+    }
+    
+    .header__menu_visible {
+        padding-top: 0px;
+    }
+    
+    .header__menu-link:after {
+        left: 20px;
+        right: 20px;
+    }
+    
+    .header__social-mobile-control {
+        width: 70px;
+        height: 60px;
+        background-position-x: 18px;
+    }
+    
+    .header__social {
+        top: 60px;
+    }
+    
+    .header__social-link {
+        padding: 0 70px 0 20px;
+    }
+    
+    .header_white .header__social-mobile-control {
+        background-position-x: 18px;
+    }
+    
+    .header_white .header__social-mobile-control_active {
+        background: url('../images/social.svg') no-repeat 18px 50%, #fff;
+    }
+    
+    .first-screen {
+        height: 560px;
+    }
+    
+    .first-screen__light {
+        background-size: auto 50%;
+    }
+    
+    .first-screen__thunderrise {
+        top: 110px;
+        height: 76px;
+    }
+    
+    .first-screen__content {
+        padding-top: 220px;
+    }
+    
+    .first-screen__title {
+        padding: 0 10px;
+        line-height: 40px;
+        font-size: 29px;
+    }
+    
+    .second-screen__mass-media img,
+    .second-screen__mass-media img:first-child {
+        margin-bottom: 70px;
+    }
+    
+    .second-screen__mass-media img:last-child {
+        margin-bottom: 5px;
+    }
+    
+    .first-screen__desc {
+        padding-bottom: 37px;
+        letter-spacing: 0px;
+    }
+    
+    .second-screen__title {
+        letter-spacing: 3.2px;
+    }
+    
+    .second-screen__content {
+        padding-top: 61px;
+    }
+    
+    .second-screen__content {
+        padding: 61px 10px 115px;
+        width: auto;
+    }
+    
+    .second-screen__mass-media img {
+        height: 63px;
+    }
+    
+    .second-screen__deploy {
+        padding: 0 10px;
+    }
+    
+    .second-screen__hr {
+        margin-top: 52px;
+    }
+    
+    .block.lafka h2,
+    .block.red h2 {
+        letter-spacing: .4px;
+        margin-top: 3px;
+        font-size: 11px;
+    }
+    
+    .block.lafka .outer-phone p.title {
+        font-size: 24px;
+    }
+    
+    .block.lafka .outer-phone p.desc {
+        font-size: 18px;
+    }
+    
+    .block.lafka h3,
+    .block.red h3 {
+        font-size: 40px;
+    }
+    
+    .block.lafka {
+        padding-top: 61px
+    }
+    
+    .block.lafka .col-pad,
+    .main.wrapper2 .col-pad {
+        padding: 0;
+    }
+    
+    .block.lafka .outer-phone {
+        margin-top: 83px;
+    }
+    
+    .block.lafka .outer-phone p.title {
+        margin-top: 39px;
+        margin-bottom: 6px;
+    }
+    
+    .lafka {
+        padding-left: 0;
+    }
+    
+    .block.lafka .outer-phone .lafka-platform {
+        margin-bottom: 32px;
+    }
+    
+    .main.wrapper2 h3 {
+        font-size: 40px;
+        line-height: 54px;
+        margin-top: 44px;
+    }
+    
+    .main.wrapper2 h2 {
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-top: 3px;
+    }
+    
+    .main.wrapper3 h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    .main.wrapper3 h2 {
+        margin-top: -5px;
+        font-size: 10px;
+    }
+    
+    .r1-max,
+    .r2-max {
+        visibility: hidden !important;
+    }
+    
+    .r1-min,
+    .r2-min {
+        display: block;
+    }
+    
+    .main.wrapper3 div.round {
+        width: 282px;
+        height: 282px;
+        margin-top: 300px;
+    }
+    
+    .main.wrapper3 .round .analysis .item {
+        top: -195px;
+        left: 19px;
+        width: 140px;
+    }
+    
+    .main.wrapper3 .round .design .item {
+        top: -195px;
+        left: auto;
+        right: 16px;
+        width: 140px;
+    }
+    
+    .main.wrapper3 .round .product .item {
+        top: 162px;
+        left: 20px;
+        width: 140px;
+    }
+    
+    .main.wrapper3 .round .development .item {
+        top: 162px;
+        left: auto;
+        right: 17px;
+        width: 140px;
+    }
+    
+    .main.wrapper3 .desc {
+        line-height: 25px !important;
+        font-size: 14px !important;
+    }
+    
+    .main.wrapper3 div.round p.title {
+        letter-spacing: 3px;
+    }
+    
+    .main.wrapper3 div.round img.r1 {
+        max-width: 162px;
+        max-height: 162px;
+        top: 50%;
+        left: 50%;
+        margin: -81px 0 0 -81px;
+    }
+    
+    .main.wrapper3 div.round {
+        background: url(../images/main/w3.light-min.svg) no-repeat 50% 50%;
+    }
+    
+    .main.wrapper3 div.round div.analysis {
+        left: -22px;
+        top: -22px;
+    }
+    
+    .main.wrapper3 div.round div.design {
+        top: -22px;
+        right: -22px;
+    }
+    
+    .main.wrapper3 div.round div.product {
+        left: -22px;
+        bottom: -22px;
+    }
+    
+    .main.wrapper3 div.round div.development {
+        right: -22px;
+        bottom: -22px;
+    }
+    
+    .main.wrapper3 .content {
+        padding-bottom: 329px;
+    }
+    
+    .block.red {
+        padding: 61px 0 80px;
+    }
+    
+    .block.red h3 {
+        margin-bottom: -3px;
+    }
+    
+    .white-block {
+        max-width: 280px;
+        margin-top: 83px;
+        padding: 35px 0 46px;
+    }
+    
+    div.buttonSic {
+        max-width: 285px;
+        width: 100%;
+    }
+    
+    .block.red div.buttonSicWrapper.center {
+        margin-top: 73px;
+    }
+    
+    .footer p.desc-mail {
+        letter-spacing: -.2px;
+    }
+    
+    .last-foot {
+        margin-top: 18px;
+    }
+    
+    .block.lafka .outer-phone .lafka-shadow {
+        display: none;
+    }
+}

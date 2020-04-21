@@ -1,0 +1,28 @@
+Options All -ExecCGI -Indexes -Includes +FollowSymLinks
+DirectoryIndex index.php
+AddDefaultCharset UTF-8
+ServerSignature Off
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header set Connection keep-alive
+    Header unset ETag
+</IfModule>
+FileETag None
+
+<ifModule mod_deflate.c>
+    SetOutputFilter DEFLATE
+    Header set Cache-Control "max-age=0"
+</ifModule>
+
+<ifModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access 3600 seconds"
+</ifModule>

@@ -1,0 +1,23 @@
+.img-list{
+    width: 100%;
+    margin: 20px 0;
+    height: 500px;
+    border: 1px solid;
+    overflow-y: scroll;
+}
+
+.img-list img{
+    padding: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.img-list img:hover{
+    background: green;
+}
+
+.img-list img:active{
+    background: #1ff7fd;
+}
+.load-today{
+    background: #2484ff;
+}

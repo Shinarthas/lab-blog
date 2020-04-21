@@ -1,0 +1,203 @@
+/* font-family: "RalewayRegular"; */
+
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"), url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "RalewayLight"; */
+
+@font-face {
+    font-family: "RalewayLight";
+    src: url("../fonts/RalewayLight/RalewayLight.eot");
+    src: url("../fonts/RalewayLight/RalewayLight.eot?#iefix")format("embedded-opentype"), url("../fonts/RalewayLight/RalewayLight.woff") format("woff"), url("../fonts/RalewayLight/RalewayLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "RalewayMedium"; */
+
+@font-face {
+    font-family: "RalewayMedium";
+    src: url("../fonts/RalewayMedium/RalewayMedium.eot");
+    src: url("../fonts/RalewayMedium/RalewayMedium.eot?#iefix")format("embedded-opentype"), url("../fonts/RalewayMedium/RalewayMedium.woff") format("woff"), url("../fonts/RalewayMedium/RalewayMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../fonts/RalewayBold/RalewayBold.eot");
+    src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix")format("embedded-opentype"), url("../fonts/RalewayBold/RalewayBold.woff") format("woff"), url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.first-screen__clouds.ru-version {
+    background-image: url(../images/clouds2.png);
+}
+
+.first-screen.ru-version {
+    height: 550px;
+}
+
+.first-screen.ru-version .first-screen__content {
+    padding-top: 178px;
+}
+
+.first-screen.ru-version .first-screen__content .first-screen__title {
+    line-height: 40px;
+    font-family: "RalewayBold", sans-serif;
+}
+
+.first-screen.ru-version .first-screen__content .first-screen__desc {
+    line-height: 34px;
+}
+
+.button-sic__item {
+    border-radius: 38px;
+}
+
+.col-md-4 .button-sic__item {
+    border-radius: 38.5px;
+}
+
+.arrow {
+    height: 40px;
+    background: url(../images/arrow/grey.png) no-repeat 50% 50%;
+}
+
+.second-screen h3 {
+    line-height: 60px;
+    font-size: 46px;
+    font-family: 'RalewayLight', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.block.phones .fix-case h3 {
+    font-family: 'RalewayLight', sans-serif;
+}
+
+.second-screen h2 {
+    line-height: 20px;
+    font-size: 13px;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: 2px;
+    position: relative;
+    z-index: 110;
+    margin-bottom: 103px;
+}
+
+.header__menu-link {
+    font-family: 'RalewayMedium', sans-serif;
+}
+
+.first-screen__desc.ru-version {
+    font-size: 23px;
+    font-family: "RalewayRegular", sans-serif;
+}
+
+.ru-service-item {
+    margin-bottom: 140px;
+}
+
+.ru-service.button {
+    padding: 0 0 140px;
+}
+
+.ru-service.button .button-sic__item {
+    width: 100%;
+}
+
+.ru-service-item__title {
+    margin: 28px 0 25px;
+    font-family: 'RalewayMedium', sans-serif;
+    font-size: 22px;
+    line-height: 1em;
+}
+
+.ru-service-item__title.red {
+    font-size: 18px;
+    color: #ff7700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.ru-service-item__title.red a {
+    color: #ff7700;
+}
+
+.ru-service-item__desc.small {
+    font-size: 14px;
+}
+
+.ru-service-item__desc {
+    font-size: 16px;
+    line-height: 2em;
+    color: #fff;
+}
+
+.ru-service-item__icon {
+    width: 80px;
+    height: 69px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pdf-link {
+    display: block;
+}
+
+.footer.ru-version p {
+    margin: 7px 0 8px;
+}
+
+.footer.ru-version .menu-item {
+    margin-top: 12px;
+}
+
+.footer.ru-version .sec-foot {
+    margin: 30px -15px 0 -15px;
+}
+
+.footer.ru-version .get-touch {
+    text-align: right;
+}
+
+@media(min-width: 991px) {
+    .first-screen__title.ru-version,
+    .first-screen__desc.ru-version {
+        max-width: 60%;
+    }
+    .ru-service h3 {
+        margin-top: 90px;
+    }
+}
+
+@media(max-width: 998px) {
+    .ru-service-item {
+        text-align: center;
+    }
+    .ru-service-item__icon {
+        margin: auto;
+    }
+    .pdf-link {
+        margin-bottom: 20px;
+    }
+    .pdf-link .img-responsive {
+        display: inline-block;
+    }
+    .button-sic__item.margined {
+        margin-bottom: 30px;
+    }
+}

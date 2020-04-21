@@ -1,0 +1,10 @@
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - tests\codeception\common\_support\FixtureHelper
+        - WebDriver
+    config:
+        WebDriver:
+            url: http://thunderrise
+            browser: firefox
+            restart: false

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media all and (max-width: 992px) {
+
+    /* header */
+
+    div.main.wrapper2 div.content{
+        padding-bottom: 80px;
+    }
+
+    div.footer div.center {
+        padding-bottom: 26px;
+    }
+
+    
+
+    div.main.wrapper2 div.float p.desc {
+        padding-top: 13px;
+    }
+    
+    div.block.lafka div.content{
+        padding-bottom: 222px;
+    }
+    
+}

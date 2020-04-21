@@ -1,0 +1,12 @@
+/index.php
+/index-test.php
+/cache/img/*
+/cache/temp.txt
+/cache
+.htaccess
+/sitemap.xml
+/images/*
+/uploads/*
+/videos/*
+/sounds/*
+/fonts/*

@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* coming */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    min-width: 960px;
+    background-color: #ffffff;
+}
+
+div.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+/* animate */
+
+div.animate {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fa5a1c;
+}
+
+div.animate img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: 50% 50%;
+}
+
+div.animate img.r1 {
+    animation: rotation1 infinite 14s linear;
+}
+
+div.animate img.r2 {
+    animation: rotation2 infinite 14s linear;
+}
+
+div.animate img.r3 {
+    animation: rotation3 infinite 14s linear;
+}
+
+@keyframes rotation1 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation2 {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes rotation3 {
+    0% {
+        opacity: 1;
+    }
+    6.5% {
+        opacity: 1;
+    }
+    7% {
+        opacity: 0;
+    }
+    33.5% {
+        opacity: 0;
+    }
+    34% {
+        opacity: 1;
+    }
+    56.5% {
+        opacity: 1;
+    }
+    57% {
+        opacity: 0;
+    }
+    83.5% {
+        opacity: 0;
+    }
+    84% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+}
+
+/* animate */
+
+/* site */
+
+div.site {
+    position: relative;
+    min-height: 100%;
+}
+
+div.site div.content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 960px;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+div.site h1 {
+    padding: 0 180px 20px;
+    line-height: 50px;
+    font-size: 36px;
+    font-family: 'Raleway Bold', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+div.site div.button {
+    margin: 0 auto;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #ff5f00;
+    background-color: #ffffff;
+    border-radius: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 10px 15px 0 rgba(240, 73, 0, 0.5);
+}
+
+/* site */

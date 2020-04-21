@@ -1,0 +1,319 @@
+*
+{
+	padding:0;margin:0;
+}
+.sun
+{
+position:absolute;
+top:10px;
+right:10px;
+}
+	#main
+	{
+		
+		height:518px;
+		width:100%;
+		background: #a1adff;
+		position:relative;
+		transition-duration:1s;
+	}
+	
+	.overlay.night #main
+	{
+		background:#6c6c6c;
+		transition-duration:1s;
+	}
+	.overlay.stage2 #main
+	{
+		background: #716def;
+	}
+	#ground
+	{
+		width:120%;
+		height:82px;
+		background: #eee url('../images/mario/ground_small.png');
+		position:relative;
+	}
+	.stage2	#ground
+	{
+		background: #eee url('../images/mario/ground_small_stage2.png');
+	}
+	.overlay.night #ground
+	{
+		-webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+		filter: grayscale(30%);
+	}
+	#hero
+	{
+		bottom:0;
+		left:100px;
+		background-image: url('../images/mario/hero.png');
+		background-position: 0px -80px;
+		height:63px;
+		width:63px;
+		position:absolute;	
+	}
+	#hero.super
+	{
+		filter: invert(100%);
+	}
+	.stage3 #hero,.stage4 #hero,.stage5 #hero
+	{
+		background-image: url('../images/mario/hero2.png');
+	}
+	.stage6 #hero,.stage7 #hero,.stage8 #hero,.stage9 #hero,.stage10 #hero
+	{
+		background-image: url('../images/mario/hero3.png');
+	}
+	.overlay.night #hero
+	{
+		-webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+		filter: grayscale(30%);
+	}
+	#start-button
+	{
+		position: absolute;
+		background: #eee url('../images/mario/button_small.png');
+		top:70px;
+		width:388px;
+		height:195px;
+		left: calc( 50% - 194px );
+		cursor: pointer;
+		z-index: 40;
+	}
+	#start-button p
+	{
+		font-size:40px;
+		color:white;
+		padding:60px 40px 0;
+		text-align: center;
+		line-height: 1.1;
+	}
+	#start-button small
+	{	
+		font-size:20px;
+		color:white;
+		padding:20px 40px;
+		text-align: center;
+		line-height: 1.1;
+		display: block;
+	}
+	.cloud_animate
+	{
+		left:-300px!important;
+		transition-duration:50s;
+		transition-timing-function: linear;
+	}
+	.cloud1
+	{
+		position: absolute;
+		right:-200px;
+		width:190px;
+		height:79px;
+	}
+	.cloud1:before
+	{
+		background: url('../images/mario/cloud1.png');
+		width:190px;
+		height:79px;
+		opacity:1;
+		content: " ";
+		display:block;
+		transition-duration:1s;
+	}
+	.cloud2
+	{
+		position: absolute;
+		right:-200px;
+		width:190px;
+		height:79px;
+	}
+	.cloud2:before
+	{
+		
+		background: url('../images/mario/cloud2.png');
+		width:95px;
+		height:74px;
+		opacity:1;
+		content: " ";
+		display:block;
+		transition-duration:1s;
+	}
+	.overlay.night .cloud1:before,.overlay.night .cloud2:before
+	{
+		opacity:0.5;
+		transition-duration:1s;
+		-webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+		filter: grayscale(70%);
+	}
+	.secret
+	{
+		position: absolute;
+		right:-200px;
+		background: url('../images/mario/secret.png');
+		width:52px;
+		height:47px;
+	}
+	#score
+	{
+		padding:10px;
+		color:white;
+		font-size: 20px;
+		display: none;
+	}
+
+	.enemy
+	{
+		position: absolute;
+		background: url('../images/mario/enemy.png');
+		width:42px;
+		height:42px;
+		bottom:0;
+
+	}
+	.enemy.collected
+	{
+		height:12px;
+		background: url('../images/mario/enemy_dead2.png');
+	}
+	.overlay.stage2 .enemy1
+	{
+		background: url('../images/mario/enemy_stage2.png');
+	}
+	
+	.overlay.stage2 .enemy1.collected
+	{
+		background: url('../images/mario/enemy_dead2_stage2.png');
+	}
+	
+	.overlay.stage3 .enemy,.overlay.stage6 .enemy
+	{
+		-webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+		filter: grayscale(30%);
+	}
+	
+	.enemy2
+	{
+		position: absolute;
+		background: url('../images/mario/enemy2.png');
+		width:40px;
+		height:54px;
+		bottom:0;
+	}
+	.enemy3
+	{
+		position: absolute;
+		background: url('../images/mario/enemy3.png');
+		width:40px;
+		height:66px;
+		bottom:0;
+	}
+	.enemy4
+	{
+		position: absolute;
+		background: url('../images/mario/enemy4.png');
+		width:42px;
+		height:32px;
+		bottom:0;
+	}
+	.enemy4.collected
+	{
+		display:none;
+	}
+	.enemy5
+	{
+		position: absolute;
+		background: url('../images/mario/enemy5.png');
+		width:42px;
+		height:43px;
+		bottom:0;
+	}
+	.enemy5.collected
+	{
+		height:27px;
+		background: url('../images/mario/enemy5_dead.png') ;
+	}
+
+	.endflag
+	{
+		position: absolute;
+		background: url('../images/mario/flag.png');
+		width:45px;
+		height:349px;
+		bottom:0;
+	}
+	#jump-button
+	{
+		position: absolute;
+		background:#df5527;
+		bottom:60px;
+		right:10px;
+		color:white;
+		font-size:25px;
+		padding:25px;
+		text-align: center;
+		cursor: pointer;
+		display:none;
+		z-index:10;
+	}
+	.coin
+	{
+		position: absolute;
+		background: url('../images/mario/money2.png');
+		width:47px;
+		height:63px;
+		bottom:90px;
+	}
+	.coin.purple
+	{
+		background: url('../images/mario/money_purple.png');
+	}
+	.coin.heart
+	{
+		width:48px;
+		height:45px;
+		background: url('../images/mario/heart.png');
+	}
+	#highscore
+	{
+		position: absolute;
+		background: #eee url('../images/mario/highscore-bg.png');
+		top:20px;
+		width:388px;
+		height:353px;
+		left: calc( 50% - 194px );
+		cursor: pointer;
+		z-index: 50;
+		color:white;
+		display:none;
+	}
+	#highscore h3
+	{
+		font-size:26px;
+		padding: 19px 20px 22px;
+		text-align: center;
+		    margin: 4px;
+	}
+	#highscore p
+	{
+		padding: 0px 20px;
+		font-size: 20px;
+		height: 19px;
+	}
+	#highscore p b
+	{
+		float:right;
+	}
+	#highscore input
+	{
+	    padding: 4px;
+		font-size: 12px;
+		color:#333;
+	}
+	#highscore small
+	{
+		text-align:center;
+		padding:2px;
+		    display: block;
+			    font-size: 18px;
+	}

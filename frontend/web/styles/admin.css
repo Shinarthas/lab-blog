@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+/* admin */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    min-width: 960px;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+
+/* header admin */
+
+div.headerAdmin {
+    background-color: #FB8C00;
+}
+
+div.headerAdmin div.content {
+    margin: 0 auto;
+    width: 960px;
+    height: 40px;
+    line-height: 0;
+    font-size: 0;
+}
+
+div.headerAdmin div.content a.link {
+    display: inline-block;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    transition-duration: 250ms;
+}
+
+div.headerAdmin div.content a.link:hover {
+    background-color: #F57C00;
+}
+
+
+/* header admin */
+
+
+/* admin blog */
+
+div.adminBlog {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 960px;
+}
+
+div.adminBlog p.message {
+    padding: 5px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #1B5E20;
+    background-color: #E8F5E9;
+}
+
+div.adminBlog p.error {
+    padding: 5px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #B71C1C;
+    background-color: #FFEBEE;
+}
+
+
+/**/
+
+div.adminBlog div.nav {
+    padding: 5px;
+    background-color: #FB8C00;
+    line-height: 0;
+    font-size: 0;
+}
+
+div.adminBlog div.nav a.item {
+    display: inline-block;
+    padding: 5px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+
+div.adminBlog div.nav a.item:hover {
+    background-color: #F57C00;
+}
+
+
+/**/
+
+div.adminBlog div.blogList {
+    padding-top: 10px;
+    line-height: 0;
+    font-size: 0;
+}
+
+div.adminBlog div.blogList div.item {
+    padding: 5px;
+    background-color: #FFE0B2;
+}
+
+div.adminBlog div.blogList div.item:nth-child(even) {
+    background-color: #FFF3E0;
+}
+
+div.adminBlog div.blogList div.item a.link {
+    display: inline-block;
+    padding: 5px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #E65100;
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+
+div.adminBlog div.blogList div.item a.link:hover {
+    background-color: #FFF3E0;
+}
+
+div.adminBlog div.blogList div.item:nth-child(even) a.link:hover {
+    background-color: #FFE0B2;
+}
+
+div.adminBlog div.blogList div.item span.date {
+    display: inline-block;
+    padding: 5px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #E65100;
+}
+
+
+/**/
+
+div.adminBlog div.blogAdd {
+    display: block;
+}
+
+div.adminBlog div.blogAdd div.line {
+    padding: 5px;
+    background-color: #FFF3E0;
+}
+
+div.adminBlog div.blogAdd div.line:nth-child(even) {
+    background-color: #FFE0B2;
+}
+
+div.adminBlog div.blogAdd label.title {
+    display: block;
+    padding: 0 5px;
+    line-height: 30px;
+    color: #E65100;
+}
+
+div.adminBlog div.blogAdd div.in {
+    padding: 0 5px 5px;
+}
+
+
+/**/
+
+div.adminBlog div.blogEdit {
+    display: block;
+}
+
+div.adminBlog div.blogEdit div.line {
+    padding: 5px;
+    background-color: #FFF3E0;
+}
+
+div.adminBlog div.blogEdit div.line:nth-child(even) {
+    background-color: #FFE0B2;
+}
+
+div.adminBlog div.blogEdit label.title {
+    display: block;
+    padding: 0 5px;
+    line-height: 30px;
+    color: #E65100;
+}
+
+div.adminBlog div.blogEdit div.in {
+    padding: 0 5px 5px;
+}
+
+div.adminBlog div.blogEdit label.title a.link {
+    display: inline-block;
+    padding: 5px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #E65100;
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+
+div.adminBlog div.blogEdit label.title a.link:hover {
+    background-color: #FFE0B2;
+}
+
+
+/* admin blog */
