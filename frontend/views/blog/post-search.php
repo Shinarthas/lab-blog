@@ -62,7 +62,7 @@ echo $this->render("_categories", $data);
 </style>
 
 <div class="blog">
-    <h1>Blog - Lab3M</h1>
+    <h1>Blog</h1>
     <div class="container">
 		 <?php if(isset($_GET['search'])){ ?> <h2 class="category">Searching: <?=$_GET['search'];?></h2> <?php } ?>
         <div class="row">

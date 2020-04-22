@@ -543,7 +543,6 @@ $search_form = new \common\models\PostSearchForm();
         }
         .post-img{
             width: auto;
-            margin:0 15px;
             height:180px;
         }
         .blog h2:not(.category){
@@ -1013,7 +1012,7 @@ echo $this->render("_categories", $data);
 
 <div class="blog">
 
-    <h1>Blog - Lab3M</h1>
+    <h1><?= Yii::t('app', 'blog_name') ?></h1>
     <div class="container">
 		<?php if(isset($select_category)){ ?> <h2 class="category">Category: <?=$select_category->name?></h2> <?php } ?>
         <div class="row">

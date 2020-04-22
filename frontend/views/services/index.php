@@ -189,7 +189,7 @@ body{
  <section id="services" style="background: #151515; display:none">
      <div class="container">
          <div class="row title">
-            <h1 class="text-center">Services</h1>
+            <h1 class="text-center"><?= Yii::t('app', 'Services_name') ?></h1>
             <div class="arrow text-center">
                 <img src="/images/arrow/white.svg" class="text-center" alt="arrow-white">
             </div>

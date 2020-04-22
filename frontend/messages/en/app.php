@@ -462,6 +462,8 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;   
     </p>
 </div>
 <button class="btn cookie-bar__btn" id="setCookie">Agree</button>',
+    'blog_name' => 'Blog - Lab3M',
+    'Services_name' => 'Services',
     'dex_name' => 'BIKI DEX',
     'dex_des' => 'Decentralized exchange based on TRON netowrk and SUN DAppChain',
     'dex_sub_des' => 'BIKI DEX is an open-source, peer-to-peer application that allows you to buy and sell cryptocurrencies without any registration.',

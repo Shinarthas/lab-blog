@@ -274,7 +274,7 @@ body .container{max-width: 990px;width: 100%;}
         </div>
     </div>
 </section>
-<div class="col-12" style="text-align: center;"><img class="img-fluid" src="/images/biki.png" alt=""></div>
+<div class="col-12" style="text-align: center;"><img class="img-fluid" src="/images/biki.png" alt="biki"></div>
 <section class="main main5">
     <div class="container">
         <div class="row">

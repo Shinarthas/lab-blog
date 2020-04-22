@@ -56,10 +56,6 @@ $this->title = Yii::t('app','meta_home_title');
                     <div style="background-color:#6927FF; width:30%; height: 1px; margin-bottom: 15px"></div>
                         <p style="height: 145px;" class="multipleStrings first-screen__title" style="letter-spacing: 0.1em;"></p>
                         <div style="background-color:#6927FF; width:40%; height: 1px; margin-top: 15px"></div>
-                        <!--<p class="first-screen__desc">Native iOS and Android apps</p>-->
-                        <!-- <div class="button-sic__item">getit-btn
-                            <a href="/contacts" class="button-sic__link">Request a free estimate</a>
-                        </div> -->
                     </div>
                 </div>
                 <script>
@@ -104,7 +100,7 @@ $this->title = Yii::t('app','meta_home_title');
         <div class="row">
             <div class="first-screen1">
                 <div class="first-screen__fixed">
-                    <div class="first-screen__content" style="padding-top: 60px;max-width: 1600px;">
+                    <div class="first-screen__content" style="padding-top: 15px;max-width: 1600px;">
                     <div class="row" style="padding: 0 15px;margin: 0;">
         <div class="col-12 text-center" style="">
             <h2 style="font-style: normal;    letter-spacing: 2px;
