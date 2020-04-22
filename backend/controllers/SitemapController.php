@@ -57,8 +57,8 @@ class SitemapController extends Controller
         $services = '';
         foreach(ServicesCategory::find()->with(['services'])->all() as $category)
         {   $url = 'https://lab3m.com/'.$category->url;
-                    $url_ru='https://lab3m.com/ru'.$category->url;
-                    $url_en='https://lab3m.com/en'.$category->url;
+                    $url_ru='https://lab3m.com/'.$category->url;
+                    $url_en='https://lab3m.com/en/'.$category->url;
                     $priority = "0.60";
 			
 			$services.= '<url>
@@ -83,8 +83,8 @@ class SitemapController extends Controller
                 if($service->seo_url != '')
                 {
                     $url = 'https://lab3m.com/'.$category->url.'/'.$service->seo_url;
-                    $url_ru='https://lab3m.com/ru'.$category->url.'/'.$service->seo_url;
-                    $url_en='https://lab3m.com/en'.$category->url.'/'.$service->seo_url;
+                    $url_ru='https://lab3m.com/'.$category->url.'/'.$service->seo_url;
+                    $url_en='https://lab3m.com/en/'.$category->url.'/'.$service->seo_url;
                     $priority = "0.60";
                 }
                 else
@@ -118,12 +118,12 @@ class SitemapController extends Controller
         <link 
                          rel="alternate"
                          hreflang="en"
-                         href="https://lab3m.com/en"
+                         href="https://lab3m.com/en/"
                          />
         <link 
                          rel="alternate"
                          hreflang="ru"
-                         href="https://lab3m.com/ru"
+                         href="https://lab3m.com/"
                          />
     </url>
     <url>
@@ -138,7 +138,7 @@ class SitemapController extends Controller
         <link 
                          rel="alternate"
                          hreflang="ru"
-                         href="https://lab3m.com/ru/about"
+                         href="https://lab3m.com//about"
                          />
     </url>
     <url>
@@ -153,7 +153,7 @@ class SitemapController extends Controller
         <link 
                          rel="alternate"
                          hreflang="ru"
-                         href="https://lab3m.com/ru/contacts"
+                         href="https://lab3m.com//contacts"
                          />
     </url>
     <url>
@@ -168,7 +168,7 @@ class SitemapController extends Controller
         <link 
                          rel="alternate"
                          hreflang="ru"
-                         href="https://lab3m.com/ru/solutions/trade3m"
+                         href="https://lab3m.com//solutions/trade3m"
                          />
     </url>
     <url>
@@ -183,7 +183,7 @@ class SitemapController extends Controller
         <link 
                          rel="alternate"
                          hreflang="ru"
-                         href="https://lab3m.com/ru/blog"
+                         href="https://lab3m.com//blog"
                          />
     </url>';
 
@@ -202,7 +202,7 @@ class SitemapController extends Controller
         $body.=$main_pages;
 
         foreach ($models as $model){
-            $url_ru='https://lab3m.com/ru/'.$model->seo_url;
+            $url_ru='https://lab3m.com//'.$model->seo_url;
             $url_en='https://lab3m.com/en/'.$model->seo_url;
             $temp='
     <url>
