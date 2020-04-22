@@ -42,7 +42,7 @@ return [
             //'enableLocaleUrls' => false,
 // показываем идентификатор языка по умолчанию, если false, то при в корне сайта не будет виден идентификатор языка  www.site.com/   , с true – www.site.com/ru
             'rules' => [
-                '/exchangedex' => '/works/lcoin',
+                '/exchangebiki' => '/works/lcoin',
                 '/trade3m' => '/works/lafka',
                 '/solutions/index' => '/works/lafka',
                 '/solutions' => '/works/index',

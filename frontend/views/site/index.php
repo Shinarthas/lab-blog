@@ -37,6 +37,7 @@ $this->title = Yii::t('app','meta_home_title');
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"></script>
+<script data-ad-client="ca-pub-1190584613508518" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <link href="//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold" rel="stylesheet" type="text/css"/>
 <section class="first-screen" style="z-index: 5;">
 	<!-- <video class="bg-video" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" style="opacity: 0.1;">
@@ -88,9 +89,9 @@ $this->title = Yii::t('app','meta_home_title');
                 <p class="second-screen__title" style="margin-top: 32px"><img src="/images//lab3m.png" alt="lab3m"></p>
                 <div class="second-screen__arrow"></div>
                 <div class="second-screen__deploy">
-                    <h1 class="second-screen__desc" style="color: #fff; margin: 18px 0">
+                    <div class="second-screen__desc" style="color: #fff; margin: 18px 0">
                         <?= Yii::t('app', 'main_text1') ?>
-                    </h1>
+                    </div>
                 </div>
             </div>
         </div>

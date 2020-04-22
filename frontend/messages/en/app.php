@@ -6,7 +6,7 @@ return [
     'Transparency' => 'Transparency',
     'Secure' => 'Secure',
     'Clients' => 'THEY FEATURE OUR CLIENTS',
-    'main_text1' => 'Lab3M is full cycle product company working on complexity fintech, IoT, mobile and blockchain solutions. We see potential and no reason not to implement it. Our company is not limited to the development department but we have great design, marketing, business analytics and customer support team.',
+    'main_text1' => '<h1 style="font-size: 18px;margin: 0">Lab3M is full cycle product company</h1> working on complexity fintech, IoT, mobile and blockchain solutions. We see potential and no reason not to implement it. Our company is not limited to the development department but we have great design, marketing, business analytics and customer support team.',
     'main_text2' => 'Our Solutions',
     'main_text3' => 'We launch advanced fintech products',
     'main_text4' => 'Unlimited Trading and Custody Features',
@@ -462,5 +462,17 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;   
     </p>
 </div>
 <button class="btn cookie-bar__btn" id="setCookie">Agree</button>',
-
+    'dex_name' => 'BIKI DEX',
+    'dex_des' => 'Decentralized exchange based on TRON netowrk and SUN DAppChain',
+    'dex_sub_des' => 'BIKI DEX is an open-source, peer-to-peer application that allows you to buy and sell cryptocurrencies without any registration.',
+    'dex_Main_Features' => 'Main Features',
+    'dex_Main_Features_des' => 'We launch advanced fintech products',
+    'dex_Main_Features_name_1' => 'Peer to peer trading',
+    'dex_Main_Features_name_1_des' => 'We create p2p markets directly on the blockchain, which allows traders to independently store and operate funds',
+    'dex_Main_Features_name_2' => 'High transparency',
+    'dex_Main_Features_name_2_des' => 'Blockchain allows users to trace whole market which stored in blockchain publicly',
+    'dex_Main_Features_name_3' => 'Anonymous transaction',
+    'dex_Main_Features_name_3_des' => 'No KYC or any user indetification, connect TRON Link wallet and start trading',
+    'dex_Product_Details' => 'Product Details',
+    'dex_Iconography_name' => 'Iconography',
 ];
