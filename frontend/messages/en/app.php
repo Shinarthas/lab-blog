@@ -6,7 +6,7 @@ return [
     'Transparency' => 'Transparency',
     'Secure' => 'Secure',
     'Clients' => 'THEY FEATURE OUR CLIENTS',
-    'main_text1' => 'Lab3M is full cycle product company working on complexity fintech, IoT, mobile and blockchain solutions. We see potential and no reason not to implement it. Our company is not limited to the development department but we have great design, marketing, business analytics and customer support team.',
+    'main_text1' => '<h1 style="font-size: 18px;margin: 0">Lab3M is full cycle product company</h1> working on complexity fintech, IoT, mobile and blockchain solutions. We see potential and no reason not to implement it. Our company is not limited to the development department but we have great design, marketing, business analytics and customer support team.',
     'main_text2' => 'Our Solutions',
     'main_text3' => 'We launch advanced fintech products',
     'main_text4' => 'Unlimited Trading and Custody Features',

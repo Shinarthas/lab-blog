@@ -401,7 +401,7 @@ html{
     <div class="container">
         <div class="row" style="margin: 0;">
             <div class="col-sm-12">
-                <img style="max-width: 700px;    width: 100%;" src="/images/trade.png" alt="Lafka Basket">
+                <img style="max-width: 280px;    width: 100%;" src="/images/trade.png" alt="Lafka Basket">
                 <p><?= Yii::t('app', 'text_portfolio_trade3m') ?></p>
             </div>
         </div>

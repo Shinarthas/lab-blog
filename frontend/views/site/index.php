@@ -88,9 +88,9 @@ $this->title = Yii::t('app','meta_home_title');
                 <p class="second-screen__title" style="margin-top: 32px"><img src="/images//lab3m.png" alt="lab3m"></p>
                 <div class="second-screen__arrow"></div>
                 <div class="second-screen__deploy">
-                    <h1 class="second-screen__desc" style="color: #fff; margin: 18px 0">
+                    <div class="second-screen__desc" style="color: #fff; margin: 18px 0">
                         <?= Yii::t('app', 'main_text1') ?>
-                    </h1>
+                    </div>
                 </div>
             </div>
         </div>
