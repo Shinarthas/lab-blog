@@ -32,11 +32,11 @@ body .container{max-width: 990px;width: 100%;}
     margin: 70px 0;
 }
 .main1{
-    background-color: #3c3b3b;
+    background-color: #1d1d1d;
     text-align: center;
     height: 1109px;
     overflow: hidden;
-    border-bottom: 1px solid #000;
+    /* border-bottom: 1px solid #000; */
 }
 
 .main1::before{
@@ -222,15 +222,13 @@ body .container{max-width: 990px;width: 100%;}
                 <h4><?= Yii::t('app', 'dex_Main_Features_des') ?></h4>
                 <p>Technical app specification</p>
                 <ul>
-                    <li>two platforms - iOS and Android</li>
-                    <li>offline access</li>
-                    <li>account two-factor authentication security</li>
-                    <li>refresh-token utilizing</li>
-                    <li>app pin-code protection</li>
-                    <li>app database safety</li>
+                    <li>platform - web</li>
+                    <li>wallet - TRONLink</li>
+                    <li>TRON Network tokens support</li>
+                    <li>SUN DappChain tokens mapping</li>
+                    <li>directly smart contract trading</li>
                 </ul>
-                <p>Dependability, privacy, agility and convenience are the most valued characteristics when conducting financial operations, especially when it comes to emerging of traditional payment tools and new-made ones. Developing Lcoins we managed it all.</p>
-                <p><b>Security.</b> We cherish our clients trust and to maintain it as it is we thoroughly encrypt all the personal data stored on customer’s smartphone. To login in app uses two-factor authentication. We believe it is a necessary condition of data security, so even if the phone was stolen, customer’s money were in safe under pin-code. All types of data are also transmitted through secured connection and protected from packet analyzers.</p>
+                <p>Dependability, privacy, transparency and convenience are the most valued characteristics when conducting trading operations, especially when it comes to emerging of traditional payment tools and new-made ones. Developing BIKI DEX we managed it all.</p>
             </div>
         </div>
     </div>
@@ -276,11 +274,12 @@ body .container{max-width: 990px;width: 100%;}
         </div>
     </div>
 </section>
+<div class="col-12" style="text-align: center;"><img class="img-fluid" src="/images/biki.png" alt=""></div>
 <section class="main main5">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2>No Identity Verification</h2>
+                <h2>Main Features</h2>
                 <div class="arrow"></div>
                 <h4><?= Yii::t('app', 'dex_Main_Features_des') ?></h4>
                 <p style="text-align: center;" class="desc">Instantly Accessible. No need for registration or approval from a central authority.</p>
@@ -348,12 +347,13 @@ body .container{max-width: 990px;width: 100%;}
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2>Involvement</h2>
+                <h2>Our mission</h2>
                 <div class="arrow"></div>
-                <h4>We develop native iOS and Android apps</h4>
-                <p class="desc">After logging in you will enter the main screen that displays present currency rate and its dynamic during the day - this part is similar to traditional currency trading. From this option you can purchase TR cryptocurrency for real money through the app in two taps.
-                <p class="desc">The most important that a finance app must have is customer account status and a list of latest transactions. </p>
-                </p>
+                <h4><?= Yii::t('app', 'dex_Main_Features_des') ?></h4>
+                <p class="desc">BIKI DEX's mission is to provide a secure, private and censorship-resistant way of exchanging bitcoin for national currencies and other cryptocurrencies over the internet.</p>
+                <p class="desc">When we say secure, we are referring to the safety of users' funds. Today, most bitcoin exchanges are centralized, requiring users to store their bitcoins— for at least some amount of time— on exchange servers. When thousands of users do this, it creates extreme incentives for those servers to be hacked and for those users' bitcoins to be stolen. And time and time again these hacks and thefts are exactly what happen. </p>
+                <p class="desc">When we say private, we are referring to users' ability to control access to their own information. Today, most centralized exchanges require users to divulge personally identifying information in order to set up an account, and then in turn link users' trading activity to their respective identities. This practice creates extreme risks for users that their personal details and financial information will be stolen, leaked or otherwise used against their own best interests.</p>
+                <p class="desc">When we say censorship-resistant, we are referring to users' ability to voluntarily trade with one another without interference from a third party. Today, centralized bitcoin exchanges are highly susceptible to such interference. By their nature, they must operate within one legal jurisdiction or another, putting them at risk of being fined or shut down if they do not comply with the laws and other rules of that jurisdiction, which may include restrictions on who can trade and what can be traded, and almost always include requirements to collect personal information as described above.</p>
                 <div class="col3">
                     <div class="img">
                         <img src="/images/cases/frontend.svg" alt="frontend">
@@ -426,7 +426,7 @@ body .container{max-width: 990px;width: 100%;}
         </div>
     </div>
 </section>
-<section class="main main6" style="background: #151515;">
+<section class="main main6" style="background: #151515; display: none">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -438,7 +438,7 @@ body .container{max-width: 990px;width: 100%;}
         </div>
     </div>
 </section>
-<section class="main main7">
+<section class="main main7" style="display: none">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -461,7 +461,7 @@ body .container{max-width: 990px;width: 100%;}
             <div class="col-12">
             <h2>Inspiration</h2>
             <div class="arrow arrow-ginger"></div>
-            <h4>We launch advanced commerce platforms</h4>
+            <h4><?= Yii::t('app', 'dex_Main_Features_des') ?></h4>
             </div>
             <div class="col-sm-4 pr1">
                 <div class="img">
@@ -556,7 +556,7 @@ body .container{max-width: 990px;width: 100%;}
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" style="display: none">
         <div class="row">
         <div class="col-12">
             <div class="top-border"></div>
