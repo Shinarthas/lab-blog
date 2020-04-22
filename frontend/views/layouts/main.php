@@ -19,13 +19,16 @@ AppAsset::register($this);
 	<meta property="twitter:card" content="summary_large_image" class="next-head">
 	
 	<? if($important_meta = MetaTag::findOne(['url' => \Yii::$app->request->url])):?>
-	
+        <?php $url= Yii::getAlias('@front').'/'.Yii::$app->language.'/'.\Yii::$app->request->pathInfo;?>
 	<meta name="title" content="<?= Html::encode($important_meta->title) ?>">
 	<meta property="og:title" content="<?= Html::encode($important_meta->title) ?>">
 	<title><?= Html::encode($important_meta->title) ?></title>
 		
 	<meta property="og:type" content="website" class="next-head">
 	<meta property="og:image" content="/images/temp/<?=$important_meta->img;?>" class="next-head">
+	<meta property="og:url" content="<?=$url ?>" class="next-head">
+	<meta property="og:type" content="website" class="next-head">
+
 	<meta name="description" content="<?=$important_meta->description;?>">
 	<meta property="og:description" content="<?=$important_meta->description;?>">
 	<link type="image/png" href="/images/temp/<?=$important_meta->img;?>" rel="image_src">
@@ -72,6 +75,7 @@ AppAsset::register($this);
 
 
 </head>
+
 <body class="cookieconsent">
 <?php $this->beginBody() ?>
     <?php /*$this->render('//layouts/_loader')*/ ?>
@@ -94,7 +98,9 @@ AppAsset::register($this);
     }
 </style>
     <div class="siteWrapper">
+
         <?= $content ?>
+
         <?php if (Yii::$app->controller->id == 'works'): ?>
             <?= $this->render('//layouts/_blockTouch') ?>
         <?php endif ?>

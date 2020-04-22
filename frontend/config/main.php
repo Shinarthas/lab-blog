@@ -8,8 +8,8 @@ $params = array_merge(
 
 return [
     'id' => 'app-frontend',
-    'sourceLanguage' => 'ru-RU',
-    'language' => 'ru-RU',
+    'sourceLanguage' => 'ru',
+    'language' => 'ru',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
@@ -47,7 +47,8 @@ return [
                 '/solutions/index' => '/works/lafka',
                 '/solutions' => '/works/index',
                 '/portfolio/ru' => '/works/lafkaru',
-                '/<language:(ru)>/'=>'/site/index',
+                //'/<language:(ru)>/'=>'/site/index',
+                '/'=>'/site/index',
                 '/m'=>'/site/redir-perm',
                 '/mobile'=>'/site/redir-perm',
                 '/test/'=>'/test/index',

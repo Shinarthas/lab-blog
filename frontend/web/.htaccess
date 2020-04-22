@@ -1,6 +1,6 @@
-RewriteEngine On
-RewriteCond %{HTTPS} =off
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
+#RewriteEngine On
+#RewriteCond %{HTTPS} =off
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
 # use mod_rewrite for pretty URL support
     RewriteEngine on
 

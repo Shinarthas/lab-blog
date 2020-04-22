@@ -320,7 +320,7 @@ class BlogController extends Controller
         }
         $service_category=ServicesCategory::findOne(['url'=>Yii::$app->request->get('id')]);
         if(!empty($service_category)) {
-            $result = Yii::$app->runAction('services/show-service-category', ['service_category' => Yii::$app->request->get('id')]);
+            $result = Yii::$app->runAction('services/show-service-category', ['id' => Yii::$app->request->get('id')]);
             return $result;
         }
 
