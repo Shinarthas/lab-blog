@@ -287,11 +287,11 @@ class ServicesController extends Controller
       }
 
     }
-    public function actionShowServiceCategory($service_category)
+    public function actionShowServiceCategory($id)
     {
         $selected_category = ServicesCategory::find()
             ->select('*')
-            ->where([ServicesCategory::tableName().'.url'=>$service_category])
+            ->where([ServicesCategory::tableName().'.url'=>$id])
             ->asArray()->one();
         //->createCommand()->rawSql;
 //        if(!$selected_category)

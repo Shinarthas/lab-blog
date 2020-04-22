@@ -1,6 +1,6 @@
 <?
 use \common\models\User;
-
+use yii\helpers\Url;
 $services=\common\models\ServicesCategory::find()->select('blog_services_category_translations.*, blog_services_category.id,blog_services_category.url,blog_services_category.name,blog_services_category.image')
     ->where(['category_id'=>1])->joinWith('translations')->where(['id_lang'=>Yii::$app->language])
     ->asArray()
@@ -55,7 +55,7 @@ if(is_null($lang)):?>
                         <h2 class="ftco-heading-2"><?= Yii::t('app', 'useful_links') ?></h2>
                         <ul class="list-unstyled">
                             <?php foreach ($services as $service){?>
-                                <li><a href="/<?=$service['url']?>" class="py-2 d-block"><?=$service['title']?></a></li>
+                                <li><a href="<?=Url::to(['blog/show-post','id'=>$service['url'],'language'=>Yii::$app->language])?>" class="py-2 d-block"><?=$service['title']?></a></li>
                             <?php } ?>
                         </ul>
                     </div>
@@ -116,71 +116,7 @@ if(is_null($lang)):?>
 .footer{display: none!important;}
 
 </style>
-    <footer id="footer-sec" class="ftco-footer ftco-bg-dark ftco-section">
-        <div class="container">
-            
-            <div class="row mb-5">
-                <div class="col-md">
-                    <div class="ftco-footer-widget mb-4 bg-primary p-4">
-                        <h2 class="ftco-heading-2 text-c1 dis-none-t">Lab3M</h2>
-                        <p class="dis-none-t">Наша цель - сделать блокчейн приложения доступными в любом месте и в любое время. Поэтому мы хотим внедрить больше децентрализованных решений в различных сферах жизни.</p>
-                        <ul class="ftco-footer-social list-unstyled mb-0 text-c1">
-                            <li class="ftco-animate icon-cor1"><a target="_blank" href="https://twitter.com/lab3m"><span class="icon-twitter icon-cor1"></span></a></li>
-                            <li class="ftco-animate icon-cor1"><a target="_blank" href="https://medium.com/lab3m"><span class="icon-medium icon-cor1"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="ftco-footer-widget mb-4 ml-md-5">
-                        <h2 class="ftco-heading-2">Полезные ссылки</h2>
-                        <ul class="list-unstyled">
-                            <li><a href="#section-services" class="py-2 d-block">Финансовые и платежные решения</a></li>
-                            <li><a href="#section-services" class="py-2 d-block">Создание MVP (минимально жизнеспособного продукта)</a></li>
-                            <li><a href="#section-services" class="py-2 d-block">Разработка Крипто Биржи</a></li>
-                            <li><a href="#section-services" class="py-2 d-block">Разработка и Аудит Смарт-Контрактов</a></li>
-                            <li><a href="#section-services" class="py-2 d-block">Автоматические Торговые Терминалы</a></li>
-                            <li><a href="#section-services" class="py-2 d-block">Разработка Крипто Кошельков</a></li>
-                            <li><a href="#section-services" class="py-2 d-block">Услуги IEO (первичное предложение обмена)</a></li>
-                            <li><a href="#section-services" class="py-2 d-block">Индивидуальные блокчейн решения</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Навигация</h2>
-                        <ul class="list-unstyled">
-                            <li><a href="/" class="py-2 d-block">Домой</a></li>
-                            <!-- <li><a href="#home-sec" class="py-2 d-block">About</a></li> -->
-                            <li><a href="/services" class="py-2 d-block">Сервисы</a></li>
-                            <li><a href="/solutions" class="py-2 d-block">Портфолио</a></li>
-                            <li><a href="/contacts" class="py-2 d-block">Контакты</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Контакты</h2>
-                        <div class="block-23 mb-3">
-                            <ul>
-                                <li><img style="filter: invert(1); margin-right:15px" src="/images/pin.png" alt="pin"></span><span class="text">Israel, Tel Aviv-Yafo, Ramat HaHayal, Kam Street 72</span></li>
-                                <li><img style="filter: invert(1); margin-right:15px" src="/images/mail.png" alt="mail"></span><span class="text"><span class="__cf_email__" data-cfemail="f29b9c949db28b9d8780969d9f939b9cdc919d9f">contact@lab3m.com</span></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p>
-                        Copyright &copy;
-                        <script>
-                            document.write(new Date().getFullYear());
-                        </script> All rights reserved
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
+
 
 <? endif; ?>
 <div id="toTop" > <img style="filter: invert(1);" src="/images/top.png" alt="top"> </ div >

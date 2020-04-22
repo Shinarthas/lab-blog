@@ -4,7 +4,7 @@ use common\models\Post;
 use common\models\PostToCategory;
 use frontend\widgets\MultiLang\MultiLang;
 use yii\helpers\Html;
-
+use yii\helpers\Url;
 $my_requests = Contacts::myRequestsList();
 
                 $industries = Post::find()
@@ -340,10 +340,10 @@ $my_requests = Contacts::myRequestsList();
 
 <div class="header__content" style="background: #000">
     <div class="header__logo">
-        <a href="/<?=Yii::$app->language?>" class="tt1 dis-n1">
+        <a href="<?=Url::to(['site/index','language'=>Yii::$app->language])?>" class="tt1 dis-n1">
             <img class="max-d" style="max-width: 43px; max-width: 100px; margin-top: 10px" src="/images/l3m-t.png" alt="lab3m-logo">
         </a>
-        <a href="/<?=Yii::$app->language?>" class="tt1 dis-b1">
+        <a href="<?=Url::to(['site/index','language'=>Yii::$app->language])?>" class="tt1 dis-b1">
             <img class="min-d" style="max-width: 43px;" src="/images/header/logo.png" alt="lab3m-logo">
         </a>
         <style>
@@ -367,12 +367,12 @@ $my_requests = Contacts::myRequestsList();
     <div class="header__menu-mobile-control"></div>
 
     <div class="header__menu" style="background: #000;" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
-        <a itemprop="url" href="/<?=Yii::$app->language?>/" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_home') ?></span></a>
-        <a itemprop="url" href="/<?=Yii::$app->language?>/blog" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_blog') ?></span></a>
-        <a itemprop="url" href="/<?=Yii::$app->language?>/solutions" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_solutions') ?></span></a>
-        <a itemprop="url" href="/<?=Yii::$app->language?>/services" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_services') ?></span></a>
-        <a itemprop="url" href="/<?=Yii::$app->language?>/about" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_about') ?></span></a>
-        <a itemprop="url" href="/<?=Yii::$app->language?>/contacts" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_contacts') ?></span></a>
+        <a itemprop="url" href="<?=Url::to(['site/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_home') ?></span></a>
+        <a itemprop="url" href="<?=Url::to(['blog/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_blog') ?></span></a>
+        <a itemprop="url" href="<?=Url::to(['works/lafka','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_solutions') ?></span></a>
+        <a itemprop="url" href="<?=Url::to(['services/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_services') ?></span></a>
+        <a itemprop="url" href="<?=Url::to(['company/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_about') ?></span></a>
+        <a itemprop="url" href="<?=Url::to(['contacts/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_contacts') ?></span></a>
         <?= MultiLang::widget(['cssClass'=>'pull-right language']); ?>
     </div>
     <div  style="background-color: #000; " class="clearfix cor-fix1"></div>

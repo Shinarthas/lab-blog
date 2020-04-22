@@ -175,6 +175,7 @@ class UrlManager extends BaseUrlManager
                 throw new InvalidConfigException('Locale URL support requires enablePrettyUrl to be set to true.');
             }
         }
+
         $this->_defaultLanguage = Yii::$app->language;
         parent::init();
     }
@@ -228,6 +229,7 @@ class UrlManager extends BaseUrlManager
      */
     public function createUrl($params)
     {
+
         if ($this->ignoreLanguageUrlPatterns) {
             $params = (array) $params;
             $route = trim($params[0], '/');
@@ -237,6 +239,17 @@ class UrlManager extends BaseUrlManager
                 }
             }
         }
+
+        //если это русский то не трогать  урл
+        if($params[$this->languageParam]=='ru'){
+            unset($params[$this->languageParam]);
+            return parent::createUrl($params);
+        }
+        //если не передан язык, и сейчас выбран русский
+        if(!isset($params[$this->languageParam]) && Yii::$app->language=='ru'){
+            return parent::createUrl($params);
+        }
+
 
         if ($this->enableLocaleUrls && $this->languages) {
             $params = (array) $params;
@@ -361,6 +374,7 @@ class UrlManager extends BaseUrlManager
             }
             return $la < $lb ? 1 : -1;
         });
+
         $pattern = implode('|', $parts);
         if (preg_match("#^($pattern)\b(/?)#i", $pathInfo, $m)) {
             $this->_request->setPathInfo(mb_substr($pathInfo, mb_strlen($m[1].$m[2])));
@@ -396,13 +410,18 @@ class UrlManager extends BaseUrlManager
                 $this->redirectToLanguage('');
             }
         } else {
+
             $language = null;
+            if ($this->enableLanguagePersistence)
+                $this->persistLanguage($this->_defaultLanguage);
             if ($this->enableLanguagePersistence) {
                 $language = $this->loadPersistedLanguage();
             }
+
             if ($language === null) {
                 $language = $this->detectLanguage();
             }
+
             if ($language === null || $language === $this->_defaultLanguage) {
                 if (!$this->enableDefaultLanguageUrlCode) {
                     return;
@@ -431,6 +450,7 @@ class UrlManager extends BaseUrlManager
      */
     protected function persistLanguage($language)
     {
+
         if ($this->hasEventHandlers(self::EVENT_LANGUAGE_CHANGED)) {
             $oldLanguage = $this->loadPersistedLanguage();
             if ($oldLanguage !== $language) {
@@ -465,6 +485,7 @@ class UrlManager extends BaseUrlManager
      */
     protected function loadPersistedLanguage()
     {
+
         $language = null;
         if ($this->languageSessionKey !== false) {
             $language = Yii::$app->session->get($this->languageSessionKey);
@@ -483,6 +504,7 @@ class UrlManager extends BaseUrlManager
      */
     protected function detectLanguage()
     {
+
         if ($this->enableLanguageDetection) {
             foreach ($this->_request->getAcceptableLanguages() as $acceptable) {
                 list($language,$country) = $this->matchCode($acceptable);
@@ -593,6 +615,9 @@ class UrlManager extends BaseUrlManager
      */
     protected function redirectToLanguage($language)
     {
+        //echo $language;
+        if($language=='ru')
+         return 0;
         try {
             $result = parent::parseRequest($this->_request);
         } catch (UrlNormalizerRedirectException $e) {

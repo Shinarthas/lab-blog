@@ -1,11 +1,12 @@
 <?
 use yii\helpers\Url;
 use common\models\Img;
+
 ?>
 			<?php foreach ($models as $model) { ?>
                 <div itemscope itemtype="http://schema.org/NewsArticle" class="col-md-4 col-sm-6 post">
                     <div style="margin: 15px;border: 1px solid #fff; overflow: hidden;">
-                    <a href="/<?=$model->seo_url?>" class="post-img">
+                    <a href="<?=Url::to(['blog/show-post','id'=>$model->seo_url,'language'=>Yii::$app->language])?>" class="post-img">
                         <?php
                         $img_path=$model->background_path;
                         $img_back=$model->background;

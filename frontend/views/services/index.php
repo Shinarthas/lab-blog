@@ -1,4 +1,6 @@
 <?php
+use yii\helpers\Url;
+
 $this->title = ucfirst(Yii::t('app','meta_services_title'));
 $this->registerMetaTag([
     'name' => 'description',
@@ -166,7 +168,7 @@ body{
                 <?= Yii::t('app', 'services_block0') ?>
 <?php foreach ($services as $service){ ?>
     <div class="row wwd-item">
-        <a href="/<?=$service['url']?>" class="info">
+        <a href="<?=Url::to(['blog/show-post','id'=>$service['url'],'language'=>Yii::$app->language])?>" class="info">
         <div class="col-name col-md-4 hidden-xs hidden-sm">
             <p class="name"><?=$service['title']?></p>
         </div>

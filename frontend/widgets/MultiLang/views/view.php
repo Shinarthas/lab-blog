@@ -11,10 +11,10 @@ use Yii;
 
     <div class="dropdown-menu dropdown-menu-left" style="background: black; padding:0px;text-align: center;">
         <?= Html::a('English', array_merge(
-            [preg_replace('|^\/.{2}\/{0,1}|isU','/',\Yii::$app->request->url), 'language' => 'en']
+            [str_replace(['/ru','/en'],['',''],\Yii::$app->request->url), 'language' => 'en']
         ), ['class' => 'decor1']); ?>
         <?= Html::a('Русский', array_merge(
-            [preg_replace('|^\/.{2}\/{0,1}|isU','/',\Yii::$app->request->url), 'language' => 'ru']
+            [str_replace(['/ru','/en'],['',''],\Yii::$app->request->url), 'language' => 'ru']
         ), ['class' => 'decor1']); ?>
     </div>
     <style>
