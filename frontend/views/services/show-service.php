@@ -8,7 +8,7 @@
 
 use common\models\Lang;
 
-$this->title = ucfirst($h1);
+$this->title = ucfirst($model['meta_title']);
 
 
 $this->registerCssFile("/styles/services-inner.css");
@@ -16,8 +16,9 @@ $this->registerCssFile("/styles/estimate.css");
 $this->registerJsFile("/scripts/jquery-1.12.4.min.js");
 $this->registerJsFile("/scripts/services_bar.js");
 $this->registerMetaTag(['name' => 'description', 'content' => $model['meta_desc']]);
+$this->registerMetaTag(['name' => 'title', 'content' => $model['meta_title']]);
 $this->registerMetaTag(['name' => 'image', 'content' => $model['image']]);
-$this->registerMetaTag(['name' => 'og:image', 'content' => Yii::getAlias('@front').$model['image']]);
+$this->registerMetaTag(['name' => 'og:image', 'content' => Yii::getAlias('@front').'/images/temp/'.$model['meta_image']]);
 
 $lang_list = Lang::getLangList();
 

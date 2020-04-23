@@ -25,7 +25,7 @@ AppAsset::register($this);
 	<title><?= Html::encode($important_meta->title) ?></title>
 		
 	<meta property="og:type" content="website" class="next-head">
-	<meta property="og:image" content="/images/temp/<?=$important_meta->img;?>" class="next-head">
+	<meta property="og:image" content="<?=Yii::getAlias('@front')?>/images/temp/<?=$important_meta->img;?>" class="next-head">
 	<meta property="og:url" content="<?=$url ?>" class="next-head">
 	<meta property="og:type" content="website" class="next-head">
 

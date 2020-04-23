@@ -80,6 +80,15 @@ class ServicesController extends Controller
                 $ru_lang->name=$post['name']['ru'];
                 $ru_lang->content=$post['content']['ru'];
                 $ru_lang->meta_desc=$post['meta_desc']['ru'];
+                $ru_lang->meta_title=$post['meta_title']['ru'];
+                if(strlen($_FILES['meta_image']['tmp_name']['ru'])>0)
+                {
+                    $ext = pathinfo($_FILES['meta_image']['name']['ru'], PATHINFO_EXTENSION);
+                    $name=uniqid().'.'.$ext;
+                    print_r($_FILES['meta_image']['name']['ru']);
+                    move_uploaded_file($_FILES['meta_image']['tmp_name']['ru'], '../../frontend/web/images/temp/'.$name);
+                    $ru_lang->meta_image = $name;
+                }
                 $ru_lang->date_update=time();
                 $ru_lang->save();
 
@@ -92,6 +101,15 @@ class ServicesController extends Controller
                 $en_lang->name=$post['name']['en'];
                 $en_lang->content=$post['content']['en'];
                 $en_lang->meta_desc=$post['meta_desc']['en'];
+                $en_lang->meta_title=$post['meta_title']['en'];
+                if(strlen($_FILES['meta_image']['tmp_name']['en'])>0)
+                {
+                    $ext = pathinfo($_FILES['meta_image']['name']['en'], PATHINFO_EXTENSION);
+                    $name=uniqid().'.'.$ext;
+                    print_r($_FILES['meta_image']['name']['en']);
+                    move_uploaded_file($_FILES['meta_image']['tmp_name']['en'], '../../frontend/web/images/temp/'.$name);
+                    $en_lang->meta_image = $name;
+                }
                 $en_lang->date_update=time();
                 $en_lang->save();
 
@@ -104,6 +122,15 @@ class ServicesController extends Controller
                 $cn_lang->name=$post['name']['cn'];
                 $cn_lang->content=$post['content']['cn'];
                 $cn_lang->meta_desc=$post['meta_desc']['cn'];
+                $cn_lang->meta_title=$post['meta_title']['cn'];
+                if(strlen($_FILES['meta_image']['tmp_name']['cn'])>0)
+                {
+                    $ext = pathinfo($_FILES['meta_image']['name']['cn'], PATHINFO_EXTENSION);
+                    $name=uniqid().'.'.$ext;
+                    print_r($_FILES['meta_image']['name']['cn']);
+                    move_uploaded_file($_FILES['meta_image']['tmp_name']['cn'], '../../frontend/web/images/temp/'.$name);
+                    $cn_lang->meta_image = $name;
+                }
                 $cn_lang->date_update=time();
                 $cn_lang->save();
 
@@ -283,6 +310,7 @@ class ServicesController extends Controller
 
             $model = new \common\models\ServicesForm();
             if ($model->load(Yii::$app->request->post())) {
+
                 if ($model->validate()) {
                     $post=Yii::$app->request->post();
                     $record=Services::findOne($record['id']);
@@ -313,6 +341,15 @@ class ServicesController extends Controller
                     $ru_lang->name=$post['name']['ru'];
                     $ru_lang->content=$post['content']['ru'];
                     $ru_lang->meta_desc=$post['meta_desc']['ru'];
+                    $ru_lang->meta_title=$post['meta_title']['ru'];
+                    if(strlen($_FILES['meta_image']['tmp_name']['ru'])>0)
+                    {
+                        $ext = pathinfo($_FILES['meta_image']['name']['ru'], PATHINFO_EXTENSION);
+                        $name=uniqid().'.'.$ext;
+                        print_r($_FILES['meta_image']['name']['ru']);
+                        move_uploaded_file($_FILES['meta_image']['tmp_name']['ru'], '../../frontend/web/images/temp/'.$name);
+                        $ru_lang->meta_image = $name;
+                    }
                     $ru_lang->date_update=time();
                     $ru_lang->save();
 
@@ -325,6 +362,15 @@ class ServicesController extends Controller
                     $en_lang->name=$post['name']['en'];
                     $en_lang->content=$post['content']['en'];
                     $en_lang->meta_desc=$post['meta_desc']['en'];
+                    $en_lang->meta_title=$post['meta_title']['en'];
+                    if(strlen($_FILES['meta_image']['tmp_name']['en'])>0)
+                    {
+                        $ext = pathinfo($_FILES['meta_image']['name']['en'], PATHINFO_EXTENSION);
+                        $name=uniqid().'.'.$ext;
+                        print_r($_FILES['meta_image']['name']['en']);
+                        move_uploaded_file($_FILES['meta_image']['tmp_name']['en'], '../../frontend/web/images/temp/'.$name);
+                        $en_lang->meta_image = $name;
+                    }
                     $en_lang->date_update=time();
                     $en_lang->save();
 
@@ -337,6 +383,15 @@ class ServicesController extends Controller
                     $cn_lang->name=$post['name']['cn'];
                     $cn_lang->content=$post['content']['cn'];
                     $cn_lang->meta_desc=$post['meta_desc']['cn'];
+                    $cn_lang->meta_title=$post['meta_title']['cn'];
+                    if(strlen($_FILES['meta_image']['tmp_name']['cn'])>0)
+                    {
+                        $ext = pathinfo($_FILES['meta_image']['name']['cn'], PATHINFO_EXTENSION);
+                        $name=uniqid().'.'.$ext;
+                        print_r($_FILES['meta_image']['name']['cn']);
+                        move_uploaded_file($_FILES['meta_image']['tmp_name']['cn'], '../../frontend/web/images/temp/'.$name);
+                        $cn_lang->meta_image = $name;
+                    }
                     $cn_lang->date_update=time();
                     $cn_lang->save();
                     $this->redirect('/services');

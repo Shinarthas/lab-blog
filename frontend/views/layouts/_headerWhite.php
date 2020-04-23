@@ -369,7 +369,7 @@ $my_requests = Contacts::myRequestsList();
     <div class="header__menu" style="background: #000;" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
         <a itemprop="url" href="<?=Url::to(['site/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_home') ?></span></a>
         <a itemprop="url" href="<?=Url::to(['blog/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_blog') ?></span></a>
-        <a itemprop="url" href="<?=Url::to(['works/lafka','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_solutions') ?></span></a>
+        <a itemprop="url" href="<?=Url::to(['works/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_solutions') ?></span></a>
         <a itemprop="url" href="<?=Url::to(['services/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_services') ?></span></a>
         <a itemprop="url" href="<?=Url::to(['company/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_about') ?></span></a>
         <a itemprop="url" href="<?=Url::to(['contacts/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_contacts') ?></span></a>
