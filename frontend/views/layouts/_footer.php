@@ -119,7 +119,7 @@ if(is_null($lang)):?>
 
 
 <? endif; ?>
-<div id="toTop" > <img style="filter: invert(1);" src="/images/top.png" alt="top"> </ div >
+<!-- <div id="toTop" > <img style="filter: invert(1);" src="/images/top.png" alt="top"> </ div > -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function() {

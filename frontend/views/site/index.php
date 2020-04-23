@@ -122,7 +122,14 @@ line-height: 150%;
 letter-spacing: 0.1em;
 color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
 <?= Yii::t('app', 'main_text6') ?>
-<div class="text-c1 dis-none-t" style="width:100%;
+<style>
+    @media(max-width: 991px){
+        .t-cen-bag{
+            text-align: center!important;
+        }
+    }
+</style>
+<div class="text-c1 dis-none-t t-cen-bag" style="width:100%;
     text-align: left;padding: 30px;"><a style="color: white;
     background: #6927ff;
     padding: 15px 30px;
@@ -139,17 +146,20 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
                 document.getElementById('vid1').remove();
             }
         </script>
+        <div class="text-c1 disb-none-t" style="
+    width:100%;
+    padding: 10px;
+    margin: 10px;
+    "><a style="color: white;
+    background: #6927ff;
+    padding: 15px 30px;
+    border-radius: 50px;" href="/solutions"><?= Yii::t('app', 'main_text7') ?></a></div>
         <p class="disb-none-t" style="font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 150%;
 letter-spacing: 0.1em;
 color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
-<div class="text-c1 disb-none-t" style="width:100%;
-    text-align: left;padding: 10px;"><a style="color: white;
-    background: #6927ff;
-    padding: 15px 30px;
-    border-radius: 50px;" href="/solutions"><?= Yii::t('app', 'main_text7') ?></a></div>
         </div>
     </div>
                     </div>

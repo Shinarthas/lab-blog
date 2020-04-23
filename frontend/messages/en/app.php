@@ -385,6 +385,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;   
                             </ul>
                         </div>
                     </div>
+                    <div class=\"col-md-12\" style=\" text-align: right; \"> <img style=\"filter: invert(1);margin: 30px 15px;\" src=\"/images/top.png\" alt=\"top\"> </div>
                 </div>",
     "html_footer_copyright"=>"<div class=\"row\">
                 <div class=\"col-md-12 text-center\">
@@ -477,4 +478,17 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;   
     'dex_Main_Features_name_3_des' => 'No KYC or any user indetification, connect TRON Link wallet and start trading',
     'dex_Product_Details' => 'Product Details',
     'dex_Iconography_name' => 'Iconography',
+    'map_contacts' => '<div class="map">
+    <div class="lights">
+        <div class="col-xs-6 visible-xs text-center">
+            <img src="/images/contacts/location.png" alt="location">
+            <p>Singapore</p>
+        </div>
+        <div class="col-xs-6 visible-xs text-center">
+            <img src="/images/contacts/location.png" alt="location">
+            <p>Israel</p>
+        </div>
+    </div>
+
+</div>',
 ];

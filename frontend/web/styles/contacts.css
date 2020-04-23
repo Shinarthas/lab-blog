@@ -379,6 +379,15 @@ img {
     background-position: 100%;
 }
 
+#contacts .map_ru {
+    background: url('/images/contacts/map-ru.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #151515;
+    height: 930px;
+    background-position: 100%;
+}
+
 #contacts .map .lights {
     height: 100%;
     /*width: 50%;*/

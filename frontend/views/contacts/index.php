@@ -200,19 +200,7 @@ body .container{max-width: 990px;width: 100%;}
             <?= Yii::t('app', 'html_contacts_contacts') ?>
         </div>
     </div>
-    <div class="map">
-        <div class="lights">
-            <div class="col-xs-6 visible-xs text-center">
-                <img src="/images/contacts/location.png" alt="location">
-                <p>Singapore</p>
-            </div>
-            <div class="col-xs-6 visible-xs text-center">
-                <img src="/images/contacts/location.png" alt="location">
-                <p>Israel</p>
-            </div>
-        </div>
-
-    </div>
+    <?= Yii::t('app', 'map_contacts') ?>
     <style>
     @media(max-width: 767px){
         .map{
