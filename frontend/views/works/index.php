@@ -27,9 +27,10 @@ $this->registerMetaTag([
                     <a href="/trade3m" class="item lafka">
                         <img class="l-logo" src="/images/works/lafka-logo.png" alt="lafka-logo">
                         <img class="l-text" src="/images/works/lafka-text.png" alt="lafka-text">
-                        <!-- <div class="overlay">
-                            <p class="title" style="margin: 5px;">Trade3M</p>
-                        </div> -->
+                    </a>
+                    <a href="/exchangebiki" class="item lafka">
+                        <img class="l-logo" src="/images/works/lafka-logo1.png" alt="lafka-logo">
+                        <img class="l-text" src="/images/works/lafka-text1.png" alt="lafka-text">
                     </a>
                     <!-- <a href="/solutions/trade3m" class="item lafka">
                         <img class="l-logo" src="/images/works/lafka-logo.png" alt="lafka-logo">

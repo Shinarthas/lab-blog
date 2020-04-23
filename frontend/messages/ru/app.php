@@ -22,8 +22,8 @@ return [
                     <p class=\"address\">R&amp;D Office</p>
                 </div>
                 <div class=\"col-md-6 col-sm-6 text-center\">
-                    <h2>Israel</h2>
-                    <p class=\"address\">Ramat HaHayal, Kam Street 72,<br>Israel, Tel Aviv-Yafo</p>
+                    <h2>Россия</h2>
+                    <p class=\"address\">Москва,<br> Пресненская наб.12</p>
                     <p class=\"email\">contact@lab3m.com</p>
                     <!--<p class=\"address\">	+972 3-3751909</p>-->
                 </div>
@@ -188,7 +188,7 @@ return [
                         <h2 class=\"ftco-heading-2\">Контакты</h2>
                         <div class=\"block-23 mb-3\">
                             <ul>
-                                <li><img style=\"filter: invert(1); margin-right:15px\" alt=\"pin\" src=\"/images/pin.png\"></span><span class=\"text\">Israel, Tel Aviv-Yafo, Ramat HaHayal, Kam Street 72</span></li>
+                                <li><img style=\"filter: invert(1); margin-right:15px\" alt=\"pin\" src=\"/images/pin.png\"></span><span class=\"text\">Россия, Москва, Пресненская наб.12</span></li>
                                 <li><img style=\"filter: invert(1); margin-right:15px\" src=\"/images/mail.png\" alt=\"mail\"></span><span class=\"text\"><span class=\"__cf_email__\" data-cfemail=\"f29b9c949db28b9d8780969d9f939b9cdc919d9f\">contact@lab3m.com</span></span></li>
                             </ul>
                         </div>
