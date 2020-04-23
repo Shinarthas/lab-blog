@@ -56,7 +56,7 @@ return [
                 '/services'=>'/services/index',
                 '/about'=>'/company/index',
                 '/contacts'=>'/contacts/index',
-                '/cookie'=>'/static/cookie',
+                '/cookies'=>'/static/cookie',
                 '/terms'=>'/static/terms',
                 '/privacy'=>'/static/privacy',
 
