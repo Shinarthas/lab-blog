@@ -151,6 +151,7 @@ $(function() {
         font-size:11px;
     }
 </style>
+<script data-ad-client="ca-pub-1190584613508518" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/jquery-migrate-3.0.1.min.js"></script>
     <script src="/js/popper.min.js"></script>

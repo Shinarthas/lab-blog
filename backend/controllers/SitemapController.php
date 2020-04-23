@@ -65,16 +65,7 @@ class SitemapController extends Controller
 						<loc>'.$url.'</loc>
 						<changefreq>daily</changefreq>
 						<priority>'.$priority.'</priority>
-                        <link 
-                         rel="alternate"
-                         hreflang="en"
-                         href="'.$url_en.'"
-                         />
-                        <link 
-                         rel="alternate"
-                         hreflang="ru"
-                         href="'.$url_ru.'"
-                         />
+
 					</url>';
             foreach($category->services as $service)
             {
@@ -97,16 +88,7 @@ class SitemapController extends Controller
 						<loc>'.$url.'</loc>
 						<changefreq>daily</changefreq>
 						<priority>'.$priority.'</priority>
-                        <link 
-                         rel="alternate"
-                         hreflang="en"
-                         href="'.$url_en.'"
-                         />
-                        <link 
-                         rel="alternate"
-                         hreflang="ru"
-                         href="'.$url_ru.'"
-                         />
+
 					</url>';
             }
         }
@@ -115,76 +97,31 @@ class SitemapController extends Controller
         <loc>https://lab3m.com/</loc>
         <changefreq>daily</changefreq>
         <priority>1.00</priority>
-        <link 
-                         rel="alternate"
-                         hreflang="en"
-                         href="https://lab3m.com/en/"
-                         />
-        <link 
-                         rel="alternate"
-                         hreflang="ru"
-                         href="https://lab3m.com/"
-                         />
+
     </url>
     <url>
         <loc>https://lab3m.com/about</loc>
         <changefreq>daily</changefreq>
         <priority>0.80</priority>
-                <link 
-                         rel="alternate"
-                         hreflang="en"
-                         href="https://lab3m.com/en/about"
-                         />
-        <link 
-                         rel="alternate"
-                         hreflang="ru"
-                         href="https://lab3m.com//about"
-                         />
+
     </url>
     <url>
         <loc>https://lab3m.com/contacts</loc>
         <changefreq>daily</changefreq>
         <priority>0.40</priority>
-        <link 
-                         rel="alternate"
-                         hreflang="en"
-                         href="https://lab3m.com/en/contacts"
-                         />
-        <link 
-                         rel="alternate"
-                         hreflang="ru"
-                         href="https://lab3m.com//contacts"
-                         />
+
     </url>
     <url>
         <loc>https://lab3m.com/solutions/trade3m</loc>
         <changefreq>daily</changefreq>
         <priority>0.80</priority>
-                <link 
-                         rel="alternate"
-                         hreflang="en"
-                         href="https://lab3m.com/en/solutions/trade3m"
-                         />
-        <link 
-                         rel="alternate"
-                         hreflang="ru"
-                         href="https://lab3m.com//solutions/trade3m"
-                         />
+
     </url>
     <url>
         <loc>https://lab3m.com/blog</loc>
         <changefreq>daily</changefreq>
         <priority>0.80</priority>
-        <link 
-                         rel="alternate"
-                         hreflang="en"
-                         href="https://lab3m.com/en/blog"
-                         />
-        <link 
-                         rel="alternate"
-                         hreflang="ru"
-                         href="https://lab3m.com//blog"
-                         />
+
     </url>';
 
         $footer = '</urlset>';
@@ -209,16 +146,7 @@ class SitemapController extends Controller
         <loc>https://lab3m.com/'.$model->seo_url.'</loc>
         <changefreq>daily</changefreq>
         <priority>'.(($i/$count<0.5) ? '0.5' : number_format(round($i/$count,1),2,'.','')).'</priority>
-         <link 
-                         rel="alternate"
-                         hreflang="en"
-                         href="'.$url_en.'"
-                         />
-        <link 
-                         rel="alternate"
-                         hreflang="ru"
-                         href="'.$url_ru.'"
-                         />
+
     </url>';
             $body.=$temp;
             $i++;

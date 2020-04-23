@@ -24,10 +24,7 @@ class ServicesController extends Controller
             'href' => '/images/preview.png',
         ],'image_src');
 
-        $this->view->registerMetaTag([
-            'property' => 'og:image',
-            'content' => 'https://demol3m.fun/images/preview.png',
-        ],'og_image');
+
 
         if(isset($_GET['language']) && strlen($_GET['language'])==2) {
             $lang = strip_tags($_GET['language']);
@@ -182,6 +179,8 @@ class ServicesController extends Controller
             $selected_category['name'] = $translation['name'];
             $selected_category['content'] = $translation['content'];
             $selected_category['meta_desc'] = $translation['meta_desc'];
+            $selected_category['meta_title'] = $translation['meta_title'];
+            $selected_category['meta_image'] = $translation['meta_image'];
             }
         }
 

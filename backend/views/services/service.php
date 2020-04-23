@@ -205,7 +205,7 @@ $(function () {
 <div class="services-add-service">
 
     <?php $categories = ArrayHelper::map(\common\models\ServicesCategory::find()->all(),'id','name'); ?>
-    <?php $form = ActiveForm::begin(); ?>
+    <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>
     <ul class="nav nav-tabs">
         <li class="active"><a data-toggle="tab" href="#home">RU</a></li>
         <li><a data-toggle="tab" href="#menu1">EN</a></li>
@@ -227,8 +227,20 @@ $(function () {
                 <div class="help-block"></div>
             </div>
             <div class="form-group field-servicesform-h1">
+                <label class="control-label" for="servicesform-h1">meta_title RU</label>
+                <input type="text" id="servicesform-h1" class="form-control" name="meta_title[ru]" value="<?=isset($remap['meta_title']['ru'])?$remap['meta_title']['ru']:''?>">
+
+                <div class="help-block"></div>
+            </div>
+            <div class="form-group field-servicesform-h1">
                 <label class="control-label" for="servicesform-h1">meta_desc RU</label>
                 <input type="text" id="servicesform-h1" class="form-control" name="meta_desc[ru]" value="<?=isset($remap['meta_desc']['ru'])?$remap['meta_desc']['ru']:''?>">
+
+                <div class="help-block"></div>
+            </div>
+            <div class="form-group field-servicesform-h1">
+                <label class="control-label" for="servicesform-h1">meta_image RU</label>
+                <input type="file" id="servicesform-h1" class="form-control" name="meta_image[ru]">
 
                 <div class="help-block"></div>
             </div>
@@ -254,10 +266,21 @@ $(function () {
 
                 <div class="help-block"></div>
             </div>
+            <div class="form-group field-servicesform-h1">
+                <label class="control-label" for="servicesform-h1">meta_title EN</label>
+                <input type="text" id="servicesform-h1" class="form-control" name="meta_title[en]" value="<?=isset($remap['meta_title']['EN'])?$remap['meta_title']['EN']:''?>">
 
+                <div class="help-block"></div>
+            </div>
             <div class="form-group field-servicesform-h1">
                 <label class="control-label" for="servicesform-h1">meta_desc EN</label>
-                <input type="text" id="servicesform-h1" class="form-control" name="meta_desc[en]" value="<?=isset($remap['meta_desc']['en'])?$remap['meta_desc']['en']:''?>">
+                <input type="text" id="servicesform-h1" class="form-control" name="meta_desc[en]" value="<?=isset($remap['meta_desc']['EN'])?$remap['meta_desc']['EN']:''?>">
+
+                <div class="help-block"></div>
+            </div>
+            <div class="form-group field-servicesform-h1">
+                <label class="control-label" for="servicesform-h1">meta_image EN</label>
+                <input type="file" id="servicesform-h1" class="form-control" name="meta_image[en]">
 
                 <div class="help-block"></div>
             </div>
@@ -283,8 +306,20 @@ $(function () {
                 <div class="help-block"></div>
             </div>
             <div class="form-group field-servicesform-h1">
-                <label class="control-label" for="servicesform-h1">meta_desc cn</label>
-                <input type="text" id="servicesform-h1" class="form-control" name="meta_desc[cn]" value="<?=isset($remap['meta_desc']['cn'])?$remap['meta_desc']['cn']:''?>">
+                <label class="control-label" for="servicesform-h1">meta_title CN</label>
+                <input type="text" id="servicesform-h1" class="form-control" name="meta_title[cn]" value="<?=isset($remap['meta_title']['CN'])?$remap['meta_title']['CN']:''?>">
+
+                <div class="help-block"></div>
+            </div>
+            <div class="form-group field-servicesform-h1">
+                <label class="control-label" for="servicesform-h1">meta_desc CN</label>
+                <input type="text" id="servicesform-h1" class="form-control" name="meta_desc[cn]" value="<?=isset($remap['meta_desc']['CN'])?$remap['meta_desc']['CN']:''?>">
+
+                <div class="help-block"></div>
+            </div>
+            <div class="form-group field-servicesform-h1">
+                <label class="control-label" for="servicesform-h1">meta_image CN</label>
+                <input type="file" id="servicesform-h1" class="form-control" name="meta_image[cn]">
 
                 <div class="help-block"></div>
             </div>
