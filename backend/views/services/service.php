@@ -268,13 +268,13 @@ $(function () {
             </div>
             <div class="form-group field-servicesform-h1">
                 <label class="control-label" for="servicesform-h1">meta_title EN</label>
-                <input type="text" id="servicesform-h1" class="form-control" name="meta_title[en]" value="<?=isset($remap['meta_title']['EN'])?$remap['meta_title']['EN']:''?>">
+                <input type="text" id="servicesform-h1" class="form-control" name="meta_title[en]" value="<?=isset($remap['meta_title']['en'])?$remap['meta_title']['en']:''?>">
 
                 <div class="help-block"></div>
             </div>
             <div class="form-group field-servicesform-h1">
                 <label class="control-label" for="servicesform-h1">meta_desc EN</label>
-                <input type="text" id="servicesform-h1" class="form-control" name="meta_desc[en]" value="<?=isset($remap['meta_desc']['EN'])?$remap['meta_desc']['EN']:''?>">
+                <input type="text" id="servicesform-h1" class="form-control" name="meta_desc[en]" value="<?=isset($remap['meta_desc']['en'])?$remap['meta_desc']['en']:''?>">
 
                 <div class="help-block"></div>
             </div>
@@ -307,13 +307,13 @@ $(function () {
             </div>
             <div class="form-group field-servicesform-h1">
                 <label class="control-label" for="servicesform-h1">meta_title CN</label>
-                <input type="text" id="servicesform-h1" class="form-control" name="meta_title[cn]" value="<?=isset($remap['meta_title']['CN'])?$remap['meta_title']['CN']:''?>">
+                <input type="text" id="servicesform-h1" class="form-control" name="meta_title[cn]" value="<?=isset($remap['meta_title']['cn'])?$remap['meta_title']['cn']:''?>">
 
                 <div class="help-block"></div>
             </div>
             <div class="form-group field-servicesform-h1">
                 <label class="control-label" for="servicesform-h1">meta_desc CN</label>
-                <input type="text" id="servicesform-h1" class="form-control" name="meta_desc[cn]" value="<?=isset($remap['meta_desc']['CN'])?$remap['meta_desc']['CN']:''?>">
+                <input type="text" id="servicesform-h1" class="form-control" name="meta_desc[cn]" value="<?=isset($remap['meta_desc']['cn'])?$remap['meta_desc']['cn']:''?>">
 
                 <div class="help-block"></div>
             </div>

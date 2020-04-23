@@ -408,6 +408,8 @@ class ServicesController extends Controller
                     $remap['h1'][$l['id_lang']]=$l['h1'];
                     $remap['content'][$l['id_lang']]=$l['content'];
                     $remap['meta_desc'][$l['id_lang']]=$l['meta_desc'];
+                    $remap['meta_title'][$l['id_lang']]=$l['meta_title'];
+                    $remap['meta_image'][$l['id_lang']]=$l['meta_image'];
                 }
 
                 $model->category_id = $record->category_id;

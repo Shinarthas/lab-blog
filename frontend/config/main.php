@@ -56,6 +56,9 @@ return [
                 '/services'=>'/services/index',
                 '/about'=>'/company/index',
                 '/contacts'=>'/contacts/index',
+                '/cookie'=>'/static/cookie',
+                '/terms'=>'/static/terms',
+                '/privacy'=>'/static/privacy',
 
                 '/request/<id:\d+>/<key>'=>'/request/view',
 
@@ -99,6 +102,14 @@ return [
         'i18n' => [
             'translations' => [
                 'app*' => [
+// app название нашего php файла переводов который нужно создать app.php (может быть любым)
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    'basePath' => '@frontend/messages',
+// путь для нашего файла переводов frontend/messages/ru/app.php
+                    'sourceLanguage' => '',
+// язык с какого переводим, то есть, в проекте все надписи пишем на английском
+                ],
+                'static*' => [
 // app название нашего php файла переводов который нужно создать app.php (может быть любым)
                     'class' => 'yii\i18n\PhpMessageSource',
                     'basePath' => '@frontend/messages',
