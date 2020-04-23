@@ -193,7 +193,7 @@ return [
                             </ul>
                         </div>
                     </div>
-                    <div class=\"col-md-12\" style=\" text-align: right; \"> <img style=\"filter: invert(1);margin: 30px 15px;\" src=\"/images/top.png\" alt=\"top\"> </div>
+                    <div class=\"col-md-12\" style=\" text-align: right; \"> <img id=\"toTopImg\" style=\"filter: invert(1);margin: 30px 15px;\" src=\"/images/top.png\" alt=\"top\"> </div>
                 </div>",
     "html_footer_copyright"=>"<div class=\"row\">
                 <div class=\"col-md-12 text-center\">

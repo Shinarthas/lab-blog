@@ -130,7 +130,7 @@ $(function() {
             $('#toTop').fadeOut();
         }
         });
-        $('#toTop').click(function() {
+        $('#toTopImg').click(function() {
         $('body,html').animate({scrollTop:0},800);
     });
 });
