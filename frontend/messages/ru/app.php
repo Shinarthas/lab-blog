@@ -22,8 +22,9 @@ return [
                     <p class=\"address\">R&amp;D Office</p>
                 </div>
                 <div class=\"col-md-6 col-sm-6 text-center\">
-                    <h2>Россия</h2>
-                    <p class=\"address\">Москва,<br> Пресненская наб. 12</p>
+                    <h2>Швейцария</h2>
+                    <p class=\"address\">Rue Etienne-Dumont 16 <br>
+                    1204 Genève</p>
                     <p class=\"email\">contact@lab3m.com</p>
                     <!--<p class=\"address\">	+972 3-3751909</p>-->
                 </div>
@@ -188,7 +189,7 @@ return [
                         <h2 class=\"ftco-heading-2\">Контакты</h2>
                         <div class=\"block-23 mb-3\">
                             <ul>
-                                <li><img style=\"filter: invert(1); margin-right:15px\" alt=\"pin\" src=\"/images/pin.png\"></span><span class=\"text\">Россия, Москва, Пресненская наб. 12</span></li>
+                                <li><img style=\"filter: invert(1); margin-right:15px\" alt=\"pin\" src=\"/images/pin.png\"></span><span class=\"text\">Швейцария, Rue Etienne-Dumont 16 <br>1204 Genève</span></li>
                                 <li><img style=\"filter: invert(1); margin-right:15px\" src=\"/images/mail.png\" alt=\"mail\"></span><span class=\"text\"><span class=\"__cf_email__\" data-cfemail=\"f29b9c949db28b9d8780969d9f939b9cdc919d9f\">contact@lab3m.com</span></span></li>
                             </ul>
                         </div>
@@ -459,7 +460,7 @@ color: #FFFFFF;" >Отправить</a>
         </div>
         <div class="col-xs-6 visible-xs text-center">
             <img src="/images/contacts/location.png" alt="location">
-            <p>Москва</p>
+            <p>Швейцария</p>
         </div>
     </div>
 
