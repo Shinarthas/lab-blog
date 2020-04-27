@@ -440,7 +440,7 @@ color: #FFFFFF;" >Отправить</a>
 'blog_name' => 'Блог - Lab3M',
 'Services_name' => 'Сервисы',
 'dex_name' => 'BIKI DEX',
-    'dex_des' => 'Decentralized exchange based on TRON netowrk and SUN DAppChain',
+    'dex_des' => 'Decentralized exchange based on TRON network and SUN DAppChain',
     'dex_sub_des' => 'BIKI DEX is an open-source, peer-to-peer application that allows you to buy and sell cryptocurrencies without any registration.',
     'dex_Main_Features' => 'Main Features',
     'dex_Main_Features_des' => 'We launch advanced fintech products',
@@ -449,7 +449,7 @@ color: #FFFFFF;" >Отправить</a>
     'dex_Main_Features_name_2' => 'High transparency',
     'dex_Main_Features_name_2_des' => 'Blockchain allows users to trace whole market which stored in blockchain publicly',
     'dex_Main_Features_name_3' => 'Anonymous transaction',
-    'dex_Main_Features_name_3_des' => 'No KYC or any user indetification, connect TRON Link wallet and start trading',
+    'dex_Main_Features_name_3_des' => 'No KYC or any user identification, connect TRON Link wallet and start trading',
     'dex_Product_Details' => 'Product Details',
     'dex_Iconography_name' => 'Iconography',
     'map_contacts' => '<div class="map map_ru">

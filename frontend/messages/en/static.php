@@ -1,6 +1,6 @@
 <?php
 return [
-    'cookie'=>'<h2><strong>Cookie Policy</strong></h2>
+    'cookie'=>'<h1><strong>Cookie Policy</strong></h1>
 <p><span style="font-weight: 400;">INTRODUCTION</span></p>
 <p><span style="font-weight: 400;">Lab3M, Inc. ("us", "we", or "our") may use cookies, web beacons, tracking pixels, and other tracking technologies when you visit our website </span><a href="https://www.softermii.com/"><span style="font-weight: 400;">https://www.lab3m.com/</span></a><span style="font-weight: 400;">, other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the </span><a href="https://www.softermii.com/"><span style="font-weight: 400;">"https://www.lab3m.com/"</span></a><span style="font-weight: 400;">) to help customize the Site and improve your experience. =</span></p>
 <p><span style="font-weight: 400;">We reserve the right to make changes to this Cookie Policy at any time and for any reason. We will alert you about any changes by updating the date 05. 04.2019. of this Cookie Policy. Any changes or modifications will be effective immediately upon posting the updated Cookie Policy on the Site, and you waive the right to receive specific notice of each such change or modification.</span></p>
