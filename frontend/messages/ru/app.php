@@ -453,66 +453,66 @@ color: #FFFFFF;" >Отправить</a>
 
 </div>',
 'dex_name' => 'BIKI DEX',
-    'dex_des' => 'Decentralized exchange based on TRON network and SUN DAppChain',
-    'dex_sub_des' => 'BIKI DEX is an open-source, peer-to-peer application that allows you to buy and sell cryptocurrencies without any registration.',
-    'dex_Main_Features' => 'Main Features',
-    'dex_Main_Features_des' => 'We launch advanced fintech products',
-    'dex_Main_Features_name_1' => 'Peer to peer trading',
-    'dex_Main_Features_name_1_des' => 'We create p2p markets directly on the blockchain, which allows traders to independently store and operate funds',
-    'dex_Main_Features_name_2' => 'High transparency',
-    'dex_Main_Features_name_2_des' => 'Blockchain allows users to trace whole market which stored in blockchain publicly',
-    'dex_Main_Features_name_3' => 'Anonymous transaction',
-    'dex_Main_Features_name_3_des' => 'No KYC or any user identification, connect TRON Link wallet and start trading',
-    'dex_Product_Details' => 'Product Details',
-    'dex_Iconography_name' => 'Iconography',
-    'dex_Main_text_des1' => '<p>Technical app specification</p>
+    'dex_des' => 'Децентрализованная криптобиржа основанная на сети TRON и SUN DappChain',
+    'dex_sub_des' => 'BIKI DEX - это P2P приложение с открытым исходным кодом, которое позволяет покупать и продавать криптовалюты без какой-либо регистрации.',
+    'dex_Main_Features' => 'Информация о продукте',
+    'dex_Main_Features_des' => 'Мы запускаем передовые финтех продукты',
+    'dex_Main_Features_name_1' => 'P2P ТОРГОВЛЯ',
+    'dex_Main_Features_name_1_des' => 'Мы создаем p2p-рынки прямо на блокчейне, что позволяет трейдерам самостоятельно хранить и управлять средствами',
+    'dex_Main_Features_name_2' => 'ВЫСОКАЯ ПРОЗРАЧНОСТЬ',
+    'dex_Main_Features_name_2_des' => 'Блокчейн позволяет пользователям отслеживать весь рынок, который хранится в блокчейне публично',
+    'dex_Main_Features_name_3' => 'АНОНИМНЫЕ ТРАНЗАКЦИИ',
+    'dex_Main_Features_name_3_des' => 'Нет KYC или какой-либо идентификации пользователя, подключите кошелек TRON Link и начните торговать',
+    'dex_Product_Details' => 'Информация о продукте',
+    'dex_Iconography_name' => 'Иконография',
+    'dex_Main_text_des1' => '<p>Техническая спецификация приложения:</p>
     <ul>
-        <li>platform - web</li>
-        <li>wallet - TRONLink</li>
-        <li>TRON Network tokens support</li>
-        <li>SUN DappChain tokens mapping</li>
-        <li>directly smart contract trading</li>
+        <li>Платформа - веб</li>
+        <li>Кошелек - TRONLink</li>
+        <li>Поддержка токенов сети TRON</li>
+        <li>Маппинг токенов SUN DappChain</li>
+        <li>Прямая торговля через смарт контракты</li>
     </ul>
-    <p>Dependability, privacy, transparency and convenience are the most valued characteristics when conducting trading operations, especially when it comes to emerging of traditional payment tools and new-made ones. Developing BIKI DEX we managed it all.</p>',
+    <p>Надежность, конфиденциальность, прозрачность и удобство являются наиболее ценными характеристиками при проведении торговых операций, особенно когда речь идет о появлении традиционных платежных инструментов и новых. Разрабатывая BIKI DEX, мы справились.</p>',
     'dex_Main_Features_All' => '<div class="col-sm-12">
-    <h2>Features</h2>
+    <h2>Основные особенности</h2>
     <div class="arrow"></div>
-    <h4>We launch advanced fintech products</h4>
-    <p style="text-align: center;" class="desc">Instantly Accessible. No need for registration or approval from a central authority.</p>
+    <h4>Мы запускаем передовые финтех продукты</h4>
+    <p style="text-align: center;" class="desc">Мгновенный доступ. Отсутствие необходимости в регистрации или одобрении со стороны центрального органа.</p>
     <div class="col3">
         <div class="img">
             <img src="/images/cases/icons/1.svg" alt="frontend">
         </div>
-        <p class="title">Decentralized</p>
-        <p class="desc" style="padding: 0 10px; text-align: center;">Trading takes place on a global P2P network of users running BIKI DEX on their own machines.</p>
+        <p class="title">Децентрализованно</p>
+        <p class="desc" style="padding: 0 10px; text-align: center;">Торговля происходит в глобальной P2P-сети пользователей, использующих BIKI DEX на своих машинах.</p>
     </div>
     <div class="col3">
         <div class="img">
             <img src="/images/cases/icons/2.svg" alt="backend">
         </div>
-        <p class="title">Safe</p>
-        <p class="desc" style="padding: 0 10px; text-align: center;">BIKI DEX never holds your funds. Security deposits and multisig trade wallets encourage safe, successful trades.</p>
+        <p class="title">Безопасно</p>
+        <p class="desc" style="padding: 0 10px; text-align: center;">BIKI DEX никогда не хранит ваши средства. Безопасные депозиты и мульти сигнатурные торговые кошельки поддерживают успешные торги.</p>
     </div>
     <div class="col3">
         <div class="img">
             <img src="/images/cases/icons/3.svg" alt="design">
         </div>
-        <p class="title">Private</p>
-        <p class="desc" style="padding: 0 10px; text-align: center;">No one except trading partners exchange personally identifying data. All personal data is stored locally.</p>
+        <p class="title">Приватно</p>
+        <p class="desc" style="padding: 0 10px; text-align: center;">Никто, кроме торговых партнеров, не обменивается персональными данными. Все личные данные хранятся локально.</p>
     </div>
     <div class="col3">
         <div class="img">
             <img src="/images/cases/icons/4.svg" alt="graphic">
         </div>
-        <p class="title">Open</p>
-        <p class="desc" style="padding: 0 10px; text-align: center;">Code is open source, and project strategy is discussed openly on GitHub.</p>
+        <p class="title">Открыто</p>
+        <p class="desc" style="padding: 0 10px; text-align: center;">Открытый исходный код и стратегия проекта находятся публично на GitHub.</p>
     </div>
     <div class="col3">
         <div class="img">
             <img src="/images/cases/icons/5.svg" alt="support">
         </div>
-        <p class="title">Easy to Use</p>
-        <p class="desc" style="padding: 0 10px; text-align: center;">We\'ve made all this sophistication simple—make your first trade in under 5 minutes!</p>
+        <p class="title">Легко в использовании</p>
+        <p class="desc" style="padding: 0 10px; text-align: center;">Мы сделали все сложности простыми - совершите свою первую сделку менее чем за 5 минут!</p>
     </div>
     <div class="col3">
         <div class="img">
@@ -525,18 +525,19 @@ color: #FFFFFF;" >Отправить</a>
         <div class="img">
             <img src="/images/cases/icons/7.svg" alt="support">
         </div>
-        <p class="title">Liquid</p>
-        <p class="desc" style="padding: 0 10px; text-align: center;">Easy onboarding for market makers. Fill any size order at the most competitive prices–with no spending limits.</p>
+        <p class="title">Ликвидно</p>
+        <p class="desc" style="padding: 0 10px; text-align: center;">Легкая регистрация для маркет-мейкеров. Заполните заказ любого размера по наиболее конкурентоспособным ценам - без ограничений по тратам.</p>
     </div>
 </div>',
 'dex_Main_mission' => '<div class="col-sm-12">
 <h2>Our mission</h2>
 <div class="arrow"></div>
-<h4>We launch advanced fintech products</h4>
-<p class="desc">BIKI DEX\'s mission is to provide a secure, private and censorship-resistant way of exchanging cryptocurrencies over the internet.</p>
-<p class="desc">When we say secure, we are referring to the safety of users\' funds. Today, most bitcoin exchanges are centralized, requiring users to store their bitcoins— for at least some amount of time— on exchange servers. When thousands of users do this, it creates extreme incentives for those servers to be hacked and for those users\' bitcoins to be stolen. And time and time again these hacks and thefts are exactly what happen. </p>
-<p class="desc">When we say private, we are referring to users\' ability to control access to their own information. Today, most centralized exchanges require users to divulge personally identifying information in order to set up an account, and then in turn link users\' trading activity to their respective identities. This practice creates extreme risks for users that their personal details and financial information will be stolen, leaked or otherwise used against their own best interests.</p>
-<p class="desc">When we say censorship-resistant, we are referring to users\' ability to voluntarily trade with one another without interference from a third party. Today, centralized bitcoin exchanges are highly susceptible to such interference. By their nature, they must operate within one legal jurisdiction or another, putting them at risk of being fined or shut down if they do not comply with the laws and other rules of that jurisdiction, which may include restrictions on who can trade and what can be traded, and almost always include requirements to collect personal information as described above.</p>
+<h4>Мы запускаем передовые финтех продукты</h4>
+<p class="desc">Миссия BIKI DEX - обеспечить безопасный, частный и устойчивый к цензуре способ обмена криптовалют через Интернет.</p>
+<p class="desc">Когда мы говорим о безопасности, мы имеем в виду безопасность средств пользователей. Сегодня большинство бирж биткоинов централизовано, что требует от пользователей хранить свои биткоины - хотя бы некоторое время - на биржевых серверах. Когда тысячи пользователей делают это, это создает крайние стимулы для взлома этих серверов и кражи биткоинов этих пользователей. Взломы и кражи именно то, что происходит по сей день. </p>
+<p class="desc">Когда мы говорим о приватности, мы имеем в виду способность пользователей контролировать доступ к своей собственной информации. Сегодня большинство централизованных бирж требуют, чтобы пользователи раскрывали личную информацию, чтобы создать учетную запись, а затем, в свою очередь, связывают торговую активность пользователей с их соответствующими личностями. Такая практика создает для пользователей экстремальный риск того, что их личные данные и финансовая информация будут украдены, переданы или иным образом использованы в их собственных интересах.</p>
+<p class="desc">Когда мы говорим цензуростойкий, мы имеем в виду способность пользователей добровольно торговать друг с другом без вмешательства третьей стороны. Сегодня централизованные биржи очень чувствительны к таким помехам. По своей природе централизованные биржи должны действовать в той или иной правовой юрисдикции, подвергаясь риску быть оштрафованными или закрытыми, в случае несоблюдения законов или других правил этой юрисдикции, которые могут включать ограничения на то, кто может торговать и что может торговаться, и почти всегда включают требования для сбора личной информации, как описано выше.
+</p>
 <div class="col3">
     <div class="img">
         <img src="/images/cases/frontend.svg" alt="frontend">
@@ -553,27 +554,27 @@ color: #FFFFFF;" >Отправить</a>
     <div class="img">
         <img src="/images/cases/interaction_design.svg" alt="design">
     </div>
-    <p class="title">Interaction Design</p>
+    <p class="title">Интерактивный дизайн</p>
 </div>
 <div class="col3">
     <div class="img">
         <img src="/images/cases/graphical_design.svg" alt="graphic">
     </div>
-    <p class="title">Graphical Design</p>
+    <p class="title">Графический дизайн</p>
 </div>
 <div class="col3">
     <div class="img">
         <img src="/images/cases/system.svg" alt="support">
     </div>
-    <p class="title">System Integration</p>
+    <p class="title">Системная интеграция</p>
 </div>
 <div class="col3">
     <div class="img">
         <img src="/images/cases/support.svg" alt="support">
     </div>
-    <p class="title">Support</p>
+    <p class="title">Поддержка</p>
 </div>
 </div>',
-'dex_Main_Features_Inspiration' => 'Inspiration',
+'dex_Main_Features_Inspiration' => 'Вдохновение',
 
 ];
