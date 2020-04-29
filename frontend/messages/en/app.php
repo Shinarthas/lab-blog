@@ -505,7 +505,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;   
     <div class="arrow"></div>
     <h4>We launch advanced fintech products</h4>
     <p style="text-align: center;" class="desc">Instantly Accessible. No need for registration or approval from a central authority.</p>
-    <div class="col3">
+    <div class="col3" style="float: left;">
         <div class="img">
             <img src="/images/cases/icons/1.svg" alt="frontend">
         </div>
@@ -559,9 +559,9 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;   
 <h2>Our mission</h2>
 <div class="arrow"></div>
 <h4>We launch advanced fintech products</h4>
-<p class="desc">BIKI DEX\'s mission is to provide a secure, private and censorship-resistant way of exchanging cryptocurrencies over the internet.</p>
-<p class="desc">When we say secure, we are referring to the safety of users\' funds. Today, most bitcoin exchanges are centralized, requiring users to store their bitcoins— for at least some amount of time— on exchange servers. When thousands of users do this, it creates extreme incentives for those servers to be hacked and for those users\' bitcoins to be stolen. And time and time again these hacks and thefts are exactly what happen. </p>
-<p class="desc">When we say private, we are referring to users\' ability to control access to their own information. Today, most centralized exchanges require users to divulge personally identifying information in order to set up an account, and then in turn link users\' trading activity to their respective identities. This practice creates extreme risks for users that their personal details and financial information will be stolen, leaked or otherwise used against their own best interests.</p>
+<p class="desc">BIKI DEX\'s mission is to provide a secure, private and censorship-resistant way of exchanging cryptocurrencies over the internet.</p><br>
+<p class="desc">When we say secure, we are referring to the safety of users\' funds. Today, most bitcoin exchanges are centralized, requiring users to store their bitcoins— for at least some amount of time— on exchange servers. When thousands of users do this, it creates extreme incentives for those servers to be hacked and for those users\' bitcoins to be stolen. And time and time again these hacks and thefts are exactly what happen. </p><br>
+<p class="desc">When we say private, we are referring to users\' ability to control access to their own information. Today, most centralized exchanges require users to divulge personally identifying information in order to set up an account, and then in turn link users\' trading activity to their respective identities. This practice creates extreme risks for users that their personal details and financial information will be stolen, leaked or otherwise used against their own best interests.</p><br>
 <p class="desc">When we say censorship-resistant, we are referring to users\' ability to voluntarily trade with one another without interference from a third party. Today, centralized bitcoin exchanges are highly susceptible to such interference. By their nature, they must operate within one legal jurisdiction or another, putting them at risk of being fined or shut down if they do not comply with the laws and other rules of that jurisdiction, which may include restrictions on who can trade and what can be traded, and almost always include requirements to collect personal information as described above.</p>
 <div class="col3">
     <div class="img">
