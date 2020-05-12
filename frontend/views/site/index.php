@@ -93,6 +93,13 @@ $this->title = Yii::t('app','meta_home_title');
     </div>
 </section>
 
+<style>
+@media (max-width: 1199px){
+    .dis-none-t-cor{
+        display: none;
+    }
+}
+</style>
 
 <section class="first-screen" style="height: 120vh; z-index: 5">
     <div class="container">
@@ -112,9 +119,9 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px"><?= Yii::t('app', 'main_text
 
         </div>
         <div class="col-12 col-lg-3" style="margin-top: 20px;">
-        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid dis-none-t" data-src="/images/trade.png" alt="trade">
+        <img style="margin-bottom: 20px;    max-width: 280px; width: 100%;" class="img-fluid dis-none-t" data-src="/images/trade.png" alt="trade">
         <h2 style="color: #fff; font-size: 24px; color: #FFFFFF; line-height: 29px;" class="mb-4"><?= Yii::t('app', 'main_text4') ?></h2>
-        <p class="dis-none-t" style="font-style: normal;
+        <p class="dis-none-t dis-none-t-cor" style="font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 150%;
@@ -139,6 +146,80 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
             <source  data-src="/images/trade.webm" type="video/webm">
             <source id="vid1"  data-src="/images/trade.mp4" type="video/mp4">
         </video>
+        <script>
+            if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+            } else {
+                document.getElementById('vid1').remove();
+            }
+        </script>
+        <div class="text-c1 disb-none-t" style="
+    width:100%;
+    padding: 10px;
+    margin: 10px;
+    "><a style="color: white;
+    background: #6927ff;
+    padding: 15px 30px;
+    border-radius: 50px;" href="/solutions"><?= Yii::t('app', 'main_text7') ?></a></div>
+        <p class="disb-none-t" style="font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0.1em;
+color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
+        </div>
+    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="first-screen" style="height: 120vh; z-index: 5">
+    <div class="container">
+        <div class="row">
+            <div class="first-screen1">
+                <div class="first-screen__fixed">
+                    <div class="first-screen__content" style="padding-top: 15px;max-width: 1600px;">
+                    <div class="row" style="padding: 0 15px;margin: 0;">
+        <div class="col-12 text-center" style="">
+            <h2 style="font-style: normal;    letter-spacing: 2px;
+font-weight: bold;
+font-size: 48px;
+line-height: 58px;
+color: #FFFFFF; margin-bottom: 0; margin-top: 40px"><?= Yii::t('app', 'main_text2') ?></h2>
+<div class="second-screen__arrow"></div>
+<h2 class="dis-none-t" style="color:#fff;font-size: 24px;"><?= Yii::t('app', 'main_text3') ?></h2>
+
+        </div>
+        <div class="col-12 col-lg-3" style="margin-top: 20px;">
+        <img style="margin-bottom: 20px;    max-width: 230px; width: 100%;" class="img-fluid dis-none-t" data-src="/images/bdex.png" alt="trade">
+        <h2 style="color: #fff; font-size: 24px; color: #FFFFFF; line-height: 29px;" class="mb-4"><?= Yii::t('app', 'main_text4b') ?></h2>
+        <p class="dis-none-t dis-none-t-cor" style="font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0.1em;
+color: #FFFFFF;"><?= Yii::t('app', 'main_text5b') ?></p>
+<?= Yii::t('app', 'main_text6b') ?>
+<style>
+    @media(max-width: 991px){
+        .t-cen-bag{
+            text-align: center!important;
+        }
+    }
+</style>
+<div class="text-c1 dis-none-t t-cen-bag" style="width:100%;
+    text-align: left;padding: 30px;"><a style="color: white;
+    background: #6927ff;
+    padding: 15px 30px;
+    border-radius: 50px;" href="/solutions"><?= Yii::t('app', 'main_text7') ?></a></div>
+        </div>
+        <div class="col-12 col-lg-8" style="margin-top: 20px;">
+        <img src="/images/bdexinfo.png" class="img-fluid" alt="">
+        <!-- <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted"  poster="/images/posters/trade.jpg">
+            <source  data-src="/images/trade.webm" type="video/webm">
+            <source id="vid1"  data-src="/images/trade.mp4" type="video/mp4">
+        </video> -->
         <script>
             if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
             } else {
@@ -377,9 +458,6 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
 <style>
     
 @media (max-width: 767px){
-    .dis-none-t{
-        display: none;
-    }
     .text-c1{
         text-align: center!important;
     }

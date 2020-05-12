@@ -215,7 +215,9 @@ return [
     'main_text2' => 'Наши решения',
     'main_text3' => 'Мы запускаем передовые финтех продукты',
     'main_text4' => 'Неограниченные возможности торговли и хранения',
+    'main_text4b' => 'Прогрессивная децентрализованная торговля',
     'main_text5' => 'Гибкая платформа с горячим и холодным хранением, позволяющая торговать цифровыми активами и управлять ими в одном месте.',
+    'main_text5b' => 'Лидирующая биржа основанная на протоколах TRON предоставляет ликвидность для профессиональных трейдеров.',
     'main_text6' => '<div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
@@ -258,6 +260,41 @@ return [
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
     margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Расширенное управление портфелем</div>',
+    'main_text6b' => '<div class="dis-none-t" style="font-style: normal; margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Поддержка TRC-10&20 токенов</div>
+    <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Маппинг SUN DappChain</div>
+    <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Отсутствие комиссия</div>
+    <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Открытый исходный код</div>
+    <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Отсутствие KYC</div>',
     'main_text7' => 'Решения',
     'main_text8' => 'Последние новости',
     'main_text9' => 'Мы запускаем передовые финтех продукты',

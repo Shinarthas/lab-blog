@@ -9,16 +9,6 @@ $services=\common\models\ServicesCategory::find()->select('blog_services_categor
 
 ?>
 
-<? $lang = Yii::$app->request->get('language');
-if(is_null($lang)):?>
-
-<?
-	$phones_array = [
-		'US'	 	=> '+1-424-256-0701',
-		'GB' 		=> '+1-424-256-0701',
-		'OTHER'		=> '+1-424-256-0701',
-	];
-?>
 <link rel="stylesheet" href="/styles/_footer.css">
     <style>
 @media (max-width: 767px){
@@ -96,29 +86,6 @@ if(is_null($lang)):?>
     </style>
 
 
-<? else: ?>
-
-    <link rel="stylesheet" href="/styles/_footer.css">
-    <style>
-@media (max-width: 767px){
-    .dis-none-t{
-        display: none;
-    }
-    .text-c1{
-        text-align: center;
-    }
-    .icon-cor1{
-        font-size: 50px!important;
-        padding: 10px;
-}
-    
-}
-.footer{display: none!important;}
-
-</style>
-
-
-<? endif; ?>
 <!-- <div id="toTop" > <img style="filter: invert(1);" src="/images/top.png" alt="top"> </ div > -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
