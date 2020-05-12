@@ -12,6 +12,18 @@ $this->registerMetaTag([
     'name' => 'description',
     'content' => 'Lcoin, We develop native iOS and Android apps, TennisHub’s SaaS solution helps tennis businesses streamline operations and drive paid on-court activities'
 ]);
+
+
+$this->params['breadcrumbs'][] = array(
+    'label'=> Yii::t('app','text_header_solutions'),
+    'url'=>\yii\helpers\Url::toRoute('/solutions')
+);
+
+$this->params['breadcrumbs'][] = array(
+    'label'=> 'BIKI DEX',
+    'url'=>\yii\helpers\Url::toRoute('/exchangebiki')
+);
+
 ?>
 <style>
 body .container{max-width: 990px;width: 100%;}

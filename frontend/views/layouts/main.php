@@ -78,6 +78,8 @@ AppAsset::register($this);
 
 <body class="cookieconsent">
 <?php $this->beginBody() ?>
+
+
     <?php /*$this->render('//layouts/_loader')*/ ?>
 <?= $this->render('//layouts/_headerWhite',['lang'=>$lang]) ?>
 <?=$this->render("../blog/_styles");?>
@@ -98,6 +100,35 @@ AppAsset::register($this);
     }
 </style>
     <div class="siteWrapper">
+        <?php if(isset($this->params['breadcrumbs']) && count($this->params['breadcrumbs'])){?>
+            <div class="head">
+                <div class="container"  style="max-width: 1200px; text-align: center;">
+                    <div class="col-12" style="text-align: left;">
+                        <ul class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                            <li itemprop="itemListElement" itemscope
+                                itemtype="http://schema.org/ListItem">
+                                <a itemscope itemtype="http://schema.org/Thing"
+                                   itemprop="item" href="<?=Yii::$app->homeUrl?>">
+                                    <span itemprop="name"><?=Yii::t('app','go_to_main')?></span>
+                                </a>
+                                <meta itemprop="position" content="1" />
+                            </li>
+                            <?php for($i=0;$i<count($this->params['breadcrumbs']);$i++) ?>
+                            <?php foreach ($this->params['breadcrumbs'] as $breadcrumb){ ?>
+                                <li itemprop="itemListElement" itemscope
+                                    itemtype="http://schema.org/ListItem">
+                                    <a itemscope itemtype="http://schema.org/Thing"
+                                       itemprop="item" href="<?=$breadcrumb['url']?>">
+                                        <span itemprop="name"><?=$breadcrumb['label']?></span></a>
+
+                                    <meta itemprop="position" content="<?=$i+1?>" />
+                                </li>
+                            <?php }  ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <?php } ?>
 
         <?= $content ?>
 

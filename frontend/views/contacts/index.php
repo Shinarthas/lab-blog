@@ -19,6 +19,14 @@ $this->registerMetaTag([
     'content' => 'https://demol3m.fun/images/l3m-t.png',
 ],'og_image');
 $this->title = Yii::t('app','meta_contacts_title');
+
+
+$this->params['breadcrumbs'][] = array(
+    'label'=> Yii::t('app','text_header_contacts'),
+    'url'=>\yii\helpers\Url::toRoute('/contacts')
+);
+
+
 ?>
 <?=$this->render("../blog/_styles");?>
 <!-- Load CSS Compilled without JS -->

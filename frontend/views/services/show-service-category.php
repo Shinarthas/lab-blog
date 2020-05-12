@@ -7,6 +7,7 @@
  */
 
 use common\models\Lang;
+use yii\helpers\Url;
 
 $this->title = ucfirst($model['title']);
 
@@ -36,6 +37,15 @@ $lang_list = Lang::getLangList();
         }*/
     }
 
+
+$this->params['breadcrumbs'][] = array(
+    'label'=> Yii::t('app','text_header_services'),
+    'url'=>\yii\helpers\Url::toRoute('/services')
+);
+$this->params['breadcrumbs'][] = array(
+    'label'=> Yii::t('app',$model['title']),
+    'url'=>Url::to(['blog/show-post','id'=>$model['url'],'language'=>Yii::$app->language])
+);
 ?>
 
 <div class="services-inner" style="background: #151515;">

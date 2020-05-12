@@ -38,7 +38,7 @@ foreach ($services as $service){
         <div class="panel-heading" role="tab" id="heading_<?=$id?>">
             <h4 class="panel-title">
                 <span role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_<?=$id?>" aria-expanded="<?=($item['url']==$anchor) ? 'true' : 'false' ?>" aria-controls="collapse_<?=$id?>"></span>
-                <a style="width: 100%;" href="/<?=$item['url']?>"><?=$item['title']?></a>
+                <a style="width: 100%;" href="<?=\yii\helpers\Url::to(['blog/show-post','id'=>$item['url'],'language'=>Yii::$app->language])?>"><?=$item['title']?></a>
             </h4>
         </div>
         <div id="collapse_<?=$id?>" class="panel-collapse collapse <?=($item['url']==$anchor) ? 'in':'';?>" role="tabpanel" aria-labelledby="heading_<?=$id?>">
@@ -46,7 +46,7 @@ foreach ($services as $service){
                 <ul class="group-item">
                     <?php foreach ($services_remap[$item['id']] as $sub_category) { ?>
                         <?php if(!empty($sub_category['seo_url'])) {?>
-                    <li class="col-item <?=( isset($_GET['category']) && $sub_category['seo_url'] == $_GET['category'] ) ? 'active': '';?>"><a style="width: 100%;" href="/<?=$item['url']?>/<?=$sub_category['seo_url']?>"><?=$sub_category['name']?></a></li>
+                    <li class="col-item <?=( isset($_GET['category']) && $sub_category['seo_url'] == $_GET['category'] ) ? 'active': '';?>"><a style="width: 100%;" href="<?=\yii\helpers\Url::to(['blog/show-post','id'=>$item['url'],'language'=>Yii::$app->language])?>/<?=$sub_category['seo_url']?>"><?=$sub_category['name']?></a></li>
                             <?php } ?>
                     <?php } ?>
                 </ul>

@@ -1,5 +1,8 @@
 <?php
 return [
+    'text_menu_cookies'=>'Куки',
+    'text_menu_terms'=>'Условия',
+    'text_menu_privacy'=>'Безопасность',
     'cookie'=>'<h1><strong>Политика использования файлов cookie</strong></h1>
 <h3><strong>ВСТУПЛЕНИЕ</strong></h3>
 <p><span style="font-weight: 400;">Lab3M, Inc. (&laquo;мы&raquo;, &laquo;мы&raquo; или &laquo;наши&raquo;) может использовать файлы cookie, веб-маяки, пиксели отслеживания и другие технологии отслеживания, когда вы посещаете наш веб-сайт https://www.lab3m.com/, другие средства массовой информации. форму, медиа-канал, мобильный веб-сайт или мобильное приложение, связанное с ним или связанное с ним (совместно именуемое &laquo;https://www.lab3m.com/&raquo;), чтобы помочь настроить сайт и улучшить ваш опыт. знак равно</span></p>
@@ -101,5 +104,72 @@ return [
 <p><span style="font-weight: 400;">Мы оставляем за собой право обновлять или изменять нашу Политику конфиденциальности в любое время, и вы должны периодически проверять эту Политику конфиденциальности. Ваше дальнейшее использование Сервиса после того, как мы опубликуем какие-либо изменения Политики конфиденциальности на этой странице, будет означать ваше признание изменений и ваше согласие соблюдать и соблюдать измененную Политику конфиденциальности.</span></p>
 <p><span style="font-weight: 400;">Если мы внесем какие-либо существенные изменения в настоящую Политику конфиденциальности, мы уведомим вас либо по адресу электронной почты, который вы нам предоставили, либо путем размещения заметного уведомления на нашем веб-сайте.</span></p>
 <p><strong>СВЯЗАТЬСЯ С НАМИ</strong></p>
-<p><span style="font-weight: 400;">Если у вас есть какие-либо вопросы об этой Политике конфиденциальности, пожалуйста, свяжитесь с нами по contact@lab3m.com.</span></p>'
+<p><span style="font-weight: 400;">Если у вас есть какие-либо вопросы об этой Политике конфиденциальности, пожалуйста, свяжитесь с нами по contact@lab3m.com.</span></p>',
+    'js_snippet_default'=>"<script type=\"application/ld+json\">
+{
+ \"@context\": \"http://schema.org\",
+ \"@type\": \"WebSite\",
+ \"url\": \"https://lab3m.com/\",
+}
+</script>
+<script type=\"application/ld+json\">
+{
+ \"@context\": \"http://schema.org\",
+ \"@type\": \"Organization\",
+ \"url\": \"https://lab3m.com/\",
+ \"logo\": \"https://lab3m.com/images/l3m-t.png\"
+}
+</script>
+<script type=\"application/ld+json\">
+{
+ \"@context\": \"http://schema.org\",
+ \"@type\": \"Organization\",
+ \"url\": \"https://lab3m.com/\",
+ \"contactPoint\": [{
+  \"@type\": \"ContactPoint\",
+  \"email\": \"contact@lab3m.com\",
+ \"contactType\": \"customer service\"
+ }]
+}
+</script>
+<script type=\"application/ld+json\">
+{
+    \"@context\": \"http://schema.org\",
+    \"@type\": \"Organization\",
+    \"address\": [{
+        \"@type\": \"PostalAddress\",
+        \"addressLocality\": \"Genève\",
+        \"streetAddress\": \"Rue Etienne-Dumont 16 1204\"
+    }],
+    \"email\": \"contact@lab3m.com\",
+    \"name\": \"Финтех и блокчейн решения lab3m\"
+}
+</script>
+<script type=\"application/ld+json\">
+ {
+ \"@context\": \"http://schema.org\",
+ \"@type\": \"Store\",
+ \"name\": \"lab3m - Финтех и блокчейн решения\",
+ \"image\": \"https://lab3m.com/images/l3m-t.png\",
+ \"openingHoursSpecification\": [
+ {
+ \"@type\": \"OpeningHoursSpecification\",
+ \"dayOfWeek\": [
+ \"Понедельник\",
+ \"Вторник\",
+ \"Среда\",
+ \"Четверг\",
+ \"Пятница\"
+ ],
+ \"opens\": \"09:00\",
+ \"closes\": \"17:00\"
+ }],
+\"address\": {
+\"@type\": \"PostalAddress\",
+\"streetAddress\": \"Rue Etienne-Dumont 16 1204\",
+\"addressLocality\": \"Genève\",
+\"addressCountry\": \"Швейцария\"
+}
+}
+</script>"
 ];

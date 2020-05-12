@@ -13,6 +13,18 @@ $this->registerMetaTag([
     'property' => 'og:image',
     'content' => 'https://demol3m.fun/images/l3m-t.png',
 ],'og_image');
+
+$this->params['breadcrumbs'][] = array(
+    'label'=> Yii::t('app','text_header_solutions'),
+    'url'=>\yii\helpers\Url::toRoute('/solutions')
+);
+
+$this->params['breadcrumbs'][] = array(
+    'label'=> 'Trade3m',
+    'url'=>\yii\helpers\Url::toRoute('/trade3m')
+);
+
+
 ?>
 
 

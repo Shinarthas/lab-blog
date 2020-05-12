@@ -12,6 +12,13 @@ $this->registerMetaTag([
 ],'og_image');
 /*$this->registerCssFile("/styles/bootstrap.min.css");
 $this->registerCssFile("/styles/services.css");*/
+
+$this->params['breadcrumbs'][] = array(
+    'label'=> Yii::t('app','text_header_services'),
+    'url'=>\yii\helpers\Url::toRoute('/services')
+);
+
+
 ?>
 <link rel="stylesheet" href="/styles/main-top.css">
 <style>
