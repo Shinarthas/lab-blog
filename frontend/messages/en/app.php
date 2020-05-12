@@ -10,7 +10,9 @@ return [
     'main_text2' => 'Our Solutions',
     'main_text3' => 'We launch advanced fintech products',
     'main_text4' => 'Unlimited Trading and Custody Features',
+    'main_text4b' => 'Advanced decentralized trading',
     'main_text5' => 'Flexible platform, with hot and cold storage, enabling digital asset trading and management in one place.',
+    'main_text5b' => 'Leading exchange based on TRON Network protocols providing liquidity for professional traders.',
     'main_text6' => '<div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
@@ -53,6 +55,41 @@ return [
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
     margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Portfolio management features</div>',
+    'main_text6b' => '<div class="dis-none-t" style="font-style: normal; margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >TRC-10&20 Token Support</div>
+    <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >SUN DappChain Mapping</div>
+    <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >No fees trading</div>
+    <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Open source code</div>
+    <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >KYC absence</div>',
     'main_text7' => 'Solutions',
     'main_text8' => 'Latest News',
     'main_text9' => 'We launch advanced fintech products',
