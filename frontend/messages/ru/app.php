@@ -62,7 +62,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Прогнозы и визуализации основанные на ИИ</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Прогнозы и визуализации основанные на ИИ</div>
                 </div>
                 <div class="col-12 col-md-4">
                 <div style="font-style: normal; margin-bottom: 20px;
@@ -70,7 +70,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Добавление и изменение торговых кампаний</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Добавление и изменение торговых кампаний</div>
                 </div>
                 <div class="col-12 col-md-4">
                 <div style="font-style: normal; margin-bottom: 20px;
@@ -78,7 +78,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Возможность ручного управления</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Возможность ручного управления</div>
                 </div>',
             
                 "text_portfolio_custody_title"=>"Хранение",
@@ -88,7 +88,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Мульти-сигнатура и верификация транзакций</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Мульти-сигнатура и верификация транзакций</div>
                 </div>
                 <div class="col-12 col-md-4">
                 <div style="font-style: normal; margin-bottom: 20px;
@@ -96,7 +96,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Кросс-платформенное движение средств</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Кросс-платформенное движение средств</div>
                 </div>
                 <div class="col-12 col-md-4">
                 <div style="font-style: normal; margin-bottom: 20px;
@@ -104,7 +104,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Синхронизированные холодные и горячие кошельки</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Синхронизированные холодные и горячие кошельки</div>
                 </div>',
             
                 "text_portfolio_management_title"=>"Управление портфелем",
@@ -114,7 +114,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Детализированная онлайн статистика</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Детализированная онлайн статистика</div>
                 </div>
                 <div class="col-12 col-md-4">
                 <div style="font-style: normal; margin-bottom: 20px;
@@ -122,7 +122,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Управления аккаунтами в одном месте</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Управления аккаунтами в одном месте</div>
                 </div>
                 <div class="col-12 col-md-4">
                 <div style="font-style: normal; margin-bottom: 20px;
@@ -130,7 +130,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Синхронизированный доступ ко всем средствам</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Синхронизированный доступ ко всем средствам</div>
                 </div>',
 
     "text_portfolio_backend_title"=>"Back-End",
@@ -222,42 +222,42 @@ return [
     line-height: 17px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" src="/images/v.png" alt="check mark" >Кроссплатформенная мульти-аккаунтная торговля</div>
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Кроссплатформенная мульти-аккаунтная торговля</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" src="/images/v.png" alt="check mark" >Прогнозы на основе ИИ</div>
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Прогнозы на основе ИИ</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" src="/images/v.png" alt="check mark" >Гибкая ролевая архитектура</div>
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Гибкая ролевая архитектура</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" src="/images/v.png" alt="check mark" >Прямое соединение API</div>
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Прямое соединение API</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" src="/images/v.png" alt="check mark" >Холодные и горячие кошельки</div>
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Холодные и горячие кошельки</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" src="/images/v.png" alt="check mark" >Расширенное управление портфелем</div>',
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Расширенное управление портфелем</div>',
     'main_text7' => 'Решения',
     'main_text8' => 'Последние новости',
     'main_text9' => 'Мы запускаем передовые финтех продукты',
@@ -326,14 +326,14 @@ color: #FFFFFF;" >Отправить</a>
 </section>',
 'services_block0' => '<div class="col-12">
                 <h2 style="color: #fff!important;">Что мы делаем</h2>
-                <img src="/images/company/arrowgrey.png" alt="arrowgrey" class="arrowgrey">
+                <img data-src="/images/company/arrowgrey.png" alt="arrowgrey" class="arrowgrey">
                 <p class="tagline">Мы сделаем блокчейн частью вашего бизнеса</p>
                 </div>',
 'services_block' => '    <div id="company">
     </div>',
     'company_block' => '<div class="info text-center">
     <h1>О нас</h1>
-    <img src="/images/company/arrow.png" alt="arrow-lab3m" class="arrow">
+    <img data-src="/images/company/arrow.png" alt="arrow-lab3m" class="arrow">
     <p class="tagline">Мы запускаем передовые финтех продукты</p>
     <p>
     Сложно конкурировать на таком растущем и масштабируемом рынке, как ИТ. Чтобы стать успешной компанией, вам нужно собрать талантливых людей под руководством настоящего провидца.
@@ -387,19 +387,19 @@ color: #FFFFFF;" >Отправить</a>
             
             <div class="col-sm-4 pr1">
                 <div class="img">
-                    <img src="/images/cases/Basket.svg" alt="Basket">
+                    <img data-src="/images/cases/Basket.svg" alt="Basket">
                 </div>
                 <p>Криптовалюта</p>
             </div>
             <div class="col-sm-4 pr2">
                 <div class="img">
-                    <img src="/images/cases/Smile.svg" alt="Smile">
+                    <img data-src="/images/cases/Smile.svg" alt="Smile">
                 </div>
                 <p>Торговля</p>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/Lafka-smile.svg" alt="Lafka-smile">
+                    <img data-src="/images/cases/Lafka-smile.svg" alt="Lafka-smile">
                 </div>
                 <p>Lab3M</p>
             </div>
@@ -425,7 +425,7 @@ color: #FFFFFF;" >Отправить</a>
     'text_banner_estimate'=>'Давайте оценим ваш проект!',
     'text_banner_overview'=>'Мы дадим обзор вашей идеи как можно скорее',
     'text_banner_free_overview'=>'Получить бесплатный обзор',
-    'banner_medium' =>'<img src="/images/medium-banner-ru.png" alt="banner" class="img-fluid">',
+    'banner_medium' =>'<img data-src="/images/medium-banner-ru.png" alt="banner" class="img-fluid">',
     'but_categor' => 'Сервисы',
     'categ_blog' => 'Блог',
     'time_blog' => 'ГЛАВНОЕ | 2 мин чтения · 2 Апреля 2020',
@@ -442,11 +442,11 @@ color: #FFFFFF;" >Отправить</a>
 'map_contacts' => '<div class="map map_ru">
     <div class="lights">
         <div class="col-xs-6 visible-xs text-center">
-            <img src="/images/contacts/location.png" alt="location">
+            <img data-src="/images/contacts/location.png" alt="location">
             <p>Сингапур</p>
         </div>
         <div class="col-xs-6 visible-xs text-center">
-            <img src="/images/contacts/location.png" alt="location">
+            <img data-src="/images/contacts/location.png" alt="location">
             <p>Швейцария</p>
         </div>
     </div>
@@ -479,98 +479,98 @@ color: #FFFFFF;" >Отправить</a>
     <div class="arrow"></div>
     <h4>Мы запускаем передовые финтех продукты</h4>
     <p style="text-align: center;" class="desc">Мгновенный доступ. Отсутствие необходимости в регистрации или одобрении со стороны центрального органа.</p>
-    <div class="col3">
+    <div class="col3" style="float: left;">
         <div class="img">
-            <img src="/images/cases/icons/1.svg" alt="frontend">
+            <img data-src="/images/cases/icons/1.svg" alt="frontend">
         </div>
         <p class="title">Децентрализованно</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">Торговля происходит в глобальной P2P-сети пользователей, использующих BIKI DEX на своих машинах.</p>
     </div>
     <div class="col3">
         <div class="img">
-            <img src="/images/cases/icons/2.svg" alt="backend">
+            <img data-src="/images/cases/icons/2.svg" alt="backend">
         </div>
         <p class="title">Безопасно</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">BIKI DEX никогда не хранит ваши средства. Безопасные депозиты и мульти сигнатурные торговые кошельки поддерживают успешные торги.</p>
     </div>
     <div class="col3">
         <div class="img">
-            <img src="/images/cases/icons/3.svg" alt="design">
+            <img data-src="/images/cases/icons/3.svg" alt="design">
         </div>
         <p class="title">Приватно</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">Никто, кроме торговых партнеров, не обменивается персональными данными. Все личные данные хранятся локально.</p>
     </div>
     <div class="col3">
         <div class="img">
-            <img src="/images/cases/icons/4.svg" alt="graphic">
+            <img data-src="/images/cases/icons/4.svg" alt="graphic">
         </div>
         <p class="title">Открыто</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">Открытый исходный код и стратегия проекта находятся публично на GitHub.</p>
     </div>
     <div class="col3">
         <div class="img">
-            <img src="/images/cases/icons/5.svg" alt="support">
+            <img data-src="/images/cases/icons/5.svg" alt="support">
         </div>
         <p class="title">Легко в использовании</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">Мы сделали все сложности простыми - совершите свою первую сделку менее чем за 5 минут!</p>
     </div>
     <div class="col3">
         <div class="img">
-            <img src="/images/cases/icons/6.svg" alt="support">
+            <img data-src="/images/cases/icons/6.svg" alt="support">
         </div>
         <p class="title">No fees</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">No complicated trading fees to have to track and manage. It’s truly free..</p>
     </div>
     <div class="col3">
         <div class="img">
-            <img src="/images/cases/icons/7.svg" alt="support">
+            <img data-src="/images/cases/icons/7.svg" alt="support">
         </div>
         <p class="title">Ликвидно</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">Легкая регистрация для маркет-мейкеров. Заполните заказ любого размера по наиболее конкурентоспособным ценам - без ограничений по тратам.</p>
     </div>
 </div>',
 'dex_Main_mission' => '<div class="col-sm-12">
-<h2>Our mission</h2>
+<h2>Наша миссия</h2>
 <div class="arrow"></div>
 <h4>Мы запускаем передовые финтех продукты</h4>
-<p class="desc">Миссия BIKI DEX - обеспечить безопасный, частный и устойчивый к цензуре способ обмена криптовалют через Интернет.</p>
-<p class="desc">Когда мы говорим о безопасности, мы имеем в виду безопасность средств пользователей. Сегодня большинство бирж биткоинов централизовано, что требует от пользователей хранить свои биткоины - хотя бы некоторое время - на биржевых серверах. Когда тысячи пользователей делают это, это создает крайние стимулы для взлома этих серверов и кражи биткоинов этих пользователей. Взломы и кражи именно то, что происходит по сей день. </p>
-<p class="desc">Когда мы говорим о приватности, мы имеем в виду способность пользователей контролировать доступ к своей собственной информации. Сегодня большинство централизованных бирж требуют, чтобы пользователи раскрывали личную информацию, чтобы создать учетную запись, а затем, в свою очередь, связывают торговую активность пользователей с их соответствующими личностями. Такая практика создает для пользователей экстремальный риск того, что их личные данные и финансовая информация будут украдены, переданы или иным образом использованы в их собственных интересах.</p>
+<p class="desc">Миссия BIKI DEX - обеспечить безопасный, частный и устойчивый к цензуре способ обмена криптовалют через Интернет.</p><br>
+<p class="desc">Когда мы говорим о безопасности, мы имеем в виду безопасность средств пользователей. Сегодня большинство бирж биткоинов централизовано, что требует от пользователей хранить свои биткоины - хотя бы некоторое время - на биржевых серверах. Когда тысячи пользователей делают это, это создает крайние стимулы для взлома этих серверов и кражи биткоинов этих пользователей. Взломы и кражи именно то, что происходит по сей день. </p><br>
+<p class="desc">Когда мы говорим о приватности, мы имеем в виду способность пользователей контролировать доступ к своей собственной информации. Сегодня большинство централизованных бирж требуют, чтобы пользователи раскрывали личную информацию, чтобы создать учетную запись, а затем, в свою очередь, связывают торговую активность пользователей с их соответствующими личностями. Такая практика создает для пользователей экстремальный риск того, что их личные данные и финансовая информация будут украдены, переданы или иным образом использованы в их собственных интересах.</p><br>
 <p class="desc">Когда мы говорим цензуростойкий, мы имеем в виду способность пользователей добровольно торговать друг с другом без вмешательства третьей стороны. Сегодня централизованные биржи очень чувствительны к таким помехам. По своей природе централизованные биржи должны действовать в той или иной правовой юрисдикции, подвергаясь риску быть оштрафованными или закрытыми, в случае несоблюдения законов или других правил этой юрисдикции, которые могут включать ограничения на то, кто может торговать и что может торговаться, и почти всегда включают требования для сбора личной информации, как описано выше.
 </p>
 <div class="col3">
     <div class="img">
-        <img src="/images/cases/frontend.svg" alt="frontend">
+        <img data-src="/images/cases/frontend.svg" alt="frontend">
     </div>
     <p class="title">Front-End</p>
 </div>
 <div class="col3">
     <div class="img">
-        <img src="/images/cases/backend.svg" alt="backend">
+        <img data-src="/images/cases/backend.svg" alt="backend">
     </div>
     <p class="title">Back-End</p>
 </div>
 <div class="col3">
     <div class="img">
-        <img src="/images/cases/interaction_design.svg" alt="design">
+        <img data-src="/images/cases/interaction_design.svg" alt="design">
     </div>
     <p class="title">Интерактивный дизайн</p>
 </div>
 <div class="col3">
     <div class="img">
-        <img src="/images/cases/graphical_design.svg" alt="graphic">
+        <img data-src="/images/cases/graphical_design.svg" alt="graphic">
     </div>
     <p class="title">Графический дизайн</p>
 </div>
 <div class="col3">
     <div class="img">
-        <img src="/images/cases/system.svg" alt="support">
+        <img data-src="/images/cases/system.svg" alt="support">
     </div>
     <p class="title">Системная интеграция</p>
 </div>
 <div class="col3">
     <div class="img">
-        <img src="/images/cases/support.svg" alt="support">
+        <img data-src="/images/cases/support.svg" alt="support">
     </div>
     <p class="title">Поддержка</p>
 </div>

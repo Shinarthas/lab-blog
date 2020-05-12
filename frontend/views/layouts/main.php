@@ -138,8 +138,8 @@ AppAsset::register($this);
     </div>
     <div hidden class="contactPopupMessage">
         <div class="contactsPopup">
-            <img class="letter" src="/images/contacts/happy_mail.svg" alt="letter">
-            <img class="like" src="/images/contacts/like.svg" alt="like">
+            <img class="letter" data-src="/images/contacts/happy_mail.svg" alt="letter">
+            <img class="like" data-src="/images/contacts/like.svg" alt="like">
             <h2>Get The Latest Updates</h2>
             <div class="arrow"></div>
             <div class="status-container"></div>
@@ -149,7 +149,7 @@ AppAsset::register($this);
             </form>
         </div>
         <div class="closeMess">
-            <img src="/images/contacts/close.popup.svg" alt="close">
+            <img data-src="/images/contacts/close.popup.svg" alt="close">
         </div>
     </div>
 

@@ -28,7 +28,7 @@ a.btn-clipboard:hover,.btn-clipboard.success
 		
 		<? if($contact->status != $contact::CONTACTS_NEW):?>
 			<p style="margin-top:20px;">Your manager: Julia</p>
-			<img src="/images/team/julia.d.jpg" style="margin: 0 0 10px;">
+			<img data-src="/images/team/julia.d.jpg" style="margin: 0 0 10px;">
 			<p>
 			Timezone: Europe/Kiev (<?
 				$date = new DateTime("now", new DateTimeZone('Europe/Kiev') );

@@ -120,7 +120,7 @@ body .container{max-width: 990px;width: 100%;}
             </div>
         </div>
     </div>
-    <img class="top-img" src="/images/cases/melo/top-melo.png" alt="Melo gadget">
+    <img class="top-img" data-src="/images/cases/melo/top-melo.png" alt="Melo gadget">
     <video class="video" preload="metadata" autoplay="autoplay" playsinline loop="loop" poster="">
         <source src="/videos/melo.mp4" type='video/mp4;'>
     </video>
@@ -150,14 +150,14 @@ body .container{max-width: 990px;width: 100%;}
     <div class="container">
         <div class="row">
             <div class="scr">
-                <img src="/images/cases/screens/melo/1.png" alt="Display for melo">
-                <img src="/images/cases/screens/melo/2.png" alt="Display for melo">
-                <img src="/images/cases/screens/melo/3.png" alt="Display for melo">
-                <img src="/images/cases/screens/melo/4.png" alt="Display for melo">
-                <img src="/images/cases/screens/melo/5.png" alt="Display for melo">
-                <img src="/images/cases/screens/melo/6.png" alt="Display for melo">
-                <img src="/images/cases/screens/melo/7.png" alt="Display for melo">
-                <img src="/images/cases/screens/melo/8.png" alt="Display for melo">
+                <img data-src="/images/cases/screens/melo/1.png" alt="Display for melo">
+                <img data-src="/images/cases/screens/melo/2.png" alt="Display for melo">
+                <img data-src="/images/cases/screens/melo/3.png" alt="Display for melo">
+                <img data-src="/images/cases/screens/melo/4.png" alt="Display for melo">
+                <img data-src="/images/cases/screens/melo/5.png" alt="Display for melo">
+                <img data-src="/images/cases/screens/melo/6.png" alt="Display for melo">
+                <img data-src="/images/cases/screens/melo/7.png" alt="Display for melo">
+                <img data-src="/images/cases/screens/melo/8.png" alt="Display for melo">
             </div>
         </div>
     </div>
@@ -167,21 +167,21 @@ body .container{max-width: 990px;width: 100%;}
         <div class="row">
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/shelm.svg" alt="shelm">
+                    <img data-src="/images/cases/shelm.svg" alt="shelm">
                 </div>
                 <p class="title">Our Team</p>
                 <p class="sign">7 Engineers</p>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/pin.svg" alt="pin">
+                    <img data-src="/images/cases/pin.svg" alt="pin">
                 </div>
                 <p class="title">Client's Location</p>
                 <p class="sign">San Francisco, USA</p>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/stopwatch.svg" alt="stopwatch">
+                    <img data-src="/images/cases/stopwatch.svg" alt="stopwatch">
                 </div>
                 <p class="title">Timeline</p>
                 <p class="sign">April 2015 - Today</p>
@@ -199,37 +199,37 @@ body .container{max-width: 990px;width: 100%;}
                 <p class="desc">Tunderrise team uses proven to be effective TECHNOLOGIES to deliver outstanding result going at design, frontend and backend tooth and nail. PHP, jQuery, JavaScript, HTML5, CSS3, MSQL, Qbjective-C, Java.</p>
                 <div class="col3">
                     <div class="img">
-                        <img src="/images/cases/frontend.svg" alt="frontend">
+                        <img data-src="/images/cases/frontend.svg" alt="frontend">
                     </div>
                     <p class="title">Front-End</p>
                 </div>
                 <div class="col3">
                     <div class="img">
-                        <img src="/images/cases/backend.svg" alt="backend">
+                        <img data-src="/images/cases/backend.svg" alt="backend">
                     </div>
                     <p class="title">Back-End</p>
                 </div>
                 <div class="col3">
                     <div class="img">
-                        <img src="/images/cases/interaction_design.svg" alt="design">
+                        <img data-src="/images/cases/interaction_design.svg" alt="design">
                     </div>
                     <p class="title">Interaction Design</p>
                 </div>
                 <div class="col3">
                     <div class="img">
-                        <img src="/images/cases/graphical_design.svg" alt="graphic">
+                        <img data-src="/images/cases/graphical_design.svg" alt="graphic">
                     </div>
                     <p class="title">Graphical Design</p>
                 </div>
                 <div class="col3">
                     <div class="img">
-                        <img src="/images/cases/system.svg" alt="support">
+                        <img data-src="/images/cases/system.svg" alt="support">
                     </div>
                     <p class="title">System Integration</p>
                 </div>
                 <div class="col3">
                     <div class="img">
-                        <img src="/images/cases/support.svg" alt="support">
+                        <img data-src="/images/cases/support.svg" alt="support">
                     </div>
                     <p class="title">Support</p>
                 </div>
@@ -245,21 +245,21 @@ body .container{max-width: 990px;width: 100%;}
             <h4>We launch advanced commerce platforms</h4>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/melo/music.png" alt="Music">
+                    <img data-src="/images/cases/melo/music.png" alt="Music">
                 </div>
                 <p class="title">Music streaming</p>
                 <span>Keep up with the latest music tendencies</span>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/melo/share.png" alt="Share">
+                    <img data-src="/images/cases/melo/share.png" alt="Share">
                 </div>
                 <p class="title">Share with friends</p>
                 <span>Create joint playlists with your friends</span>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/melo/discover.png" alt="Discover">
+                    <img data-src="/images/cases/melo/discover.png" alt="Discover">
                 </div>
                 <p class="title">Discover by locations</p>
                 <span>Find your music mates in your region</span>
@@ -271,7 +271,7 @@ body .container{max-width: 990px;width: 100%;}
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <img src="/images/cases/melo/melo-touch.jpg" alt="Lafka Basket">
+                <img data-src="/images/cases/melo/melo-touch.jpg" alt="Lafka Basket">
                 <h2>How It Works?</h2>
                 <p>Joint music listening becomes truly comfortable with Melo. After you are logged into your profile or connected to shared channel you can add your favourite tracks that will be sorted by Melo and played one track of each member at a time. This way playlist will be full of different musical genres and you will surely enjoy your time in a company of kindred people and their musical tastes.</p>
             </div>
@@ -294,7 +294,7 @@ body .container{max-width: 990px;width: 100%;}
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <img src="/images/cases/melo/melo.png" alt="Lafka Basket">
+                <img data-src="/images/cases/melo/melo.png" alt="Lafka Basket">
                 <p>Melo is a medium for collective realtime music listening. It’s a new word in social media that contributes new experience to melomanes.</p>
             </div>
         </div>
@@ -308,19 +308,19 @@ body .container{max-width: 990px;width: 100%;}
             <h4>We launch advanced commerce platforms</h4>
             <div class="col-sm-4 pr1">
                 <div class="img">
-                    <img src="/images/cases/melo/Melody.svg" alt="Basket">
+                    <img data-src="/images/cases/melo/Melody.svg" alt="Basket">
                 </div>
                 <p>Melody</p>
             </div>
             <div class="col-sm-4 pr2">
                 <div class="img">
-                    <img src="/images/cases/melo/Wing.svg" alt="Smile">
+                    <img data-src="/images/cases/melo/Wing.svg" alt="Smile">
                 </div>
                 <p>Wing</p>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/melo/Melo.svg" alt="Lafka-smile">
+                    <img data-src="/images/cases/melo/Melo.svg" alt="Lafka-smile">
                 </div>
                 <p>Melo</p>
             </div>
@@ -334,18 +334,18 @@ body .container{max-width: 990px;width: 100%;}
             <div class="arrow"></div>
             <h4>We launch advanced commerce platforms</h4>
         </div>
-        <div class="col6"><img src="/images/cases/melo/melo_geopoint.png" alt="melo geopoint"></div>
-        <div class="col6"><img src="/images/cases/melo/melo_client.png" alt="melo client"></div>
-        <div class="col6"><img src="/images/cases/melo/melo_music.png" alt="melo music"></div>
-        <div class="col6"><img src="/images/cases/melo/melo_documentation.png" alt="melo documentation"></div>
-        <div class="col6"><img src="/images/cases/melo/melo_like.png" alt="melo like"></div>
-        <div class="col6"><img src="/images/cases/melo/melo_cycle.png" alt="melo cycle"></div>
-        <div class="col6"><img src="/images/cases/melo/melo_play.png" alt="melo play"></div>
-        <div class="col6"><img src="/images/cases/melo/melo_flows.png" alt="melo flows"></div>
-        <div class="col6"><img src="/images/cases/melo/melo_equalizer.png" alt="melo equalizer"></div>
-        <div class="col6"><img src="/images/cases/melo/melo_share.png" alt="melo share"></div>
-        <div class="col6"><img src="/images/cases/melo/melo_exit.png" alt="melo exit"></div>
-        <div class="col6"><img src="/images/cases/melo/melo_song.png" alt="melo song"></div>
+        <div class="col6"><img data-src="/images/cases/melo/melo_geopoint.png" alt="melo geopoint"></div>
+        <div class="col6"><img data-src="/images/cases/melo/melo_client.png" alt="melo client"></div>
+        <div class="col6"><img data-src="/images/cases/melo/melo_music.png" alt="melo music"></div>
+        <div class="col6"><img data-src="/images/cases/melo/melo_documentation.png" alt="melo documentation"></div>
+        <div class="col6"><img data-src="/images/cases/melo/melo_like.png" alt="melo like"></div>
+        <div class="col6"><img data-src="/images/cases/melo/melo_cycle.png" alt="melo cycle"></div>
+        <div class="col6"><img data-src="/images/cases/melo/melo_play.png" alt="melo play"></div>
+        <div class="col6"><img data-src="/images/cases/melo/melo_flows.png" alt="melo flows"></div>
+        <div class="col6"><img data-src="/images/cases/melo/melo_equalizer.png" alt="melo equalizer"></div>
+        <div class="col6"><img data-src="/images/cases/melo/melo_share.png" alt="melo share"></div>
+        <div class="col6"><img data-src="/images/cases/melo/melo_exit.png" alt="melo exit"></div>
+        <div class="col6"><img data-src="/images/cases/melo/melo_song.png" alt="melo song"></div>
     </div>
 </section>
 <section class="main main12">
@@ -357,73 +357,73 @@ body .container{max-width: 990px;width: 100%;}
             <div class="option">
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/js.png" alt="javascript">
+                    <img data-src="/images/tehnologies/js.png" alt="javascript">
                 </div>
                 <p class="title">JavaScript</p>
             </div>
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/php.png" alt="php">
+                    <img data-src="/images/tehnologies/php.png" alt="php">
                 </div>
                 <p class="title">PHP</p>
             </div>
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/jq.png" alt="jquery">
+                    <img data-src="/images/tehnologies/jq.png" alt="jquery">
                 </div>
                 <p class="title">jQuery</p>
             </div>
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/postgre.png" alt="postgre">
+                    <img data-src="/images/tehnologies/postgre.png" alt="postgre">
                 </div>
                 <p class="title">PostgreSQL</p>
             </div>
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/html.png" alt="html">
+                    <img data-src="/images/tehnologies/html.png" alt="html">
                 </div>
                 <p class="title">HTML5</p>
             </div>
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/redis.png" alt="redis">
+                    <img data-src="/images/tehnologies/redis.png" alt="redis">
                 </div>
                 <p class="title">Redis</p>
             </div>
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/ios.png" alt="Objectiv-C">
+                    <img data-src="/images/tehnologies/ios.png" alt="Objectiv-C">
                 </div>
                 <p class="title">Objectiv-C</p>
             </div>
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/cocoa.png" alt="cocoa">
+                    <img data-src="/images/tehnologies/cocoa.png" alt="cocoa">
                 </div>
                 <p class="title">ReactiveCocoa</p>
             </div>
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/lite.png" alt="sqlite">
+                    <img data-src="/images/tehnologies/lite.png" alt="sqlite">
                 </div>
                 <p class="title">SQLite</p>
             </div>
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/cache.png" alt="yandex">
+                    <img data-src="/images/tehnologies/cache.png" alt="yandex">
                 </div>
                 <p class="title">DFCache</p>
             </div>
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/afn.png" alt="afn">
+                    <img data-src="/images/tehnologies/afn.png" alt="afn">
                 </div>
                 <p class="title">AFNetworking</p>
             </div>
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/realm.png" alt="realm">
+                    <img data-src="/images/tehnologies/realm.png" alt="realm">
                 </div>
                 <p class="title">Realm</p>
             </div>
@@ -437,23 +437,23 @@ body .container{max-width: 990px;width: 100%;}
             <div class="arrow arrow-ginger"></div>
             <h4>We launch advanced commerce platforms</h4>
             <div class="col5">
-                <img src="/images/tehnologies/relic.png" alt="relic">
+                <img data-src="/images/tehnologies/relic.png" alt="relic">
                 <p class="title">New relic</p>
             </div>
             <div class="col5">
-                <img src="/images/tehnologies/tube.png" alt="YouTube">
+                <img data-src="/images/tehnologies/tube.png" alt="YouTube">
                 <p class="title">YouTube</p>
             </div>
             <div class="col5">
-                <img src="/images/tehnologies/fb.png" alt="Facebook">
+                <img data-src="/images/tehnologies/fb.png" alt="Facebook">
                 <p class="title">Facebook OAuth</p>
             </div>
             <div class="col5">
-                <img src="/images/tehnologies/vk.png" alt="vkontakte">
+                <img data-src="/images/tehnologies/vk.png" alt="vkontakte">
                 <p class="title">VK OAuth</p>
             </div>
             <div class="col5">
-                <img src="/images/tehnologies/twi.png" alt="Twitter">
+                <img data-src="/images/tehnologies/twi.png" alt="Twitter">
                 <p class="title">Twitter OAuth</p>
             </div>
         </div>
@@ -467,7 +467,7 @@ body .container{max-width: 990px;width: 100%;}
                     <div class="item">
                         <h2>Lafka</h2>
                         <a href="/works/lafka" class="items">
-                            <img src="/images/works/lafka0.png" alt="lafka">
+                            <img data-src="/images/works/lafka0.png" alt="lafka">
                             <div class="overlay">
                                 <p class="title">Lafka</p>
                             </div>
@@ -476,7 +476,7 @@ body .container{max-width: 990px;width: 100%;}
                     <div class="item">
                         <h2>Lcoin</h2>
                         <a href="/works/lcoin" class="items">
-                            <img src="/images/works/lcoin.jpg" alt="lcoin">
+                            <img data-src="/images/works/lcoin.jpg" alt="lcoin">
                             <div class="overlay">
                                 <p class="title">Lcoin</p>
                             </div>

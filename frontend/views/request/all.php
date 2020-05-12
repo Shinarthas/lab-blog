@@ -34,7 +34,7 @@ $my_requests = Contacts::myRequestsList();
 		<div class="row title">
             <h1 class="text-center">Requests</h1>
             <div class="arrow text-center">
-                <img src="/images/arrow/white.svg" class="text-center" alt="arrow-white">
+                <img data-src="/images/arrow/white.svg" class="text-center" alt="arrow-white">
             </div>
             <p class="text-center">
                 List of you request, select one to see additional description.

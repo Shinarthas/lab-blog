@@ -92,7 +92,7 @@ $this->registerJsFile('/scripts/tinymce/js/tinymce/tinymce.min.js');
 <?= $form->field($model, 'content_preview')->textarea(['id'=>"content_preview"]) ?>
 <div>
     <?php if($model->imageFile){ ?>
-        <img src="<?php echo Yii::getAlias('@front').DIRECTORY_SEPARATOR.Yii::$app->ImageComponent->getCacheImage($model->imageFile,$model->imagePath ,500,500); ?>" title="Задний фон/главная картинка статьи">
+        <img data-src="<?php echo Yii::getAlias('@front').DIRECTORY_SEPARATOR.Yii::$app->ImageComponent->getCacheImage($model->imageFile,$model->imagePath ,500,500); ?>" title="Задний фон/главная картинка статьи">
     <? }?>
 </div>
 <?= $form->field($model, 'imageFile')->fileInput()  ?>

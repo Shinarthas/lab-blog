@@ -149,7 +149,7 @@ body .container{max-width: 990px;width: 100%;}
         <div class="container" style="max-width: 1200px; text-align: center;">
         <h1><?=$model->title?></h1>
         <h6 style="margin-bottom: 38px;"><?= Yii::t('app', 'time_blog') ?></h6>
-        <div class="col-12" style="margin: 0; padding: 0;"> <img class="img-fluid" src="<?=$metaimage?>" alt=""></div>
+        <div class="col-12" style="margin: 0; padding: 0;"> <img class="img-fluid" data-src="<?=$metaimage?>" alt=""></div>
         </div>
         
         <!-- <div class="background" style="background-image: url('<?=$metaimage?>');">
@@ -166,7 +166,7 @@ body .container{max-width: 990px;width: 100%;}
         </div> -->
         <div class="content2" style="display:none">
             <div class="photo">
-                <img itemprop="image" src="/images/blog/team.png" alt="team">
+                <img itemprop="image" data-src="/images/blog/team.png" alt="team">
             </div>
             <div class="info">
                 <span itemprop="publisher" class="position">Lab3M</span>
@@ -193,7 +193,7 @@ body .container{max-width: 990px;width: 100%;}
     </style>
 <div hidden class="contactsPopupWrapper2">
     <div class="contactsPopup">
-        <img src="/images/contacts/like.svg" alt="like">
+        <img data-src="/images/contacts/like.svg" alt="like">
         <p class="msend">Message send!</p>
         <div class="arrow"></div>
         <p class="request">
@@ -201,10 +201,10 @@ body .container{max-width: 990px;width: 100%;}
             <br>
             respond you as soon as possible
         </p>
-        <img src="/images/contacts/logo.svg" alt="logo">
+        <img data-src="/images/contacts/logo.svg" alt="logo">
     </div>
     <div class="contactsPopupClose">
-        <img src="/images/contacts/close.popup.svg" alt="close">
+        <img data-src="/images/contacts/close.popup.svg" alt="close">
     </div>
 <!-- <link rel="stylesheet" href="/styles/home.min.css"> -->
 <script>var ms=document.createElement("link");ms.rel="stylesheet";

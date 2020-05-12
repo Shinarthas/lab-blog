@@ -203,8 +203,8 @@ html{
             </div>
         </div>
     </div>
-    <img class="top-img max-vis1" src="/images/cases/top-img.png" alt="Lafka gadget">
-    <img style="height: 250px;" class="top-img min-vis1" src="/images/mini-top-img.png" alt="Lafka gadget">
+    <img class="top-img max-vis1" data-src="/images/cases/top-img.png" alt="Lafka gadget">
+    <img style="height: 250px;" class="top-img min-vis1" data-src="/images/mini-top-img.png" alt="Lafka gadget">
 </section>
 <section class="main main2" style="background: #151515;padding-bottom: 0;">
     <div class="container" style="padding-bottom: 50px;">
@@ -413,7 +413,7 @@ html{
     <div class="container">
         <div class="row" style="margin: 0;">
             <div class="col-sm-12">
-                <img style="max-width: 280px;    width: 100%;" src="/images/trade.png" alt="Lafka Basket">
+                <div class="col-12" style="text-align: center;"><img style="max-width: 280px;    width: 100%;padding: 0 25px;" data-src="/images/trade.png" alt="Lafka Basket"></div>
                 <p><?= Yii::t('app', 'text_portfolio_trade3m') ?></p>
             </div>
         </div>
@@ -431,14 +431,14 @@ html{
             </div>
             
         </div>
-        <div class="col5"><img src="/images/serv/1.png" alt="Basket"></div>
-        <div class="col5"><img src="/images/serv/2.png" alt="Bread"></div>
-        <div class="col5"><img src="/images/serv/3.png" alt="Purse"></div>
-        <div class="col5"><img src="/images/serv/4.png" alt="Meat"></div>
-        <div class="col5"><img src="/images/serv/5.png" alt="Shield"></div>
-        <div class="col5"><img src="/images/serv/6.png" alt="Reagent"></div>
-        <div class="col5"><img src="/images/serv/7.png" alt="Car"></div>
-        <div class="col5"><img src="/images/serv/8.png" alt="Apple"></div>
+        <div class="col5"><img data-src="/images/serv/1.png" alt="Basket"></div>
+        <div class="col5"><img data-src="/images/serv/2.png" alt="Bread"></div>
+        <div class="col5"><img data-src="/images/serv/3.png" alt="Purse"></div>
+        <div class="col5"><img data-src="/images/serv/4.png" alt="Meat"></div>
+        <div class="col5"><img data-src="/images/serv/5.png" alt="Shield"></div>
+        <div class="col5"><img data-src="/images/serv/6.png" alt="Reagent"></div>
+        <div class="col5"><img data-src="/images/serv/7.png" alt="Car"></div>
+        <div class="col5"><img data-src="/images/serv/8.png" alt="Apple"></div>
     </div>
 </section>
 <section class="main main12" style="background: #151515;">
@@ -453,43 +453,43 @@ html{
             <div class="option">
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tech/1.png" alt="javascript">
+                        <img data-src="/images/tech/1.png" alt="javascript">
                     </div>
                     <!--<p class="title">JavaScript</p>-->
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/2.png" alt="javascript">
+                    <img data-src="/images/tech/2.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/3.png" alt="javascript">
+                    <img data-src="/images/tech/3.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/4.png" alt="javascript">
+                    <img data-src="/images/tech/4.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/5.png" alt="javascript">
+                    <img data-src="/images/tech/5.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/6.png" alt="javascript">
+                    <img data-src="/images/tech/6.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/7.png" alt="javascript">
+                    <img data-src="/images/tech/7.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/8.png" alt="javascript">
+                    <img data-src="/images/tech/8.png" alt="javascript">
                     </div>
                 </div>
             </div>

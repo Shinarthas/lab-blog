@@ -12,7 +12,7 @@
                 <div class="row" style="">
                 <div class="col-12" style="text-align: center;">
                 <h2 style="color: #fff!important;"><?= Yii::t('app', 'main_text8') ?></h2>
-                <img src="/images/company/arrowgrey.png" alt="arrowgrey" class="arrowgrey">
+                <img data-src="/images/company/arrowgrey.png" alt="arrowgrey" class="arrowgrey">
                 <p class="tagline"><?= Yii::t('app', 'main_text9') ?></p>
                 </div>
                 <?= Yii::t('app', 'main_text10') ?>
@@ -25,7 +25,7 @@
     <div class="carousel-item active">
     <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">Lorem ipsum, dolor</div>
                         </div>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">Lorem ipsum, dolor</div>
                         </div>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">Lorem ipsum, dolor</div>
                         </div>
@@ -51,7 +51,7 @@
     <div class="carousel-item">
     <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">2Lorem ipsum, dolor</div>
                         </div>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">2Lorem ipsum, dolor</div>
                         </div>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">2Lorem ipsum, dolor</div>
                         </div>
@@ -78,7 +78,7 @@
 </div>
                 <!--<div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">Lorem ipsum, dolor</div>
                         </div>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">Lorem ipsum, dolor</div>
                         </div>
@@ -94,7 +94,7 @@
                 </div>
                 <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">Lorem ipsum, dolor</div>
                         </div>

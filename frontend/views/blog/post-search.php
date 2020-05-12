@@ -68,7 +68,7 @@ echo $this->render("_categories", $data);
         <div class="row">
 			<?=$this->render("_index", ['models'=>$models]);?>
         </div>
-		<div class="ajax-blog-loader"><img src="/images/header/logo3.svg" alt="Lab3M logo"></div>
+		<div class="ajax-blog-loader"><img data-src="/images/header/logo3.svg" alt="Lab3M logo"></div>
     </div>
 </div>
  <!-- <link rel="stylesheet" href="/styles/home.min.css"> -->

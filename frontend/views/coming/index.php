@@ -2,10 +2,10 @@
 $this->title = 'lab3m';
 ?>
 <div class="animate">
-    <img src="/images/coming/circle.svg" class="r1">
-    <img src="/images/coming/thunder.svg" class="r1">
-    <img src="/images/coming/earth.svg" class="r2">
-    <img src="/images/coming/thunder.svg" class="r3">
+    <img data-src="/images/coming/circle.svg" class="r1">
+    <img data-src="/images/coming/thunder.svg" class="r1">
+    <img data-src="/images/coming/earth.svg" class="r2">
+    <img data-src="/images/coming/thunder.svg" class="r3">
 </div>
 <div class="site">
     <div class="content">

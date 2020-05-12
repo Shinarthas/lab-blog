@@ -211,7 +211,7 @@ body .container{max-width: 990px;width: 100%;}
         </div>
         <div class="content2">
             <div class="photo">
-                <img itemprop="image" src="/images/blog/team.png" alt="team">
+                <img itemprop="image" data-src="/images/blog/team.png" alt="team">
             </div>
             <div class="info">
                 <span itemprop="publisher" class="position">lab3m</span>

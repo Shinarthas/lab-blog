@@ -57,7 +57,7 @@ html{
             </div>
         </div>
     </div>
-    <img class="top-img" src="/images/cases/top-img.png" alt="Lafka gadget">
+    <img class="top-img" data-src="/images/cases/top-img.png" alt="Lafka gadget">
 </section>
 <section class="main main2" style="background: #151515;padding-bottom: 0;">
     <div class="container" style="padding-bottom: 50px;">
@@ -120,7 +120,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
 
         </div>
         <!--<div class="col-12 text-center" style="">
-        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid" src="/images/trade.png" alt="trade"></div>
+        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid" data-src="/images/trade.png" alt="trade"></div>
         </div>-->
         <div class="col-12 col-md-4" style="margin: 15px 0">
                 <h2 style="margin: 0 0 35px 0;
@@ -138,7 +138,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
             <source src="/images/vid/1.webm" type="video/webm">
             <source src="/images/vid/1.mp4" type="video/mp4">
         </video>
-        <!--<img class="img-fluid" src="/images/interface.png" alt="">-->
+        <!--<img class="img-fluid" data-src="/images/interface.png" alt="">-->
         </div>
     </div>
                     </div>
@@ -167,7 +167,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
 
         </div>
         <!--<div class="col-12 text-center" style="">
-        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid" src="/images/trade.png" alt="trade"></div>
+        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid" data-src="/images/trade.png" alt="trade"></div>
         </div>-->
         <div class="col-12 col-md-4" style="margin: 15px 0">
         <h2 style="margin: 0 0 35px 0;
@@ -185,7 +185,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
             <source src="/images/vid/2.webm" type="video/webm">
             <source src="/images/vid/2.mp4" type="video/mp4">
         </video>
-        <!--<img class="img-fluid" src="/images/interface.png" alt="">-->
+        <!--<img class="img-fluid" data-src="/images/interface.png" alt="">-->
         </div>
     </div>
                     </div>
@@ -213,7 +213,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
 
         </div>
         <!--<div class="col-12 text-center" style="">
-        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid" src="/images/trade.png" alt="trade"></div>
+        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid" data-src="/images/trade.png" alt="trade"></div>
         </div>-->
         <div class="col-12 col-md-4" style="margin: 15px 0">
         <h2 style="margin: 0 0 35px 0;
@@ -227,7 +227,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
             <source src="/images/vid/3.webm" type="video/webm">
             <source src="/images/vid/3.mp4" type="video/mp4">
         </video>
-        <!--<img class="img-fluid" src="/images/interface.png" alt="">-->
+        <!--<img class="img-fluid" data-src="/images/interface.png" alt="">-->
         </div>
     </div>
                     </div>
@@ -262,7 +262,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <img style="max-width: 700px;    width: 100%;" src="/images/trade.png" alt="Lafka Basket">
+                <img style="max-width: 700px;    width: 100%;" data-src="/images/trade.png" alt="Lafka Basket">
                 <p>Trade3M is advanced fintech solution aimed to provide quality and secured services. Client segregated cold storage combined with live trading accounts provide complete control over the custody and transmission of digital assets, as well as trading with no limits and efforts!</p>
             </div>
         </div>
@@ -279,19 +279,19 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
             
             <div class="col-sm-4 pr1">
                 <div class="img">
-                    <img src="/images/cases/Basket.svg" alt="Basket">
+                    <img data-src="/images/cases/Basket.svg" alt="Basket">
                 </div>
                 <p>Basket</p>
             </div>
             <div class="col-sm-4 pr2">
                 <div class="img">
-                    <img src="/images/cases/Smile.svg" alt="Smile">
+                    <img data-src="/images/cases/Smile.svg" alt="Smile">
                 </div>
                 <p>Happy face</p>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/Lafka-smile.svg" alt="Lafka-smile">
+                    <img data-src="/images/cases/Lafka-smile.svg" alt="Lafka-smile">
                 </div>
                 <p>Trade3M</p>
             </div>
@@ -308,14 +308,14 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
             </div>
             
         </div>
-        <div class="col5"><img src="/images/serv/1.png" alt="Basket"></div>
-        <div class="col5"><img src="/images/serv/2.png" alt="Bread"></div>
-        <div class="col5"><img src="/images/serv/3.png" alt="Purse"></div>
-        <div class="col5"><img src="/images/serv/4.png" alt="Meat"></div>
-        <div class="col5"><img src="/images/serv/5.png" alt="Shield"></div>
-        <div class="col5"><img src="/images/serv/6.png" alt="Reagent"></div>
-        <div class="col5"><img src="/images/serv/7.png" alt="Car"></div>
-        <div class="col5"><img src="/images/serv/8.png" alt="Apple"></div>
+        <div class="col5"><img data-src="/images/serv/1.png" alt="Basket"></div>
+        <div class="col5"><img data-src="/images/serv/2.png" alt="Bread"></div>
+        <div class="col5"><img data-src="/images/serv/3.png" alt="Purse"></div>
+        <div class="col5"><img data-src="/images/serv/4.png" alt="Meat"></div>
+        <div class="col5"><img data-src="/images/serv/5.png" alt="Shield"></div>
+        <div class="col5"><img data-src="/images/serv/6.png" alt="Reagent"></div>
+        <div class="col5"><img data-src="/images/serv/7.png" alt="Car"></div>
+        <div class="col5"><img data-src="/images/serv/8.png" alt="Apple"></div>
     </div>
 </section>
 <section class="main main12" style="background: #151515;">
@@ -330,55 +330,55 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
             <div class="option">
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tech/1.png" alt="javascript">
+                        <img data-src="/images/tech/1.png" alt="javascript">
                     </div>
                     <!--<p class="title">JavaScript</p>-->
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/2.png" alt="javascript">
+                    <img data-src="/images/tech/2.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/3.png" alt="javascript">
+                    <img data-src="/images/tech/3.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/4.png" alt="javascript">
+                    <img data-src="/images/tech/4.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/5.png" alt="javascript">
+                    <img data-src="/images/tech/5.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/6.png" alt="javascript">
+                    <img data-src="/images/tech/6.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/7.png" alt="javascript">
+                    <img data-src="/images/tech/7.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/8.png" alt="javascript">
+                    <img data-src="/images/tech/8.png" alt="javascript">
                     </div>
                 </div>
 
                 <!--<div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/yandex.png" alt="yandex">
+                        <img data-src="/images/tehnologies/yandex.png" alt="yandex">
                     </div>
                     <p class="title">YandexSpeechKit</p>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/afn.png" alt="afn">
+                        <img data-src="/images/tehnologies/afn.png" alt="afn">
                     </div>
                     <p class="title">AFNetworking</p>
                 </div>-->
@@ -394,7 +394,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
                     <div class="item">
                         <h2>Melo</h2>
                         <a href="/works/melo" class="items">
-                            <img src="/images/works/melo0.png" alt="melo">
+                            <img data-src="/images/works/melo0.png" alt="melo">
                             <div class="overlay">
                                 <p class="title">Melo</p>
                             </div>
@@ -403,7 +403,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
                     <div class="item">
                         <h2>Lcoin</h2>
                         <a href="/works/lcoin" class="items">
-                            <img src="/images/works/lcoin.jpg" alt="lcoin">
+                            <img data-src="/images/works/lcoin.jpg" alt="lcoin">
                             <div class="overlay">
                                 <p class="title">Lcoin</p>
                             </div>

@@ -86,7 +86,7 @@ $this->title = ucfirst(Yii::$app->controller->id);
     <div class="map"></div>
     <div class="contactsPopupWrapper">
         <div class="contactsPopup">
-            <img src="/images/contacts/like.svg" alt="like">
+            <img data-src="/images/contacts/like.svg" alt="like">
             <h1>Message send!</h1>
             <div class="arrow"></div>
             <h2>
@@ -94,10 +94,10 @@ $this->title = ucfirst(Yii::$app->controller->id);
                 <br>
                 respond you as soon as possible
             </h2>
-            <img src="/images/contacts/logo.svg" alt="logo">
+            <img data-src="/images/contacts/logo.svg" alt="logo">
         </div>
         <div class="contactsPopupClose">
-            <img src="/images/contacts/close.popup.svg" alt="close">
+            <img data-src="/images/contacts/close.popup.svg" alt="close">
         </div>
     </div>
 </div>

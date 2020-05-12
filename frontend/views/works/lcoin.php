@@ -220,7 +220,7 @@ body .container{max-width: 990px;width: 100%;}
             </div>
         </div>
     </div>
-    <img class="top-img" src="/images/cases/lcoin/top-lcoin.png" alt="Lcoin gadget">
+    <img class="top-img" data-src="/images/cases/lcoin/top-lcoin.png" alt="Lcoin gadget">
     <!-- <video class="video" preload="metadata" autoplay="autoplay" playsinline loop="loop" poster="">
         <source src="/videos/lcoin.mp4" type='video/mp4;'>
     </video> -->
@@ -238,7 +238,7 @@ body .container{max-width: 990px;width: 100%;}
     </div>
 </section>
 
-<div class="col-12" style="text-align: center;"><img class="img-fluid" src="/images/biki.png" alt="biki"></div>
+<div class="col-12" style="text-align: center;"><img class="img-fluid" style="padding: 0 35px;" data-src="/images/biki.png" alt="biki"></div>
 <section class="main main5">
     <div class="container">
         <div class="row">
@@ -263,21 +263,21 @@ body .container{max-width: 990px;width: 100%;}
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/lcoin/purse.svg" alt="purse">
+                    <img data-src="/images/cases/lcoin/purse.svg" alt="purse">
                 </div>
                 <p class="title"><?= Yii::t('app', 'dex_Main_Features_name_1') ?></p>
                 <span><?= Yii::t('app', 'dex_Main_Features_name_1_des') ?></span>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/lcoin/left-right.svg" alt="left-right">
+                    <img data-src="/images/cases/lcoin/left-right.svg" alt="left-right">
                 </div>
                 <p class="title"><?= Yii::t('app', 'dex_Main_Features_name_2') ?></p>
                 <span><?= Yii::t('app', 'dex_Main_Features_name_2_des') ?></span>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/lcoin/discover.svg" alt="discover">
+                    <img data-src="/images/cases/lcoin/discover.svg" alt="discover">
                 </div>
                 <p class="title"><?= Yii::t('app', 'dex_Main_Features_name_3') ?></p>
                 <span><?= Yii::t('app', 'dex_Main_Features_name_3_des') ?></span>
@@ -295,19 +295,19 @@ body .container{max-width: 990px;width: 100%;}
             </div>
             <div class="col-sm-4 pr1">
                 <div class="img">
-                    <img src="/images/cases/lcoin/Letter.svg" alt="Letter">
+                    <img data-src="/images/cases/lcoin/Letter.svg" alt="Letter">
                 </div>
                 <!-- <p>Letter</p> -->
             </div>
             <div class="col-sm-4 pr2">
                 <div class="img">
-                    <img src="/images/cases/lcoin/Coin.svg" alt="Coin">
+                    <img data-src="/images/cases/lcoin/Coin.svg" alt="Coin">
                 </div>
                 <!-- <p>Coin</p> -->
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/lcoin/L-coin.svg" alt="Lcoin">
+                    <img data-src="/images/cases/lcoin/L-coin.svg" alt="Lcoin">
                 </div>
                 <!-- <p>Lcoin</p> -->
             </div>
@@ -323,13 +323,13 @@ body .container{max-width: 990px;width: 100%;}
             <h4><?= Yii::t('app', 'dex_Main_Features_des') ?></h4>
             </div>
         </div>
-        <div class="col6"><img src="/images/cases/lcoin/Iconography/1.png" alt="circle"></div>
-        <div class="col6"><img src="/images/cases/lcoin/Iconography/2.png" alt="table"></div>
-        <div class="col6"><img src="/images/cases/lcoin/Iconography/3.png" alt="settings"></div>
-        <div class="col6"><img src="/images/cases/lcoin/Iconography/4.png" alt="info"></div>
-        <div class="col6"><img src="/images/cases/lcoin/Iconography/5.png" alt="purse-black"></div>
-        <div class="col6"><img src="/images/cases/lcoin/Iconography/6.png" alt="clock"></div>
-        <div class="col6"><img src="/images/cases/lcoin/Iconography/7.png" alt="clock"></div>
+        <div class="col6"><img data-src="/images/cases/lcoin/Iconography/1.png" alt="circle"></div>
+        <div class="col6"><img data-src="/images/cases/lcoin/Iconography/2.png" alt="table"></div>
+        <div class="col6"><img data-src="/images/cases/lcoin/Iconography/3.png" alt="settings"></div>
+        <div class="col6"><img data-src="/images/cases/lcoin/Iconography/4.png" alt="info"></div>
+        <div class="col6"><img data-src="/images/cases/lcoin/Iconography/5.png" alt="purse-black"></div>
+        <div class="col6"><img data-src="/images/cases/lcoin/Iconography/6.png" alt="clock"></div>
+        <div class="col6"><img data-src="/images/cases/lcoin/Iconography/7.png" alt="clock"></div>
     </div>
 </section>
 <section class="main main11"  style="background: #151515;">
@@ -344,43 +344,43 @@ body .container{max-width: 990px;width: 100%;}
             <div class="option">
                 <div class="item">
                     <div class="img">
-                        <img src="/images/techy/1.png" alt="javascript">
+                        <img data-src="/images/techy/1.png" alt="javascript">
                     </div>
                     <!--<p class="title">JavaScript</p>-->
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/techy/2.png" alt="javascript">
+                    <img data-src="/images/techy/2.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/techy/3.png" alt="javascript">
+                    <img data-src="/images/techy/3.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/techy/4.png" alt="javascript">
+                    <img data-src="/images/techy/4.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/techy/5.png" alt="javascript">
+                    <img data-src="/images/techy/5.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/techy/6.png" alt="javascript">
+                    <img data-src="/images/techy/6.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/techy/7.png" alt="javascript">
+                    <img data-src="/images/techy/7.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/techy/8.png" alt="javascript">
+                    <img data-src="/images/techy/8.png" alt="javascript">
                     </div>
                 </div>
             </div>

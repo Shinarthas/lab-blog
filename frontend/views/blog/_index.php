@@ -16,7 +16,7 @@ use common\models\Img;
                         }
                         ?>
 
-                        <img src="<?=Url::home(true) . Yii::$app->ImageComponent->getCacheImage($img_back,$img_path,Img::IMG_CACHE_BLOG_PREV_WIDTH,Img::IMG_CACHE_BLOG_PREV_HEIGHT,true);?>" alt="<?=isset($model->translate)? $model->translate->title : $model->title?>">
+                        <img data-src="<?=Url::home(true) . Yii::$app->ImageComponent->getCacheImage($img_back,$img_path,Img::IMG_CACHE_BLOG_PREV_WIDTH,Img::IMG_CACHE_BLOG_PREV_HEIGHT,true);?>" alt="<?=isset($model->translate)? $model->translate->title : $model->title?>">
                     </a>
                     <!--<p class="title">���</p>-->
                     <h2 style="line-height: 0; text-align: left;padding: 0 15px;margin: 10px 0; min-height: 60px;"><a style="font-size: 18px;line-height: 1.5em;" href="<?=isset($_GET['language']) ? '/'.$lang->url : ''; ?>/<?=$model->seo_url?>" class="bot-link"><?=$model->title?></a></h2>
