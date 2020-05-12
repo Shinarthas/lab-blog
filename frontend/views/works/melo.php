@@ -120,7 +120,7 @@ body .container{max-width: 990px;width: 100%;}
             </div>
         </div>
     </div>
-    <img class="top-img" src="/images/cases/melo/top-melo.png" alt="Melo gadget">
+    <img class="top-img" data-src="/images/cases/melo/top-melo.png" alt="Melo gadget">
     <video class="video" preload="metadata" autoplay="autoplay" playsinline loop="loop" poster="">
         <source src="/videos/melo.mp4" type='video/mp4;'>
     </video>

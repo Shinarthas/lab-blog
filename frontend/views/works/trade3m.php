@@ -57,7 +57,7 @@ html{
             </div>
         </div>
     </div>
-    <img class="top-img" src="/images/cases/top-img.png" alt="Lafka gadget">
+    <img class="top-img" data-src="/images/cases/top-img.png" alt="Lafka gadget">
 </section>
 <section class="main main2" style="background: #151515;padding-bottom: 0;">
     <div class="container" style="padding-bottom: 50px;">
@@ -120,7 +120,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
 
         </div>
         <!--<div class="col-12 text-center" style="">
-        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid" src="/images/trade.png" alt="trade"></div>
+        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid" data-src="/images/trade.png" alt="trade"></div>
         </div>-->
         <div class="col-12 col-md-4" style="margin: 15px 0">
                 <h2 style="margin: 0 0 35px 0;
@@ -138,7 +138,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
             <source src="/images/vid/1.webm" type="video/webm">
             <source src="/images/vid/1.mp4" type="video/mp4">
         </video>
-        <!--<img class="img-fluid" src="/images/interface.png" alt="">-->
+        <!--<img class="img-fluid" data-src="/images/interface.png" alt="">-->
         </div>
     </div>
                     </div>
@@ -167,7 +167,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
 
         </div>
         <!--<div class="col-12 text-center" style="">
-        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid" src="/images/trade.png" alt="trade"></div>
+        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid" data-src="/images/trade.png" alt="trade"></div>
         </div>-->
         <div class="col-12 col-md-4" style="margin: 15px 0">
         <h2 style="margin: 0 0 35px 0;
@@ -185,7 +185,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
             <source src="/images/vid/2.webm" type="video/webm">
             <source src="/images/vid/2.mp4" type="video/mp4">
         </video>
-        <!--<img class="img-fluid" src="/images/interface.png" alt="">-->
+        <!--<img class="img-fluid" data-src="/images/interface.png" alt="">-->
         </div>
     </div>
                     </div>
@@ -213,7 +213,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
 
         </div>
         <!--<div class="col-12 text-center" style="">
-        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid" src="/images/trade.png" alt="trade"></div>
+        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid" data-src="/images/trade.png" alt="trade"></div>
         </div>-->
         <div class="col-12 col-md-4" style="margin: 15px 0">
         <h2 style="margin: 0 0 35px 0;
@@ -227,7 +227,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
             <source src="/images/vid/3.webm" type="video/webm">
             <source src="/images/vid/3.mp4" type="video/mp4">
         </video>
-        <!--<img class="img-fluid" src="/images/interface.png" alt="">-->
+        <!--<img class="img-fluid" data-src="/images/interface.png" alt="">-->
         </div>
     </div>
                     </div>
@@ -262,7 +262,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <img style="max-width: 700px;    width: 100%;" src="/images/trade.png" alt="Lafka Basket">
+                <img style="max-width: 700px;    width: 100%;" data-src="/images/trade.png" alt="Lafka Basket">
                 <p>Trade3M is advanced fintech solution aimed to provide quality and secured services. Client segregated cold storage combined with live trading accounts provide complete control over the custody and transmission of digital assets, as well as trading with no limits and efforts!</p>
             </div>
         </div>

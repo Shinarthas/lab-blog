@@ -47,8 +47,7 @@ $this->title = Yii::t('app','meta_home_title');
         <div class="row">
             <div class="first-screen1">
                 <div class="first-screen__textures">
-                    <img style="display:none" class="first-screen__lab3m" src="/images/main/logo.png" alt="lab3m">
-                    <img class="first-screen__flash" src="/images/logo-b.png" alt="flash">
+                    <img class="first-screen__flash" data-src="/images/logo-b.png" alt="flash">
                 </div>
                 
                 <div class="first-screen__fixed">
@@ -113,7 +112,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px"><?= Yii::t('app', 'main_text
 
         </div>
         <div class="col-12 col-lg-3" style="margin-top: 20px;">
-        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid dis-none-t" src="/images/trade.png" alt="trade">
+        <img style="margin-bottom: 20px;    max-width: 280px;" class="img-fluid dis-none-t" data-src="/images/trade.png" alt="trade">
         <h2 style="color: #fff; font-size: 24px; color: #FFFFFF; line-height: 29px;" class="mb-4"><?= Yii::t('app', 'main_text4') ?></h2>
         <p class="dis-none-t" style="font-style: normal;
 font-weight: normal;
@@ -173,7 +172,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
 </style>
 <!-- <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
 <img class="lazyload" data-src="/765x574.gif" width="765" height="574" />
-<img class="lazyload" src="/images/logo-b.png" data-src="/765x574.gif" width="765" height="574" /> -->
+<img class="lazyload" data-src="/images/logo-b.png" data-src="/765x574.gif" width="765" height="574" /> -->
     <section style="background: #151515; padding:150px 15px; z-index: 990;">
 	<div>
 	    <div class="container">
@@ -195,7 +194,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
     <div class="carousel-item active">
     <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">Lorem ipsum, dolor</div>
                         </div>
@@ -203,7 +202,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
                 </div>
                 <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">Lorem ipsum, dolor</div>
                         </div>
@@ -211,7 +210,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
                 </div>
                 <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">Lorem ipsum, dolor</div>
                         </div>
@@ -221,7 +220,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
     <div class="carousel-item">
     <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">2Lorem ipsum, dolor</div>
                         </div>
@@ -229,7 +228,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
                 </div>
                 <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">2Lorem ipsum, dolor</div>
                         </div>
@@ -237,7 +236,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
                 </div>
                 <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">2Lorem ipsum, dolor</div>
                         </div>
@@ -248,7 +247,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
 </div>
                 <!--<div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">Lorem ipsum, dolor</div>
                         </div>
@@ -256,7 +255,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
                 </div>
                 <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">Lorem ipsum, dolor</div>
                         </div>
@@ -264,7 +263,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
                 </div>
                 <div class="col-12 col-md-4" style="padding: 15px">
                     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
-                        <img style="width: 100%" src="#" alt="">
+                        <img style="width: 100%" data-src="#" alt="">
                         <div style="padding:17px">
                             <div class="h-style2">Lorem ipsum, dolor</div>
                         </div>

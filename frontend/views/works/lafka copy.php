@@ -52,7 +52,7 @@ body .container{max-width: 990px;width: 100%;}
             </div>
         </div>
     </div>
-    <img class="top-img" src="/images/cases/top-img.png" alt="Lafka gadget">
+    <img class="top-img" data-src="/images/cases/top-img.png" alt="Lafka gadget">
     <video class="video" preload="metadata" autoplay="autoplay" playsinline loop="loop" poster="">
         <source src="/videos/lafka.mp4" type='video/mp4;'>
     </video>

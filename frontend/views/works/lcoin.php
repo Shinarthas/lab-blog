@@ -208,7 +208,7 @@ body .container{max-width: 990px;width: 100%;}
             </div>
         </div>
     </div>
-    <img class="top-img" src="/images/cases/lcoin/top-lcoin.png" alt="Lcoin gadget">
+    <img class="top-img" data-src="/images/cases/lcoin/top-lcoin.png" alt="Lcoin gadget">
     <!-- <video class="video" preload="metadata" autoplay="autoplay" playsinline loop="loop" poster="">
         <source src="/videos/lcoin.mp4" type='video/mp4;'>
     </video> -->
@@ -226,7 +226,7 @@ body .container{max-width: 990px;width: 100%;}
     </div>
 </section>
 
-<div class="col-12" style="text-align: center;"><img class="img-fluid" style="padding: 0 35px;" src="/images/biki.png" alt="biki"></div>
+<div class="col-12" style="text-align: center;"><img class="img-fluid" style="padding: 0 35px;" data-src="/images/biki.png" alt="biki"></div>
 <section class="main main5">
     <div class="container">
         <div class="row">

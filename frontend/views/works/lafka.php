@@ -191,8 +191,8 @@ html{
             </div>
         </div>
     </div>
-    <img class="top-img max-vis1" src="/images/cases/top-img.png" alt="Lafka gadget">
-    <img style="height: 250px;" class="top-img min-vis1" src="/images/mini-top-img.png" alt="Lafka gadget">
+    <img class="top-img max-vis1" data-src="/images/cases/top-img.png" alt="Lafka gadget">
+    <img style="height: 250px;" class="top-img min-vis1" data-src="/images/mini-top-img.png" alt="Lafka gadget">
 </section>
 <section class="main main2" style="background: #151515;padding-bottom: 0;">
     <div class="container" style="padding-bottom: 50px;">
@@ -401,7 +401,7 @@ html{
     <div class="container">
         <div class="row" style="margin: 0;">
             <div class="col-sm-12">
-                <div class="col-12" style="text-align: center;"><img style="max-width: 280px;    width: 100%;padding: 0 25px;" src="/images/trade.png" alt="Lafka Basket"></div>
+                <div class="col-12" style="text-align: center;"><img style="max-width: 280px;    width: 100%;padding: 0 25px;" data-src="/images/trade.png" alt="Lafka Basket"></div>
                 <p><?= Yii::t('app', 'text_portfolio_trade3m') ?></p>
             </div>
         </div>

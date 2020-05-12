@@ -169,7 +169,7 @@ body .container{max-width: 990px;width: 100%;}
         <div class="col-12" style="text-align: left;"><a href="/"><?= Yii::t('app', 'go_to_main') ?></a> / <a href="/blog"><?= Yii::t('app', 'categ_blog') ?></a> / <?=$model->title?></div>
         <h1><?=$model->title?></h1>
         <h6 style="margin-bottom: 38px;"><?= Yii::t('app', 'time_blog') ?></h6>
-        <div class="col-12" style="margin: 0; padding: 0;"> <img class="img-fluid" src="<?=$metaimage?>" alt=""></div>
+        <div class="col-12" style="margin: 0; padding: 0;"> <img class="img-fluid" data-src="<?=$metaimage?>" alt=""></div>
         </div>
         
         <!-- <div class="background" style="background-image: url('<?=$metaimage?>');">
@@ -186,7 +186,7 @@ body .container{max-width: 990px;width: 100%;}
         </div> -->
         <div class="content2" style="display:none">
             <div class="photo">
-                <img itemprop="image" src="/images/blog/team.png" alt="team">
+                <img itemprop="image" data-src="/images/blog/team.png" alt="team">
             </div>
             <div class="info">
                 <span itemprop="publisher" class="position">Lab3M</span>
