@@ -206,6 +206,9 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5b') ?></p>
         .t-cen-bag{
             text-align: center!important;
         }
+        .first-screen__flash{
+            display: none;
+        }
     }
 </style>
 <div class="text-c1 dis-none-t t-cen-bag" style="width:100%;
