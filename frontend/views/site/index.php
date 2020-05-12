@@ -207,7 +207,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5b') ?></p>
             text-align: center!important;
         }
         .first-screen__flash{
-            display: none;
+            display: none!important;
         }
     }
 </style>
