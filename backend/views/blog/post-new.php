@@ -163,7 +163,7 @@ $contact_model = new \frontend\models\ContactsForm();
 							'<?= Html::activeInput('email',$contact_model, 'email',['id'=>'email','class' => '','placeholder'=>'Email']); ?></div>'+
 							'<div class="row"><?= Html::activeTextarea($contact_model, 'details',['id'=>'details','class'=>'form-control choice','placeholder'=>'Text']); ?></div>'+
 							'<input type="submit" class="submit-contact-form" value="Send"></td><td>'+
-							'<img src="<?=Yii::getAlias('@front')?>/images/blog/submit.png">'+
+							'<img data-src="<?=Yii::getAlias('@front')?>/images/blog/submit.png">'+
 							'</td></tr></tbody></table><input name="ContactsForm[budget]" value="Not defined" type="hidden"></form></div> <br>');
                         }
                 });

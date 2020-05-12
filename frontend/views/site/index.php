@@ -77,12 +77,12 @@ $this->title = Yii::t('app','meta_home_title');
         <div class="row" style="justify-content: center;">
             <div class="second-screen__content">
                 <div class="second-screen__mass-media" style="margin-bottom: 70px">
-                    <img src="/images/sp1.png" alt="tnw">
-                    <img src="/images/sp3.png" alt="tc">
+                    <img data-src="/images/sp1.png" alt="tnw">
+                    <img data-src="/images/sp3.png" alt="tc">
                 </div>
                 <div class="second-screen__hr"><p><?= Yii::t('app', 'Clients') ?></p></div>
-                <div class="second-screen__logo"><img src="/images/main/logo.png" alt="lab3m"></div>
-                <p class="second-screen__title" style="margin-top: 32px"><img src="/images//lab3m.png" alt="lab3m"></p>
+                <div class="second-screen__logo"><img data-src="/images/main/logo.png" alt="lab3m"></div>
+                <p class="second-screen__title" style="margin-top: 32px"><img data-src="/images//lab3m.png" alt="lab3m"></p>
                 <div class="second-screen__arrow"></div>
                 <div class="second-screen__deploy">
                     <div class="second-screen__desc" style="color: #fff; margin: 18px 0">
@@ -182,7 +182,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
                 <div class="row" style="">
                 <div class="col-12" style="text-align: center;">
                 <h2 style="color: #fff!important;"><?= Yii::t('app', 'main_text8') ?></h2>
-                <img src="/images/company/arrowgrey.png" alt="arrowgrey" class="arrowgrey">
+                <img data-src="/images/company/arrowgrey.png" alt="arrowgrey" class="arrowgrey">
                 <p class="tagline"><?= Yii::t('app', 'main_text9') ?></p>
                 </div>
                 <?= Yii::t('app', 'main_text10') ?>

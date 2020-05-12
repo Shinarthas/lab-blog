@@ -166,7 +166,7 @@ $contact_model = new \frontend\models\ContactsForm();
 							'<?= Html::activeInput('email',$contact_model, 'email',['id'=>'email','class' => '','placeholder'=>'Email']); ?></div>'+
 							'<div class="row"><?= Html::activeTextarea($contact_model, 'details',['id'=>'details','class'=>'form-control choice','placeholder'=>'Text']); ?></div>'+
 							'<input type="submit" class="submit-contact-form" value="Send"></td><td>'+
-							'<img src="<?=Yii::getAlias('@front')?>/images/blog/submit.png">'+
+							'<img data-src="<?=Yii::getAlias('@front')?>/images/blog/submit.png">'+
 							'</td></tr></tbody></table><input name="ContactsForm[budget]" value="Not defined" type="hidden"></form></div> <br>');
                         }
                 });
@@ -204,7 +204,7 @@ $contact_model = new \frontend\models\ContactsForm();
 ]) */?>
 <div>
     <?php if($model->imageFile){ ?>
-        <img src="<?php echo Yii::getAlias('@front').DIRECTORY_SEPARATOR.Yii::$app->ImageComponent->getCacheImage($model->imageFile,$model->imagePath ,500,500); ?>" title="Задний фон/главная картинка статьи">
+        <img data-src="<?php echo Yii::getAlias('@front').DIRECTORY_SEPARATOR.Yii::$app->ImageComponent->getCacheImage($model->imageFile,$model->imagePath ,500,500); ?>" title="Задний фон/главная картинка статьи">
    <? }?>
 </div>
 <?= $form->field($model, 'imageFile')->fileInput()  ?>

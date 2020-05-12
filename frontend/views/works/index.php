@@ -37,13 +37,13 @@ $this->registerMetaTag([
                         <img class="l-text" src="/images/works/lafka-text.png" alt="lafka-text">
                     </a> -->
                     <!-- <a href="/works/melo" class="item melo">
-                        <img src="/images/works/melo.png" alt="melo">
+                        <img data-src="/images/works/melo.png" alt="melo">
                         <div class="overlay">
                             <p class="title">Melo</p>
                         </div>
                     </a>
                     <a href="/works/lcoin" class="item peak">
-                        <img src="/images/works/lcoin0.jpg" alt="lcoin">
+                        <img data-src="/images/works/lcoin0.jpg" alt="lcoin">
                         <div class="overlay">
                             <p class="title">Lcoin</p>
                         </div>

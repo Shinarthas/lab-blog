@@ -118,7 +118,7 @@ AppAsset::register($this);
             </form>
         </div>
         <div class="closeMess">
-            <img src="/images/contacts/close.popup.svg" alt="close">
+            <img data-src="/images/contacts/close.popup.svg" alt="close">
         </div>
     </div>
 

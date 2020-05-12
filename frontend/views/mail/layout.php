@@ -1,6 +1,6 @@
 <div style="background: #ea8d0f;width:100%;padding:25px 0 50px;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
 	<div style="width:600px;margin:0 auto;position:relative;">
-		<img src="https://lab3m.com/images/header/logo_white.png" style="padding: 0 0 20px; height: 21px;">
+		<img data-src="https://lab3m.com/images/header/logo_white.png" style="padding: 0 0 20px; height: 21px;">
 	</div>
 	
 	<div style="position:relative;z-index:4; font-size: 14.5px; width: 600px;padding: 20px;display: block;background:white;margin:0 auto;line-height: 20px; color: #333;">

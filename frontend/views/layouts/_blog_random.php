@@ -12,7 +12,7 @@
                 <div class="row" style="">
                 <div class="col-12" style="text-align: center;">
                 <h2 style="color: #fff!important;"><?= Yii::t('app', 'main_text8') ?></h2>
-                <img src="/images/company/arrowgrey.png" alt="arrowgrey" class="arrowgrey">
+                <img data-src="/images/company/arrowgrey.png" alt="arrowgrey" class="arrowgrey">
                 <p class="tagline"><?= Yii::t('app', 'main_text9') ?></p>
                 </div>
                 <?= Yii::t('app', 'main_text10') ?>

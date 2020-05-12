@@ -194,3 +194,11 @@ $(function() {
   }
 });
         </script>
+
+
+<script type="text/javascript" src="/js/jquery.lazy.min.js"></script>
+    <script>
+    $(function() {
+        $('img').Lazy();
+    });
+    </script>

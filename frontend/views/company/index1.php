@@ -16,20 +16,20 @@ $this->title = ucfirst(Yii::$app->controller->id);
 <!--    <div class="wrapper1">-->
 <!--        <div class="content">-->
 <!--            <h1>From idea to launch</h1>-->
-<!--            <img src="/images/company/photo.png" class="photo">-->
+<!--            <img data-src="/images/company/photo.png" class="photo">-->
 <!--            <div class="infoList">-->
 <!--                <div class="info">-->
 <!--                    <p class="name">Scott Chasin</p>-->
 <!--                    <p class="position">Co-Founder & CEO</p>-->
 <!--                    <a href="" target="_blank" rel="nofollow">-->
-<!--                        <img src="/images/company/linkedin.png">-->
+<!--                        <img data-src="/images/company/linkedin.png">-->
 <!--                    </a>-->
 <!--                </div>-->
 <!--                <div class="info">-->
 <!--                    <p class="name">Gene Stevens</p>-->
 <!--                    <p class="position">Co-Founder & CTO</p>-->
 <!--                    <a href="" target="_blank" rel="nofollow">-->
-<!--                        <img src="/images/company/linkedin.png">-->
+<!--                        <img data-src="/images/company/linkedin.png">-->
 <!--                    </a>-->
 <!--                </div>-->
 <!--            </div>-->
@@ -66,7 +66,7 @@ $this->title = ucfirst(Yii::$app->controller->id);
                         <p class="title">Mobile-First</p>
                     </div>
                     <div class="column2">
-                        <img src="/images/company/phone.svg" alt="phone">
+                        <img data-src="/images/company/phone.svg" alt="phone">
                     </div>
                     <div class="column3">
                         <p class="desc">
@@ -80,7 +80,7 @@ $this->title = ucfirst(Yii::$app->controller->id);
                         <p class="title">E-commerce</p>
                     </div>
                     <div class="column2">
-                        <img src="/images/company/basket.svg" alt="basket">
+                        <img data-src="/images/company/basket.svg" alt="basket">
                     </div>
                     <div class="column3">
                         <p class="desc">
@@ -94,7 +94,7 @@ $this->title = ucfirst(Yii::$app->controller->id);
                         <p class="title">Product enhancement</p>
                     </div>
                     <div class="column2">
-                        <img src="/images/company/transform.svg" alt="transform">
+                        <img data-src="/images/company/transform.svg" alt="transform">
                     </div>
                     <div class="column3">
                         <p class="desc">
@@ -109,7 +109,7 @@ $this->title = ucfirst(Yii::$app->controller->id);
                         <p class="title">Support & Updates</p>
                     </div>
                     <div class="column2">
-                        <img src="/images/company/support.svg" alt="support">
+                        <img data-src="/images/company/support.svg" alt="support">
                     </div>
                     <div class="column3">
                         <p class="desc">
@@ -123,7 +123,7 @@ $this->title = ucfirst(Yii::$app->controller->id);
                         <p class="title">UI/UX & Interaction Design</p>
                     </div>
                     <div class="column2">
-                        <img src="/images/company/interaction-design.svg" alt="design">
+                        <img data-src="/images/company/interaction-design.svg" alt="design">
                     </div>
                     <div class="column3">
                         <p class="desc">
@@ -137,7 +137,7 @@ $this->title = ucfirst(Yii::$app->controller->id);
                         <p class="title">Graphic Design</p>
                     </div>
                     <div class="column2">
-                        <img src="/images/company/graphic-design.svg" alt="graphic">
+                        <img data-src="/images/company/graphic-design.svg" alt="graphic">
                     </div>
                     <div class="column3">
                         <p class="desc">

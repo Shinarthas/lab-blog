@@ -17,42 +17,42 @@ return [
     line-height: 17px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" src="/images/v.png" alt="check mark" >Cross-platform multi-account trading</div>
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Cross-platform multi-account trading</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" src="/images/v.png" alt="check mark" >AI based forecasts</div>
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >AI based forecasts</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" src="/images/v.png" alt="check mark" >Flexible roles architecture</div>
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Flexible roles architecture</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" src="/images/v.png" alt="check mark" >Direct API connection</div>
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Direct API connection</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" src="/images/v.png" alt="check mark" >Cold and hot wallets</div>
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Cold and hot wallets</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" src="/images/v.png" alt="check mark" >Portfolio management features</div>',
+    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Portfolio management features</div>',
     'main_text7' => 'Solutions',
     'main_text8' => 'Latest News',
     'main_text9' => 'We launch advanced fintech products',
@@ -121,14 +121,14 @@ color: #FFFFFF;" >Send</a>
 </section>',
     'services_block0' => '<div class="col-12">
                     <h2 style="color: #fff!important;">What We Do</h2><!--Services-->
-                    <img src="/images/company/arrowgrey.png" alt="arrowgrey" class="arrowgrey">
+                    <img data-src="/images/company/arrowgrey.png" alt="arrowgrey" class="arrowgrey">
                     <p class="tagline">Making blockchain part of your business</p>
                     </div>',
     'services_block' => '    <div id="company">
         </div>',
     'company_block' => '<div class="info text-center">
     <h1>About Us</h1>
-    <img src="/images/company/arrow.png" alt="arrow-lab3m" class="arrow">
+    <img data-src="/images/company/arrow.png" alt="arrow-lab3m" class="arrow">
     <p class="tagline">We launch advanced fintech products</p>
     <p>
     It’s hard to compete in such growing and scalable market as IT. To become successful company you need to gather talented people under visioneer management.
@@ -182,19 +182,19 @@ color: #FFFFFF;" >Send</a>
             
             <div class="col-sm-4 pr1">
                 <div class="img">
-                    <img src="/images/cases/Basket.svg" alt="Basket">
+                    <img data-src="/images/cases/Basket.svg" alt="Basket">
                 </div>
                 <p>Cryptocurrencies</p>
             </div>
             <div class="col-sm-4 pr2">
                 <div class="img">
-                    <img src="/images/cases/Smile.svg" alt="Smile">
+                    <img data-src="/images/cases/Smile.svg" alt="Smile">
                 </div>
                 <p>Trading</p>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/Lafka-smile.svg" alt="Lafka-smile">
+                    <img data-src="/images/cases/Lafka-smile.svg" alt="Lafka-smile">
                 </div>
                 <p>Lab3M</p>
             </div>
@@ -254,7 +254,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;" src="/images/v.png" alt="check mark" >AI based trading forecasts and visualizations</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;" data-src="/images/v.png" alt="check mark" >AI based trading forecasts and visualizations</div>
     </div>
     <div class="col-12 col-md-4">
     <div style="font-style: normal; margin-bottom: 20px;
@@ -262,7 +262,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;" src="/images/v.png" alt="check mark" >Trading campaigns adding and editing</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;" data-src="/images/v.png" alt="check mark" >Trading campaigns adding and editing</div>
     </div>
     <div class="col-12 col-md-4">
     <div style="font-style: normal; margin-bottom: 20px;
@@ -270,7 +270,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;" src="/images/v.png" alt="check mark" >Manual control feature</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;" data-src="/images/v.png" alt="check mark" >Manual control feature</div>
     </div>',
 
     "text_portfolio_custody_title"=>"Custody",
@@ -280,7 +280,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Transactions co-sign and verification</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Transactions co-sign and verification</div>
     </div>
     <div class="col-12 col-md-4">
     <div style="font-style: normal; margin-bottom: 20px;
@@ -288,7 +288,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Сross-exchange&account funds moving</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Сross-exchange&account funds moving</div>
     </div>
     <div class="col-12 col-md-4">
     <div style="font-style: normal; margin-bottom: 20px;
@@ -296,7 +296,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Synchronized cold and hot wallets</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Synchronized cold and hot wallets</div>
     </div>',
 
     "text_portfolio_management_title"=>"Portfolio Management",
@@ -306,7 +306,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Detailed online statistics</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Detailed online statistics</div>
     </div>
     <div class="col-12 col-md-4">
     <div style="font-style: normal; margin-bottom: 20px;
@@ -314,7 +314,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Accounts management in one place</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Accounts management in one place</div>
     </div>
     <div class="col-12 col-md-4">
     <div style="font-style: normal; margin-bottom: 20px;
@@ -322,7 +322,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " src="/images/v.png" alt="check mark" >Synchronized access to all funds</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Synchronized access to all funds</div>
     </div>',
 
     "text_portfolio_backend_title"=>"Back-End",
@@ -450,7 +450,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;   
     'text_banner_estimate'=>'Let us estimate your project!',
     'text_banner_overview'=>'We will give your idea overview as soon as possible',
     'text_banner_free_overview'=>'Get free overview',
-    'banner_medium' =>'<img src="/images/medium-banner.png" alt="banner" class="img-fluid">',
+    'banner_medium' =>'<img data-src="/images/medium-banner.png" alt="banner" class="img-fluid">',
     'but_categor' => 'Services',
     'categ_blog' => 'Blog',
     'time_blog' => 'GENERAL | 2 min read · April 2 2020',
@@ -466,11 +466,11 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;   
     'map_contacts' => '<div class="map">
         <div class="lights">
             <div class="col-xs-6 visible-xs text-center">
-                <img src="/images/contacts/location.png" alt="location">
+                <img data-src="/images/contacts/location.png" alt="location">
                 <p>Singapore</p>
             </div>
             <div class="col-xs-6 visible-xs text-center">
-                <img src="/images/contacts/location.png" alt="location">
+                <img data-src="/images/contacts/location.png" alt="location">
                 <p>Israel</p>
             </div>
         </div>
@@ -507,49 +507,49 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;   
     <p style="text-align: center;" class="desc">Instantly Accessible. No need for registration or approval from a central authority.</p>
     <div class="col3" style="float: left;">
         <div class="img">
-            <img src="/images/cases/icons/1.svg" alt="frontend">
+            <img data-src="/images/cases/icons/1.svg" alt="frontend">
         </div>
         <p class="title">Decentralized</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">Trading takes place on a global P2P network of users running BIKI DEX on their own machines.</p>
     </div>
     <div class="col3">
         <div class="img">
-            <img src="/images/cases/icons/2.svg" alt="backend">
+            <img data-src="/images/cases/icons/2.svg" alt="backend">
         </div>
         <p class="title">Safe</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">BIKI DEX never holds your funds. Security deposits and multisig trade wallets encourage safe, successful trades.</p>
     </div>
     <div class="col3">
         <div class="img">
-            <img src="/images/cases/icons/3.svg" alt="design">
+            <img data-src="/images/cases/icons/3.svg" alt="design">
         </div>
         <p class="title">Private</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">No one except trading partners exchange personally identifying data. All personal data is stored locally.</p>
     </div>
     <div class="col3">
         <div class="img">
-            <img src="/images/cases/icons/4.svg" alt="graphic">
+            <img data-src="/images/cases/icons/4.svg" alt="graphic">
         </div>
         <p class="title">Open</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">Code is open source, and project strategy is discussed openly on GitHub.</p>
     </div>
     <div class="col3">
         <div class="img">
-            <img src="/images/cases/icons/5.svg" alt="support">
+            <img data-src="/images/cases/icons/5.svg" alt="support">
         </div>
         <p class="title">Easy to Use</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">We\'ve made all this sophistication simple—make your first trade in under 5 minutes!</p>
     </div>
     <div class="col3">
         <div class="img">
-            <img src="/images/cases/icons/6.svg" alt="support">
+            <img data-src="/images/cases/icons/6.svg" alt="support">
         </div>
         <p class="title">No fees</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">No complicated trading fees to have to track and manage. It’s truly free..</p>
     </div>
     <div class="col3">
         <div class="img">
-            <img src="/images/cases/icons/7.svg" alt="support">
+            <img data-src="/images/cases/icons/7.svg" alt="support">
         </div>
         <p class="title">Liquid</p>
         <p class="desc" style="padding: 0 10px; text-align: center;">Easy onboarding for market makers. Fill any size order at the most competitive prices–with no spending limits.</p>
@@ -565,37 +565,37 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;   
 <p class="desc">When we say censorship-resistant, we are referring to users\' ability to voluntarily trade with one another without interference from a third party. Today, centralized bitcoin exchanges are highly susceptible to such interference. By their nature, they must operate within one legal jurisdiction or another, putting them at risk of being fined or shut down if they do not comply with the laws and other rules of that jurisdiction, which may include restrictions on who can trade and what can be traded, and almost always include requirements to collect personal information as described above.</p>
 <div class="col3">
     <div class="img">
-        <img src="/images/cases/frontend.svg" alt="frontend">
+        <img data-src="/images/cases/frontend.svg" alt="frontend">
     </div>
     <p class="title">Front-End</p>
 </div>
 <div class="col3">
     <div class="img">
-        <img src="/images/cases/backend.svg" alt="backend">
+        <img data-src="/images/cases/backend.svg" alt="backend">
     </div>
     <p class="title">Back-End</p>
 </div>
 <div class="col3">
     <div class="img">
-        <img src="/images/cases/interaction_design.svg" alt="design">
+        <img data-src="/images/cases/interaction_design.svg" alt="design">
     </div>
     <p class="title">Interaction Design</p>
 </div>
 <div class="col3">
     <div class="img">
-        <img src="/images/cases/graphical_design.svg" alt="graphic">
+        <img data-src="/images/cases/graphical_design.svg" alt="graphic">
     </div>
     <p class="title">Graphical Design</p>
 </div>
 <div class="col3">
     <div class="img">
-        <img src="/images/cases/system.svg" alt="support">
+        <img data-src="/images/cases/system.svg" alt="support">
     </div>
     <p class="title">System Integration</p>
 </div>
 <div class="col3">
     <div class="img">
-        <img src="/images/cases/support.svg" alt="support">
+        <img data-src="/images/cases/support.svg" alt="support">
     </div>
     <p class="title">Support</p>
 </div>

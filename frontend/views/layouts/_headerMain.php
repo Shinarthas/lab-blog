@@ -2,7 +2,7 @@
     <div class="content" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
         <div class="logo">
             <a href="/" class="item">
-                <img src="/images/header/logo.svg" alt="logo">
+                <img data-src="/images/header/logo.svg" alt="logo">
             </a>
         </div>
 

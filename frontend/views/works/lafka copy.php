@@ -89,15 +89,15 @@ body .container{max-width: 990px;width: 100%;}
     <div class="container">
         <div class="row">
             <div class="scr">
-                <img src="/images/cases/phones1.png" alt="Display for lafka">
-                <img src="/images/cases/phones2.png" alt="Display for lafka">
-                <img src="/images/cases/phones3.png" alt="Display for lafka">
-                <img src="/images/cases/phones1.png" alt="Display for lafka">
-                <img src="/images/cases/phones2.png" alt="Display for lafka">
-                <img src="/images/cases/phones3.png" alt="Display for lafka">
-                <img src="/images/cases/phones1.png" alt="Display for lafka">
-                <img src="/images/cases/phones2.png" alt="Display for lafka">
-                <img src="/images/cases/phones3.png" alt="Display for lafka">
+                <img data-src="/images/cases/phones1.png" alt="Display for lafka">
+                <img data-src="/images/cases/phones2.png" alt="Display for lafka">
+                <img data-src="/images/cases/phones3.png" alt="Display for lafka">
+                <img data-src="/images/cases/phones1.png" alt="Display for lafka">
+                <img data-src="/images/cases/phones2.png" alt="Display for lafka">
+                <img data-src="/images/cases/phones3.png" alt="Display for lafka">
+                <img data-src="/images/cases/phones1.png" alt="Display for lafka">
+                <img data-src="/images/cases/phones2.png" alt="Display for lafka">
+                <img data-src="/images/cases/phones3.png" alt="Display for lafka">
             </div>
         </div>
     </div>
@@ -107,21 +107,21 @@ body .container{max-width: 990px;width: 100%;}
         <div class="row">
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/shelm.svg" alt="shelm">
+                    <img data-src="/images/cases/shelm.svg" alt="shelm">
                 </div>
                 <p class="title">Our Team</p>
                 <p class="sign">12 Engineers</p>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/pin.svg" alt="pin">
+                    <img data-src="/images/cases/pin.svg" alt="pin">
                 </div>
                 <p class="title">Client's Location</p>
                 <p class="sign">Moscow, Russia</p>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/stopwatch.svg" alt="stopwatch">
+                    <img data-src="/images/cases/stopwatch.svg" alt="stopwatch">
                 </div>
                 <p class="title">Timeline</p>
                 <p class="sign">February 2016 - 2016 December</p>
@@ -137,31 +137,31 @@ body .container{max-width: 990px;width: 100%;}
             <h4>We develop native iOS and Android apps</h4>
             <div class="col3">
                 <div class="img">
-                    <img src="/images/cases/frontend.svg" alt="frontend">
+                    <img data-src="/images/cases/frontend.svg" alt="frontend">
                 </div>
                 <p class="title">Front-End</p>
             </div>
             <div class="col3">
                 <div class="img">
-                    <img src="/images/cases/backend.svg" alt="backend">
+                    <img data-src="/images/cases/backend.svg" alt="backend">
                 </div>
                 <p class="title">Back-End</p>
             </div>
             <div class="col3">
                 <div class="img">
-                    <img src="/images/cases/interaction_design.svg" alt="design">
+                    <img data-src="/images/cases/interaction_design.svg" alt="design">
                 </div>
                 <p class="title">Interaction Design</p>
             </div>
             <div class="col3">
                 <div class="img">
-                    <img src="/images/cases/graphical_design.svg" alt="graphic">
+                    <img data-src="/images/cases/graphical_design.svg" alt="graphic">
                 </div>
                 <p class="title">Graphical Design</p>
             </div>
             <div class="col3">
                 <div class="img">
-                    <img src="/images/cases/support.svg" alt="support">
+                    <img data-src="/images/cases/support.svg" alt="support">
                 </div>
                 <p class="title">Support</p>
             </div>
@@ -176,28 +176,28 @@ body .container{max-width: 990px;width: 100%;}
             <h4>We launch advanced commerce platforms</h4>
             <div class="col-sm-3">
                 <div class="img">
-                    <img src="/images/cases/Reagent.svg" alt="Reagent">
+                    <img data-src="/images/cases/Reagent.svg" alt="Reagent">
                 </div>
                 <p class="title">Simple</p>
                 <span>Tell or write your groceries list</span>
             </div>
             <div class="col-sm-3">
                 <div class="img">
-                    <img src="/images/cases/Cloock.svg" alt="Cloock">
+                    <img data-src="/images/cases/Cloock.svg" alt="Cloock">
                 </div>
                 <p class="title">Fast</p>
                 <span>Form your order in 2 minutes</span>
             </div>
             <div class="col-sm-3">
                 <div class="img">
-                    <img src="/images/cases/Car.svg" alt="Car">
+                    <img data-src="/images/cases/Car.svg" alt="Car">
                 </div>
                 <p class="title">Delivery</p>
                 <span>Quality foods from Supermarket within an hour</span>
             </div>
             <div class="col-sm-3">
                 <div class="img">
-                    <img src="/images/cases/Shield.svg" alt="Shield">
+                    <img data-src="/images/cases/Shield.svg" alt="Shield">
                 </div>
                 <p class="title">Warranties</p>
                 <span>Payment after delivery of your order</span>
@@ -210,7 +210,7 @@ body .container{max-width: 990px;width: 100%;}
         <div class="row">
             <div class="col-sm-6">
                 <div class="img">
-                    <img src="/images/cases/phone1.png" alt="phone1">
+                    <img data-src="/images/cases/phone1.png" alt="phone1">
                 </div>
                 <h2>Client</h2>
                 <ul>
@@ -223,7 +223,7 @@ body .container{max-width: 990px;width: 100%;}
             </div>
             <div class="col-sm-6">
                 <div class="img">
-                    <img src="/images/cases/phone2.png" alt="phone1">
+                    <img data-src="/images/cases/phone2.png" alt="phone1">
                 </div>
                 <h2>Shopper</h2>
                 <ul>
@@ -236,13 +236,13 @@ body .container{max-width: 990px;width: 100%;}
             </div>
         </div>
         <div class="oval">
-            <img src="/images/cases/oval.png" alt="oval thunderris">
+            <img data-src="/images/cases/oval.png" alt="oval thunderris">
         </div>
         <div class="row shopper">
             <div class="col-sm-12">
                 <h2>Shopper</h2>
                 <p>Shopper is a client for shopping operators that accomplish shopping process. Through the app operator gets a buying list of products to acquire and instructions from customer himself on what to do in situations when a product on the list isn’t at hand.</p>
-                <img src="/images/cases/MacBookLafka.png" alt="MacBook Lafka">
+                <img data-src="/images/cases/MacBookLafka.png" alt="MacBook Lafka">
             </div>
         </div>
     </div>
@@ -271,7 +271,7 @@ body .container{max-width: 990px;width: 100%;}
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <img src="/images/cases/lafka-basket.png" alt="Lafka Basket">
+                <img data-src="/images/cases/lafka-basket.png" alt="Lafka Basket">
                 <p>Lafka is an intuitive smart search system that learns to foresee customer’s wishes for specified products purchasing and provides fast delivery service within an hour. It’s a great actual and eagerly sought service and a project that we are proud to develop, maintain and continuously improve.</p>
             </div>
         </div>
@@ -288,19 +288,19 @@ body .container{max-width: 990px;width: 100%;}
             
             <div class="col-sm-4 pr1">
                 <div class="img">
-                    <img src="/images/cases/Basket.svg" alt="Basket">
+                    <img data-src="/images/cases/Basket.svg" alt="Basket">
                 </div>
                 <p>Basket</p>
             </div>
             <div class="col-sm-4 pr2">
                 <div class="img">
-                    <img src="/images/cases/Smile.svg" alt="Smile">
+                    <img data-src="/images/cases/Smile.svg" alt="Smile">
                 </div>
                 <p>Happy face</p>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/Lafka-smile.svg" alt="Lafka-smile">
+                    <img data-src="/images/cases/Lafka-smile.svg" alt="Lafka-smile">
                 </div>
                 <p>Lafka</p>
             </div>
@@ -317,16 +317,16 @@ body .container{max-width: 990px;width: 100%;}
             </div>
             
         </div>
-        <div class="col5"><img src="/images/cases/Basket.svg" alt="Basket"></div>
-        <div class="col5"><img src="/images/cases/Bread.svg" alt="Bread"></div>
-        <div class="col5"><img src="/images/cases/Purse.svg" alt="Purse"></div>
-        <div class="col5"><img src="/images/cases/Meat.svg" alt="Meat"></div>
-        <div class="col5"><img src="/images/cases/Shield.svg" alt="Shield"></div>
-        <div class="col5"><img src="/images/cases/Reagent.svg" alt="Reagent"></div>
-        <div class="col5"><img src="/images/cases/Car.svg" alt="Car"></div>
-        <div class="col5"><img src="/images/cases/Apple.svg" alt="Apple"></div>
-        <div class="col5"><img src="/images/cases/Glass.svg" alt="Glass"></div>
-        <div class="col5"><img src="/images/cases/Cloock.svg" alt="Cloock"></div>
+        <div class="col5"><img data-src="/images/cases/Basket.svg" alt="Basket"></div>
+        <div class="col5"><img data-src="/images/cases/Bread.svg" alt="Bread"></div>
+        <div class="col5"><img data-src="/images/cases/Purse.svg" alt="Purse"></div>
+        <div class="col5"><img data-src="/images/cases/Meat.svg" alt="Meat"></div>
+        <div class="col5"><img data-src="/images/cases/Shield.svg" alt="Shield"></div>
+        <div class="col5"><img data-src="/images/cases/Reagent.svg" alt="Reagent"></div>
+        <div class="col5"><img data-src="/images/cases/Car.svg" alt="Car"></div>
+        <div class="col5"><img data-src="/images/cases/Apple.svg" alt="Apple"></div>
+        <div class="col5"><img data-src="/images/cases/Glass.svg" alt="Glass"></div>
+        <div class="col5"><img data-src="/images/cases/Cloock.svg" alt="Cloock"></div>
     </div>
 </section>
 <section class="main main12" style="background: #151515;">
@@ -341,61 +341,61 @@ body .container{max-width: 990px;width: 100%;}
             <div class="option">
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/js.png" alt="javascript">
+                        <img data-src="/images/tehnologies/js.png" alt="javascript">
                     </div>
                     <p class="title">JavaScript</p>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/php.png" alt="php">
+                        <img data-src="/images/tehnologies/php.png" alt="php">
                     </div>
                     <p class="title">PHP</p>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/jq.png" alt="jquery">
+                        <img data-src="/images/tehnologies/jq.png" alt="jquery">
                     </div>
                     <p class="title">jQuery</p>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/postgre.png" alt="postgre">
+                        <img data-src="/images/tehnologies/postgre.png" alt="postgre">
                     </div>
                     <p class="title">PostgreSQL</p>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/html.png" alt="html">
+                        <img data-src="/images/tehnologies/html.png" alt="html">
                     </div>
                     <p class="title">HTML5</p>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/redis.png" alt="redis">
+                        <img data-src="/images/tehnologies/redis.png" alt="redis">
                     </div>
                     <p class="title">Redis</p>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/cocoa.png" alt="cocoa">
+                        <img data-src="/images/tehnologies/cocoa.png" alt="cocoa">
                     </div>
                     <p class="title">ReactiveCocoa</p>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/lite.png" alt="sqlite">
+                        <img data-src="/images/tehnologies/lite.png" alt="sqlite">
                     </div>
                     <p class="title">SQLite</p>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/yandex.png" alt="yandex">
+                        <img data-src="/images/tehnologies/yandex.png" alt="yandex">
                     </div>
                     <p class="title">YandexSpeechKit</p>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/afn.png" alt="afn">
+                        <img data-src="/images/tehnologies/afn.png" alt="afn">
                     </div>
                     <p class="title">AFNetworking</p>
                 </div>
@@ -411,7 +411,7 @@ body .container{max-width: 990px;width: 100%;}
                     <div class="item">
                         <h2>Melo</h2>
                         <a href="/works/melo" class="items">
-                            <img src="/images/works/melo0.png" alt="melo">
+                            <img data-src="/images/works/melo0.png" alt="melo">
                             <div class="overlay">
                                 <p class="title">Melo</p>
                             </div>
@@ -420,7 +420,7 @@ body .container{max-width: 990px;width: 100%;}
                     <div class="item">
                         <h2>Lcoin</h2>
                         <a href="/works/lcoin" class="items">
-                            <img src="/images/works/lcoin.jpg" alt="lcoin">
+                            <img data-src="/images/works/lcoin.jpg" alt="lcoin">
                             <div class="overlay">
                                 <p class="title">Lcoin</p>
                             </div>

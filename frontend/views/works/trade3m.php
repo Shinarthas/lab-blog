@@ -279,19 +279,19 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
             
             <div class="col-sm-4 pr1">
                 <div class="img">
-                    <img src="/images/cases/Basket.svg" alt="Basket">
+                    <img data-src="/images/cases/Basket.svg" alt="Basket">
                 </div>
                 <p>Basket</p>
             </div>
             <div class="col-sm-4 pr2">
                 <div class="img">
-                    <img src="/images/cases/Smile.svg" alt="Smile">
+                    <img data-src="/images/cases/Smile.svg" alt="Smile">
                 </div>
                 <p>Happy face</p>
             </div>
             <div class="col-sm-4">
                 <div class="img">
-                    <img src="/images/cases/Lafka-smile.svg" alt="Lafka-smile">
+                    <img data-src="/images/cases/Lafka-smile.svg" alt="Lafka-smile">
                 </div>
                 <p>Trade3M</p>
             </div>
@@ -308,14 +308,14 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
             </div>
             
         </div>
-        <div class="col5"><img src="/images/serv/1.png" alt="Basket"></div>
-        <div class="col5"><img src="/images/serv/2.png" alt="Bread"></div>
-        <div class="col5"><img src="/images/serv/3.png" alt="Purse"></div>
-        <div class="col5"><img src="/images/serv/4.png" alt="Meat"></div>
-        <div class="col5"><img src="/images/serv/5.png" alt="Shield"></div>
-        <div class="col5"><img src="/images/serv/6.png" alt="Reagent"></div>
-        <div class="col5"><img src="/images/serv/7.png" alt="Car"></div>
-        <div class="col5"><img src="/images/serv/8.png" alt="Apple"></div>
+        <div class="col5"><img data-src="/images/serv/1.png" alt="Basket"></div>
+        <div class="col5"><img data-src="/images/serv/2.png" alt="Bread"></div>
+        <div class="col5"><img data-src="/images/serv/3.png" alt="Purse"></div>
+        <div class="col5"><img data-src="/images/serv/4.png" alt="Meat"></div>
+        <div class="col5"><img data-src="/images/serv/5.png" alt="Shield"></div>
+        <div class="col5"><img data-src="/images/serv/6.png" alt="Reagent"></div>
+        <div class="col5"><img data-src="/images/serv/7.png" alt="Car"></div>
+        <div class="col5"><img data-src="/images/serv/8.png" alt="Apple"></div>
     </div>
 </section>
 <section class="main main12" style="background: #151515;">
@@ -330,55 +330,55 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
             <div class="option">
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tech/1.png" alt="javascript">
+                        <img data-src="/images/tech/1.png" alt="javascript">
                     </div>
                     <!--<p class="title">JavaScript</p>-->
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/2.png" alt="javascript">
+                    <img data-src="/images/tech/2.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/3.png" alt="javascript">
+                    <img data-src="/images/tech/3.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/4.png" alt="javascript">
+                    <img data-src="/images/tech/4.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/5.png" alt="javascript">
+                    <img data-src="/images/tech/5.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/6.png" alt="javascript">
+                    <img data-src="/images/tech/6.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/7.png" alt="javascript">
+                    <img data-src="/images/tech/7.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/8.png" alt="javascript">
+                    <img data-src="/images/tech/8.png" alt="javascript">
                     </div>
                 </div>
 
                 <!--<div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/yandex.png" alt="yandex">
+                        <img data-src="/images/tehnologies/yandex.png" alt="yandex">
                     </div>
                     <p class="title">YandexSpeechKit</p>
                 </div>
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tehnologies/afn.png" alt="afn">
+                        <img data-src="/images/tehnologies/afn.png" alt="afn">
                     </div>
                     <p class="title">AFNetworking</p>
                 </div>-->
@@ -394,7 +394,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
                     <div class="item">
                         <h2>Melo</h2>
                         <a href="/works/melo" class="items">
-                            <img src="/images/works/melo0.png" alt="melo">
+                            <img data-src="/images/works/melo0.png" alt="melo">
                             <div class="overlay">
                                 <p class="title">Melo</p>
                             </div>
@@ -403,7 +403,7 @@ color: #FFFFFF; margin-bottom: 0; margin-top: 40px">Our Solutions</h2>
                     <div class="item">
                         <h2>Lcoin</h2>
                         <a href="/works/lcoin" class="items">
-                            <img src="/images/works/lcoin.jpg" alt="lcoin">
+                            <img data-src="/images/works/lcoin.jpg" alt="lcoin">
                             <div class="overlay">
                                 <p class="title">Lcoin</p>
                             </div>

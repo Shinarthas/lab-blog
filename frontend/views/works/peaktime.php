@@ -7,7 +7,7 @@ $this->title = ucfirst(Yii::$app->controller->action->id);
         <h1>Peak time</h1>
         <div class="arrow"></div>
         <h2>We develop native iOS and Android apps</h2>
-        <img src="/images/works/peaktime1.png">
+        <img data-src="/images/works/peaktime1.png">
     </div>
 </div>
 
@@ -32,7 +32,7 @@ $this->title = ucfirst(Yii::$app->controller->action->id);
 
 <div class="peaktime wrapper3">
     <div class="content">
-        <img src="/images/works/peaktime2.png">
+        <img data-src="/images/works/peaktime2.png">
     </div>
 </div>
 
@@ -40,21 +40,21 @@ $this->title = ucfirst(Yii::$app->controller->action->id);
     <div class="content">
         <div class="float">
             <div class="img">
-                <img src="/images/cases/shelm.svg">
+                <img data-src="/images/cases/shelm.svg">
             </div>
             <p class="title">Our Team</p>
             <p class="sign">5 Engineers</p>
         </div>
         <div class="float">
             <div class="img">
-                <img src="/images/cases/pin.svg">
+                <img data-src="/images/cases/pin.svg">
             </div>
             <p class="title">Client's Location</p>
             <p class="sign">Moscow, Russia</p>
         </div>
         <div class="float">
             <div class="img">
-                <img src="/images/cases/stopwatch.svg">
+                <img data-src="/images/cases/stopwatch.svg">
             </div>
             <p class="title">Timeline</p>
             <p class="sign">October 2013 - Now</p>
@@ -82,25 +82,25 @@ $this->title = ucfirst(Yii::$app->controller->action->id);
         <div class="floatWrapper">
             <div class="float">
                 <div class="img">
-                    <img src="/images/cases/backend.svg">
+                    <img data-src="/images/cases/backend.svg">
                 </div>
                 <p class="title">Backend</p>
             </div>
             <div class="float">
                 <div class="img">
-                    <img src="/images/cases/interaction_design.svg">
+                    <img data-src="/images/cases/interaction_design.svg">
                 </div>
                 <p class="title">Interaction Design</p>
             </div>
             <div class="float">
                 <div class="img">
-                    <img src="/images/cases/support.svg">
+                    <img data-src="/images/cases/support.svg">
                 </div>
                 <p class="title">Support</p>
             </div>
             <div class="float">
                 <div class="img">
-                    <img src="/images/cases/graphical_design.svg">
+                    <img data-src="/images/cases/graphical_design.svg">
                 </div>
                 <p class="title">Graphical Design</p>
             </div>
@@ -116,13 +116,13 @@ $this->title = ucfirst(Yii::$app->controller->action->id);
         <div class="option">
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/cocoa.png">
+                    <img data-src="/images/tehnologies/cocoa.png">
                 </div>
                 <p class="title">ReactiveCocoa</p>
             </div>
             <div class="item">
                 <div class="img">
-                    <img src="/images/tehnologies/lite.png">
+                    <img data-src="/images/tehnologies/lite.png">
                 </div>
                 <p class="title">SQLite</p>
             </div>
@@ -136,7 +136,7 @@ $this->title = ucfirst(Yii::$app->controller->action->id);
             <div class="item">
                 <h1>Melo</h1>
                 <a href="/works/melo" class="item">
-                    <img src="/images/works/melo0.png">
+                    <img data-src="/images/works/melo0.png">
                     <div class="overlay">
                         <p class="title">Melo</p>
                     </div>
@@ -145,7 +145,7 @@ $this->title = ucfirst(Yii::$app->controller->action->id);
             <div class="item">
                 <h1>Lafka</h1>
                 <a href="/works/lafka" class="item">
-                    <img src="/images/works/lafka0.png">
+                    <img data-src="/images/works/lafka0.png">
                     <div class="overlay">
                         <p class="title">Lafka</p>
                     </div>

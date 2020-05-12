@@ -213,7 +213,7 @@ body .container{max-width: 990px;width: 100%;}
 </section>
 <div hidden class="contactsPopupWrapper">
     <div class="contactsPopup">
-        <img src="/images/contacts/like.svg" alt="like">
+        <img data-src="/images/contacts/like.svg" alt="like">
         <p class="msend">Message send!</p>
         <div class="arrow"></div>
         <p class="request">
@@ -221,10 +221,10 @@ body .container{max-width: 990px;width: 100%;}
             <br>
             respond you as soon as possible
         </p>
-        <img src="/images/contacts/logo.svg" alt="logo">
+        <img data-src="/images/contacts/logo.svg" alt="logo">
     </div>
     <div class="contactsPopupClose">
-        <img src="/images/contacts/close.popup.svg" alt="close">
+        <img data-src="/images/contacts/close.popup.svg" alt="close">
     </div>
 </div>
 

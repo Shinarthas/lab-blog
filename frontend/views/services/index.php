@@ -174,7 +174,7 @@ body{
             <p class="name"><?=$service['title']?></p>
         </div>
         <div class="text-center col-sm-2">
-            <img src="<?=$service['image']?>" alt="phone">
+            <img data-src="<?=$service['image']?>" alt="phone">
         </div>
         <div class="col-sm-10 col-md-6">
             <p class="sm-name name"><?=$service['title']?></p>

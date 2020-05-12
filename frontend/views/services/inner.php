@@ -256,7 +256,7 @@ $this->registerCssFile("/styles/services-inner.css");
                 <h2 class="text-center">From our blog</h2>
                 <div class="col-lg-4 col-md-4 col-sm-6 post">
                     <div class="blog-outer-img">
-                        <img src="../uploads/how_much_does_it_cost_to_develop_an_app.jpg" alt="how much does it cost to develop an app">
+                        <img data-src="../uploads/how_much_does_it_cost_to_develop_an_app.jpg" alt="how much does it cost to develop an app">
                     </div>
                     <div class="serv-blog">
                         <!-- <p class="title">Design, Entrepreneurship</p> -->
@@ -266,7 +266,7 @@ $this->registerCssFile("/styles/services-inner.css");
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 post">
                     <div class="blog-outer-img">
-                        <img src="../uploads/How_much_does_it_cost_to_build.jpg" alt="img_blog2">
+                        <img data-src="../uploads/How_much_does_it_cost_to_build.jpg" alt="img_blog2">
                     </div>
                     <div class="serv-blog">
                         <!-- <p class="title">Design, Entrepreneurship</p> -->
@@ -276,7 +276,7 @@ $this->registerCssFile("/styles/services-inner.css");
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 post">
                     <div class="blog-outer-img">
-                        <img src="../uploads/how_much_does_it_cost_to_design_an_app.jpg" alt="img_blog3">
+                        <img data-src="../uploads/how_much_does_it_cost_to_design_an_app.jpg" alt="img_blog3">
                     </div>
                     <div class="serv-blog">
                         <!-- <p class="title">Design, Entrepreneurship</p> -->

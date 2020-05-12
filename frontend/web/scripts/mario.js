@@ -58,12 +58,12 @@ function initelements()
 	$(".head .background .overlay").html('<div id="main"></div><div id="ground"></div>');
 	$(".head .background .overlay").css({'overflow-x':'hidden'});
 	$("#main").append('<div id="score">Score: <b class="score">0</b>'+
-	'<br>Lives: <img src="/images/mario/heart.png" style="height:14px;">x<b class="lives">3</b>'+
+	'<br>Lives: <img data-src="/images/mario/heart.png" style="height:14px;">x<b class="lives">3</b>'+
 	'<br>Stage: <b class="stage">1</b></div>');
 	$("#main").append('<div id="start-button"><p>SuperMario Run</p><small>press space to jump</small></div>');
 	$("#main").append('<div id="hero"></div>');
 	$("#main").append('<div id="highscore"></div>');
-//	$("#main").append('<img src="/images/mario/angry-sun.png" class="sun">');
+//	$("#main").append('<img data-src="/images/mario/angry-sun.png" class="sun">');
 	$("#main").append('<div id="jump-button">Space = jump</div>');
 	$("#main").fadeIn(500);
 	$("#ground").fadeIn(500);
@@ -287,13 +287,13 @@ function addEnemys()
 			
 		if(i > 0.1 && i < 0.25  && stage > 2 && stage <7)
 			addCustomEnemy(2);
-		// после 7го уровня, количество кактусов уменьшается в 2 раза
+		// пїЅпїЅпїЅпїЅпїЅ 7пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ 2 пїЅпїЅпїЅпїЅ
 		if(i > 0.1 && i < 0.17  && stage >= 7)
 			addCustomEnemy(2);
 			
 		if(i>0.25 && i< 0.5  && stage <6)
 			addEnemy(1);
-		// после 6го уровня - грибочков больше нет, вместо них, большие кактусы и черепахи
+		// пїЅпїЅпїЅпїЅпїЅ 6пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		if(stage>=6 && i>0.25 && i< 0.35)
 			addCustomEnemy(3);
 		if(stage>=6 && i>0.35 && i< 0.43)

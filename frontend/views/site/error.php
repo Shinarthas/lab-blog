@@ -8,7 +8,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Error 404! lab3m 
 
 <div class="e404w">
     <div class="e404">
-        <img src="/images/404.svg" alt="404">
+        <img data-src="/images/404.svg" alt="404">
         <h1>
             It seems like this page doesn't exist!
             <br>

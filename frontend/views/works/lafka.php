@@ -419,14 +419,14 @@ html{
             </div>
             
         </div>
-        <div class="col5"><img src="/images/serv/1.png" alt="Basket"></div>
-        <div class="col5"><img src="/images/serv/2.png" alt="Bread"></div>
-        <div class="col5"><img src="/images/serv/3.png" alt="Purse"></div>
-        <div class="col5"><img src="/images/serv/4.png" alt="Meat"></div>
-        <div class="col5"><img src="/images/serv/5.png" alt="Shield"></div>
-        <div class="col5"><img src="/images/serv/6.png" alt="Reagent"></div>
-        <div class="col5"><img src="/images/serv/7.png" alt="Car"></div>
-        <div class="col5"><img src="/images/serv/8.png" alt="Apple"></div>
+        <div class="col5"><img data-src="/images/serv/1.png" alt="Basket"></div>
+        <div class="col5"><img data-src="/images/serv/2.png" alt="Bread"></div>
+        <div class="col5"><img data-src="/images/serv/3.png" alt="Purse"></div>
+        <div class="col5"><img data-src="/images/serv/4.png" alt="Meat"></div>
+        <div class="col5"><img data-src="/images/serv/5.png" alt="Shield"></div>
+        <div class="col5"><img data-src="/images/serv/6.png" alt="Reagent"></div>
+        <div class="col5"><img data-src="/images/serv/7.png" alt="Car"></div>
+        <div class="col5"><img data-src="/images/serv/8.png" alt="Apple"></div>
     </div>
 </section>
 <section class="main main12" style="background: #151515;">
@@ -441,43 +441,43 @@ html{
             <div class="option">
                 <div class="item">
                     <div class="img">
-                        <img src="/images/tech/1.png" alt="javascript">
+                        <img data-src="/images/tech/1.png" alt="javascript">
                     </div>
                     <!--<p class="title">JavaScript</p>-->
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/2.png" alt="javascript">
+                    <img data-src="/images/tech/2.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/3.png" alt="javascript">
+                    <img data-src="/images/tech/3.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/4.png" alt="javascript">
+                    <img data-src="/images/tech/4.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/5.png" alt="javascript">
+                    <img data-src="/images/tech/5.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/6.png" alt="javascript">
+                    <img data-src="/images/tech/6.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/7.png" alt="javascript">
+                    <img data-src="/images/tech/7.png" alt="javascript">
                     </div>
                 </div>
                 <div class="item">
                     <div class="img">
-                    <img src="/images/tech/8.png" alt="javascript">
+                    <img data-src="/images/tech/8.png" alt="javascript">
                     </div>
                 </div>
             </div>
