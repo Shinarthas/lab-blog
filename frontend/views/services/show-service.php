@@ -7,6 +7,7 @@
  */
 
 use common\models\Lang;
+use yii\helpers\Url;
 
 $this->title = ucfirst($model['meta_title']);
 
@@ -36,6 +37,23 @@ $lang_list = Lang::getLangList();
             }*/
         }
     }
+
+
+$this->params['breadcrumbs'][] = array(
+    'label'=> Yii::t('app','text_header_services'),
+    'url'=>\yii\helpers\Url::toRoute('/services')
+);
+
+$service_category=\common\models\ServicesCategory::findOne($model['category_id']);
+$service_category_translation=\common\models\ServicesCategoryTranslations::find()->where(['id_service_category'=>$service_category->id,'id_lang'=>Yii::$app->language])->asArray()->one();
+$this->params['breadcrumbs'][] = array(
+    'label'=> $service_category_translation['title'],
+    'url'=>Url::to(['blog/show-post','id'=>$service_category['url'],'language'=>Yii::$app->language])
+);
+$this->params['breadcrumbs'][] = array(
+    'label'=> Yii::t('app',$model['title']),
+    'url'=>Url::to(['blog/show-post','id'=>$model['url'],'language'=>Yii::$app->language])
+);
 
 ?>
 

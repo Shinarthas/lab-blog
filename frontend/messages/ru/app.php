@@ -614,4 +614,7 @@ color: #FFFFFF;" >Отправить</a>
 </div>',
 'dex_Main_Features_Inspiration' => 'Вдохновение',
 
+
+
+
 ];

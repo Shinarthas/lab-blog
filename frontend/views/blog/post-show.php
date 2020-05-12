@@ -36,6 +36,14 @@ $this->registerMetaTag([
     'property' => 'og:description',
     'content' => $model->meta_desc,
 ]);
+$this->params['breadcrumbs'][] = array(
+    'label'=> Yii::t('app','text_header_blog'),
+    'url'=>Url::toRoute('/blog/')
+);
+$this->params['breadcrumbs'][] = array(
+    'label'=> $model->title,
+    'url'=>Url::to(['blog/show-post','id'=>$model->seo_url,'language'=>Yii::$app->language])
+);
 
 $lang_list = Lang::getLangList();
 
@@ -122,51 +130,23 @@ body .container{max-width: 990px;width: 100%;}
         }
     }(document, 'script', 'twitter-wjs'));
 </script>
-
+<style>
+    @media(max-width: 767px){
+        h1{
+            font-size: 24px!important;
+        }
+    }
+</style>
 <div class="bar">
     <div class="progress-bar"></div>
 </div>
 <div itemscope itemtype="http://schema.org/Periodical" class="blogPost">
-    <div style="display: none">
-        <ol itemscope itemtype="http://schema.org/BreadcrumbList">
-            <li itemprop="itemListElement" itemscope
-                itemtype="http://schema.org/ListItem">
-                <a itemscope itemtype="http://schema.org/Thing"
-                   itemprop="item" href="https://lab3m.com/">
-                    <span itemprop="name">Lab3M</span>
-                   </a>
-                <meta itemprop="position" content="1" />
-            </li>
-            ›
-            <li itemprop="itemListElement" itemscope
-                itemtype="http://schema.org/ListItem">
-                <a itemscope itemtype="http://schema.org/Thing"
-                   itemprop="item" href="https://lab3m.com/blog">
-                    <span itemprop="name">Blog</span></a>
 
-                <meta itemprop="position" content="2" />
-            </li>
-            ›
-            <li itemprop="itemListElement" itemscope
-                itemtype="http://schema.org/ListItem">
-                <a itemscope itemtype="http://schema.org/Thing"
-                   itemprop="item" href="https://lab3m.com/<?=$model->seo_url?>">
-                    <span itemprop="name"><?=$model->title?></span>
-                    </a>
-                <meta itemprop="position" content="3" />
-            </li>
-        </ol>
-    </div>
+
+
     <div class="head">
-        <style>
-        @media(max-width: 767px){
-            h1{
-                font-size: 24px!important;
-            }
-        }
-        </style>
+
         <div class="container" style="max-width: 1200px; text-align: center;">
-        <div class="col-12" style="text-align: left;"><a href="/"><?= Yii::t('app', 'go_to_main') ?></a> / <a href="/blog"><?= Yii::t('app', 'categ_blog') ?></a> / <?=$model->title?></div>
         <h1><?=$model->title?></h1>
         <h6 style="margin-bottom: 38px;"><?= Yii::t('app', 'time_blog') ?></h6>
         <div class="col-12" style="margin: 0; padding: 0;"> <img class="img-fluid" data-src="<?=$metaimage?>" alt=""></div>

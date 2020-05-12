@@ -13675,3 +13675,32 @@ textarea.form-control {
         stroke-dashoffset: -136px;
     }
 }
+.breadcrumbs{
+    padding: 10px 0px;
+    list-style: none;
+
+}
+ul.breadcrumbs li {
+    display: inline;
+    font-size: 16px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumbs li+li:before {
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumbs li a {
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumbs li a:hover {
+    text-decoration: underline;
+}
+
+ul.breadcrumbs li:last-child a {
+    color: white;
+    text-decoration: underline;
+}

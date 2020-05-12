@@ -1,5 +1,8 @@
 <?php
 return [
+    'text_menu_cookies'=>'Cookie',
+    'text_menu_terms'=>'Terms',
+    'text_menu_privacy'=>'Privacy',
     'cookie'=>'<h1><strong>Cookie Policy</strong></h1>
 <p><span style="font-weight: 400;">INTRODUCTION</span></p>
 <p><span style="font-weight: 400;">Lab3M, Inc. ("us", "we", or "our") may use cookies, web beacons, tracking pixels, and other tracking technologies when you visit our website </span><a href="https://www.softermii.com/"><span style="font-weight: 400;">https://www.lab3m.com/</span></a><span style="font-weight: 400;">, other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the </span><a href="https://www.softermii.com/"><span style="font-weight: 400;">"https://www.lab3m.com/"</span></a><span style="font-weight: 400;">) to help customize the Site and improve your experience. =</span></p>
@@ -103,5 +106,73 @@ return [
 <p><span style="font-weight: 400;">We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.</span></p>
 <p><span style="font-weight: 400;">If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us or by placing a prominent notice on our website.</span></p>
 <h3><strong>CONTACT US</strong></h3>
-<p><span style="font-weight: 400;">If you have any questions about this Privacy Policy, please contact us via contact@lab3m.com.</span></p>'
+<p><span style="font-weight: 400;">If you have any questions about this Privacy Policy, please contact us via contact@lab3m.com.</span></p>',
+    'js_snippet_default'=>"<script type=\"application/ld+json\">
+{
+ \"@context\": \"http://schema.org\",
+ \"@type\": \"WebSite\",
+ \"url\": \"https://lab3m.com/\",
+}
+</script>
+<script type=\"application/ld+json\">
+{
+ \"@context\": \"http://schema.org\",
+ \"@type\": \"Organization\",
+ \"url\": \"https://lab3m.com/\",
+ \"logo\": \"https://lab3m.com/images/l3m-t.png\"
+}
+</script>
+<script type=\"application/ld+json\">
+{
+ \"@context\": \"http://schema.org\",
+ \"@type\": \"Organization\",
+ \"url\": \"https://lab3m.com/\",
+ \"contactPoint\": [{
+  \"@type\": \"ContactPoint\",
+  \"email\": \"contact@lab3m.com\",
+ \"contactType\": \"customer service\"
+ }]
+}
+</script>
+<script type=\"application/ld+json\">
+{
+    \"@context\": \"http://schema.org\",
+    \"@type\": \"Organization\",
+    \"address\": [{
+        \"@type\": \"PostalAddress\",
+        \"addressLocality\": \"Genève\",
+        \"streetAddress\": \"Rue Etienne-Dumont 16 1204\"
+    }],
+    \"email\": \"contact@lab3m.com\",
+    \"name\": \"Fintech and blockchain solutions lab3m\"
+}
+</script>
+<script type=\"application/ld+json\">
+ {
+ \"@context\": \"http://schema.org\",
+ \"@type\": \"Store\",
+ \"name\": \"lab3m - Финтех и блокчейн решения\",
+ \"image\": \"https://lab3m.com/images/l3m-t.png\",
+ \"openingHoursSpecification\": [
+ {
+ \"@type\": \"OpeningHoursSpecification\",
+ \"dayOfWeek\": [
+ \"Monday\",
+ \"Tuesday\",
+ \"Wednesday\",
+ \"Thursday\",
+ \"Friday\"
+ ],
+ \"opens\": \"09:00\",
+ \"closes\": \"17:00\"
+ }],
+\"address\": {
+\"@type\": \"PostalAddress\",
+\"streetAddress\": \"Rue Etienne-Dumont 16 1204\",
+\"addressLocality\": \"Genève\",
+\"addressCountry\": \"Switzerland\"
+}
+}
+</script>"
+
 ];

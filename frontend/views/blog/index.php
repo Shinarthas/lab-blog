@@ -15,7 +15,10 @@ $this->registerJsFile('/scripts/myslick.js');*/
 $this->registerCssFile("/styles/slick.css");*/
 $this->registerCssFile("/styles/blog-post.css");
 
-
+$this->params['breadcrumbs'][] = array(
+    'label'=> Yii::t('app','text_header_blog'),
+    'url'=>Url::toRoute('/blog/')
+);
 
 $page = isset($_GET['page']) ? ' Page '.intval($_GET['page']) : '';
 $default_title = Yii::t('app','meta_blog_title').$page;
