@@ -152,7 +152,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
                 document.getElementById('vid1').remove();
             }
         </script>
-        <div class="text-c1 disb-none-t" style="
+        <div class="text-c1 disb-none-t dis-none-t-cor" style="
     width:100%;
     padding: 10px;
     margin: 10px;
@@ -237,7 +237,7 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5b') ?></p>
     background: #6927ff;
     padding: 15px 30px;
     border-radius: 50px;" href="/solutions"><?= Yii::t('app', 'main_text7') ?></a></div>
-        <p class="disb-none-t" style="font-style: normal;
+        <p class="disb-none-t dis-none-t-cor" style="font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 150%;
