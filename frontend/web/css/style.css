@@ -13704,3 +13704,10 @@ ul.breadcrumbs li:last-child a {
     color: white;
     text-decoration: underline;
 }
+
+.icon-v {
+    width: 11px;
+    height: 11px;
+    float: left;
+    background: url(/images/v.png);
+  }

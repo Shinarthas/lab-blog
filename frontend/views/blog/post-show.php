@@ -181,8 +181,6 @@ body .container{max-width: 990px;width: 100%;}
     </div>
     <div class="entry">
         <div class="content">
-			
-			
             <?=$model->content?>
         </div>
     </div>

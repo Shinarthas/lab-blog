@@ -18,78 +18,67 @@ return [
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Cross-platform multi-account trading</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Cross-platform multi-account trading</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >AI based forecasts</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>AI based forecasts</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Flexible roles architecture</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Flexible roles architecture</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Direct API connection</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Direct API connection</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Cold and hot wallets</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Cold and hot wallets</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Portfolio management features</div>',
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Portfolio management features</div>',
     'main_text6b' => '<div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >TRC-10&20 Token Support</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>TRC-10&20 Token Support</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >SUN DappChain Mapping</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>SUN DappChain Mapping</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >No fees trading</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>No fees trading</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Open source code</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Open source code</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >KYC absence</div>',
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>KYC absence</div>',
     'main_text7' => 'Solutions',
     'main_text8' => 'Latest News',
     'main_text9' => 'We launch advanced fintech products',
@@ -291,7 +280,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;" data-src="/images/v.png" alt="check mark" >AI based trading forecasts and visualizations</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>AI based trading forecasts and visualizations</div>
     </div>
     <div class="col-12 col-md-4">
     <div style="font-style: normal; margin-bottom: 20px;
@@ -299,7 +288,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;" data-src="/images/v.png" alt="check mark" >Trading campaigns adding and editing</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Trading campaigns adding and editing</div>
     </div>
     <div class="col-12 col-md-4">
     <div style="font-style: normal; margin-bottom: 20px;
@@ -307,7 +296,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;" data-src="/images/v.png" alt="check mark" >Manual control feature</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Manual control feature</div>
     </div>',
 
     "text_portfolio_custody_title"=>"Custody",
@@ -317,7 +306,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Transactions co-sign and verification</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Transactions co-sign and verification</div>
     </div>
     <div class="col-12 col-md-4">
     <div style="font-style: normal; margin-bottom: 20px;
@@ -325,7 +314,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Сross-exchange&account funds moving</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Сross-exchange&account funds moving</div>
     </div>
     <div class="col-12 col-md-4">
     <div style="font-style: normal; margin-bottom: 20px;
@@ -333,7 +322,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Synchronized cold and hot wallets</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Synchronized cold and hot wallets</div>
     </div>',
 
     "text_portfolio_management_title"=>"Portfolio Management",
@@ -343,7 +332,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Detailed online statistics</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Detailed online statistics</div>
     </div>
     <div class="col-12 col-md-4">
     <div style="font-style: normal; margin-bottom: 20px;
@@ -351,7 +340,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Accounts management in one place</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Accounts management in one place</div>
     </div>
     <div class="col-12 col-md-4">
     <div style="font-style: normal; margin-bottom: 20px;
@@ -359,7 +348,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Synchronized access to all funds</div>
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Synchronized access to all funds</div>
     </div>',
 
     "text_portfolio_backend_title"=>"Back-End",
