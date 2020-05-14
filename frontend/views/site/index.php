@@ -142,6 +142,14 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
     border-radius: 50px;" href="/solutions"><?= Yii::t('app', 'main_text7') ?></a></div>
         </div>
         <div class="col-12 col-lg-8" style="margin-top: 20px;">
+        <div class="text-c1 disb-none-t" style="
+    width:100%;
+    padding: 10px;
+    margin-bottom: 40px;
+    "><a style="color: white;
+    background: #6927ff;
+    padding: 15px 30px;
+    border-radius: 50px;" href="/solutions"><?= Yii::t('app', 'main_text7') ?></a></div>
         <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted"  poster="/images/posters/trade.jpg">
             <source  data-src="/images/trade.webm" type="video/webm">
             <source id="vid1"  data-src="/images/trade.mp4" type="video/mp4">
@@ -152,15 +160,8 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
                 document.getElementById('vid1').remove();
             }
         </script>
-        <div class="text-c1 disb-none-t" style="
-    width:100%;
-    padding: 10px;
-    margin: 10px;
-    "><a style="color: white;
-    background: #6927ff;
-    padding: 15px 30px;
-    border-radius: 50px;" href="/solutions"><?= Yii::t('app', 'main_text7') ?></a></div>
-        <p class="disb-none-t" style="font-style: normal;
+        
+        <p class="disb-none-t dis-none-t-cor" style="font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 150%;
@@ -206,6 +207,9 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5b') ?></p>
         .t-cen-bag{
             text-align: center!important;
         }
+        .first-screen__flash{
+            display: none!important;
+        }
     }
 </style>
 <div class="text-c1 dis-none-t t-cen-bag" style="width:100%;
@@ -215,26 +219,27 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5b') ?></p>
     border-radius: 50px;" href="/solutions"><?= Yii::t('app', 'main_text7') ?></a></div>
         </div>
         <div class="col-12 col-lg-8" style="margin-top: 20px;">
-        <img src="/images/bdexinfo.png" class="img-fluid" alt="">
-        <!-- <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted"  poster="/images/posters/trade.jpg">
-            <source  data-src="/images/trade.webm" type="video/webm">
-            <source id="vid1"  data-src="/images/trade.mp4" type="video/mp4">
-        </video> -->
+        <!-- <img src="/images/bdexinfo.png" class="img-fluid" alt=""> -->
+        <div class="text-c1 disb-none-t" style="
+    width:100%;
+    padding: 10px;
+    margin-bottom: 40px;
+    "><a style="color: white;
+    background: #6927ff;
+    padding: 15px 30px;
+    border-radius: 50px;" href="/solutions"><?= Yii::t('app', 'main_text7') ?></a></div>
+        <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted"  poster="/images/bdexinfo.png">
+            <source  data-src="/images/biki.webm" type="video/webm">
+            <source id="vid1"  data-src="/images/biki.mp4" type="video/mp4">
+        </video>
         <script>
             if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
             } else {
                 document.getElementById('vid1').remove();
             }
         </script>
-        <div class="text-c1 disb-none-t" style="
-    width:100%;
-    padding: 10px;
-    margin: 10px;
-    "><a style="color: white;
-    background: #6927ff;
-    padding: 15px 30px;
-    border-radius: 50px;" href="/solutions"><?= Yii::t('app', 'main_text7') ?></a></div>
-        <p class="disb-none-t" style="font-style: normal;
+        
+        <p class="disb-none-t dis-none-t-cor" style="font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 150%;
