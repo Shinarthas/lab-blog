@@ -221,7 +221,6 @@ body .container{max-width: 990px;width: 100%;}
 </section>
 <div hidden class="contactsPopupWrapper">
     <div class="contactsPopup">
-        <img data-src="/images/contacts/like.svg" alt="like">
         <p class="msend">Message send!</p>
         <div class="arrow"></div>
         <p class="request">

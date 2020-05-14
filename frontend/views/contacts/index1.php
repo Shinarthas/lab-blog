@@ -86,7 +86,6 @@ $this->title = ucfirst(Yii::$app->controller->id);
     <div class="map"></div>
     <div class="contactsPopupWrapper">
         <div class="contactsPopup">
-            <img data-src="/images/contacts/like.svg" alt="like">
             <h1>Message send!</h1>
             <div class="arrow"></div>
             <h2>
