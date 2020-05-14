@@ -3,7 +3,7 @@ $this->registerCssFile("/styles/estimate.css");
 ?>
 
 <div class="estimate">
-    <img style="width: 60px" data-src="/images/blog/team.png" alt="team tyunderrise">
+    <img style="width: 60px" data-src="/images/blog/team.png" alt="team lab3m">
     <h2><?=Yii::t('app', 'text_banner_estimate')?></h2>
     <p><?=Yii::t('app', 'text_banner_overview')?></p>
     <div class="button-sic__item" style="background-color: #6927ff!important;">
