@@ -38,7 +38,16 @@ $this->title = Yii::t('app','meta_home_title');
 </div>
 <script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"></script>
 <script data-ad-client="ca-pub-1190584613508518" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<link href="//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold" rel="stylesheet" type="text/css"/>
+<style>
+    @media(max-width: 991px){
+        .t-cen-bag{
+            text-align: center!important;
+        }
+        .first-screen__flash{
+            display: none!important;
+        }
+    }
+</style>
 <section class="first-screen" style="z-index: 5;">
 	<!-- <video class="bg-video" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" style="opacity: 0.1;">
 	        <source src="/videos/bgvideo.webm" type="video/webm">
@@ -202,16 +211,6 @@ line-height: 150%;
 letter-spacing: 0.1em;
 color: #FFFFFF;"><?= Yii::t('app', 'main_text5b') ?></p>
 <?= Yii::t('app', 'main_text6b') ?>
-<style>
-    @media(max-width: 991px){
-        .t-cen-bag{
-            text-align: center!important;
-        }
-        .first-screen__flash{
-            display: none!important;
-        }
-    }
-</style>
 <div class="text-c1 dis-none-t t-cen-bag" style="width:100%;
     text-align: left;padding: 30px;"><a style="color: white;
     background: #6927ff;
