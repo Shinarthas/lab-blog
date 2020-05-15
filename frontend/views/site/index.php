@@ -85,8 +85,8 @@ $this->title = Yii::t('app','meta_home_title');
         <div class="row" style="justify-content: center;">
             <div class="second-screen__content">
                 <div class="second-screen__mass-media" style="margin-bottom: 70px">
-                    <img data-src="/images/sp1.png" alt="tnw">
-                    <img data-src="/images/sp3.png" alt="tc">
+                    <img style="max-width: 100%;" data-src="/images/sp1.png" alt="tnw">
+                    <img style="max-width: 100%;" data-src="/images/sp3.png" alt="tc">
                 </div>
                 <div class="second-screen__hr"><p><?= Yii::t('app', 'Clients') ?></p></div>
                 <div class="second-screen__logo"><img data-src="/images/main/logo.png" alt="lab3m"></div>
