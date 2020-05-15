@@ -16,7 +16,7 @@ $this->registerMetaTag([
 /*$this->registerCssFile("/styles/contacts.css");*/
 $this->registerMetaTag([
     'property' => 'og:image',
-    'content' => 'https://demol3m.fun/images/l3m-t.png',
+    'content' => 'https://lab3m.com/images/l3m-t.png',
 ],'og_image');
 $this->title = Yii::t('app','meta_contacts_title');
 

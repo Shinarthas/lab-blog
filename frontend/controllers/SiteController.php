@@ -19,7 +19,7 @@ class SiteController extends Controller
 
         $this->view->registerMetaTag([
             'property' => 'og:image',
-            'content' => 'https://demol3m.fun/images/preview.png',
+            'content' => 'https://lab3m.com/images/preview.png',
         ],'og_image');
 
 

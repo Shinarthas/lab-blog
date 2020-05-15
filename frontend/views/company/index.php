@@ -10,7 +10,7 @@ $this->registerMetaTag([
 ]);
 $this->registerMetaTag([
     'property' => 'og:image',
-    'content' => 'https://demol3m.fun/images/l3m-t.png',
+    'content' => 'https://lab3m.com/images/l3m-t.png',
 ],'og_image');
 $this->title = ucfirst( Yii::t('app','meta_company_title'));
 $this->params['breadcrumbs'][] = array(
