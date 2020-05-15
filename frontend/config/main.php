@@ -80,8 +80,6 @@ return [
                 '/<controller:blog>/category/<category>'=>'blog/index',
 
                 '/blog' => 'blog/index',
-
-                '<controller:blog>/<id>' => 'blog/show-post',
                 '/<id>' => 'blog/show-post',
 
 
