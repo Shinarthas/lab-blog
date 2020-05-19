@@ -63,48 +63,141 @@ foreach ($lang_list as $lang_item)
 }
 
 ?>
+
 <style>
-body .container{max-width: 990px;width: 100%;}
-.text-center {text-align: center;}
-.blogPost div.entry{margin:0 auto;max-width:960px;width: 100%;}
-.blogPost{display: block;margin-top: 70px;}
-.blogPost div.head{position: relative;background-color: #151515;box-shadow: inset 0 -1px 0 0 #151515;}
-.blogPost div.head div.background{position: absolute;top: 0;left: 0;width: 100%;background-position: 50% 50%;background-size: cover;}
-.blogPost div.head div.overlay{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(90, 84, 78, 0.6);}
-.blogPost div.head div.content1{position: relative;margin: 0 auto;max-width: 960px;width: 100%;height: 440px;margin-top: 140px;}
-.blogPost div.head div.info{text-align: center;}
-.blogPost div.head span.date{display: inline-block;line-height: 30px;font-size: 14px;font-family: 'Work Sans', sans-serif;color: #ffffff;text-transform: uppercase;display: none;}
-.blogPost div.head h1{padding: 15px 0;font-size: 45px;font-family: 'Work Sans', sans-serif;color: #ffffff;text-align: center;}
-.blogPost div.head a.tag{display: inline-block;margin: 0 10px;padding: 0 30px;height: 50px;line-height: 50px;font-size: 18px;font-family: 'Work Sans', sans-serif;color: #ffffff;border-radius: 25px;box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);text-decoration: none;transition-duration: 200ms;}
-.blogPost div.head a.tag:hover{box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 1);}
-.blogPost div.head div.content2{position: relative;margin: 0 auto;padding: 30px 0 60px;max-width: 960px;width: 100%;}
-.blogPost div.head div.photo{position: absolute;top: -30px;left: 0;width: 100%;}
-.blogPost div.head div.photo img{display: block;margin: 0 auto;}
-.blogPost div.head span.position{display: block;line-height: 20px;font-size: 14px;font-family: 'Work Sans', sans-serif;color: #fff;text-align: center;}
-.blogPost div.head span.author{display: block;line-height: 30px;font-size: 20px;font-family: 'Work Sans', sans-serif;color: #fff;text-align: center;}
-.blogPost div.head div.social{padding-top: 30px;text-align: center;}
-.blogPost div.head div.social>*{vertical-align: middle;}
-.blogPost div.head div.social > div, .blogPost div.head div.social iframe{margin: 0 20px;}
-.blogPost .content a{
-    color:#6927ff
-}
-.bar{
-    position: fixed;
-    top:70px;
-    left:0;
-    right:0;
-    z-index: 500;
-}
-.bar .progress-bar{
-    height: 2px;
-    background-color: #fff;
-    width:0;
-    transition: width .1s;
-}
-@media (max-width:991px){
-.bar,.bar.fix{position: fixed;top:70px;}
-}
-.header{position:fixed!important;z-index:1000;}
+
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+    html, body{
+        font-family: 'Poppins', sans-serif !important;
+    }
+    a, a:hover, a:active, a:focus {
+        text-decoration: none;
+        transition: 150ms;
+    }
+    .block-article {
+        background: white;
+        padding: 70px 0px 140px 0px;
+    }
+    .block-article .go-back {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        color: #8F97AB;
+        padding: 2px 5px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+    .block-article .go-back:hover {
+        color: #EB7D68;
+    }
+    .go-back img {
+        margin-right: 10px;
+        margin-top: -3px;
+    }
+    .block-article .name-article {
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 55px;
+        letter-spacing: 0.02em;
+        color: #3F4554;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .block-article .info-article {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #80899D;
+        margin-bottom: 40px;
+        height: 24px;
+    }
+    .block-article .info-article .date {
+        float: left;
+        margin-right: 20px;
+    }
+    .block-article .info-article .read {
+        float: left;
+        padding-left: 20px;
+        position: relative;
+    }
+    .block-article .info-article .read:before {
+        content: "";
+        display: block;
+        float: left;
+        width: 6px;
+        height: 6px;
+        background: #80899D;
+        border-radius: 3px;
+        position: absolute;
+        top: 9px;
+        left: -1px;
+    }
+    .block-article .img-article {
+        margin-bottom: 40px;
+    }
+    .block-article .img-article img {
+        width: 100%;
+    }
+    .block-article .content-article {
+        margin: 0px auto;
+        word-break: break-word;
+    }
+    .block-article .content-article p {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+        color: #495057;
+        margin: 20px 0px !important;
+    }
+    .block-article .content-article h2 {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 46px;
+        letter-spacing: 0.02em;
+        color: #3F4554;
+        margin: 40px 0px 0px 0px !important;
+    }
+    .block-article .content-article blockquote {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 40px;
+        padding-left: 36px;
+        border-left: 3px solid #3F4554;
+        color: #3F4554;
+        margin: 35px 0px !important;
+    }
+    .block-article .content-article figure img {
+        max-width: 100%;
+    }
+    @media (max-width: 767.98px){
+        .block-article .name-article {
+            font-size: 24px;
+            line-height: 32px;
+            margin-bottom: 25px;
+        }
+        .block-article .img-article {
+            margin-bottom: 30px;
+        }
+        .block-article .content-article p {
+            font-size: 15px;
+            line-height: 21px;
+            margin: 20px 0px !important;
+        }
+        .block-article .content-article h2 {
+            font-size: 24px;
+            line-height: 32px;
+            margin-top: 30px !important;
+        }
+        .block-article .content-article blockquote {
+            font-size: 18px;
+            line-height: 26px;
+            padding-left: 20px;
+            margin: 20px 0px !important;
+        }
+    }
+
 </style>
 <div id="fb-root"></div>
 <script>
@@ -145,12 +238,29 @@ body .container{max-width: 990px;width: 100%;}
 
 
     <div class="head">
-
-        <div class="container" style="max-width: 1200px; text-align: center;">
-        <h1><?=$model->title?></h1>
-        <h6 style="margin-bottom: 38px;"><?= Yii::t('app', 'time_blog') ?></h6>
-        <div class="col-12" style="margin: 0; padding: 0;"> <img class="img-fluid" data-src="<?=$metaimage?>" alt=""></div>
+        <div class="block-article">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-12 go-back-div">
+                        <a href="/blog/" class="go-back"><img width="10" height="18" viewBox="0 0 10 18" src="./arrows.svg" alt="back">Back</a>
+                    </div>
+                    <div class="col-xl-8 col-lg-9 col-md-12">
+                        <div class="article">
+                            <h1 class="name-article"><?=$model->title?></h1>
+                            <div class="info-article">
+                                <div class="date"><?=date('M d, Y',$model->date_create)?></div>
+                                <div class="read"><?= intval(strlen($model->content)/600/2 ) ?> <?=Yii::t('static','min')?></div>
+                            </div>
+                            <div class="img-article"><img src="<?=$metaimage?>"></div>
+                            <div class="content-article">
+                                <?=$model->content?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
         
         <!-- <div class="background" style="background-image: url('<?=$metaimage?>');">
             <div class="overlay"></div>
@@ -179,13 +289,7 @@ body .container{max-width: 990px;width: 100%;}
         </div>
 
     </div>
-    <div class="entry">
-        <div class="content">
-			
-			
-            <?=$model->content?>
-        </div>
-    </div>
+
     <style>
         .progress-bar{
             display: none!important;
