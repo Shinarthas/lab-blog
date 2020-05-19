@@ -5,6 +5,6 @@ modules:
         - WebDriver
     config:
         WebDriver:
-            url: http://lab3m
+            url: https://lab3m
             browser: firefox
             restart: false

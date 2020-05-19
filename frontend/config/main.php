@@ -78,10 +78,8 @@ return [
                 // blog show-post returned
 
                 '/<controller:blog>/category/<category>'=>'blog/index',
-
+                '/blog/news1/' => 'blog/news1/',
                 '/blog' => 'blog/index',
-
-                '<controller:blog>/<id>' => 'blog/show-post',
                 '/<id>' => 'blog/show-post',
 
 

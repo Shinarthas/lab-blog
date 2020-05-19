@@ -3439,8 +3439,8 @@ div.buttonSic.w280:hover::after {
         margin: 0 -15px 70px;
     }
     .main12 .item {
-        width: 100%;
-        margin: 30px 0 0;
+        width: calc(100% / 2);
+        /* margin: 30px 0 0; */
     }
     .main11 .col5 {
         width: 50%;

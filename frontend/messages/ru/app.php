@@ -62,7 +62,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Прогнозы и визуализации основанные на ИИ</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Прогнозы и визуализации основанные на ИИ</div>
                 </div>
                 <div class="col-12 col-md-4">
                 <div style="font-style: normal; margin-bottom: 20px;
@@ -70,7 +70,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Добавление и изменение торговых кампаний</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Добавление и изменение торговых кампаний</div>
                 </div>
                 <div class="col-12 col-md-4">
                 <div style="font-style: normal; margin-bottom: 20px;
@@ -78,7 +78,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Возможность ручного управления</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Возможность ручного управления</div>
                 </div>',
             
                 "text_portfolio_custody_title"=>"Хранение",
@@ -88,7 +88,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Мульти-сигнатура и верификация транзакций</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Мульти-сигнатура и верификация транзакций</div>
                 </div>
                 <div class="col-12 col-md-4">
                 <div style="font-style: normal; margin-bottom: 20px;
@@ -96,7 +96,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Кросс-платформенное движение средств</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Кросс-платформенное движение средств</div>
                 </div>
                 <div class="col-12 col-md-4">
                 <div style="font-style: normal; margin-bottom: 20px;
@@ -104,7 +104,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Синхронизированные холодные и горячие кошельки</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Синхронизированные холодные и горячие кошельки</div>
                 </div>',
             
                 "text_portfolio_management_title"=>"Управление портфелем",
@@ -114,7 +114,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Детализированная онлайн статистика</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Детализированная онлайн статистика</div>
                 </div>
                 <div class="col-12 col-md-4">
                 <div style="font-style: normal; margin-bottom: 20px;
@@ -122,7 +122,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Управления аккаунтами в одном месте</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Управления аккаунтами в одном месте</div>
                 </div>
                 <div class="col-12 col-md-4">
                 <div style="font-style: normal; margin-bottom: 20px;
@@ -130,7 +130,7 @@ return [
             font-size: 18px;
             line-height: 30px;
             color: #FFFFFF;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    " data-src="/images/v.png" alt="check mark" >Синхронизированный доступ ко всем средствам</div>
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;background: url(/images/v.png);width: 11px;height: 11px;display: inline-block;" alt="check mark"><div></div></div>Синхронизированный доступ ко всем средствам</div>
                 </div>',
 
     "text_portfolio_backend_title"=>"Back-End",
@@ -223,78 +223,67 @@ return [
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Кроссплатформенная мульти-аккаунтная торговля</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Кроссплатформенная мульти-аккаунтная торговля</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Прогнозы на основе ИИ</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Прогнозы на основе ИИ</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Гибкая ролевая архитектура</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Гибкая ролевая архитектура</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Прямое соединение API</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Прямое соединение API</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Холодные и горячие кошельки</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Холодные и горячие кошельки</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Расширенное управление портфелем</div>',
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Расширенное управление портфелем</div>',
     'main_text6b' => '<div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Поддержка TRC-10&20 токенов</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Поддержка TRC-10&20 токенов</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Маппинг SUN DappChain</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Маппинг SUN DappChain</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Отсутствие комиссия</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Отсутствие комиссия</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Открытый исходный код</div>
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Открытый исходный код</div>
     <div class="dis-none-t" style="font-style: normal; margin-top: 10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 17px;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><img style="margin-right:10px;    float: left;
-    margin-bottom: 15px;" data-src="/images/v.png" alt="check mark" >Отсутствие KYC</div>',
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;float: left;margin-bottom: 15px;background: url(/images/v.png);width: 11px;height: 11px;" alt="check mark"><div></div></div>Отсутствие KYC</div>',
     'main_text7' => 'Решения',
     'main_text8' => 'Последние новости',
     'main_text9' => 'Мы запускаем передовые финтех продукты',
@@ -613,7 +602,7 @@ color: #FFFFFF;" >Отправить</a>
 </div>
 </div>',
 'dex_Main_Features_Inspiration' => 'Вдохновение',
-
+'read' => 'Читать',
 
 
 

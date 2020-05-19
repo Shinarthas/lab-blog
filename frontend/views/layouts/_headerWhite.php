@@ -366,7 +366,7 @@ $my_requests = Contacts::myRequestsList();
     </div>
     <div class="header__menu-mobile-control"></div>
 
-    <div class="header__menu" style="background: #000;" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
+    <div class="header__menu" style="background: #000;z-index: 9999;" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
         <a itemprop="url" href="<?=Url::to(['site/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_home') ?></span></a>
         <a itemprop="url" href="<?=Url::to(['blog/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_blog') ?></span></a>
         <a itemprop="url" href="<?=Url::to(['works/index','language'=>Yii::$app->language])?>" class="header__menu-link"><span itemprop="name"><?= Yii::t('app', 'text_header_solutions') ?></span></a>
@@ -382,16 +382,6 @@ $my_requests = Contacts::myRequestsList();
         height: 10px!important;
     }
     }</style>
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="/css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="/css/animate.css">
-    <link rel="stylesheet" href="/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/css/magnific-popup.css">
-    <link rel="stylesheet" href="/css/aos.css">
-    <link rel="stylesheet" href="/css/ionicons.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="/css/flaticon.css">
-    <link rel="stylesheet" href="/css/icomoon.css">
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/jquery.min.js"></script>
     <script src="/isInViewport.js"></script>

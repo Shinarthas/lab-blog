@@ -455,7 +455,6 @@
     }
 
     @media (max-width: 600px){
-                
 		 .category{
 			text-align: left;
 			font:30px 'Raleway Bold', sans-serif;

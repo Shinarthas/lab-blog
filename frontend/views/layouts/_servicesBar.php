@@ -63,7 +63,7 @@ foreach ($services as $service){
     }
 </script> -->
 <style>
-@media(max-width: 767px){
+@media(max-width: 991px){
     .red-fin99{
         width: 100%!important;
         padding: 0 15px;

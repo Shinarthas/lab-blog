@@ -62,7 +62,7 @@ class BlogController extends Controller
 
         $this->view->registerMetaTag([
             'property' => 'og:image',
-            'content' => 'https://demol3m.fun/images/preview.png',
+            'content' => 'https://lab3m.com/images/preview.png',
         ],'og_image');
 
 
@@ -85,6 +85,11 @@ class BlogController extends Controller
 
         return parent::beforeAction($action);
     }
+
+    // public function actionNews1(){
+    //     echo 'die';die();
+    //     return $this->render('news1');
+    // }
 
     public function actionIndex()
     {

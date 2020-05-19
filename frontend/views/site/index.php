@@ -11,7 +11,7 @@ $this->registerMetaTag([
 ]);
 $this->registerMetaTag([
     'property' => 'og:image',
-    'content' => 'https://demol3m.fun/images/l3m-t.png',
+    'content' => 'https://lab3m.com/images/l3m-t.png',
 ],'og_image');
 $this->title = Yii::t('app','meta_home_title');
 ?>
@@ -85,8 +85,8 @@ $this->title = Yii::t('app','meta_home_title');
         <div class="row" style="justify-content: center;">
             <div class="second-screen__content">
                 <div class="second-screen__mass-media" style="margin-bottom: 70px">
-                    <img data-src="/images/sp1.png" alt="tnw">
-                    <img data-src="/images/sp3.png" alt="tc">
+                    <img style="max-width: 100%;" data-src="/images/sp1.png" alt="tnw">
+                    <img style="max-width: 100%;" data-src="/images/sp3.png" alt="tc">
                 </div>
                 <div class="second-screen__hr"><p><?= Yii::t('app', 'Clients') ?></p></div>
                 <div class="second-screen__logo"><img data-src="/images/main/logo.png" alt="lab3m"></div>
@@ -255,9 +255,6 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
 <style>
 
 </style>
-<!-- <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
-<img class="lazyload" data-src="/765x574.gif" width="765" height="574" />
-<img class="lazyload" data-src="/images/logo-b.png" data-src="/765x574.gif" width="765" height="574" /> -->
     <section style="background: #151515; padding:150px 15px; z-index: 990;">
 	<div>
 	    <div class="container">

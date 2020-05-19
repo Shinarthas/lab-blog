@@ -289,7 +289,11 @@ foreach ($lang_list as $lang_item)
         </div>
 
     </div>
-
+    <div class="entry">
+        <div class="content">
+            <?=$model->content?>
+        </div>
+    </div>
     <style>
         .progress-bar{
             display: none!important;

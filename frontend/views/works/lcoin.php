@@ -160,7 +160,7 @@ body .container{max-width: 990px;width: 100%;}
 @media only screen and (max-width:767px){
     .main1{
         height: auto;
-        padding: 0 0 100px;
+        padding: 0 0 310px;
     }
     .main1 .top-img,
     .main1 .video{
@@ -205,7 +205,6 @@ body .container{max-width: 990px;width: 100%;}
     }
 }
 </style>
-<!-- <?= $this->render('//layouts/_headerWhite',['lang'=>$lang]) ?> -->
 <section class="main main1" style="overflow: hidden;">
 
 <!-- <video src="/videos/D40_29_093_comp.mp4" autoplay loop class="video_taxi"></video> -->
@@ -220,7 +219,7 @@ body .container{max-width: 990px;width: 100%;}
             </div>
         </div>
     </div>
-    <img class="top-img" data-src="/images/cases/lcoin/top-lcoin.png" alt="Lcoin gadget">
+    <img class="top-img" data-src="/images/cases/lcoin/top-lcoin.png" style="max-width: 100%;" alt="Lcoin gadget">
     <!-- <video class="video" preload="metadata" autoplay="autoplay" playsinline loop="loop" poster="">
         <source src="/videos/lcoin.mp4" type='video/mp4;'>
     </video> -->
