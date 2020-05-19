@@ -21,8 +21,8 @@ use common\models\Img;
                         </div>
                         <div class="right-part">
                             <div class="info" style="width: 100%;">
-                                <div class="date"> 13 May</div>
-                                <div class="read">4 min. read</div>
+                                <div class="date"><?=date('M d, Y',$model->date_create)?></div>
+                                <div class="read"><?= intval(strlen($model->content)/600/6 )+1 ?> <?=Yii::t('static','min')?></div>
                             </div>
                             <div class="name">
                                 <a href="<?=isset($_GET['language']) ? '/'.$lang->url : ''; ?>/<?=$model->seo_url?>">

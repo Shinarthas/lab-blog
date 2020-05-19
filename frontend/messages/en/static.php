@@ -1,5 +1,6 @@
 <?php
 return [
+    'min'=>'min',
     'text_menu_cookies'=>'Cookie',
     'text_menu_terms'=>'Terms',
     'text_menu_privacy'=>'Privacy',

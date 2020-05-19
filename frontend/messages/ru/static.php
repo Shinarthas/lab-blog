@@ -1,5 +1,6 @@
 <?php
 return [
+    'min'=>'мин',
     'text_menu_cookies'=>'Куки',
     'text_menu_terms'=>'Условия',
     'text_menu_privacy'=>'Безопасность',

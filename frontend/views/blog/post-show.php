@@ -249,7 +249,7 @@ foreach ($lang_list as $lang_item)
                             <h1 class="name-article"><?=$model->title?></h1>
                             <div class="info-article">
                                 <div class="date"><?=date('M d, Y',$model->date_create)?></div>
-                                <div class="read"><?= intval(strlen($model->content)/600/2 ) ?> <?=Yii::t('static','min')?></div>
+                                <div class="read"><?= intval(strlen($model->content)/600/6 )+1 ?> <?=Yii::t('static','min')?></div>
                             </div>
                             <div class="img-article"><img src="<?=$metaimage?>"></div>
                             <div class="content-article">
@@ -289,11 +289,7 @@ foreach ($lang_list as $lang_item)
         </div>
 
     </div>
-    <div class="entry">
-        <div class="content">
-            <?=$model->content?>
-        </div>
-    </div>
+
     <style>
         .progress-bar{
             display: none!important;
