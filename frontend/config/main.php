@@ -78,7 +78,7 @@ return [
                 // blog show-post returned
 
                 '/<controller:blog>/category/<category>'=>'blog/index',
-
+                '/blog/news1/' => 'blog/news1/',
                 '/blog' => 'blog/index',
                 '/<id>' => 'blog/show-post',
 

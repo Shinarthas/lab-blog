@@ -86,6 +86,11 @@ class BlogController extends Controller
         return parent::beforeAction($action);
     }
 
+    // public function actionNews1(){
+    //     echo 'die';die();
+    //     return $this->render('news1');
+    // }
+
     public function actionIndex()
     {
 

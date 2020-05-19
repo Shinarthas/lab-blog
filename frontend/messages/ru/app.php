@@ -602,7 +602,7 @@ color: #FFFFFF;" >Отправить</a>
 </div>
 </div>',
 'dex_Main_Features_Inspiration' => 'Вдохновение',
-
+'read' => 'Читать',
 
 
 

@@ -3,36 +3,45 @@ use yii\helpers\Url;
 use common\models\Img;
 
 ?>
-			<?php foreach ($models as $model) { ?>
-                <div itemscope itemtype="http://schema.org/NewsArticle" class="col-md-4 col-sm-6 post">
-                    <div style="margin: 15px;border: 1px solid #fff; overflow: hidden;">
-                    <a href="<?=Url::to(['blog/show-post','id'=>$model->seo_url,'language'=>Yii::$app->language])?>" class="post-img">
-                        <?php
-                        $img_path=$model->background_path;
-                        $img_back=$model->background;
-                        if(isset($model->background2)){
-                            $img_path=$model->background_path2;
-                            $img_back=$model->background2;
-                        }
-                        ?>
-
-                        <img data-src="<?=Url::home(true) . Yii::$app->ImageComponent->getCacheImage($img_back,$img_path,Img::IMG_CACHE_BLOG_PREV_WIDTH,Img::IMG_CACHE_BLOG_PREV_HEIGHT,true);?>" alt="<?=isset($model->translate)? $model->translate->title : $model->title?>">
-                    </a>
-                    <!--<p class="title">���</p>-->
-                    <h2 style="line-height: 0; text-align: left;padding: 0 15px;margin: 10px 0; min-height: 60px;"><a style="font-size: 18px;line-height: 1.5em;" href="<?=isset($_GET['language']) ? '/'.$lang->url : ''; ?>/<?=$model->seo_url?>" class="bot-link"><?=$model->title?></a></h2>
-                    <!-- <p class="small-content" itemprop="articleBody">
-                    <?=$model->content_preview?>
-                    </p> -->
-                    <div class="row" style="margin:0; padding: 5px 0; border-top: 1px solid #fff;">
-                        <div class="col-6" style="text-align: left;">#news</div>
-                        <div class="col-6" style="text-align: right;">02.04.2020</div>
-                    </div>
+            <?php foreach ($models as $model) { ?>
+                <div itemscope itemtype="http://schema.org/NewsArticle" class="articles">
+                    <div class="one-article">
+                        <div class="left-part">
+                            <a href="<?=Url::to(['blog/show-post','id'=>$model->seo_url,'language'=>Yii::$app->language])?>">
+                            <?php
+                            $img_path=$model->background_path;
+                            $img_back=$model->background;
+                            if(isset($model->background2)){
+                                $img_path=$model->background_path2;
+                                $img_back=$model->background2;
+                            }
+                            ?>
+                                <img src="<?=Url::home(true) . Yii::$app->ImageComponent->getCacheImage($img_back,$img_path,Img::IMG_CACHE_BLOG_PREV_WIDTH,Img::IMG_CACHE_BLOG_PREV_HEIGHT,true);?>" alt="<?=isset($model->translate)? $model->translate->title : $model->title?>">
+                            </a>
+                        </div>
+                        <div class="right-part">
+                            <div class="info" style="width: 100%;">
+                                <div class="date"> 13 May</div>
+                                <div class="read">4 min. read</div>
+                            </div>
+                            <div class="name">
+                                <a href="<?=isset($_GET['language']) ? '/'.$lang->url : ''; ?>/<?=$model->seo_url?>">
+                                <?=$model->title?>
+                                </a>
+                            </div>
+                            <div class="desc" itemprop="articleBody">
+                                <?=$model->content_preview?>
+                            </div>
+                            <div class="go-to-article">
+                                <a href="<?=Url::to(['blog/show-post','id'=>$model->seo_url,'language'=>Yii::$app->language])?>"><?= Yii::t('app', 'read') ?></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             <?php } ?>
             
-            <div class="col-md-4 col-sm-6 post">
+            <!-- <div class="col-md-4 col-sm-6 post">
                 <a target="_blank" href="https://medium.com/lab3m">
                 <?= Yii::t('app', 'banner_medium') ?>
                 </a>
-            </div>
+            </div> -->
