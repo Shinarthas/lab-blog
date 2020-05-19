@@ -242,7 +242,7 @@ foreach ($lang_list as $lang_item)
             <div class="container">
                 <div class="row">
                     <div class="col-xl-2 col-lg-2 col-md-12 go-back-div">
-                        <a href="/blog/" class="go-back"><img width="10" height="18" viewBox="0 0 10 18" src="./arrows.svg" alt="back">Back</a>
+                        <a href="/blog/" class="go-back"><img width="10" height="18" viewBox="0 0 10 18" src="/arrows.svg" alt="back">Back</a>
                     </div>
                     <div class="col-xl-8 col-lg-9 col-md-12">
                         <div class="article">
