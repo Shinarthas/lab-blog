@@ -255,9 +255,6 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
 <style>
 
 </style>
-<!-- <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
-<img class="lazyload" data-src="/765x574.gif" width="765" height="574" />
-<img class="lazyload" data-src="/images/logo-b.png" data-src="/765x574.gif" width="765" height="574" /> -->
     <section style="background: #151515; padding:150px 15px; z-index: 990;">
 	<div>
 	    <div class="container">

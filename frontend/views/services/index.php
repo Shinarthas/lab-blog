@@ -177,15 +177,15 @@ body{
 <?php foreach ($services as $service){ ?>
     <div class="row wwd-item">
         <a href="<?=Url::to(['blog/show-post','id'=>$service['url'],'language'=>Yii::$app->language])?>" class="info">
-        <div class="col-name col-md-4 hidden-xs hidden-sm">
+        <div class="col-name col-0 col-md-4 hidden-xs hidden-sm">
             <p class="name"><?=$service['title']?></p>
         </div>
-        <div class="text-center col-sm-2">
+        <div class="text-center col-12 col-md-12 col-lg-2">
             <img data-src="<?=$service['image']?>" alt="phone">
         </div>
-        <div class="col-sm-10 col-md-6">
+        <div class="col-12 col-md-12 col-lg-6">
             <p class="sm-name name"><?=$service['title']?></p>
-            <p class="description"><?=$service['description']?></p>
+            <p class="description" style="width: 100%; margin: 0; padding: 8px;"><?=$service['description']?></p>
         </div>
         </a>
     </div>
