@@ -86,6 +86,7 @@ $services=\common\models\ServicesCategory::find()->select('blog_services_categor
 
 
 <!-- <div id="toTop" > <img style="filter: invert(1);" src="/images/top.png" alt="top"> </ div > -->
+<script src="/scripts/app.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function() {
