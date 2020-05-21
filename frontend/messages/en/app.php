@@ -384,8 +384,8 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;ba
                         <h2 class=\"ftco-heading-2 text-c1 dis-none-t\">Lab3M</h2>
                         <p class=\"dis-none-t\">Our goal is to make blockchain apps accessible anywhere and anytime. Therefore, we want to implement more decentralized solutions into different spheres of life.</p>
                         <ul class=\"ftco-footer-social list-unstyled mb-0 text-c1\">
-                        <li class=\"ftco-animate icon-cor1\"><a target=\"_blank\" href=\"https://twitter.com/lab3m\"><span style=\"color: #6927FF;\" class=\"icon-twitter icon-cor1\"></span></a></li>
-                        <li class=\"ftco-animate icon-cor1\"><a target=\"_blank\" href=\"https://medium.com/lab3m\"><span style=\"color: #6927FF;\" class=\"icon-medium icon-cor1\"></span></a></li>
+                        <li class=\"ftco-animate icon-cor1\"><a target=\"_blank\" href=\"https://twitter.com/lab3m\"><img style=\"margin: 7px 0 0 7px;\" alt=\"twitter\" src=\"/images/twitter.png\"></a></li>
+                        <li class=\"ftco-animate icon-cor1\"><a target=\"_blank\" href=\"https://medium.com/lab3m\"><img style=\"margin: 7px 0 0 7px;\" alt=\"medium\" src=\"/images/medium.png\"></a></li>
                         </ul>
                     </div>
                 </div>",
