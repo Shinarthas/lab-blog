@@ -22,11 +22,6 @@ $this->title = Yii::t('app','meta_home_title');
 <?=$this->render("../blog/_styles");?>
 <!-- Load CSS Compilled without JS -->
 <noscript><link rel="stylesheet" href="/styles/home.css"></noscript>
-    <!--<div id="preloader">
-        <div class="load-per-sent">0%</div>
-        <canvas id="canvas" width="160" height="160"></canvas>
-        <div class="preloader-clouds"></div>
-    </div>-->
 <style>
 .container{
     max-width: 1600px!important;
@@ -474,15 +469,5 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
 </style>
 <!-- <link rel="stylesheet" href="/styles/home.min.css"> -->
 <script>var ms=document.createElement("link");ms.rel="stylesheet";
-		//var mt=document.createElement("link");mt.rel="stylesheet";
 ms.href="/styles/home.css";document.getElementsByTagName("head")[0].appendChild(ms);
-//mt.href="/styles/app.css";document.getElementsByTagName("head")[0].appendChild(mt);
-</script>
-<!-- Load Scripts -->
-<script>var scr = {"scripts":[
-    {"src" : "/scripts/jquery-1.12.4.min.js", "async" : false},
-    {"src" : "/scripts/bootstrap.min.js", "async" : false},
-	{"src" : "/scripts/case.js", "async" : false},
-	{"src" : "/scripts/app.js", "async" : false}
-	]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr); 
 </script>
