@@ -164,7 +164,7 @@ body .container{max-width: 990px;width: 100%;}
     }
     .main1 .top-img,
     .main1 .video{
-        display: none;
+        display: none!important;
     }
 
     .video_taxi{

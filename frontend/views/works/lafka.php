@@ -164,7 +164,7 @@ html{
     background-color: #151515!important;
 }
 .min-vis1{
-        display: none;
+        display: none!important;
     }
 }
 .max-vis1{
@@ -182,7 +182,7 @@ html{
         bottom: 0px!important;
     }
     .min-vis1{
-        display: block;
+        display: block!important;
     }
     .max-vis1{
         display: none!important;

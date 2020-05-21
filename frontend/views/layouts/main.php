@@ -47,11 +47,8 @@ AppAsset::register($this);
 	<?php $this->head() ?>
 	
     <?= Html::csrfMetaTags() ?>
-<!--    <meta name="keywords" content="apps developers, mobile apps developers, mobile app developers, it outsourcing company, iphone application development companies, app develop, mobile apps developer, it outsource, outsourced it services, outsource it services, iphone application development services, application development companies, iphone app programmer, app developers, iphone app developer company, apps developer, mobile application developer, it outsourcing services, mobile application developers">-->
-<!--    <link href="--><?//= Yii::$app->request->absoluteUrl ?><!--" rel="alternate" hreflang="en-US">-->
 
     <link href="/favicon.ico" rel="icon shortcut" type="image/png">
- <!--   <link href="/favicon.ico" rel="apple-touch-icon"> --->
     <link rel="stylesheet" href="/fonts/fonts.css">
     <style>
     .header__menu-mobile-control {
