@@ -56,6 +56,7 @@ return [
                 '/services'=>'/services/index',
                 '/about'=>'/company/index',
                 '/contacts'=>'/contacts/index',
+                '/contacts/save-client-email'=>'/contacts/save-client-email',
                 '/cookies'=>'/static/cookie',
                 '/terms'=>'/static/terms',
                 '/privacy'=>'/static/privacy',

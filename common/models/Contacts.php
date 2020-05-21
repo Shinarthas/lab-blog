@@ -106,6 +106,7 @@ class Contacts extends ActiveRecord
 			$h = new ContactHistory();
 			$h->contact_id = $this->id;
 			$h->status = $this->status;
+            $h->data_json=json_encode([]);
 			$h->save();
 		}
 		
@@ -120,6 +121,7 @@ class Contacts extends ActiveRecord
             $model->update();
 			
 			$h = new ContactHistory();
+			$h->data_json=json_encode([]);
 			$h->contact_id = $id;
 			$h->status = $status;
 			$h->save();

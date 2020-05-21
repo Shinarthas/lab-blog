@@ -61,7 +61,9 @@ class ContactsController extends Controller
                 $contacts = new Contacts();
                 $contacts->username = $model->username;
                 $contacts->email = $model->email;
-                $contacts->budget = $model->budget;
+                $contacts->reply = $contacts->email;
+                $contacts->data_json = json_encode([]);
+                $contacts->budget = 50000;
                 $contacts->details = $model->details;
                 $contacts->status = Contacts::CONTACTS_NEW;
 
@@ -138,13 +140,12 @@ class ContactsController extends Controller
 
     public function actionSaveClientEmail()
     {
-
         Yii::$app->response->format = 'json';
         if(Yii::$app->request->isAjax)
         {
             $email = new EmailForm();
             $email->email = $_POST['email'];
-            if($email->validate())
+            if(true)
             {
                 $model = new ClientEmail();
                 $model->client_email = $email->email;
