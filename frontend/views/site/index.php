@@ -153,10 +153,8 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
     background: #6927ff;
     padding: 15px 30px;
     border-radius: 50px;" href="/solutions"><?= Yii::t('app', 'main_text7') ?></a></div>
-        <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted"  poster="/images/posters/trade.jpg">
-            <source  data-src="/images/trade.webm" type="video/webm">
-            <source id="vid1"  data-src="/images/trade.mp4" type="video/mp4">
-        </video>
+    <?= Yii::t('app', 'video-trade1') ?>
+        
         <script>
             if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
             } else {
@@ -219,10 +217,8 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5b') ?></p>
     background: #6927ff;
     padding: 15px 30px;
     border-radius: 50px;" href="/solutions"><?= Yii::t('app', 'main_text7') ?></a></div>
-        <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted"  poster="/images/biki-preloader.png">
-            <source  data-src="/images/biki.webm" type="video/webm">
-            <source id="vid1"  data-src="/images/biki.mp4" type="video/mp4">
-        </video>
+    <?= Yii::t('app', 'video-biki1') ?>
+        
         <script>
             if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
             } else {

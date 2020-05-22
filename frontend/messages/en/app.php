@@ -632,4 +632,24 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;ba
 <img style="height: 250px;" class="top-img min-vis1" data-src="/images/mini-top-img.png" alt="Lafka gadget">',
 'img-biki1' => '<img style="max-width: 100%; bottom: -80px;" class="top-img max-vis1" data-src="/images/cases/lcoin/top-biki.png" alt="biki gadget">
 <img style="height: 250px;" class="top-img min-vis1" data-src="/images/mini-top-biki.png" alt="biki gadget">',
+'video-trade1' =>'<video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted"  poster="/images/posters/trade.png">
+<source  data-src="/images/trade.webm" type="video/webm">
+<source id="vid1"  data-src="/images/trade.mp4" type="video/mp4">
+</video>',
+'video-biki1'=>'<video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted"  poster="/images/biki-preloader.png">
+<source  data-src="/images/biki.webm" type="video/webm">
+<source id="vid1"  data-src="/images/biki.mp4" type="video/mp4">
+</video>',
+'video-t1'=>'<video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/1.png">
+<source data-src="/images/vid/1.webm" type="video/webm">
+<source data-src="/images/vid/1.mp4" type="video/mp4">
+</video>',
+'video-t2'=>'<video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/2.png">
+<source data-src="/images/vid/2.webm" type="video/webm">
+<source data-src="/images/vid/2.mp4" type="video/mp4">
+</video>',
+'video-t3'=>'<video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/3.png">
+<source data-src="/images/vid/3.webm" type="video/webm">
+<source data-src="/images/vid/3.mp4" type="video/mp4">
+</video>',
 ];

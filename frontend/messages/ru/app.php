@@ -607,5 +607,25 @@ color: #FFFFFF;" >Отправить</a>
 <img style="height: 250px;" class="top-img min-vis1" data-src="/images/mini-top-img-ru.png" alt="Lafka gadget">',
 'img-biki1' => '<img style="max-width: 100%; bottom: -80px;" class="top-img max-vis1" data-src="/images/cases/lcoin/top-biki-ru.png" alt="biki gadget">
 <img style="height: 250px;" class="top-img min-vis1" data-src="/images/mini-top-biki-ru.png" alt="biki gadget">',
+'video-trade1' => '<video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted"  poster="/images/posters/trade-ru.png">
+<source  data-src="/images/trade-ru.webm" type="video/webm">
+<source id="vid1"  data-src="/images/trade-ru.mp4" type="video/mp4">
+</video>',
+'video-biki1'=>'<video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted"  poster="/images/biki-preloader-ru.png">
+<source  data-src="/images/biki-ru.webm" type="video/webm">
+<source id="vid1"  data-src="/images/biki-ru.mp4" type="video/mp4">
+</video>',
+'video-t1'=>'<video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/1-ru.png">
+<source data-src="/images/vid/1-ru.webm" type="video/webm">
+<source data-src="/images/vid/1-ru.mp4" type="video/mp4">
+</video>',
+'video-t2'=>'<video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/2-ru.png">
+<source data-src="/images/vid/2-ru.webm" type="video/webm">
+<source data-src="/images/vid/2-ru.mp4" type="video/mp4">
+</video>',
+'video-t3'=>'<video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/3-ru.png">
+<source data-src="/images/vid/3-ru.webm" type="video/webm">
+<source data-src="/images/vid/3-ru.mp4" type="video/mp4">
+</video>',
 
 ];

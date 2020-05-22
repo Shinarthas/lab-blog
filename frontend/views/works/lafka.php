@@ -244,10 +244,7 @@ html{
                     <?= Yii::t('app', 'html_portfolio_automatic_description') ?>
                         
                         <div class="col-12" style="margin: 30px 0; ">
-                        <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/1.png">
-                            <source data-src="/images/vid/1.webm" type="video/webm">
-                            <source data-src="/images/vid/1.mp4" type="video/mp4">
-                        </video>
+                        <?= Yii::t('app', 'video-t1') ?>
                         </div>
                     </div>
                     </div>
@@ -267,10 +264,7 @@ html{
                 <?= Yii::t('app', 'html_portfolio_automatic_description') ?>
                     
                     <div class="col-12" style="margin: 30px 0; ">
-                    <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/1.png">
-                            <source data-src="/images/vid/1.webm" type="video/webm">
-                            <source data-src="/images/vid/1.mp4" type="video/mp4">
-                    </video>
+                    <?= Yii::t('app', 'video-t1') ?>
                     </div>
                 </div>
             </div>
@@ -297,10 +291,7 @@ html{
     <?= Yii::t('app', 'html_portfolio_custody_description') ?>
         
         <div class="col-12" style="margin: 30px 0; ">
-        <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/2.png">
-            <source data-src="/images/vid/2.webm" type="video/webm">
-            <source data-src="/images/vid/2.mp4" type="video/mp4">
-        </video>
+        <?= Yii::t('app', 'video-t2') ?>
         </div>
     </div>
                     </div>
@@ -320,10 +311,7 @@ html{
                 text-align: center;color:#fff; margin-bottom:35px"><?= Yii::t('app', 'text_portfolio_custody_title') ?></h2></div>
                 <?= Yii::t('app', 'html_portfolio_custody_description') ?>
                     <div class="col-12" style="margin: 30px 0; ">
-                    <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/2.png">
-                        <source data-src="/images/vid/2.webm" type="video/webm">
-                        <source data-src="/images/vid/2.mp4" type="video/mp4">
-                    </video>
+                    <?= Yii::t('app', 'video-t2') ?>
                     </div>
                 </div>
             </div>
@@ -348,10 +336,7 @@ html{
     <?= Yii::t('app', 'html_portfolio_management_description') ?>
         
         <div class="col-12" style="margin: 30px 0; ">
-        <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/3.png">
-            <source data-src="/images/vid/3.webm" type="video/webm">
-            <source data-src="/images/vid/3.mp4" type="video/mp4">
-        </video>
+        <?= Yii::t('app', 'video-t3') ?>
         </div>
     </div>
                     </div>
@@ -370,10 +355,7 @@ html{
                 text-align: center;color:#fff; margin-bottom:35px"><?= Yii::t('app', 'text_portfolio_management_title') ?></h2></div>
                 <?= Yii::t('app', 'html_portfolio_management_description') ?>
                     <div class="col-12" style="margin: 30px 0; ">
-                    <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/3.png">
-                        <source data-src="/images/vid/3.webm" type="video/webm">
-                        <source data-src="/images/vid/3.mp4" type="video/mp4">
-                    </video>
+                    <?= Yii::t('app', 'video-t3') ?>
                     </div>
                 </div>
             </div>
