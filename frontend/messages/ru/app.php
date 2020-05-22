@@ -603,7 +603,9 @@ color: #FFFFFF;" >Отправить</a>
 </div>',
 'dex_Main_Features_Inspiration' => 'Вдохновение',
 'read' => 'Читать',
-
-
+'img-trader1' => '<img class="top-img max-vis1" data-src="/images/cases/top-img-ru.png" alt="Lafka gadget">
+<img style="height: 250px;" class="top-img min-vis1" data-src="/images/mini-top-img-ru.png" alt="Lafka gadget">',
+'img-biki1' => '<img style="max-width: 100%; bottom: -80px;" class="top-img max-vis1" data-src="/images/cases/lcoin/top-biki-ru.png" alt="biki gadget">
+<img style="height: 250px;" class="top-img min-vis1" data-src="/images/mini-top-biki-ru.png" alt="biki gadget">',
 
 ];

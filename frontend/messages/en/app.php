@@ -628,4 +628,8 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;ba
 </div>',
 'dex_Main_Features_Inspiration' => 'Inspiration',
 'read' => 'Read',
+'img-trader1' => '<img class="top-img max-vis1" data-src="/images/cases/top-img.png" alt="Lafka gadget">
+<img style="height: 250px;" class="top-img min-vis1" data-src="/images/mini-top-img.png" alt="Lafka gadget">',
+'img-biki1' => '<img style="max-width: 100%; bottom: -80px;" class="top-img max-vis1" data-src="/images/cases/lcoin/top-biki.png" alt="biki gadget">
+<img style="height: 250px;" class="top-img min-vis1" data-src="/images/mini-top-biki.png" alt="biki gadget">',
 ];

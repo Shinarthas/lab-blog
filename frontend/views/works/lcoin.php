@@ -95,7 +95,7 @@ body .container{max-width: 990px;width: 100%;}
 }
 .main1 .top-img{
     position: absolute;
-    bottom: -80px;
+    bottom: 0px;
     left: 50%;
     transform: translate(-50%);
     z-index: 1;
@@ -160,15 +160,15 @@ body .container{max-width: 990px;width: 100%;}
 @media only screen and (max-width:767px){
     .main1{
         height: auto;
-        padding: 0 0 310px;
+        padding: 0 0 400px;
     }
     .main1 .top-img,
-    .main1 .video{
+    /* .main1 .video{
         display: none!important;
-    }
+    } */
 
     .video_taxi{
-        left: -12%;
+        left: 50%;
     }
 
     .main1 p{
@@ -219,10 +219,28 @@ body .container{max-width: 990px;width: 100%;}
             </div>
         </div>
     </div>
-    <img class="top-img" data-src="/images/cases/lcoin/top-lcoin.png" style="max-width: 100%;" alt="Lcoin gadget">
-    <!-- <video class="video" preload="metadata" autoplay="autoplay" playsinline loop="loop" poster="">
-        <source src="/videos/lcoin.mp4" type='video/mp4;'>
-    </video> -->
+    <!-- <img class="top-img" data-src="/images/cases/lcoin/top-lcoin.png" style="max-width: 100%;" alt="Lcoin gadget"> -->
+    <style>
+.min-vis1{
+        display: none!important;
+    }
+}
+.max-vis1{
+        display: black!important;
+    }
+}
+</style>
+<style>
+@media(max-width: 767px){
+    .min-vis1{
+        display: block!important;
+    }
+    .max-vis1{
+        display: none!important;
+    }
+}
+</style>
+<?= Yii::t('app', 'img-biki1') ?>
 </section>
 <section class="main main2">
     <div class="container">
