@@ -471,3 +471,5 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
 <script>var ms=document.createElement("link");ms.rel="stylesheet";
 ms.href="/styles/home.css";document.getElementsByTagName("head")[0].appendChild(ms);
 </script>
+<script src="/scripts/jquery-1.12.4.min.js"></script>
+<script src="/scripts/app.js"></script>
