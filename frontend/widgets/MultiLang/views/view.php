@@ -9,7 +9,7 @@ use Yii;
         <?= Yii::$app->language; ?>
     </button>
 
-    <div class="dropdown-menu dropdown-menu-left" style="background: black; padding:0px;text-align: center;">
+    <div class="dropdown-menu dropdown-menu-right" style="background: black; padding:0px;text-align: center;">
         <?= Html::a('English', array_merge(
             [str_replace(['/ru','/en'],['',''],\Yii::$app->request->url), 'language' => 'en']
         ), ['class' => 'decor1']); ?>
@@ -33,7 +33,7 @@ use Yii;
         .dropdown-toggle:hover>.dropdown-menu {
   display: block!important;
 }
-        .dropdown-menu-left a{
+        .dropdown-menu-left a, .dropdown-menu-right a{
             color:white;
         }
         .dropdown-item.active{
