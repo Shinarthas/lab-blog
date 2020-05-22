@@ -32,7 +32,6 @@ $this->title = Yii::t('app','meta_home_title');
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"></script>
-<script data-ad-client="ca-pub-1190584613508518" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <style>
     @media(max-width: 991px){
         .t-cen-bag{
@@ -80,8 +79,8 @@ $this->title = Yii::t('app','meta_home_title');
         <div class="row" style="justify-content: center;">
             <div class="second-screen__content">
                 <div class="second-screen__mass-media" style="margin-bottom: 70px">
-                    <img style="max-width: 100%;" data-src="/images/sp1.png" alt="tnw">
-                    <img style="max-width: 100%;" data-src="/images/sp3.png" alt="tc">
+                    <img style="max-width: 100%;" src="/images/sp1.png" alt="tnw">
+                    <img style="max-width: 100%;" src="/images/sp3.png" alt="tc">
                 </div>
                 <div class="second-screen__hr"><p><?= Yii::t('app', 'Clients') ?></p></div>
                 <div class="second-screen__logo"><img data-src="/images/main/logo.png" alt="lab3m"></div>

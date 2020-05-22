@@ -87,7 +87,6 @@ $services=\common\models\ServicesCategory::find()->select('blog_services_categor
 
 <!-- <div id="toTop" > <img style="filter: invert(1);" src="/images/top.png" alt="top"> </ div > -->
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function() {
     $(window).scroll(function() {
@@ -120,6 +119,7 @@ $(function() {
 </style>
 <script data-ad-client="ca-pub-1190584613508518" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <?= Yii::t('static','js_snippet_default');?>
+<script src="/js/aos.js">
     <script src="/js/main.js"></script>
     <script>
             document.addEventListener("DOMContentLoaded", function() {
