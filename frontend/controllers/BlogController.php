@@ -186,7 +186,7 @@ class BlogController extends Controller
 
         $countQuery = clone $model;
 
-        $pages = new Pagination(['totalCount' => $countQuery->count(), 'pageSize' => 2]);
+        $pages = new Pagination(['totalCount' => $countQuery->count(), 'pageSize' => 20]);
         $pages->pageSizeParam = false;
         $pages->pageParam = 'page';
         $pages->urlManager = Yii::$app->urlManager;

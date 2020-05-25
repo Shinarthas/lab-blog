@@ -4,15 +4,6 @@ use common\models\Img;
 use frontend\widgets\BlogLinkPager;
 use yii\helpers\Html;
 
-
-
-/*$this->registerJsFile('/scripts/jquery-1.12.4.min.js');
-$this->registerJsFile('/scripts/slick.min.js');
-$this->registerJsFile('/scripts/myslick.js');*/
-
-/*$this->registerCssFile("/styles/bootstrap.min.css");*/
-/*$this->registerCssFile("/styles/slick-theme.css");
-$this->registerCssFile("/styles/slick.css");*/
 $this->registerCssFile("/styles/blog-post.css");
 
 $this->params['breadcrumbs'][] = array(
@@ -212,7 +203,6 @@ echo $this->render("_categories", $data);
             <div class="col-xl-10 col-lg-12">
                 <h1 style="display: block;"><div class="title1"><?= Yii::t('app', 'blog_name') ?></div></h1>
                 <?=$this->render("_index", ['models'=>$models]);?>
-                
             </div>
         </div>
     </div>

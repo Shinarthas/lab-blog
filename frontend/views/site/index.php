@@ -16,12 +16,9 @@ $this->registerMetaTag([
 $this->title = Yii::t('app','meta_home_title');
 ?>
 <?php 
-//  $this->registerCssFile("/styles/home.css");
 ?>
 
 <?=$this->render("../blog/_styles");?>
-<!-- Load CSS Compilled without JS -->
-<noscript><link rel="stylesheet" href="/styles/home.css"></noscript>
 <style>
 .container{
     max-width: 1600px!important;
