@@ -49,7 +49,7 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
 
     <link href="/favicon.ico" rel="icon shortcut" type="image/png">
-    <link rel="stylesheet" href="/fonts/fonts.css">
+
     <style>
     .header__menu-mobile-control {
         z-index: 9999999!important;

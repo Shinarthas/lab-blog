@@ -383,7 +383,6 @@ $my_requests = Contacts::myRequestsList();
     }
     }</style>
     <link rel="stylesheet" href="/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,,500,600,700" rel="stylesheet">
     <script src="/js/jquery.min.js"></script>
     <script src="/isInViewport.js"></script>
     <script>
