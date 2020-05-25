@@ -19,6 +19,6 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
 
     # Otherwise forward the request to index.php
     RewriteRule . index.php
-<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf|ttf@6tt51o|ttf|woff|woff2|eot|svg)$">
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf|ttf@6tt51o|ttf|woff|woff2|eot|svg|webp)$">
   Header set Cache-Control "max-age=31536000 "
 </FilesMatch>
