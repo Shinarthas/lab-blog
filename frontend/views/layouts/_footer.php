@@ -120,8 +120,6 @@ $(function() {
 </style>
 <script data-ad-client="ca-pub-1190584613508518" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <?= Yii::t('static','js_snippet_default');?>
-<script src="/js/aos.js">
-    <script src="/js/main.js"></script>
     <script>
             document.addEventListener("DOMContentLoaded", function() {
   var lazyVideos = [].slice.call(document.querySelectorAll("video.lazy"));
