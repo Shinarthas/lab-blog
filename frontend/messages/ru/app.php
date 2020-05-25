@@ -607,7 +607,7 @@ color: #FFFFFF;" >Отправить</a>
 <img style="height: 250px;" class="top-img min-vis1" data-src="/images/mini-top-img-ru.png" alt="Lafka gadget">',
 'img-biki1' => '<img style="max-width: 100%; bottom: -80px;" class="top-img max-vis1" data-src="/images/cases/lcoin/top-biki-ru.png" alt="biki gadget">
 <img style="height: 250px;" class="top-img min-vis1" data-src="/images/mini-top-biki-ru.png" alt="biki gadget">',
-'video-trade1' => '<video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted"  poster="/images/posters/trade-ru.png">
+'video-trade1' => '<video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted"  poster="/images/posters/trade-ru.webp">
 <source  data-src="/images/trade-ru.webm" type="video/webm">
 <source id="vid1"  data-src="/images/trade-ru.mp4" type="video/mp4">
 </video>',
