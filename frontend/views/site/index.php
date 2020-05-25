@@ -457,6 +457,5 @@ color: #FFFFFF;"><?= Yii::t('app', 'main_text5') ?></p>
 }
 .footer{display: none!important;}
 </style>
-
-<script src="/js/jquery.min.js"></script>
+<script src="/scripts/jquery-1.12.4.min.js"></script>
 <script src="/scripts/app.js"></script>
