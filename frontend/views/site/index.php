@@ -28,7 +28,7 @@ $this->title = Yii::t('app','meta_home_title');
 
 
 </div>
-<script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"></script>
+<script src="/scripts/typeit.min.js"></script>
 <style>
     @media(max-width: 991px){
         .t-cen-bag{
