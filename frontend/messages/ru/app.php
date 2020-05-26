@@ -463,7 +463,7 @@ color: #FFFFFF;" >Отправить</a>
     </p>
 </div>
 <button class="btn cookie-bar__btn" id="setCookie">Принимаю</button>',
-'blog_name' => 'Блог - Lab3M',
+'blog_name' => 'Наши новости и статьи',
 'Services_name' => 'Сервисы',
 'map_contacts' => '<div class="map map_ru">
     <div class="lights">
@@ -627,5 +627,5 @@ color: #FFFFFF;" >Отправить</a>
 <source data-src="/images/vid/3-ru.webm" type="video/webm">
 <source data-src="/images/vid/3-ru.mp4" type="video/mp4">
 </video>',
-
+'lab_team' => '<p>С наилучшими пожеланиями,<br>Команда <a href="https://lab3m.com/">Lab3M</a></p>',
 ];

@@ -95,7 +95,7 @@ AppAsset::register($this);
             <div class="head">
                 <div class="container"  style="max-width: 1200px; text-align: center;">
                     <div class="col-12" style="text-align: left;">
-                        <ul class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                        <ul class="breadcrumbs" style="margin: 0;" itemscope itemtype="http://schema.org/BreadcrumbList">
                             <li itemprop="itemListElement" itemscope
                                 itemtype="http://schema.org/ListItem">
                                 <a itemscope itemtype="http://schema.org/Thing"
