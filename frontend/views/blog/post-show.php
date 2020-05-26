@@ -254,6 +254,7 @@ foreach ($lang_list as $lang_item)
                             <div class="img-article"><img src="<?=$metaimage?>"></div>
                             <div class="content-article">
                                 <?=$model->content?>
+                                <?=Yii::t('app','lab_team')?>
                             </div>
                         </div>
                     </div>

@@ -652,4 +652,5 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;ba
 <source data-src="/images/vid/3.webm" type="video/webm">
 <source data-src="/images/vid/3.mp4" type="video/mp4">
 </video>',
+'lab_team' => '<p>Cheers,<br><a href="https://lab3m.com/">Lab3M</a> team</p>',
 ];

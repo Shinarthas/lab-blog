@@ -627,5 +627,5 @@ color: #FFFFFF;" >Отправить</a>
 <source data-src="/images/vid/3-ru.webm" type="video/webm">
 <source data-src="/images/vid/3-ru.mp4" type="video/mp4">
 </video>',
-
+'lab_team' => '<p>С наилучшими пожеланиями,<br>Команда <a href="https://lab3m.com/">Lab3M</a></p>',
 ];
