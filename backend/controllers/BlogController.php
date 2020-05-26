@@ -255,10 +255,12 @@ class BlogController extends Controller
                     $parsed_date['year']
                 );
 
+                if(is_object($model->imageFile)) {
 
+                    $post->background = $model->imageNameSaved;
+                    $post->background_path = Yii::$app->ImageComponent->getCurrentDir();
+                }
 
-                $post->background =  $model->imageNameSaved;
-                $post->background_path = Yii::$app->ImageComponent->getCurrentDir();
                 $post->save();
 
                 PostToCategory::clearPostToCategory($post->id);
@@ -371,9 +373,10 @@ class BlogController extends Controller
                 $modelTranslation->meta_desc = $model->meta_desc;
                 $modelTranslation->id_post = $post_id;
                 $modelTranslation->id_lang = $lang_id;
-                $modelTranslation->background = $model->imageNameSaved;
-                $modelTranslation->background_path = Yii::$app->ImageComponent->getCurrentDir();
-
+                if(is_object($model->imageFile)) {
+                    $modelTranslation->background = $model->imageNameSaved;
+                    $modelTranslation->background_path = Yii::$app->ImageComponent->getCurrentDir();
+                }
                 $modelTranslation->save();
 
             }

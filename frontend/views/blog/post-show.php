@@ -74,7 +74,18 @@ foreach ($lang_list as $lang_item)
         text-decoration: none;
         transition: 150ms;
     }
+
+.content-article h1,
+.content-article h2,
+.content-article h3,
+.content-article h4,
+.content-article h5,
+.content-article h6
+{
+    color: #3F4554 !important;
+}
     .block-article {
+        color: #3F4554;
         background: white;
         padding: 70px 0px 140px 0px;
     }
