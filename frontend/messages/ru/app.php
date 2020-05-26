@@ -463,7 +463,7 @@ color: #FFFFFF;" >Отправить</a>
     </p>
 </div>
 <button class="btn cookie-bar__btn" id="setCookie">Принимаю</button>',
-'blog_name' => 'Блог - Lab3M',
+'blog_name' => 'Наши новости и статьи',
 'Services_name' => 'Сервисы',
 'map_contacts' => '<div class="map map_ru">
     <div class="lights">
