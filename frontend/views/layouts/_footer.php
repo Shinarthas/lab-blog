@@ -86,8 +86,6 @@ $services=\common\models\ServicesCategory::find()->select('blog_services_categor
     </style>
 
 
-<!-- <div id="toTop" > <img style="filter: invert(1);" src="/images/top.png" alt="top"> </ div > -->
-
 <script type="text/javascript">
 $(function() {
     $(window).scroll(function() {
