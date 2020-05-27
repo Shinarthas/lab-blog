@@ -182,7 +182,7 @@ foreach ($lang_list as $lang_item)
     .block-article .content-article figure img {
         max-width: 100%;
     }
-    .article img{
+    .content-article img{
         max-width: 100%;
         height: auto;
     }
