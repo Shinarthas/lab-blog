@@ -336,10 +336,15 @@ $contact_model = new \frontend\models\ContactsForm();
     'preset' => 'standard'
 ]) */?>
 <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Загрузить картинки</button>
+
+<div class="img-original" style="height: 200px;
+    overflow: auto;">
+
+</div>
 <div class="img-list">
 
 </div>
-<?= $form->field($model, 'content')->textarea(['id'=>"content",'value'=>"asdasdasd"]) ?>
+<?= $form->field($model, 'content')->textarea(['id'=>"content",'value'=>str_replace('data-src','src',$model->content)]) ?>
 <?= $form->field($model, 'content')->hiddenInput(['id'=>"content_result"])->label(false)?>
 
 <?= $form->field($model, 'category[]')->hiddenInput(['value'=>0])?>

@@ -348,6 +348,11 @@ $default_content="<p>The coronavirus pandemic may be looming over our daily live
 <?= $form->field($model, 'related_post[]')->hiddenInput(['value'=>0])?>
 
 <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Загрузить картинки</button>
+
+<div class="img-original" style="height: 200px;
+    overflow: auto;">
+
+</div>
 <div class="img-list">
 
 </div>

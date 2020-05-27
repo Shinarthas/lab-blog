@@ -87,7 +87,7 @@ class BlogController extends Controller
 
             $model->title = $query->title;
             $model->h1 = $query->h1;
-            $model->content = $query->content;
+            $model->content = str_replace("<img src=",'<img data-src=',$query->content);
             $model->content_preview = $query->content_preview;
             $model->meta_desc = $query->meta_desc;
             $model->seo_url = $query->seo_url;
@@ -125,7 +125,7 @@ class BlogController extends Controller
                 $post = $query;
                 $post->title = $model->title;
                 $post->h1 = $model->h1;
-                $post->content = $model->content;
+                $post->content = str_replace("<img src=",'<img data-src=',$model->content);
                 $post->content_preview = $model->content_preview;
                 $post->meta_desc = $model->meta_desc;
                 $post->seo_url = $model->seo_url;
@@ -227,7 +227,7 @@ class BlogController extends Controller
                 $post = new Post();
                 $post->title = $model->title;
                 $post->h1 = $model->h1;
-                $post->content = $model->content;
+                $post->content = str_replace("<img src=",'<img data-src=',$model->content);
                 $post->content_preview = $model->content_preview;
                 $post->meta_desc = $model->meta_desc;
                 $post->seo_url = $model->seo_url;
@@ -350,7 +350,7 @@ class BlogController extends Controller
         {
             $model->title = $post->title;
             $model->h1 = $post->h1;
-            $model->content = $post->content;
+            $model->content = str_replace("<img src=",'<img data-src=',$post->content);
             $model->content_preview = $post->content_preview;
             $model->meta_desc = $post->meta_desc;
         }
@@ -368,7 +368,7 @@ class BlogController extends Controller
             if(true){
                 $modelTranslation->title = $model->title;
                 $modelTranslation->h1 = $model->h1;
-                $modelTranslation->content = $model->content;
+                $modelTranslation->content = str_replace("<img src=",'<img data-src=',$model->content);
                 $modelTranslation->content_preview = $model->content_preview;
                 $modelTranslation->meta_desc = $model->meta_desc;
                 $modelTranslation->id_post = $post_id;

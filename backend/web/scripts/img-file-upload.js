@@ -61,8 +61,10 @@ function loadImgFiles(callback=0) {
         url: "/img/ajax-get-small-img-list",
     }).done(function( data ) {
             $('.img-list').html('');
+            $('.img-original').html('');
         for(var i=0; i<data.length; i++) {
             $('.img-list').append('<img src="' + data[i].link + '" class="'+data[i].class+'" title="'+data[i].link_post+'" data-clipboard-action="copy" data-clipboard-text="'+data[i].link_post+'">');
+            $('.img-original').append('<div><img src="' + data[i].original + '" style="max-width: 50px" class=" img-thumb" title="'+data[i].link_post+'" data-clipboard-action="copy" data-clipboard-text="'+data[i].link_post+'">'+data[i].original+'</div>');
         }
         $('.img-list img').click(function () {
             var link = $(this).data('link');

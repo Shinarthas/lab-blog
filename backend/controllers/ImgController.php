@@ -79,12 +79,14 @@ class ImgController extends Controller
                 $class ='';
             }
 
-            //$imageSizes = Img::getCachedImgPostSize($image->img_width,$image->img_height);
+            $imageSizes = Img::getCachedImgPostSize($image->img_width,$image->img_height);
+
 
             $result[] =[
                 'link'=>Yii::getAlias('@front').'/'.Yii::$app->ImageComponent->getCacheImage($image->name,$image->dir,Img::IMG_CACHE_PREV_WIDTH,Img::IMG_CACHE_PREV_HEIGHT),
                 'class'=>$class,
                 'link_post'=>Yii::getAlias('@front').'/'.Yii::$app->ImageComponent->getCacheImage($image->name,$image->dir,Img::IMG_CACHE_INNER_POST_WIDTH,Img::IMG_CACHE_INNER_POST_HEIGHT,true),
+                'original'=>Yii::getAlias('@front').'/'.Yii::$app->ImageComponent->getCacheImage($image->name,$image->dir,$image->img_width,$image->img_height,true),
             ];
         }
 

@@ -239,6 +239,10 @@ $this->registerJsFile('/scripts/tinymce/js/tinymce/tinymce.min.js');
 <?= $form->field($model, 'imageFile')->fileInput()  ?>
 
 <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Загрузить картинки</button>
+<div class="img-original" style="height: 200px;
+    overflow: auto;">
+
+</div>
 <div class="img-list">
 
 </div>
@@ -261,7 +265,7 @@ $default_content="<p>The coronavirus pandemic may be looming over our daily live
 
 <?php
 if($model->content!='')
-    echo $form->field($model, 'content')->textarea(['id'=>"content"]);
+    echo $form->field($model, 'content')->textarea(['id'=>"content",'value'=>str_replace('data-src','src',$model->content)]);
 else
     echo $form->field($model, 'content')->textarea(['id'=>"content",'value'=>$default_content]);
 
