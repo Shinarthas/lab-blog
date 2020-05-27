@@ -182,6 +182,10 @@ foreach ($lang_list as $lang_item)
     .block-article .content-article figure img {
         max-width: 100%;
     }
+    .article img{
+        max-width: 100%;
+        height: auto;
+    }
     @media (max-width: 767.98px){
         .block-article .name-article {
             font-size: 24px;
