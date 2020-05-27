@@ -86,7 +86,7 @@ $this->registerJsFile('/scripts/tinymce/js/tinymce/tinymce.min.js');
     <div class="img-list">
 
     </div>
-    <img data-src="<?=$model->image?>">
+    <img src="<?=$model->image?>">
     <?= $form->field($model, 'image')->hiddenInput() ?>
         <div class="form-group">
             <?= Html::submitButton('Submit', ['class' => 'btn btn-primary']) ?>

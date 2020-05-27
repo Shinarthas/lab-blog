@@ -46,7 +46,7 @@ function uploadFilesImg()
                var links = data.links;
                for(var i=0; i<links.length; i++)
                {
-                   $('.result_img').append('<img data-src="'+links[i]+'">');
+                   $('.result_img').append('<img src="'+links[i]+'">');
                    $('.progress-bar').css('width',100+"%").attr('aria-valuenow',100).text('100%');
                }
                $('#imageFiles').val('');
@@ -61,8 +61,10 @@ function loadImgFiles(callback=0) {
         url: "/img/ajax-get-small-img-list",
     }).done(function( data ) {
             $('.img-list').html('');
+            $('.img-original').html('');
         for(var i=0; i<data.length; i++) {
-            $('.img-list').append('<img data-src="' + data[i].link + '" class="'+data[i].class+'" title="'+data[i].link_post+'" data-clipboard-action="copy" data-clipboard-text="'+data[i].link_post+'">');
+            $('.img-list').append('<img src="' + data[i].link + '" class="'+data[i].class+'" title="'+data[i].link_post+'" data-clipboard-action="copy" data-clipboard-text="'+data[i].link_post+'">');
+            $('.img-original').append('<div><img src="' + data[i].original + '" style="max-width: 50px" class=" img-thumb" title="'+data[i].link_post+'" data-clipboard-action="copy" data-clipboard-text="'+data[i].link_post+'">'+data[i].original+'</div>');
         }
         $('.img-list img').click(function () {
             var link = $(this).data('link');

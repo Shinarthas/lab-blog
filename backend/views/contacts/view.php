@@ -81,7 +81,7 @@ if($_SERVER['REMOTE_ADDR'] != '127.0.0.1' )
 
 <h1>	
 		<span>#<?=$contact->id;?></span>
-		<img data-src="/images/flag/<?=strtolower($country);?>.png" alt="<?=$country;?>" title="<?=$country;?>">
+		<img src="/images/flag/<?=strtolower($country);?>.png" alt="<?=$country;?>" title="<?=$country;?>">
 		
 </h1>
 
@@ -89,7 +89,7 @@ if($_SERVER['REMOTE_ADDR'] != '127.0.0.1' )
 	<tbody>
 		<tr>
 			<td>Client</td>
-			<td><?=$contact->username;?> <img data-src="/images/nopic-2.png"></td>
+			<td><?=$contact->username;?> <img src="/images/nopic-2.png"></td>
 		</tr>
 		<tr>
 			<td>System</td>
@@ -113,7 +113,7 @@ if($_SERVER['REMOTE_ADDR'] != '127.0.0.1' )
 		<tr>
 			<td>Email</td>
 			<td>
-				<?=$contact->email;?> <a href="https://www.facebook.com/search/top/?q=<?=$contact->email;?>"><img data-src="https://en.facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-logo.png"></a>
+				<?=$contact->email;?> <a href="https://www.facebook.com/search/top/?q=<?=$contact->email;?>"><img src="https://en.facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-logo.png"></a>
 			</td>
 		</tr>
 		<tr>
