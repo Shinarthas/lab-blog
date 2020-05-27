@@ -109,7 +109,7 @@ class BlogController extends Controller
             if(isset($select_category) && !empty($select_category)){
                 //die();
                 $model = Post::find()
-                    ->select([Post::tableName().'.content_preview',Post::tableName().'.seo_url',Post::tableName().'.background',Post::tableName().'.background_path',Post::tableName().'.title'])
+                    ->select([Post::tableName().'.content_preview',Post::tableName().'.date_create',Post::tableName().'.seo_url',Post::tableName().'.background',Post::tableName().'.background_path',Post::tableName().'.title'])
                     ->where(['status'=>Post::POST_ACTIVE])
                     ->andWhere(Post::tableName().'.date_published < '.time())
                     ->orderBy([Post::tableName().'.date_published'=>SORT_DESC])
@@ -117,7 +117,7 @@ class BlogController extends Controller
                     ->andWhere([PostToCategory::tableName().'.id_category'=>$select_category->id]);
             }else{
              $model = Post::find()
-                ->select([Post::tableName().'.content_preview',Post::tableName().'.seo_url',Post::tableName().'.background',Post::tableName().'.background_path',Post::tableName().'.title'])
+                ->select([Post::tableName().'.content_preview',Post::tableName().'.date_create',Post::tableName().'.seo_url',Post::tableName().'.background',Post::tableName().'.background_path',Post::tableName().'.title'])
                 ->where(['status'=>Post::POST_ACTIVE])
                 ->andWhere(Post::tableName().'.date_published < '.time())
 				//->joinWith('category-name')
@@ -393,7 +393,9 @@ class BlogController extends Controller
                             ->all();
                     }
 
-                    if(empty($model))
+                    if(empty(ArrayHelper::toArray($model)))
+                        throw new NotFoundHttpException('Post not found');
+                    if($model->content=='')
                         throw new NotFoundHttpException('Post not found');
                     $trans_list = PostTranslations::find()->select(['id_lang'])->where(['id_post'=>$model->id])->asArray()->all();
                     return $this->render('post-show',['model'=>$model,'lang'=>$this->lang,'relatedPosts'=>$relatedPostModel,'trans_list'=>$trans_list]);
@@ -404,6 +406,7 @@ class BlogController extends Controller
 					{
 						throw new \yii\web\HttpException(404);
 					}
+
 					return $this->render('../services/show-service', $services_data);
                 }
             }
