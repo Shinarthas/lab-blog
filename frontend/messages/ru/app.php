@@ -200,9 +200,7 @@ return [
                 <div class=\"col-md-12 text-center\">
                     <p>
                         &copy;
-                        <script>
-                            document.write(new Date().getFullYear());
-                        </script>- Lab3M. All rights reserved
+                        2020 - Lab3M. All rights reserved
                     </p>
                 </div>
             </div>",
