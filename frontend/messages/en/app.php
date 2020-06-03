@@ -180,18 +180,18 @@ color: #FFFFFF;" >Send</a>
     'downloader_block'=>'<div class="downloader" style="margin-bottom: 0;background: #151515;">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <!--<div class="col-sm-6">
                 <div class="dload">
                     <p>Our Presentation</p>
                     <span>PDF format size of 0.2 Mb</span>
                     <a class="targ" target="_blank" href="#">Download</a>
                 </div>
-            </div>
-            <div class="col-sm-6">
+            </div>-->
+            <div class="col-12 col-sm-6 offset-sm-3">
                 <div class="dload">
                     <p>Our Process</p>
                     <span>PDF format size of 0.1 Mb</span>
-                    <a class="targ" target="_blank" href="#">Download</a>
+                    <a itemprop="downloadUrl" class="targ" target="_blank" href="#">Download</a>
                 </div>
             </div>
         </div>

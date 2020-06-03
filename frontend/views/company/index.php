@@ -61,7 +61,7 @@ body .container{max-width: 990px;width: 100%; font-family: "Work Sans", sans-ser
         <?= Yii::t('app', 'company_block') ?>
         </div>
     </div>
-    <!-- <?= Yii::t('app', 'downloader_block') ?> -->
+   <?= Yii::t('app', 'downloader_block') ?>
     
     <section style="background: #151515; padding:150px 15px">
 	<div>
