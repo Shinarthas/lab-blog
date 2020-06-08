@@ -112,6 +112,7 @@ class BlogController extends Controller
                 $model = Post::find()
                     ->select([Post::tableName().'.content_preview',Post::tableName().'.date_create',Post::tableName().'.seo_url',Post::tableName().'.background',Post::tableName().'.background_path',Post::tableName().'.title'])
                     ->where(['status'=>Post::POST_ACTIVE])
+                    ->andWhere(['>','CHAR_LENGTH('.Post::tableName().'.content)','100'])
                     ->andWhere(Post::tableName().'.date_published < '.time())
                     ->orderBy([Post::tableName().'.date_published'=>SORT_DESC])
                     //->joinWith('category-name')
@@ -120,6 +121,7 @@ class BlogController extends Controller
              $model = Post::find()
                 ->select([Post::tableName().'.content_preview',Post::tableName().'.date_create',Post::tableName().'.seo_url',Post::tableName().'.background',Post::tableName().'.background_path',Post::tableName().'.title'])
                 ->where(['status'=>Post::POST_ACTIVE])
+                 ->andWhere(['>','CHAR_LENGTH('.Post::tableName().'.content)','100'])
                 ->andWhere(Post::tableName().'.date_published < '.time())
 				//->joinWith('category-name')
                 ->orderBy([Post::tableName().'.date_published'=>SORT_DESC]);
@@ -151,7 +153,9 @@ class BlogController extends Controller
                             't.background_path as background_path2',
                         ]
                     )
+
                     ->where(['status' => Post::POST_ACTIVE])
+                    ->andWhere(['>','CHAR_LENGTH(t.content)','100'])
                     ->andWhere(Post::tableName() . '.date_published < ' . time())
                     ->joinWith(['translation t', 'category'])
                     ->andWhere(['t.id_lang' => Yii::$app->params['languages'][Yii::$app->language]])
@@ -179,6 +183,7 @@ class BlogController extends Controller
                         ]
                     )
                     ->where(['status' => Post::POST_ACTIVE])
+                    ->andWhere(['>','CHAR_LENGTH(t.content)','100'])
                     ->andWhere(Post::tableName() . '.date_published < ' . time())
                     ->joinWith(['translation t', 'category'])
                     ->andWhere(['t.id_lang' => Yii::$app->params['languages'][Yii::$app->language]])
