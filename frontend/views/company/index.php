@@ -23,7 +23,7 @@ $this->params['breadcrumbs'][] = array(
 
 <link rel="stylesheet" href="/styles/company.css">
 <style>
-body .container{max-width: 990px;width: 100%; font-family: "Work Sans", sans-serif;}
+body .container{max-width: 990px;width: 100%; font-family: "Montserrat", sans-serif;}
 .text-center {text-align: center;}
 /*company*/
 #company .about_us{

@@ -235,7 +235,6 @@ foreach ($lang_list as $lang_item)
     }
 
 </style>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
       <style>
       .block-article{
         font-family: 'Montserrat', sans-serif!important;

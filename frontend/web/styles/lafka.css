@@ -236,7 +236,7 @@ html {
 }
 
 body {
-    font-family: "Work Sans", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -2574,7 +2574,7 @@ a {
 }
 
 .main4 .title {
-    font: 32px/40px 'Work Sans', sans-serif;
+    font: 32px/40px 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     padding: 5px 0;
@@ -2582,7 +2582,7 @@ a {
 
 .main4 .sign {
     padding: 10px 0;
-    font: 16px/30px 'Work Sans', sans-serif;
+    font: 16px/30px 'Montserrat', sans-serif;
     color: #ff4200;
     text-align: center;
     text-transform: uppercase;
@@ -2598,7 +2598,7 @@ a {
 .main6 h2,
 .main10 h2,
 .main11 h2 {
-    font: 42px/50px 'Work Sans', sans-serif;
+    font: 42px/50px 'Montserrat', sans-serif;
     color: #fff;
 }
 
@@ -2618,7 +2618,7 @@ a {
 .main6 h4,
 .main10 h4,
 .main11 h4 {
-    font: 13px/40px 'Work Sans', sans-serif;
+    font: 13px/40px 'Montserrat', sans-serif;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -2626,7 +2626,7 @@ a {
 }
 
 .main5 .title {
-    font: 22px/30px 'Work Sans', sans-serif;
+    font: 22px/30px 'Montserrat', sans-serif;
     color: #fff;
 }
 
@@ -2720,7 +2720,7 @@ a {
 
 .main8 h4,
 .main12 h4 {
-    font: 13px 'Work Sans', sans-serif;
+    font: 13px 'Montserrat', sans-serif;
     color: #fff;
     text-transform: uppercase;
     margin: 18px 0 67px 6px;
@@ -2728,7 +2728,7 @@ a {
 }
 
 .main8 p {
-    font: 18px/36px 'Work Sans', sans-serif;
+    font: 18px/36px 'Montserrat', sans-serif;
     color: #fff;
 }
 
@@ -2746,7 +2746,7 @@ a {
 }
 
 .main9 p {
-    font: 18px/36px 'Work Sans', sans-serif;
+    font: 18px/36px 'Montserrat', sans-serif;
     color: #fff;
     text-align: left;
 }
@@ -2817,7 +2817,7 @@ a {
 }
 
 .main12 .title {
-    font: 16px/30px 'Work Sans', sans-serif;
+    font: 16px/30px 'Montserrat', sans-serif;
     color: #b4a091;
 }
 
@@ -2839,7 +2839,7 @@ a {
     padding-bottom: 80px;
     line-height: 50px;
     font-size: 42px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
 }
@@ -2877,7 +2877,7 @@ a {
     width: 100%;
     line-height: 50px;
     font-size: 42px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     text-align: center;
     vertical-align: middle;
@@ -2951,7 +2951,7 @@ div.blockTouch div.content {
     height: 50px;
     line-height: 50px;
     font-size: 20px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #ffffff;
     -webkit-transition: color 300ms;
@@ -3027,7 +3027,7 @@ div.buttonSic.w280:hover::after {
     margin: 0 10px;
     line-height: 20px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-decoration: none;
     -webkit-transition-duration: 200ms;
@@ -3062,7 +3062,7 @@ div.buttonSic.w280:hover::after {
 .footer p.desc-r {
     line-height: 20px;
     font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #aba9a6;
     display: block;
 }
@@ -3099,7 +3099,7 @@ div.buttonSic.w280:hover::after {
 }
 
 .footer .get-touch .in-touch {
-    font: 16px 'Work Sans', sans-serif;
+    font: 16px 'Montserrat', sans-serif;
     color: #aba9a6;
     line-height: 47px;
     margin-left: 57px;
@@ -3164,7 +3164,7 @@ div.buttonSic.w280:hover::after {
 }
 
 .contactPopupMessage .email {
-    font: 18px/32px 'Work Sans', sans-serif;
+    font: 18px/32px 'Montserrat', sans-serif;
     border-radius: 30px;
     background-color: #fff;
     -webkit-box-shadow: 0px 3px 2px 0px rgba(255, 186, 0, 0.07);
@@ -3202,14 +3202,14 @@ div.buttonSic.w280:hover::after {
     height: 60px;
     border: medium none;
     color: #fff;
-    font: 20px 'Work Sans', sans-serif;
+    font: 20px 'Montserrat', sans-serif;
     outline: none;
 }
 
 .contactPopupMessage h2 {
     line-height: 56px;
     font-size: 50px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fffefe;
     margin: 40px 0 0;
 }

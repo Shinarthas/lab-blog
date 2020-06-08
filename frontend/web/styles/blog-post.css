@@ -240,7 +240,7 @@ html {
 }
 
 body {
-    font-family: "Work Sans", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -1066,7 +1066,7 @@ strong {
     margin: 28px 0;
     line-height: 28px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
 
@@ -1074,7 +1074,7 @@ strong {
     margin: 28px 0;
     line-height: 28px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
 
@@ -1084,7 +1084,7 @@ strong {
     padding-left: 20px;
     line-height: 28px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
 
@@ -1100,7 +1100,7 @@ strong {
     margin: 84px 0 28px;
     line-height: 28px;
     font-size: 24px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
 
@@ -1109,7 +1109,7 @@ strong {
 }
 
 .blogPost div.entry .semibold {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .blogPost div.entry h4 {
@@ -1142,7 +1142,7 @@ pre .class-main {
 .blogPost div.entry a.link {
     display: inline-block;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fa5a1c;
     text-decoration: none;
 }
@@ -1161,12 +1161,12 @@ pre .class-main {
 
 .blogPost .content p {
     margin: 10px auto 30px;
-    font: 18px/28px "Work Sans", sans-serif;
+    font: 18px/28px "Montserrat", sans-serif;
     color: #fff;
 }
 
 .blogPost .content h2 {
-    font: 25px/28px 'Work Sans', sans-serif;
+    font: 25px/28px 'Montserrat', sans-serif;
     margin: 60px auto 30px;
 }
 
@@ -1178,7 +1178,7 @@ pre .class-main {
 
 .blogPost .content ul li,
 .blogPost .content ol li {
-    font: 17px/24px 'Work Sans', sans-serif;
+    font: 17px/24px 'Montserrat', sans-serif;
     margin-bottom: 15px;
 }
 
@@ -1215,11 +1215,11 @@ pre .class-main {
 
 .look {
     color: #fff;
-    font: 18px/28px "Work Sans", sans-serif;
+    font: 18px/28px "Montserrat", sans-serif;
 }
 
 .look .related>* {
-    font: 18px/28px "Work Sans", sans-serif;
+    font: 18px/28px "Montserrat", sans-serif;
 }
 
 .look .related a {
@@ -1300,7 +1300,7 @@ pre .class-main {
 }
 
 .name-info h2 {
-    font: 22px/28px 'Work Sans', sans-serif;
+    font: 22px/28px 'Montserrat', sans-serif;
     color: #fff;
     display: inline-block;
     margin-top: 30px;
@@ -1314,7 +1314,7 @@ pre .class-main {
 }
 
 .desc-info p {
-    font: 18px/28px 'Work Sans', sans-serif;
+    font: 18px/28px 'Montserrat', sans-serif;
     color: #fff;
 }
 
@@ -1351,7 +1351,7 @@ pre .class-main {
 .blog h3 {
     line-height: 60px;
     font-size: 42px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     /* margin: 137px 0 63px; */
@@ -1400,7 +1400,7 @@ pre .class-main {
 }
 
 .blog .small-content {
-    font: 16px/34px 'Work Sans', sans-serif;
+    font: 16px/34px 'Montserrat', sans-serif;
     color: #fff;
     max-height: 160px;
     overflow: hidden;
@@ -1482,7 +1482,7 @@ pre .class-main {
     margin: 0 10px;
     line-height: 20px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-decoration: none;
     transition-duration: 200ms;
@@ -1513,7 +1513,7 @@ pre .class-main {
 .footer p.desc-r {
     line-height: 20px;
     font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #aba9a6;
     display: block;
 }
@@ -1550,7 +1550,7 @@ pre .class-main {
 }
 
 .footer .get-touch .in-touch {
-    font: 16px 'Work Sans', sans-serif;
+    font: 16px 'Montserrat', sans-serif;
     color: #aba9a6;
     line-height: 47px;
     margin-left: 57px;
@@ -1611,7 +1611,7 @@ pre .class-main {
 }
 
 .contactPopupMessage .email {
-    font: 18px/32px 'Work Sans', sans-serif;
+    font: 18px/32px 'Montserrat', sans-serif;
     border-radius: 30px;
     background-color: #fff;
     box-shadow: 0px 3px 2px 0px rgba(255, 186, 0, 0.07);
@@ -1648,14 +1648,14 @@ pre .class-main {
     height: 60px;
     border: medium none;
     color: #fff;
-    font: 20px 'Work Sans', sans-serif;
+    font: 20px 'Montserrat', sans-serif;
     outline: none;
 }
 
 .contactPopupMessage h2 {
     line-height: 56px;
     font-size: 50px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fffefe;
     margin: 40px 0 0;
 }
@@ -1922,7 +1922,7 @@ pre .class-main {
     padding: 20px 0 10px;
     line-height: 60px;
     font-size: 50px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     text-align: center;
 }

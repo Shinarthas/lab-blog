@@ -224,7 +224,7 @@
 	    /* margin-left: -10%; */
     }
     .blog .title{
-        font:12px 'Work Sans', sans-serif;
+        font:12px 'Montserrat', sans-serif;
         color:#fff;
         text-align: center;
         text-transform: uppercase;
@@ -247,7 +247,7 @@
         color: #fff;
     }
     .blog .small-content{
-        font:16px/30px 'Work Sans', sans-serif;
+        font:16px/30px 'Montserrat', sans-serif;
         color: #fff;
         max-height: 300px;
         overflow: hidden;
@@ -434,7 +434,7 @@
             height:auto;
             width:auto;
             padding: 0 15px;
-             font:16px/28px 'Work Sans', sans-serif;
+             font:16px/28px 'Montserrat', sans-serif;
         }
         .callback .mail{
             display: block;

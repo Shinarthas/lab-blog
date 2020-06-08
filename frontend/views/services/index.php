@@ -74,7 +74,7 @@ body{overflow-x: hidden}
 }
 #services .developments a.info,
 #services .feachers a.info{
-    font: 16px 'Work Sans', sans-serif;
+    font: 16px 'Montserrat', sans-serif;
     color: #fff;
     display: block;
     background-repeat: no-repeat;
@@ -103,7 +103,7 @@ body{overflow-x: hidden}
 }
 #services .developments a.name,
 #services .feachers a.name{
-    font: 22px 'Work Sans', sans-serif;
+    font: 22px 'Montserrat', sans-serif;
     color: #fff;
     transition: color .3s ease-in-out;
 }

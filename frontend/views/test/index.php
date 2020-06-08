@@ -55,15 +55,15 @@ body .container{max-width: 990px;width: 100%;}
 .blogPost div.head div.overlay{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(90, 84, 78, 0.6);}
 .blogPost div.head div.content1{position: relative;margin: 0 auto;max-width: 960px;width: 100%;height: 440px;margin-top: 140px;}
 .blogPost div.head div.info{text-align: center;}
-.blogPost div.head span.date{display: inline-block;line-height: 30px;font-size: 14px;font-family: 'Work Sans', sans-serif;color: #ffffff;text-transform: uppercase;display: none;}
-.blogPost div.head h1{padding: 30px 0;line-height: 60px;font-size: 45px;font-family: 'Work Sans', sans-serif;color: #ffffff;text-align: center;}
-.blogPost div.head a.tag{display: inline-block;margin: 0 10px;padding: 0 30px;height: 50px;line-height: 50px;font-size: 18px;font-family: 'Work Sans', sans-serif;color: #ffffff;border-radius: 25px;box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);text-decoration: none;transition-duration: 200ms;}
+.blogPost div.head span.date{display: inline-block;line-height: 30px;font-size: 14px;font-family: 'Montserrat', sans-serif;color: #ffffff;text-transform: uppercase;display: none;}
+.blogPost div.head h1{padding: 30px 0;line-height: 60px;font-size: 45px;font-family: 'Montserrat', sans-serif;color: #ffffff;text-align: center;}
+.blogPost div.head a.tag{display: inline-block;margin: 0 10px;padding: 0 30px;height: 50px;line-height: 50px;font-size: 18px;font-family: 'Montserrat', sans-serif;color: #ffffff;border-radius: 25px;box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);text-decoration: none;transition-duration: 200ms;}
 .blogPost div.head a.tag:hover{box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 1);}
 .blogPost div.head div.content2{position: relative;margin: 0 auto;padding: 30px 0 60px;max-width: 960px;width: 100%;}
 .blogPost div.head div.photo{position: absolute;top: -30px;left: 0;width: 100%;}
 .blogPost div.head div.photo img{display: block;margin: 0 auto;}
-.blogPost div.head span.position{display: block;line-height: 20px;font-size: 14px;font-family: 'Work Sans', sans-serif;color: #fff;text-align: center;}
-.blogPost div.head span.author{display: block;line-height: 30px;font-size: 20px;font-family: 'Work Sans', sans-serif;color: #fff;text-align: center;}
+.blogPost div.head span.position{display: block;line-height: 20px;font-size: 14px;font-family: 'Montserrat', sans-serif;color: #fff;text-align: center;}
+.blogPost div.head span.author{display: block;line-height: 30px;font-size: 20px;font-family: 'Montserrat', sans-serif;color: #fff;text-align: center;}
 .blogPost div.head div.social{padding-top: 30px;text-align: center;}
 .blogPost div.head div.social>*{vertical-align: middle;}
 .blogPost div.head div.social > div, .blogPost div.head div.social iframe{margin: 0 20px;}

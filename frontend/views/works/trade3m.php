@@ -20,17 +20,17 @@ body .container{max-width: 990px;width: 100%;}
 .main1{background-color: #151515;margin-top: 70px;text-align: center;height: 1109px;overflow: hidden;}
 .main1 .top-img{position: absolute;bottom: -122px;left:50%;transform: translate(-50%);}
 .main1 h1{font:70px 'Raleway Bold', sans-serif;margin-top: 80px;}
-.main1 h2{color: #665900;font:27px/40px 'Work Sans', sans-serif;margin: 13px 0 59px;}
-.main1 p{text-align: center;max-width: 760px;margin: 0 auto;font:18px/36px 'Work Sans', sans-serif;color: #665900;}
+.main1 h2{color: #665900;font:27px/40px 'Montserrat', sans-serif;margin: 13px 0 59px;}
+.main1 p{text-align: center;max-width: 760px;margin: 0 auto;font:18px/36px 'Montserrat', sans-serif;color: #665900;}
 .main1 .video{position: absolute;bottom: -22px;left: 50%;width: 294px;transform: translateX(-17px);}
 .main2{padding: 140px 0 176px;text-align: center;}
-.main2 h2{font:42px 'Work Sans', sans-serif;color: #fff;margin: 40px 0 19px;}
-.main2 h4{font:13px 'Work Sans', sans-serif;color: #fff;margin: 18px 0 67px 6px;letter-spacing: 1.9px;}
+.main2 h2{font:42px 'Montserrat', sans-serif;color: #fff;margin: 40px 0 19px;}
+.main2 h4{font:13px 'Montserrat', sans-serif;color: #fff;margin: 18px 0 67px 6px;letter-spacing: 1.9px;}
 .main2 .cont-wrap{text-align: left;}
-.main2 .cont-wrap *{font:18px/36px 'Work Sans', sans-serif;color: #fff;margin: 0;}
+.main2 .cont-wrap *{font:18px/36px 'Montserrat', sans-serif;color: #fff;margin: 0;}
 .main2 .cont-wrap ul{padding: 0;list-style-position: inside;}
 .main8 ul{padding: 0;list-style-position: inside;}
-.main8 ul {text-align:left!important;    font: 18px/36px 'Work Sans', sans-serif;color: #fff;}
+.main8 ul {text-align:left!important;    font: 18px/36px 'Montserrat', sans-serif;color: #fff;}
 
 .main .arrow-ginger{background: url(/images/arrow/orange.svg) no-repeat 50% 50%;}
 .main .arrow-yellow{background: url(/images/arrow/yellow.svg) no-repeat 50% 50%;}

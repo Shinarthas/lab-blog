@@ -157,7 +157,7 @@
 }
 
 .block.phones .title {
-    font: 30px/44px 'Work Sans', sans-serif;
+    font: 30px/44px 'Montserrat', sans-serif;
     color: #fff;
     margin-top: 300px;
     text-align: right;
@@ -167,7 +167,7 @@
 }
 
 .block.phones .desc {
-    font: 20px/34px 'Work Sans', sans-serif;
+    font: 20px/34px 'Montserrat', sans-serif;
     color: #fff;
     text-align: right;
 }
@@ -269,7 +269,7 @@
 .block.red h2 {
     line-height: 20px;
     font-size: 13px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffc6a0;
     text-align: center;
     text-transform: uppercase;
@@ -312,7 +312,7 @@
     margin-top: 41px;
     line-height: 46px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     border: 2px solid #ffba00;
     border-radius: 25px;
@@ -419,7 +419,7 @@
 .main.wrapper2 h2 {
     line-height: 20px;
     font-size: 12px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     margin-top: 2px;
@@ -499,7 +499,7 @@
 .main.wrapper3 h3 {
     line-height: 60px;
     font-size: 42px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     text-transform: capitalize;
@@ -508,7 +508,7 @@
 .main.wrapper3 .col-pad h2 {
     line-height: 20px;
     font-size: 12px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -530,7 +530,7 @@
 .main.wrapper3 h3 {
     line-height: 60px;
     font-size: 42px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     text-transform: capitalize;
@@ -544,7 +544,7 @@
 .main.wrapper3 h2 {
     line-height: 20px;
     font-size: 12px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -805,7 +805,7 @@
     padding-bottom: 10px;
     line-height: 30px;
     font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ff4200;
     text-align: center;
     text-transform: uppercase;
@@ -815,7 +815,7 @@
 .main.wrapper3 div.round p.desc {
     line-height: 30px;
     font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
 }
@@ -843,7 +843,7 @@
     padding: 38px 0 13px;
     line-height: 30px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fa5a1c;
     text-align: center;
 }
@@ -853,7 +853,7 @@
     position: relative;
     line-height: 29px;
     font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     margin-bottom: 0;
 }
@@ -883,7 +883,7 @@
     padding-top: 23px;
     line-height: 30px;
     font-size: 22px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ff4200;
 }
 
@@ -951,7 +951,7 @@ div.buttonSic input {
     height: 50px;
     line-height: 50px;
     font-size: 20px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #ffffff;
     -webkit-transition: color 300ms;
@@ -1040,7 +1040,7 @@ div.footer p.desc-min,
     margin: 0 10px;
     line-height: 20px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-decoration: none;
     -webkit-transition-duration: 200ms;
@@ -1075,7 +1075,7 @@ div.footer p.desc-min,
 .footer p.desc-r {
     line-height: 20px;
     font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #aba9a6;
     display: block;
 }
@@ -1112,7 +1112,7 @@ div.footer p.desc-min,
 }
 
 .footer .get-touch .in-touch {
-    font: 16px 'Work Sans', sans-serif;
+    font: 16px 'Montserrat', sans-serif;
     color: #aba9a6;
     line-height: 47px;
     margin-left: 57px;
@@ -1177,7 +1177,7 @@ div.footer p.desc-min,
 }
 
 .contactPopupMessage .email {
-    font: 18px/32px 'Work Sans', sans-serif;
+    font: 18px/32px 'Montserrat', sans-serif;
     border-radius: 30px;
     background-color: #fff;
     -webkit-box-shadow: 0px 3px 2px 0px rgba(255, 186, 0, 0.07);
@@ -1215,14 +1215,14 @@ div.footer p.desc-min,
     height: 60px;
     border: medium none;
     color: #fff;
-    font: 20px 'Work Sans', sans-serif;
+    font: 20px 'Montserrat', sans-serif;
     outline: none;
 }
 
 .contactPopupMessage h2 {
     line-height: 56px;
     font-size: 50px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fffefe;
     margin: 40px 0 0;
 }
