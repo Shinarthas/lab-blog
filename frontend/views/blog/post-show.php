@@ -183,9 +183,30 @@ foreach ($lang_list as $lang_item)
         max-width: 100%;
     }
     .content-article img{
-        max-width: 100%;
+        width: 100%;
         height: auto;
+        margin-bottom: 20px;
     }
+    @media (min-width: 576px){
+            .container {
+                max-width: 540px!important;
+            }
+        }
+        @media (min-width: 768px){
+            .container {
+                max-width: 720px!important;
+            }
+        }
+        @media (min-width: 992px){
+            .container {
+                max-width: 960px!important;
+            }
+        }
+        @media (min-width: 1200px){
+            .container {
+                max-width: 1140px!important;
+            }
+        }
     @media (max-width: 767.98px){
         .block-article .name-article {
             font-size: 24px;
