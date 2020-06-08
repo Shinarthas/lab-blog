@@ -196,10 +196,10 @@ echo $this->render("_categories", $data);
             }
         }
       </style>
-      <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
       <style>
       .news-block-art{
-        font-family: 'Rubik', sans-serif !important;
+        font-family: 'Montserrat', sans-serif;
       }
       </style>
 <div class="container news-block-art" style="padding: 70px 0;">
