@@ -11,6 +11,6 @@ return [
     ],
     'aliases' => [
         '@front' => 'https://lab3m.com/',
-        '@back' => 'http://admin.lab3m.com/',
+        '@back' => 'https://admin.lab3m.com/',
     ],
 ];
