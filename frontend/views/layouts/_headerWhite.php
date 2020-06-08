@@ -98,7 +98,7 @@ $my_requests = Contacts::myRequestsList();
     .button-sic__item_w280{margin:0 10px;}
     .button-sic__item:first-child{margin-left:0;}
     .button-sic__item:last-child{margin-right:0;}
-    .button-sic__link{position:relative;display:block;text-align:center;line-height:50px;padding: 12px 28px;font:20px 'Work Sans', sans-serif;border-radius:25px;color:#ffffff;transition:color 300ms;}
+    .button-sic__link{position:relative;display:block;text-align:center;line-height:50px;padding: 12px 28px;font:20px 'Montserrat', sans-serif;border-radius:25px;color:#ffffff;transition:color 300ms;}
     .button-sic__item_w280 .button-sic__link{padding:0;width:280px;text-align:center;}
     .button-sic__link:active{top:1px;}
     .button-sic__link::before,
@@ -133,7 +133,7 @@ $my_requests = Contacts::myRequestsList();
     .second-screen__arrow,
     .main.wrapper2 .arrow,
     .main.wrapper3 .arrow{height:40px;background:url('/images/arrow/white.svg') no-repeat 50% 50%;}
-    .second-screen__title{line-height:40px;font-size:32px;font-weight:600;font-family:'Work Sans', sans-serif;color:#fff;text-align:center;letter-spacing:3px;text-transform:uppercase;margin-bottom:5px;}
+    .second-screen__title{line-height:40px;font-size:32px;font-weight:600;font-family:'Montserrat', sans-serif;color:#fff;text-align:center;letter-spacing:3px;text-transform:uppercase;margin-bottom:5px;}
     .second-screen__deploy{margin:-5px auto 0;max-width:600px;}
     .second-screen__desc{line-height:36px;font-size:18px;color:#fff;text-align:center;}
     .second-screen__desc_hidden{display:none;}
@@ -143,7 +143,7 @@ $my_requests = Contacts::myRequestsList();
     .second-screen__read img{position:absolute;top:5px;right:0;transition-duration:250ms;}
     .second-screen__read.active img{transform:rotate(180deg);}
     a{text-decoration:none !important;}
-    body{line-height:20px;font-size:14px;font-family:'Work Sans', sans-serif;color:#000000;background-color:#ffffff;overflow-x:hidden;}
+    body{line-height:20px;font-size:14px;font-family:'Montserrat', sans-serif;color:#000000;background-color:#ffffff;overflow-x:hidden;}
     .container{max-width:990px;width:100%;}
     div.siteWrapper{min-height:100%;}
     .main{position:relative;z-index:101;}
@@ -193,7 +193,7 @@ $my_requests = Contacts::myRequestsList();
     .buttonSic {position:relative;z-index:0;display:inline-block;margin:0 10px;height:50px;border-radius:25px;background-color:#ffba00;box-shadow:0 8px 15px 0 rgba(128, 56, 9, 0.07);overflow:hidden;}
     .buttonSic:first-child {margin-left:0;}
     .buttonSic:last-child {margin-right:0;}
-    .buttonSic input {position:relative;z-index:1;display:block;padding:0 40px;height:50px;line-height:50px;font-size:20px;font-family:'Work Sans', sans-serif;text-decoration:none;color:#ffffff;transition:color 300ms;background:transparent;border:medium none;}
+    .buttonSic input {position:relative;z-index:1;display:block;padding:0 40px;height:50px;line-height:50px;font-size:20px;font-family:'Montserrat', sans-serif;text-decoration:none;color:#ffffff;transition:color 300ms;background:transparent;border:medium none;}
     .buttonSic.w280 input {padding:0;width:280px;text-align:center;}
     .buttonSic.w280::before,div.buttonSic.w280::after {position:absolute;z-index:-1;left:0;bottom:100%;content:'';width:100%;height:100%;transition:transform 300ms cubic-bezier(0.75, 0, 0.125, 1);}
     .buttonSic.w280::before {background-color:#6927ff;}

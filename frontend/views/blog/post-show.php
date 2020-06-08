@@ -184,9 +184,30 @@ foreach ($lang_list as $lang_item)
         max-width: 100%;
     }
     .content-article img{
-        max-width: 100%;
+        width: 100%;
         height: auto;
+        margin-bottom: 20px;
     }
+    @media (min-width: 576px){
+            .container {
+                max-width: 540px!important;
+            }
+        }
+        @media (min-width: 768px){
+            .container {
+                max-width: 720px!important;
+            }
+        }
+        @media (min-width: 992px){
+            .container {
+                max-width: 960px!important;
+            }
+        }
+        @media (min-width: 1200px){
+            .container {
+                max-width: 1140px!important;
+            }
+        }
     @media (max-width: 767.98px){
         .block-article .name-article {
             font-size: 24px;
@@ -215,7 +236,6 @@ foreach ($lang_list as $lang_item)
     }
 
 </style>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
       <style>
       .block-article{
         font-family: 'Montserrat', sans-serif!important;
@@ -277,6 +297,9 @@ foreach ($lang_list as $lang_item)
                             <div class="content-article">
                                 <?=$model->content?>
                                 <?=Yii::t('app','lab_team')?>
+                                <a target="_blank" href="/contacts">
+                                <?=Yii::t('app','lab_cont')?>
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -8,7 +8,7 @@ $services=\common\models\ServicesCategory::find()->select('blog_services_categor
     ->all();
 
 ?>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles/_footer.css">
     <style>
 @media (max-width: 767px){

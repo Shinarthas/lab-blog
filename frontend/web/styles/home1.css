@@ -485,7 +485,7 @@ div.loader img {
     line-height: 40px;
     font-size: 32px;
     font-weight: 600;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     letter-spacing: 3px;
@@ -588,7 +588,7 @@ div.loader img {
 .block.red h2 {
     line-height: 20px;
     font-size: 12px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffc6a0;
     text-align: center;
     text-transform: uppercase;
@@ -658,7 +658,7 @@ div.loader img {
     margin-top: 41px;
     line-height: 46px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     background: url(../images/main/lafka-arrow.svg) no-repeat 150px 50%;
     border: 2px solid #ffba00;
@@ -734,7 +734,7 @@ div.loader img {
 .main.wrapper2 h2 {
     line-height: 20px;
     font-size: 12px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -755,7 +755,7 @@ div.loader img {
 .main.wrapper2 .wrap2 .title {
     line-height: 30px;
     font-size: 22px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     margin-top: 93px;
@@ -765,7 +765,7 @@ div.loader img {
     padding-top: 3px;
     line-height: 30px;
     font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
 }
@@ -783,7 +783,7 @@ div.loader img {
 .main.wrapper3 h3 {
     line-height: 60px;
     font-size: 42px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     text-transform: capitalize;
@@ -792,7 +792,7 @@ div.loader img {
 .main.wrapper3 h2 {
     line-height: 20px;
     font-size: 12px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -820,7 +820,7 @@ div.loader img {
 .main.wrapper3 h3 {
     line-height: 60px;
     font-size: 42px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     text-transform: capitalize;
@@ -834,7 +834,7 @@ div.loader img {
 .main.wrapper3 h2 {
     line-height: 20px;
     font-size: 12px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -1091,7 +1091,7 @@ div.loader img {
     padding-bottom: 10px;
     line-height: 30px;
     font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ff4200;
     text-align: center;
     text-transform: uppercase;
@@ -1101,7 +1101,7 @@ div.loader img {
 .main.wrapper3 div.round p.desc {
     line-height: 30px;
     font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
 }
@@ -1135,7 +1135,7 @@ div.loader img {
     padding: 38px 0 13px;
     line-height: 30px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fa5a1c;
     text-align: center;
 }
@@ -1145,7 +1145,7 @@ div.loader img {
     position: relative;
     line-height: 29px;
     font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     margin-bottom: 0;
 }
@@ -1176,7 +1176,7 @@ div.loader img {
     padding-top: 23px;
     line-height: 30px;
     font-size: 22px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ff4200;
 }
 
@@ -1250,7 +1250,7 @@ div.buttonSic input {
     height: 50px;
     line-height: 50px;
     font-size: 20px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #ffffff;
     -webkit-transition: color 300ms;

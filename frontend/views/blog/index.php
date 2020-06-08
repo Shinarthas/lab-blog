@@ -199,7 +199,6 @@ echo $this->render("_categories", $data);
             }
         }
       </style>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
       <style>
       .news-block-art{
         font-family: 'Montserrat', sans-serif!important;

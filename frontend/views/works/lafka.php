@@ -67,7 +67,7 @@ $this->params['breadcrumbs'][] = array(
 
     .main1 h2 {
         color: #665900;
-        font: 27px/40px 'Work Sans', sans-serif;
+        font: 27px/40px 'Montserrat', sans-serif;
         margin: 13px 0 59px;
     }
 
@@ -75,7 +75,7 @@ $this->params['breadcrumbs'][] = array(
         text-align: center;
         max-width: 760px;
         margin: 0 auto;
-        font: 18px/36px 'Work Sans', sans-serif;
+        font: 18px/36px 'Montserrat', sans-serif;
         color: #665900;
     }
 
@@ -95,13 +95,13 @@ $this->params['breadcrumbs'][] = array(
     }
 
     .main2 h2 {
-        font: 42px 'Work Sans', sans-serif;
+        font: 42px 'Montserrat', sans-serif;
         color: #fff;
         margin: 40px 0 19px;
     }
 
     .main2 h4 {
-        font: 13px 'Work Sans', sans-serif;
+        font: 13px 'Montserrat', sans-serif;
         color: #fff;
         margin: 18px 0 67px 6px;
         letter-spacing: 1.9px;
@@ -112,7 +112,7 @@ $this->params['breadcrumbs'][] = array(
     }
 
     .main2 .cont-wrap * {
-        font: 18px/36px 'Work Sans', sans-serif;
+        font: 18px/36px 'Montserrat', sans-serif;
         color: #fff;
         margin: 0;
     }
@@ -129,7 +129,7 @@ $this->params['breadcrumbs'][] = array(
 
     .main8 ul {
         text-align: left!important;
-        font: 18px/36px 'Work Sans', sans-serif;
+        font: 18px/36px 'Montserrat', sans-serif;
         color: #fff;
     }
 

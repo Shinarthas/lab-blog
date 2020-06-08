@@ -286,7 +286,7 @@ return [
     'main_text8' => 'Последние новости',
     'main_text9' => 'Мы запускаем передовые финтех продукты',
     'main_text10' => '<div class="col-12 col-md-6" style="padding: 15px">
-    <a target="_blank" href="/lab3m-covid-19-resistance">
+    <a target="_blank" href="#">
     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
     <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/st-1-ru.jpg">
         <source data-src="/images/vid/ru-st1.webm" type="video/webm">
@@ -306,7 +306,7 @@ return [
     </a>
 </div>
 <div class="col-12 col-md-6" style="padding: 15px">
-    <a target="_blank" href="/how-bitcoin-will-survive-the-global-recession">
+    <a target="_blank" href="#">
     <div  style="width: 100%;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(85, 98, 98, 0.08);border-radius: 7px; background-color: #0D0D0D; overflow: auto;">
     <video class="lazy" style="width:100%" preload="metadata" autoplay="autoplay" playsinline loop="loop" muted="muted" poster="/images/posters/st-2-ru.jpg">
         <source data-src="/images/vid/ru-st2.webm" type="video/webm">
@@ -626,4 +626,5 @@ color: #FFFFFF;" >Отправить</a>
 <source data-src="/images/vid/3-ru.mp4" type="video/mp4">
 </video>',
 'lab_team' => '<p>С наилучшими пожеланиями,<br>Команда <a href="https://lab3m.com/">Lab3M</a></p>',
+'lab_cont' => '<img data-src="/images/cont-ru.gif" alt="contact-button-ru">',
 ];

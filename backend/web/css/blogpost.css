@@ -45,7 +45,7 @@ div.head span.date {
     display: inline-block;
     line-height: 30px;
     font-size: 14px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     text-transform: uppercase;
     display: none;
@@ -55,7 +55,7 @@ div.head h1 {
     padding: 30px 0;
     line-height: 60px;
     font-size: 45px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     text-align: center;
 }
@@ -67,7 +67,7 @@ div.head a.tag {
     height: 50px;
     line-height: 50px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     border-radius: 25px;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
@@ -103,7 +103,7 @@ div.head span.position {
     display: block;
     line-height: 20px;
     font-size: 14px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
 }
@@ -112,7 +112,7 @@ div.head span.author {
     display: block;
     line-height: 30px;
     font-size: 20px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
 }
@@ -148,7 +148,7 @@ div.entry p.text {
     margin: 28px 0;
     line-height: 28px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
 
@@ -156,7 +156,7 @@ div.entry p.bold {
     margin: 28px 0;
     line-height: 28px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
 
@@ -166,7 +166,7 @@ div.entry p.dot {
     padding-left: 20px;
     line-height: 28px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
 
@@ -182,7 +182,7 @@ div.entry p.title {
     margin: 84px 0 28px;
     line-height: 28px;
     font-size: 24px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
 
@@ -191,7 +191,7 @@ div.entry .bold {
 }
 
 div.entry .semibold {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 div.entry h4 {
@@ -224,7 +224,7 @@ div.entry img {
 div.entry a.link {
     display: inline-block;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fa5a1c;
     text-decoration: none;
 }
@@ -252,7 +252,7 @@ div.entry a.link:hover {
 .next h3 {
     line-height: 60px;
     font-size: 42px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
 }
@@ -284,7 +284,7 @@ div.entry a.link:hover {
     padding: 30px 0 20px;
     line-height: 30px;
     font-size: 14px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fa5a1c;
 }
 
@@ -302,7 +302,7 @@ div.entry a.link:hover {
     display: block;
     line-height: 36px;
     font-size: 22px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-decoration: none;
 }
@@ -312,7 +312,7 @@ div.entry a.link:hover {
     max-height: 108px;
     line-height: 36px;
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     overflow: hidden;
 }
@@ -320,7 +320,7 @@ div.entry a.link:hover {
 .next div.item p.author {
     line-height: 30px;
     font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     display: none;
 }
@@ -333,12 +333,12 @@ div.entry a.link:hover {
 
 p {
     margin: 10px auto;
-    font: 18px/28px 'Work Sans', sans-serif;
+    font: 18px/28px 'Montserrat', sans-serif;
     color: #000;
 }
 
 h2 {
-    font: 25px/28px 'Work Sans', sans-serif;
+    font: 25px/28px 'Montserrat', sans-serif;
 }
 
 ul,
@@ -348,7 +348,7 @@ ol {
 
 ul li,
 ol li {
-    font: 17px/24px 'Work Sans', sans-serif;
+    font: 17px/24px 'Montserrat', sans-serif;
 }
 
 
@@ -378,7 +378,7 @@ ol li {
 }
 
 .look .related>* {
-    font: 18px/28px "Work Sans", sans-serif;
+    font: 18px/28px "Montserrat", sans-serif;
 }
 
 .look .related span {
@@ -460,7 +460,7 @@ ol li {
 }
 
 .name-info h2 {
-    font: 22px/28px 'Work Sans', sans-serif;
+    font: 22px/28px 'Montserrat', sans-serif;
     color: #fff;
     display: inline-block;
     margin-top: 30px;
@@ -474,7 +474,7 @@ ol li {
 }
 
 .desc-info p {
-    font: 18px/28px 'Work Sans', sans-serif;
+    font: 18px/28px 'Montserrat', sans-serif;
     color: #fff;
 }
 
@@ -580,7 +580,7 @@ ol li {
     padding: 20px 0 10px;
     line-height: 60px;
     font-size: 50px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     text-align: center;
 }
