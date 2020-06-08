@@ -77,7 +77,7 @@ echo $this->render("_categories", $data);
             margin-right: 0px;
         }
         .right-part .info {
-            font-weight: 500;
+            font-weight: 600;
             font-size: 12px;
             line-height: 18px;
             color: #80899D;
@@ -106,8 +106,8 @@ echo $this->render("_categories", $data);
             left: -1px;
         }
         .right-part .name {
-            font-weight: 500;
-            font-size: 24px;
+            font-weight: 700;
+            font-size: 22px;
             line-height: 34px;
             margin-bottom: 15px;
         }
