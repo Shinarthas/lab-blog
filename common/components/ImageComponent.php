@@ -82,8 +82,10 @@ class ImageComponent extends Component
 
             return 'cache/img/'.$dir.'/'.$width.'x'.$height.'_'.$image;
         }else{
+
             $image = 'placeholder.jpg';
             $dir='';
+
             Image::thumbnail($this->privateFileDir.$dir.'/'.$image, $width, $height)
                 ->save(Yii::getAlias($this->publicCacheDir.$dir.'/'.$width.'x'.$height.'_'.$image), ['quality' => 90]);
 

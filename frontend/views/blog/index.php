@@ -196,6 +196,7 @@ echo $this->render("_categories", $data);
             }
         }
       </style>
+
 <div class="container" style="padding: 70px 0;">
         <div class="row" style="margin: 0;">
             <div class="col-xl-1"></div>

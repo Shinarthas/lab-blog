@@ -19,7 +19,8 @@ use common\models\ServicesCategory;
 class SitemapController extends Controller
 {
 
-    public function behaviors() {
+    public function behaviors()
+    {
         return [
             'access' => [
                 'class' => \yii\filters\AccessControl::className(),
@@ -35,16 +36,16 @@ class SitemapController extends Controller
 
     public function actionIndex()
     {
-        $site_map_file =  Yii::getAlias('@frontend').'/web/sitemap.xml';
-        $xml= simplexml_load_file($site_map_file);
+        $site_map_file = Yii::getAlias('@frontend') . '/web/sitemap.xml';
+        $xml = simplexml_load_file($site_map_file);
         $count = count($xml->url);
-        $data=[
-            'count'=>$count,
-            'date'=>filemtime($site_map_file),
+        $data = [
+            'count' => $count,
+            'date' => filemtime($site_map_file),
         ];
 
 
-        return $this->render('index',['data'=>$data,'xml'=>$xml]);
+        return $this->render('index', ['data' => $data, 'xml' => $xml]);
     }
 
     public function actionSaveSiteMap()
@@ -55,40 +56,43 @@ class SitemapController extends Controller
         <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">';
 
         $services = '';
-        foreach(ServicesCategory::find()->with(['services'])->all() as $category)
-        {   $url = 'https://lab3m.com/'.$category->url;
-                    $url_ru='https://lab3m.com/'.$category->url;
-                    $url_en='https://lab3m.com/en/'.$category->url;
-                    $priority = "0.60";
-			
-			$services.= '<url>
-						<loc>'.$url.'</loc>
+        foreach (ServicesCategory::find()->with(['services'])->all() as $category) {
+            $url = 'https://lab3m.com/' . $category->url;
+            $url_ru = 'https://lab3m.com/' . $category->url;
+            $url_en = 'https://lab3m.com/en/' . $category->url;
+            $priority = "0.60";
+
+            $services .= '<url>
+						<loc>' . $url . '</loc>
 						<changefreq>daily</changefreq>
-						<priority>'.$priority.'</priority>
+						<priority>' . $priority . '</priority>
+						<link 
+                            rel="alternate"
+                            hreflang="en"
+                            href="' . $url_en . '" />
 
 					</url>';
-            foreach($category->services as $service)
-            {
+            foreach ($category->services as $service) {
                 //if($service->status == 0)
-                 //   continue;
-                if($service->seo_url != '')
-                {
-                    $url = 'https://lab3m.com/'.$category->url.'/'.$service->seo_url;
-                    $url_ru='https://lab3m.com/'.$category->url.'/'.$service->seo_url;
-                    $url_en='https://lab3m.com/en/'.$category->url.'/'.$service->seo_url;
+                //   continue;
+                if ($service->seo_url != '') {
+                    $url = 'https://lab3m.com/' . $category->url . '/' . $service->seo_url;
+                    $url_ru = 'https://lab3m.com/' . $category->url . '/' . $service->seo_url;
+                    $url_en = 'https://lab3m.com/en/' . $category->url . '/' . $service->seo_url;
                     $priority = "0.60";
-                }
-                else
-                {
-                    $url = 'https://lab3m.com/'.$category->url;
+                } else {
+                    $url = 'https://lab3m.com/' . $category->url;
                     $priority = "0.51";
                 }
 
-                $services.= '<url>
-						<loc>'.$url.'</loc>
+                $services .= '<url>
+						<loc>' . $url . '</loc>
 						<changefreq>daily</changefreq>
-						<priority>'.$priority.'</priority>
-
+						<priority>' . $priority . '</priority>
+                          <link 
+                            rel="alternate"
+                            hreflang="en"
+                            href="' . $url_en . '" />
 					</url>';
             }
         }
@@ -97,98 +101,140 @@ class SitemapController extends Controller
         <loc>https://lab3m.com/</loc>
         <changefreq>daily</changefreq>
         <priority>1.00</priority>
+        <link 
+                            rel="alternate"
+                            hreflang="en"
+                            href="https://lab3m.com/en" />
 
     </url>
     <url>
         <loc>https://lab3m.com/about</loc>
         <changefreq>daily</changefreq>
         <priority>0.80</priority>
-
+        <link 
+                            rel="alternate"
+                            hreflang="en"
+                            href="https://lab3m.com/en/about" />
     </url>
     <url>
         <loc>https://lab3m.com/solutions</loc>
         <changefreq>daily</changefreq>
         <priority>0.80</priority>
+                <link 
+                            rel="alternate"
+                            hreflang="en"
+                            href="https://lab3m.com/en/solutions" />
 
     </url>
     <url>
         <loc>https://lab3m.com/trade3m</loc>
         <changefreq>daily</changefreq>
         <priority>0.80</priority>
+                        <link 
+                            rel="alternate"
+                            hreflang="en"
+                            href="https://lab3m.com/en/trade3m" />
 
     </url>
     <url>
         <loc>https://lab3m.com/exchangebiki</loc>
         <changefreq>daily</changefreq>
         <priority>0.80</priority>
+         <link 
+                            rel="alternate"
+                            hreflang="en"
+                            href="https://lab3m.com/en/exchangebiki" />
 
     </url>
     <url>
         <loc>https://lab3m.com/contacts</loc> 
         <changefreq>daily</changefreq>
         <priority>0.40</priority>
+                 <link 
+                            rel="alternate"
+                            hreflang="en"
+                            href="https://lab3m.com/en/contacts" />
 
     </url>
     <url>
         <loc>https://lab3m.com/terms</loc>
         <changefreq>daily</changefreq>
         <priority>0.40</priority>
+                         <link 
+                            rel="alternate"
+                            hreflang="en"
+                            href="https://lab3m.com/en/terms" />
 
     </url>
     <url>
         <loc>https://lab3m.com/cookies</loc>
         <changefreq>daily</changefreq>
         <priority>0.40</priority>
-
+                         <link 
+                            rel="alternate"
+                            hreflang="en"
+                            href="https://lab3m.com/en/cookies" />
     </url>
     <url>
         <loc>https://lab3m.com/privacy</loc>
         <changefreq>daily</changefreq>
         <priority>0.40</priority>
-
+                         <link 
+                            rel="alternate"
+                            hreflang="en"
+                            href="https://lab3m.com/en/privacy" />
     </url>
 
     <url>
         <loc>https://lab3m.com/blog</loc>
         <changefreq>daily</changefreq>
         <priority>0.80</priority>
-
-    </url>';
+                         <link 
+                            rel="alternate"
+                            hreflang="en"
+                            href="https://lab3m.com/en/blog" />
+    </url>
+    
+    ';
 
         $footer = '</urlset>';
 
         $models = Post::find()
-            ->select([Post::tableName().'.seo_url'])
-            ->where(['status'=>Post::POST_ACTIVE])
-            ->andWhere(Post::tableName().'.date_published < '.time())
-            ->orderBy([Post::tableName().'.date_published'=>SORT_ASC])
+            ->select([Post::tableName() . '.seo_url'])
+            ->where(['status' => Post::POST_ACTIVE])
+            ->andWhere(Post::tableName() . '.date_published < ' . time())
+            ->orderBy([Post::tableName() . '.date_published' => SORT_ASC])
             ->all();
-        $count  = count($models);
-        $i=1;
+        $count = count($models);
+        $i = 1;
 
-        $body.=$header;
-        $body.=$main_pages;
+        $body .= $header;
+        $body .= $main_pages;
 
-        foreach ($models as $model){
-            $url_ru='https://lab3m.com//'.$model->seo_url;
-            $url_en='https://lab3m.com/en/'.$model->seo_url;
-            $temp='
+        foreach ($models as $model) {
+            $url_ru = 'https://lab3m.com//' . $model->seo_url;
+            $url_en = 'https://lab3m.com/en/' . $model->seo_url;
+            $temp = '
     <url>
-        <loc>https://lab3m.com/'.$model->seo_url.'</loc>
+        <loc>https://lab3m.com/' . $model->seo_url . '</loc>
         <changefreq>daily</changefreq>
-        <priority>'.(($i/$count<0.5) ? '0.5' : number_format(round($i/$count,1),2,'.','')).'</priority>
+        <priority>' . (($i / $count < 0.5) ? '0.5' : number_format(round($i / $count, 1), 2, '.', '')) . '</priority>
+        <link 
+                            rel="alternate"
+                            hreflang="en"
+                            href="'.$url_en.'" />
 
     </url>';
-            $body.=$temp;
+            $body .= $temp;
             $i++;
         }
 
-        $body.=$services;
-        $body.=$footer;
+        $body .= $services;
+        $body .= $footer;
 
-        $site_map_file =  Yii::getAlias('@frontend').'/web/sitemap.xml';
+        $site_map_file = Yii::getAlias('@frontend') . '/web/sitemap.xml';
 
-        file_put_contents($site_map_file,$body);
+        file_put_contents($site_map_file, $body);
 
         $this->redirect('/sitemap/index');
 

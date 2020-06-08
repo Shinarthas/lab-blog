@@ -106,6 +106,7 @@ class BlogController extends Controller
             $select_category = PostCategory::find()->where(['name'=>$select_category])->one();
         }
         if(Yii::$app->language=='en'){
+
             if(isset($select_category) && !empty($select_category)){
                 //die();
                 $model = Post::find()
@@ -122,6 +123,9 @@ class BlogController extends Controller
                 ->andWhere(Post::tableName().'.date_published < '.time())
 				//->joinWith('category-name')
                 ->orderBy([Post::tableName().'.date_published'=>SORT_DESC]);
+
+
+
             }
 
         }else{
