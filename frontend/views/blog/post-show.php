@@ -162,6 +162,7 @@ foreach ($lang_list as $lang_item)
         margin: 20px 0px !important;
     }
     .block-article .content-article h2 {
+        text-align: center;
         font-weight: 600;
         font-size: 35px;
         line-height: 46px;
