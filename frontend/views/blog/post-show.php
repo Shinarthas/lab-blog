@@ -62,16 +62,16 @@ foreach ($lang_list as $lang_item)
 
 <style>
 
-    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
     html, body{
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat', sans-serif!important;
     }
     a, a:hover, a:active, a:focus {
         text-decoration: none;
         transition: 150ms;
     }
     .block-article *{
-        font-family: 'Poppins', sans-serif !important;
+        font-family: 'Montserrat', sans-serif!important;
     }
 
 .content-article h1,
