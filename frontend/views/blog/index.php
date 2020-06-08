@@ -77,10 +77,10 @@ echo $this->render("_categories", $data);
             margin-right: 0px;
         }
         .right-part .info {
-            font-weight: 500;
+            font-weight: 600;
             font-size: 12px;
             line-height: 18px;
-            color: #80899D;
+            color: #5e6472;
             margin-bottom: 15px;
             height: 18px;
         }
@@ -106,8 +106,8 @@ echo $this->render("_categories", $data);
             left: -1px;
         }
         .right-part .name {
-            font-weight: 500;
-            font-size: 24px;
+            font-weight: 700;
+            font-size: 22px;
             line-height: 34px;
             margin-bottom: 15px;
         }
@@ -118,7 +118,7 @@ echo $this->render("_categories", $data);
         .right-part .desc {
             font-size: 14px;
             line-height: 24px;
-            color: #80899D;
+            color: #5e6472;
             margin-bottom: 20px;
         }
         .right-part .go-to-article a {
@@ -133,6 +133,9 @@ echo $this->render("_categories", $data);
         }
         .head{
             background: #151515;
+        }
+        .articles .one-article .right-part .name a:hover {
+            opacity: 0.75;
         }
         @media (min-width: 576px){
             .container {
@@ -196,8 +199,16 @@ echo $this->render("_categories", $data);
             }
         }
       </style>
-
-<div class="container" style="padding: 70px 0;">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <style>
+      .news-block-art{
+        font-family: 'Montserrat', sans-serif!important;
+      }
+      body{
+        font-weight: 500;
+      }
+      </style>
+<div class="container news-block-art" style="padding: 70px 0;">
         <div class="row" style="margin: 0;">
             <div class="col-xl-1"></div>
             <div class="col-xl-10 col-lg-12">
