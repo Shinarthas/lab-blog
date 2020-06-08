@@ -119,7 +119,7 @@ foreach ($lang_list as $lang_item)
         font-weight: 500;
         font-size: 14px;
         line-height: 24px;
-        color: #80899D;
+        color: #5e6472;
         margin-bottom: 40px;
         height: 24px;
     }
@@ -213,6 +213,12 @@ foreach ($lang_list as $lang_item)
     }
 
 </style>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <style>
+      .block-article{
+        font-family: 'Montserrat', sans-serif!important;
+      }
+      </style>
 <div id="fb-root"></div>
 <script>
     (function(d, s, id) {
