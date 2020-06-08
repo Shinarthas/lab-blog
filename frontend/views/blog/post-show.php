@@ -297,7 +297,9 @@ foreach ($lang_list as $lang_item)
                             <div class="content-article">
                                 <?=$model->content?>
                                 <?=Yii::t('app','lab_team')?>
+                                <a target="_blank" href="/contacts">
                                 <?=Yii::t('app','lab_cont')?>
+                                </a>
                             </div>
                         </div>
                     </div>
