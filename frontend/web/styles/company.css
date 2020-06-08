@@ -104,7 +104,8 @@
  }
  
  #company .wwd-item img {
-     margin-top: 15px;
+     margin-top: 0px;
+     width: 150px;
  }
  
  #company .what_we_do .wwd-item:before {
@@ -185,7 +186,7 @@
          padding: 46px 15px 29px;
      }
      #company .wwd-item img {
-         margin: 36px auto 0;
+         margin: 0px auto 0;
      }
  }
  

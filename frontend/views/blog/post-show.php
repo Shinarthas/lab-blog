@@ -2,10 +2,6 @@
 use yii\helpers\Url;
 use common\models\Lang;
 
-/*$this->registerCssFile("/styles/bootstrap.min.css");*/
-/*$this->registerCssFile("/styles/app.min.css");*/
-/*$this->registerCssFile("/styles/blog-random.css");*/
-/*$this->registerCssFile("/styles/blog-post.css");*/
 
 $url = $model->seo_url;
 if(strlen($model->h1) == 0)
@@ -185,6 +181,10 @@ foreach ($lang_list as $lang_item)
     .block-article .content-article figure img {
         max-width: 100%;
     }
+    .content-article img{
+        max-width: 100%;
+        height: auto;
+    }
     @media (max-width: 767.98px){
         .block-article .name-article {
             font-size: 24px;
@@ -325,9 +325,7 @@ foreach ($lang_list as $lang_item)
         <img data-src="/images/contacts/close.popup.svg" alt="close">
     </div>
 <!-- <link rel="stylesheet" href="/styles/home.min.css"> -->
-<script>var ms=document.createElement("link");ms.rel="stylesheet";
-ms.href="/styles/blog-post.css?v=1.1";document.getElementsByTagName("head")[0].appendChild(ms);
-</script>
+
 <script>var scr = {"scripts":[
     {"src" : "/scripts/jquery-1.12.4.min.js", "async" : false},
     {"src" : "/scripts/scrolling.js", "async" : false},

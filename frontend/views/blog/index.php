@@ -4,7 +4,6 @@ use common\models\Img;
 use frontend\widgets\BlogLinkPager;
 use yii\helpers\Html;
 
-$this->registerCssFile("/styles/blog-post.css");
 
 $this->params['breadcrumbs'][] = array(
     'label'=> Yii::t('app','text_header_blog'),

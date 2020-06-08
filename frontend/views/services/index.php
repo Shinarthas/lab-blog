@@ -175,8 +175,8 @@ body{
             <div class="row info text-center">
                 <?= Yii::t('app', 'services_block0') ?>
 <?php foreach ($services as $service){ ?>
-    <div class="row wwd-item">
-        <a href="<?=Url::to(['blog/show-post','id'=>$service['url'],'language'=>Yii::$app->language])?>" class="info">
+    <div class="row col-12 wwd-item" style="margin: 0;">
+        <a href="<?=Url::to(['blog/show-post','id'=>$service['url'],'language'=>Yii::$app->language])?>" class="info" style="width: 100%;">
         <div class="text-center col-12 col-md-12 col-lg-4">
             <img class="img-fluid" data-src="<?=$service['image']?>" alt="phone">
         </div>

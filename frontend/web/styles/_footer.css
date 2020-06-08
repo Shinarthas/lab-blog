@@ -1,5 +1,4 @@
 /**/
-
 .footer {
     border-top: 1px solid #151515;
     position: relative;
@@ -169,6 +168,7 @@
     padding: 0 20px;
     margin-bottom: 40px;
     margin-top: 15px;
+}
      ::-webkit-input-placeholder {
         color: #a99689;
     }
@@ -183,7 +183,6 @@
      :-ms-input-placeholder {
         color: #a99689;
     }
-}
 
 .contactPopupMessage .sub {
     border-radius: 30px;

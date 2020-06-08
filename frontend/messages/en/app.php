@@ -180,18 +180,18 @@ color: #FFFFFF;" >Send</a>
     'downloader_block'=>'<div class="downloader" style="margin-bottom: 0;background: #151515;">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <!--<div class="col-sm-6">
                 <div class="dload">
                     <p>Our Presentation</p>
                     <span>PDF format size of 0.2 Mb</span>
                     <a class="targ" target="_blank" href="#">Download</a>
                 </div>
-            </div>
-            <div class="col-sm-6">
+            </div>-->
+            <div class="col-12 col-sm-6 offset-sm-3">
                 <div class="dload">
                     <p>Our Process</p>
                     <span>PDF format size of 0.1 Mb</span>
-                    <a class="targ" target="_blank" href="#">Download</a>
+                    <a itemprop="downloadUrl" class="targ" target="_blank" href="#">Download</a>
                 </div>
             </div>
         </div>
@@ -417,9 +417,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><div style="margin-right: 10px;ba
                 <div class=\"col-md-12 text-center\">
                     <p>
                         &copy;
-                        <script>
-                            document.write(new Date().getFullYear());
-                        </script>- Lab3M. All rights reserved
+                        2020 - Lab3M. All rights reserved
                     </p>
                 </div>
             </div>",

@@ -200,9 +200,7 @@ return [
                 <div class=\"col-md-12 text-center\">
                     <p>
                         &copy;
-                        <script>
-                            document.write(new Date().getFullYear());
-                        </script>- Lab3M. All rights reserved
+                        2020 - Lab3M. All rights reserved
                     </p>
                 </div>
             </div>",
@@ -385,18 +383,18 @@ color: #FFFFFF;" >Отправить</a>
 'downloader_block'=>'<div class="downloader" style="margin-bottom: 0;background: #151515;">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <!--<div class="col-sm-6">
                 <div class="dload">
                     <p>Наша презентация</p>
                     <span>PDF формат, размером 0.2 Мб</span>
                     <a class="targ" target="_blank" href="#">Скачать</a>
                 </div>
-            </div>
-            <div class="col-sm-6">
+            </div>-->
+            <div class="col-12 col-sm-6 offset-sm-3">
                 <div class="dload">
                     <p>Наш процесс</p>
                     <span>PDF формат, размером 0.1 Мб</span>
-                    <a class="targ" target="_blank" href="#">Скачать</a>
+                    <a itemprop="downloadUrl" class="targ" target="_blank" href="#">Скачать</a>
                 </div>
             </div>
         </div>
