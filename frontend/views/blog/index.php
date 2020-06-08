@@ -196,7 +196,13 @@ echo $this->render("_categories", $data);
             }
         }
       </style>
-<div class="container" style="padding: 70px 0;">
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <style>
+      .news-block-art{
+        font-family: 'Rubik', sans-serif !important;
+      }
+      </style>
+<div class="container news-block-art" style="padding: 70px 0;">
         <div class="row" style="margin: 0;">
             <div class="col-xl-1"></div>
             <div class="col-xl-10 col-lg-12">
