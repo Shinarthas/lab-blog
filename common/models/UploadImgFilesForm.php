@@ -20,7 +20,7 @@ class UploadImgFilesForm extends Model
     public function rules()
     {
         return [
-            [['imageFiles'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg, jpeg,gif', 'maxFiles' => 10],
+            [['imageFiles'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg, jpeg, gif, apng', 'maxFiles' => 10],
         ];
     }
 

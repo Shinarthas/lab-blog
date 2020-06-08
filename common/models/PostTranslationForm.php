@@ -39,7 +39,7 @@ class PostTranslationForm extends Model
             ['h1', 'string','max'=>255],
             ['title', 'string'],
             ['meta_desc', 'string'],
-            [['imageFile'],'file', 'skipOnEmpty' => true, 'extensions' => 'png, jpg, jpeg'],
+            [['imageFile'],'file', 'skipOnEmpty' => true, 'extensions' => 'png, jpg, jpeg, gif, apng'],
             ['content_preview', 'string'],
             ['content', 'string'],
         ];

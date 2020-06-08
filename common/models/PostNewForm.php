@@ -61,7 +61,7 @@ class PostNewForm extends Model
             [['status','status_second','unique_percent','smm_1','smm_2','smm_3','smm_4'],'integer'],
             ['seo_url','validateSeoUrl'],
             ['date_published', 'date', 'message' => '{attribute}: Не валидная дата!', 'format' => 'php:'.Post::POST_PHP_DATE_FORMAT],
-            [['imageFile'],'file', 'skipOnEmpty' => true, 'extensions' => 'png, jpg, jpeg'],
+            [['imageFile'],'file', 'skipOnEmpty' => true, 'extensions' => 'png, jpg, jpeg, gif, apng'],
             //[['video'],'file', 'skipOnEmpty' => true,],
             ['imageFile', 'required', 'when' => function($model) {
                 if($model->status == Post::POST_ACTIVE && empty($this->_image))

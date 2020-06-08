@@ -74,6 +74,9 @@ foreach ($lang_list as $lang_item)
         text-decoration: none;
         transition: 150ms;
     }
+    .block-article *{
+        font-family: 'Poppins', sans-serif !important;
+    }
 
 .content-article h1,
 .content-article h2,
@@ -157,7 +160,7 @@ foreach ($lang_list as $lang_item)
     }
     .block-article .content-article p {
         font-weight: 400;
-        font-size: 17px;
+        font-size: 16px;
         line-height: 30px;
         color: #495057;
         margin: 20px 0px !important;

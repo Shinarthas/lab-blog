@@ -106,17 +106,48 @@ class SitemapController extends Controller
 
     </url>
     <url>
-        <loc>https://lab3m.com/contacts</loc>
+        <loc>https://lab3m.com/solutions</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.80</priority>
+
+    </url>
+    <url>
+        <loc>https://lab3m.com/trade3m</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.80</priority>
+
+    </url>
+    <url>
+        <loc>https://lab3m.com/exchangebiki</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.80</priority>
+
+    </url>
+    <url>
+        <loc>https://lab3m.com/contacts</loc> 
         <changefreq>daily</changefreq>
         <priority>0.40</priority>
 
     </url>
     <url>
-        <loc>https://lab3m.com/solutions/trade3m</loc>
+        <loc>https://lab3m.com/terms</loc>
         <changefreq>daily</changefreq>
-        <priority>0.80</priority>
+        <priority>0.40</priority>
 
     </url>
+    <url>
+        <loc>https://lab3m.com/cookies</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.40</priority>
+
+    </url>
+    <url>
+        <loc>https://lab3m.com/privacy</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.40</priority>
+
+    </url>
+
     <url>
         <loc>https://lab3m.com/blog</loc>
         <changefreq>daily</changefreq>

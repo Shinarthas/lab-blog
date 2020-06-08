@@ -62,7 +62,7 @@ class ImageComponent extends Component
                 if(!$this->checkDir($this->publicCacheDir.$dir.'/'.$width.'x'.$height.'_'.$image))
                 {
 
-                    if(strpos($image,'.gif')!==false){
+                    if(strpos($image,'.gif')!==false || strpos($image,'.apng')!==false){
 
                         copy($this->privateFileDir.$dir.'/'.$image, $this->publicCacheDir.$dir.'/'.$width.'x'.$height.'_'.$image);
 
