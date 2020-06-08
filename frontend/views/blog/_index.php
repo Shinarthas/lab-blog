@@ -25,7 +25,7 @@ use common\models\Img;
                                 <div class="read"><?= intval(strlen($model->content)/600/6 )+1 ?> <?=Yii::t('static','min')?></div>
                             </div>
                             <div class="name">
-                                <a href="<?=isset($_GET['language']) ? '/'.$lang->url : ''; ?>/<?=$model->seo_url?>">
+                                <a href="<?=Url::to(['blog/show-post','id'=>$model->seo_url,'language'=>Yii::$app->language])?>">
                                 <?=$model->title?>
                                 </a>
                             </div>
