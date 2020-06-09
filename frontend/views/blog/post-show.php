@@ -466,12 +466,6 @@ foreach ($lang_list as $lang_item)
                     </div>
                 </div>
                 <div class="row">
-                <div class="col-xl-1"></div>
-                <div class="col-xl-10 col-lg-12">
-                <h4 style="color: black"><?=Yii::t('app','related_post')?></h4>
-                </div>
-                </div>
-                <div class="row">
 
                     <?php foreach ($relatedPosts as $m) { ?>
                         <?php
@@ -482,8 +476,10 @@ foreach ($lang_list as $lang_item)
                             $model=$m->postTranslation;
                         }
                         ?>
-                        <div class="col-xl-1"></div>
-                        <div itemscope itemtype="http://schema.org/NewsArticle" class="col-xl-10 col-lg-12 articles">
+                        <div class="offset-xl-1 col-xl-10 col-lg-12">
+                        <h4 style="color: black"><?=Yii::t('app','related_post')?></h4>
+                        </div>
+                        <div itemscope itemtype="http://schema.org/NewsArticle" class="offset-xl-1 col-xl-10 col-lg-12 articles">
                             <div class="one-article">
                                 <div class="left-part">
                                     <a href="<?=Url::to(['blog/show-post','id'=>$model->seo_url,'language'=>Yii::$app->language])?>">
