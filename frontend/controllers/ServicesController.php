@@ -159,7 +159,6 @@ class ServicesController extends Controller
     public function actionShowDbService($category)
     {
 
-        //echo "Aaaa"; die();
         $selected_category = Services::find()
             ->select('*')
             ->where([Services::tableName().'.seo_url'=>$category])

@@ -52,7 +52,7 @@ $this->params['breadcrumbs'][] = array(
 );
 $this->params['breadcrumbs'][] = array(
     'label'=> Yii::t('app',$model['title']),
-    'url'=>Url::to(['blog/show-post','id'=>$model['url'],'language'=>Yii::$app->language])
+    'url'=>\yii\helpers\Url::to(['blog/show-post','id'=>$service_category['url'],'language'=>Yii::$app->language]).'/'.$model['seo_url']
 );
 
 ?>
