@@ -21,7 +21,7 @@ class ServicesController extends Controller
         $this->view->registerLinkTag([
             'rel' => 'image_src',
             'type' => 'image/png',
-            'href' => '/images/preview.png',
+            'href' => '/images/preview.gif',
         ],'image_src');
 
 
