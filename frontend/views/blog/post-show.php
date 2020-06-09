@@ -314,6 +314,167 @@ foreach ($lang_list as $lang_item)
     }
 }
 </style>
+<style>
+        label, a, button {
+            user-select: none;
+            outline: none !important;
+        }
+        a, a:hover, a:active, a:focus {
+            text-decoration: none;
+            transition: 150ms;
+        }
+        .title1{
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 55px;
+        margin-bottom: 50px;
+        color: #3E4555;
+        text-align: center;
+        }
+        .one-article{
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+        }
+        .one-article .left-part {
+            min-width: 470px;
+            width: 470px;
+            margin-right: 50px;
+        }
+        .left-part img {
+            border-radius: 25px;
+            width: 100%;
+        }
+        img {
+            vertical-align: middle;
+            border-style: none;
+        }
+        .articles .one-article .right-part {
+            margin-right: 0px;
+        }
+        .right-part .info {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            color: #5e6472;
+            margin-bottom: 15px;
+            height: 18px;
+        }
+        .info .date {
+            float: left;
+            margin-right: 10px;
+        }
+        .info .read {
+            float: left;
+            padding-left: 10px;
+            position: relative;
+        }
+        .info .read:before {
+            content: "";
+            display: block;
+            float: left;
+            width: 4px;
+            height: 4px;
+            background: #8F97AB;
+            border-radius: 2px;
+            position: absolute;
+            top: 7px;
+            left: -1px;
+        }
+        .right-part .name {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 34px;
+            margin-bottom: 15px;
+        }
+        .right-part .name a {
+            color: #3E4555;
+            transition: 150ms;
+        }
+        .right-part .desc {
+            font-size: 14px;
+            line-height: 24px;
+            color: #5e6472;
+            margin-bottom: 20px;
+        }
+        .right-part .go-to-article a {
+            font-weight: 700;
+            cursor: pointer;
+            color: #6927ff;
+            transition: 150ms;
+            font-size: 14px;
+        }
+        .siteWrapper{
+            background-color: white;
+        }
+        .head{
+            background: #151515;
+        }
+        .articles .one-article .right-part .name a:hover {
+            opacity: 0.75;
+        }
+        @media (min-width: 576px){
+            .container {
+                max-width: 540px!important;
+            }
+        }
+        @media (min-width: 768px){
+            .container {
+                max-width: 720px!important;
+            }
+        }
+        @media (min-width: 992px){
+            .container {
+                max-width: 960px!important;
+            }
+        }
+        @media (min-width: 1200px){
+            .container {
+                max-width: 1140px!important;
+            }
+        }
+
+        @media (max-width: 991.98px) and (min-width: 768px){
+            .one-article .left-part {
+            min-width: 320px;
+            width: 320px;
+            margin-right: 30px;
+            }
+            .right-part .name {
+                font-size: 18px;
+                line-height: 28px;
+                margin-bottom: 10px;
+            }
+            .right-part .desc {
+                font-size: 12px;
+                line-height: 20px;
+                margin-bottom: 15px;
+            }
+        }
+        @media (max-width: 767.98px){
+            .title1 {
+                font-size: 28px;
+                line-height: 40px;
+            }
+            .one-article {
+                display: block;
+                width: 290px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 50px;
+            }
+            .one-article .left-part {
+            min-width: 100%;
+            width: 100%;
+            margin-right: 0px;
+            margin-bottom: 30px;
+            }
+            .right-part .name {
+                font-size: 20px;
+                line-height: 28px;
+            }
+        }
+      </style>
       <style>
       .block-article{
         font-family: 'Montserrat', sans-serif!important;
@@ -382,7 +543,6 @@ foreach ($lang_list as $lang_item)
                         </div>
                     </div>
                 </div>
-                <h4 style="color: black"><?=Yii::t('app','related_post')?></h4>
                 <div class="row">
 
                     <?php foreach ($relatedPosts as $m) { ?>
@@ -394,7 +554,10 @@ foreach ($lang_list as $lang_item)
                             $model=$m->postTranslation;
                         }
                         ?>
-                        <div itemscope itemtype="http://schema.org/NewsArticle" class="articles">
+                        <div class="offset-xl-1 col-xl-10 col-lg-12">
+                        <h4 style="color: black"><?=Yii::t('app','related_post')?></h4>
+                        </div>
+                        <div itemscope itemtype="http://schema.org/NewsArticle" class="offset-xl-1 col-xl-10 col-lg-12 articles">
                             <div class="one-article">
                                 <div class="left-part">
                                     <a href="<?=Url::to(['blog/show-post','id'=>$model->seo_url,'language'=>Yii::$app->language])?>">
