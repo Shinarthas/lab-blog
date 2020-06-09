@@ -1,0 +1,48 @@
+[_ngcontent-my-app-c5] * {
+    font-weight: 400;
+    font-style: normal;
+    color: #282d3b;
+}
+
+[_nghost-my-app-c13] {
+    margin-bottom: 40px;
+    display: block;
+}
+.key-moment[_ngcontent-my-app-c13] {
+    padding: 40px 32px;
+    display: flex;
+    align-items: center;
+    align-content: start;
+    background: #f8f8f8;
+    height: auto;
+    border-radius: 3px;
+}
+
+.sign[_ngcontent-my-app-c13] {
+    flex-shrink: 0;
+    flex-basis: 90px;
+    font-size: 51px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    border-radius: 90px;
+    background: #6927FF;
+    align-self: flex-start;
+}
+.text {
+    flex: 1 0;
+    margin-left: 25px;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: .1px;
+}
+[_ngcontent-my-app-c5] a {
+    color: #6927FF;
+}
+[_ngcontent-my-app-c5] a:hover {
+    color: #51a9ff;
+    text-decoration: none;
+}

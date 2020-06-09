@@ -234,7 +234,85 @@ foreach ($lang_list as $lang_item)
             margin: 20px 0px !important;
         }
     }
+._ngcontent-my-app-c5 * {
+    font-weight: 400;
+    font-style: normal;
+    color: #282d3b;
+}
 
+._nghost-my-app-c13 {
+    margin-bottom: 40px;
+    display: block;
+}
+.key-moment {
+    padding: 40px 32px;
+    display: flex;
+    align-items: center;
+    align-content: start;
+    background: #f8f8f8;
+    height: auto;
+    border-radius: 3px;
+}
+
+._ngcontent-my-app-c5 .sign {
+    flex-shrink: 0;
+    flex-basis: 90px;
+    font-size: 51px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    border-radius: 90px;
+    background: #6927FF;
+    align-self: flex-start;
+}
+._ngcontent-my-app-c5 .text {
+    flex: 1 0;
+    margin-left: 25px;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: .1px;
+}
+._ngcontent-my-app-c5 a {
+    color: #6927FF;
+}
+._ngcontent-my-app-c5 a:hover {
+    color: #51a9ff;
+    text-decoration: none;
+}
+._ngcontent-my-app-c5 .text p{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 520px){
+    .key-moment {
+        padding: 20px 20px 0;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    ._ngcontent-my-app-c5 .sign {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        line-height: 45px;
+        flex-basis: auto;
+        font-size: 20px;
+        height: 45px;
+        width: 45px;
+        align-self: flex-start;
+    }
+    ._ngcontent-my-app-c5 .text {
+        margin-left: 0;
+        margin-top: -5px;
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 900px){
+    ._ngcontent-my-app-c5 .text {
+        margin-right: 20px;
+    }
+}
 </style>
       <style>
       .block-article{
