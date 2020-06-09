@@ -627,4 +627,5 @@ color: #FFFFFF;" >Отправить</a>
 </video>',
 'lab_team' => '<p>С наилучшими пожеланиями,<br>Команда <a href="https://lab3m.com/">Lab3M</a></p>',
 'lab_cont' => '<img data-src="/images/cont-ru.gif" alt="contact-button-ru">',
+    'related_post'=>'Похожие статьи:',
 ];

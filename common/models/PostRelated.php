@@ -10,6 +10,7 @@ namespace common\models;
 
 
 use yii\db\ActiveRecord;
+use yii\helpers\ArrayHelper;
 
 class PostRelated extends ActiveRecord
 {
@@ -21,6 +22,7 @@ class PostRelated extends ActiveRecord
 
     public static function tableName()
     {
+
         return '{{%post_related}}';
     }
 
@@ -29,7 +31,7 @@ class PostRelated extends ActiveRecord
     }
 
     public function getPost(){
-        return $this->hasOne(Post::className(), ['id' => 'id_post_related'])->select([Post::tableName().'.title',Post::tableName().'.id']);
+        return $this->hasOne(Post::className(), ['id' => 'id_post_related']);
     }
 
     public function getPostTranslation(){
