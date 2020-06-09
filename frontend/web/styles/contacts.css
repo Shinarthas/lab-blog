@@ -660,10 +660,6 @@ div.buttonSic.w280:hover::after {
     margin: 40px 0;
 }
 
-.contacts div.attach:hover {
-    background-image: url('../images/contacts/attach.hover.svg');
-}
-
 .contacts div.attach input {
     position: absolute;
     top: 0;
