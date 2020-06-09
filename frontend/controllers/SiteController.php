@@ -14,12 +14,12 @@ class SiteController extends Controller
         $this->view->registerLinkTag([
             'rel' => 'image_src',
             'type' => 'image/png',
-            'href' => '/images/preview.png',
+            'href' => '/images/preview.gif',
         ],'image_src');
 
         $this->view->registerMetaTag([
             'property' => 'og:image',
-            'content' => 'https://lab3m.com/images/preview.png',
+            'content' => 'https://lab3m.com/images/preview.gif',
         ],'og_image');
 
 

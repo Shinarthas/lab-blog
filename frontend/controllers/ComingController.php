@@ -15,12 +15,12 @@ class ComingController extends Controller
         $this->view->registerLinkTag([
             'rel' => 'image_src',
             'type' => 'image/png',
-            'href' => '/images/preview.png',
+            'href' => '/images/preview.gif',
         ],'image_src');
 
         $this->view->registerMetaTag([
             'property' => 'og:image',
-            'content' => '/images/preview.png',
+            'content' => '/images/preview.gif',
         ],'og_image');
 
         $this->layout = 'coming';
