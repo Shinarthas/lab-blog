@@ -1,6 +1,7 @@
 <?php
 use yii\helpers\Url;
 use common\models\Lang;
+use common\models\Img;
 
 
 $url = $model->seo_url;

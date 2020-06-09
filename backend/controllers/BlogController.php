@@ -389,6 +389,9 @@ class BlogController extends Controller
 
     public function actionGetAutoCompleteCategory()
     {
+        ini_set('display_errors', 1);
+        ini_set('display_startup_errors', 1);
+        error_reporting(E_ALL);
             Yii::$app->response->format = 'json';
             $find_string =strip_tags(Yii::$app->request->post('search'));
             $model = PostCategory::find()->where(PostCategory::tableName().'.name  LIKE "%'.$find_string.'%"')->limit(5)->orderBy(['id'=>SORT_DESC])->all();

@@ -65,10 +65,12 @@ class ImgController extends Controller
 
     public function actionAjaxGetSmallImgList()
     {
+        set_time_limit(0);
         Yii::$app->response->format = 'json';
 
         //   if(Yii::$app->request->isAjax ) {
         $images = Img::find()->orderBy(['id' => SORT_DESC])->limit(100)->where(['>','date_create',strtotime("2020-01-01")])->all();
+
         $result = [];
 
         foreach ($images as $image)

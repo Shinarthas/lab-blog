@@ -46,9 +46,10 @@ class ImageComponent extends Component
     }
 
     public function getCacheImage($image,$dir,$width = 450,$height = 450,$noCrop = false)
-    { 
+    {
         if($this->checkDir($this->privateFileDir.$dir.'/'.$image))
         {
+
             if(empty($image))
             {
                 $image = 'placeholder.jpg';
@@ -83,11 +84,12 @@ class ImageComponent extends Component
             return 'cache/img/'.$dir.'/'.$width.'x'.$height.'_'.$image;
         }else{
 
+
             $image = 'placeholder.jpg';
             $dir='';
 
-            Image::thumbnail($this->privateFileDir.$dir.'/'.$image, $width, $height)
-                ->save(Yii::getAlias($this->publicCacheDir.$dir.'/'.$width.'x'.$height.'_'.$image), ['quality' => 90]);
+//            Image::thumbnail($this->privateFileDir.$dir.'/'.$image, $width, $height)
+//                ->save(Yii::getAlias($this->publicCacheDir.$dir.'/'.$width.'x'.$height.'_'.$image), ['quality' => 90]);
 
             return 'cache/img'.$dir.'/'.$width.'x'.$height.'_'.$image;
 
