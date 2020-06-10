@@ -3,6 +3,7 @@ namespace trader\controllers;
 
 use common\models\AccountBalance;
 use common\models\GlobalPair;
+use common\models\Order;
 use common\models\Strategy;
 use Yii;
 use yii\web\Controller;
@@ -81,11 +82,13 @@ class SiteController extends Controller
         foreach ($account_balances as $p){
             $account_balances_remapped[$p->account_id][strtotime($p->timestamp)]=$p;
         }
+        $orders=Order::find()->orderBy('id desc')->limit(100)->all();
 
         return $this->render('index',[
             'pairs'=>$pairs_remapped,
             'strategies'=>$strategies_remapped,
             'accounts'=>$account_balances_remapped,
+            'orders'=>$orders,
         ]);
     }
     /**

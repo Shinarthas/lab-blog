@@ -39,6 +39,7 @@ class TestController extends MainConsoleController
     }
 
     public function actionStrategy(){
+        $list=["BTC","ETH","XRP","DASH","BCH","LTC"];
         $st_names=["smart"=>"UA-2001","auto"=>"UA-2002"];
 
         $str=Strategy::find()->orderBy('created_at desc')->limit(1)->one();
@@ -72,12 +73,12 @@ class TestController extends MainConsoleController
 
                 $s=new Strategy();
                 $s->name=$at_name;
-                ECHO $percent_rating;
+                $orders=rand(1,3);
                 $s->balance=!empty($cur_str)?$cur_str->balance*$percent_rating:100000;
                 $s->profit+=!empty($cur_str)?$s->balance-$cur_str->balance:0;
                 $s->accounts=1;
                 $tmp_data=json_decode($cur_str->data,true);
-                $s->data=json_encode(['orders'=>$tmp_data['orders']+rand(1,3)]);
+                $s->data=json_encode(['orders'=>$tmp_data['orders']+$orders]);
                 $s->created_at=date("Y-m-d H:i:s",$time);
 
                 $s->save();
@@ -88,6 +89,27 @@ class TestController extends MainConsoleController
                 $ab->timestamp=date("Y-m-d H:i:s",$time);
                 $ab->total_margin=$s->balance*0.998;
                 $ab->save();
+
+                //создадим ордера
+                for($i=0;$i<$orders;$i++){
+                    $random_currency=$list[rand(0,count($list))];
+                    $ts=GlobalPair::find()->orderBy('created_at desc')
+                        ->andWhere(['currency'=>$random_currency])->limit(1)->one();
+                    $o=new Order();
+                    $o->currency_two=$o->sell;
+                    $o->account_id=$account_name;
+                    $o->sell=rand(0,1);
+                    $o->currency_one=$random_currency;
+
+
+                    $o->tokens_count=10000*random_float(0.5,1.5)/$ts->bid;
+                    $o->rate=$ts->bid;
+                    $o->start_rate=$ts->bid*random_float(0.95,1.1);
+                    $o->status=5;
+                    $o->time=$time;
+                    $o->save();
+
+                }
             }
         }
     }

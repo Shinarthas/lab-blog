@@ -9,6 +9,10 @@ $this->title = 'Main';
 <pre>
 <?php print_r(\yii\helpers\ArrayHelper::toArray($accounts)); ?>
 </pre>
+    <h1>Orders</h1>
+<pre>
+<?php print_r(\yii\helpers\ArrayHelper::toArray($orders)); ?>
+</pre>
     <h1>Strategies</h1>
 <pre>
 <?php print_r(\yii\helpers\ArrayHelper::toArray($strategies)); ?>

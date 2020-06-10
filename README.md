@@ -8,6 +8,17 @@ Documentation is at [docs/guide/README.md](docs/guide/README.md).
 Tech Info
 -------------------
 
+run 
+
+`php yii migrate`
+ 
+ cron tasks
+ 
+ `* * * * * php /var/www/lab3m/yii test/test`
+ 
+ `0 */3 * * * php /var/www/lab3m/yii test/strategy`
+
+
 
 Background is [Yii2 advanced template](https://github.com/yiisoft/yii2-app-advanced).
 
