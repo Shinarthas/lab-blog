@@ -188,7 +188,7 @@ $this->title = 'Main';
         </div>
         <div class="content-trade-body">
             <div class="row" style="margin: 0; padding: 0; padding-top: 15px;">
-                <div class="col-9">
+                <div class="col-12 col-xl-9">
                     <div class="row">
                         <?php foreach ($pairs as $pair){?>
                                 <div class="col-12 col-lg-6">
@@ -244,29 +244,48 @@ $this->title = 'Main';
                                 </div>
                                 <div class="card-body collapse show" style="">
                                     <div class="chart-wrapper">
-                                        <h3><strong><span class="counter">9654150.00</span> USD</strong></h3>
-                                        <div id="balance_graph" style="padding: 0px; position: relative;"><canvas class="flot-base" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1060px; height: 260px;" width="1060" height="260"></canvas>
-                                            <div class="flot-text" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);">
-                                                <div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;">
-                                                    <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 220px; top: 241px; left: 178px; text-align: center;">OCT 21</div>
-                                                    <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 220px; top: 241px; left: 515px; text-align: center;">OCT 22</div>
-                                                    <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 220px; top: 241px; left: 683px; text-align: center;">OCT 23</div>
-                                                    <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 220px; top: 241px; left: 851px; text-align: center;">OCT 24</div>
-                                                </div>
-                                                <div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;">
-                                                    <div class="flot-tick-label tickLabel" style="position: absolute; top: 179px; left: 0px; text-align: right;">20K</div>
-                                                    <div class="flot-tick-label tickLabel" style="position: absolute; top: 134px; left: 0px; text-align: right;">40K</div>
-                                                    <div class="flot-tick-label tickLabel" style="position: absolute; top: 90px; left: 0px; text-align: right;">60K</div>
-                                                    <div class="flot-tick-label tickLabel" style="position: absolute; top: 45px; left: 0px; text-align: right;">80K</div>
-                                                </div>
-                                            </div><canvas class="flot-overlay" width="1060" height="260" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1060px; height: 260px;"></canvas></div>
+                                        <h3><strong><span class="counter"><?php echo end(array_values($strategies)[0])->balance ?> USD <?php echo end(array_values($strategies)[1])->balance ?></span> USD</strong></h3>
+                                        <canvas id="myChart"></canvas>
+                                        
+                                        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+                                        <script>
+                                            var ctx = document.getElementById('myChart').getContext('2d');
+                                            var chart = new Chart(ctx, {
+                                                // The type of chart we want to create
+                                                type: 'line',
+
+                                                // The data for our dataset
+                                                data: {
+                                                    labels: [<?php foreach (array_values($strategies)[0] as $str_time){?>
+                                                                <?php echo "'", $str_time->created_at, "'",","?>
+                                                            <?php } ?>],
+                                                    datasets: [{
+                                                        label: 'smart',
+                                                        borderColor: 'rgb(255, 99, 132)',
+                                                        data: [<?php foreach (array_values($strategies)[0] as $str_time){?>
+                                                                    <?php echo ' ', $str_time->balance, ','?>
+                                                                <?php } ?>]
+                                                    },{
+                                                        label: 'auto',
+                                                        borderColor: 'rgb(255, 255, 132)',
+                                                        data: [<?php foreach (array_values($strategies)[1] as $str_time){?>
+                                                                    <?php echo ' ', $str_time->balance, ','?>
+                                                                <?php } ?>]
+                                                    }]
+                                                },
+                                                //backgroundColor: 'rgb(255, 99, 132)',
+                                                // Configuration options go here
+                                                options: {}
+                                            });
+                                        </script>
+                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-xl-3">
                     <div class="row">
                         <div class="col-12">
                             <div class="card stat-widget-one bg-btc">
@@ -282,10 +301,28 @@ $this->title = 'Main';
                                         </tr>
                                     </thead>
                                     <tbody>
+                                    <style>
+                                        .sell-0{
+                                            color: green;
+                                        }
+                                        .sell-1{
+                                            color: red;
+                                        }
+                                    </style>
                                     <?php foreach ($orders as $order){?>
                                         <tr>
+                                        <!-- <?php echo Order::$statuses[$order->status]?> -->
                                             <td><?php echo $order->currency_one?>/<?php echo $order->currency_two?></h4></td>
-                                            <td><?php echo Order::$statuses[$order->status]?></td>
+                                            <td class="sell-<?php echo $order->sell?>">
+                                                <?php
+                                                if($order->sell){
+                                                    echo "Sell";
+                                                }
+                                                else{
+                                                    echo "Buy";
+                                                }
+                                                ?>
+                                            </td>
                                             <td id="pr-<?php echo $order->id?>"></td>
                                             <script>
                                                 var x =<?php echo $order->rate?>;
