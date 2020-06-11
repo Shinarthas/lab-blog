@@ -245,7 +245,11 @@ $this->title = 'Main';
                                         <tr>
                                             <td><?php echo $order->currency_one?>/<?php echo $order->currency_two?></h4></td>
                                             <td><?php echo $order->status?></td>
-                                            <td><?php echo $order->rate?></td>
+                                            <td id="pr-<?php echo $order->rate?>"></td>
+                                            <script>
+                                                var x =<?php echo $order->rate?>;
+                                                document.getElementById("pr-<?php echo $order->rate?>").innerHTML = x.toFixed(2);
+                                            </script>
                                         </tr>
                                     <?php } ?>
                                     </table>
