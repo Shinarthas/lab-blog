@@ -127,6 +127,19 @@ $this->title = 'Main';
         #balance_graph {
             height: 260px;
         }
+        .table thead th {
+            border-bottom-width: 1px;
+            text-transform: uppercase;
+            color: #b0b0b0;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: .5px;
+            border-color: rgba(0,0,0,.15);
+        }
+        .table tbody tr td {
+            vertical-align: middle;
+            border-color: rgba(0,0,0,.15);
+        }
     </style>
 
 <div class="content-trade">
@@ -235,12 +248,15 @@ $this->title = 'Main';
                             <div class="card stat-widget-one bg-btc">
                                 <div class="card-body">
                                 <h4 class="card-title">Last Orders:</h4>
-                                    <table>
+                                    <table class="table" style="width: 100%">
+                                    <thead>
                                         <tr>
-                                        <th>Pairs</th>
-                                        <th>Status</th>
-                                        <th>Rate</th>
+                                            <th>Pairs</th>
+                                            <th>Status</th>
+                                            <th>Rate</th>
                                         </tr>
+                                    </thead>
+                                    <tbody>
                                     <?php foreach ($orders as $order){?>
                                         <tr>
                                             <td><?php echo $order->currency_one?>/<?php echo $order->currency_two?></h4></td>
@@ -252,6 +268,7 @@ $this->title = 'Main';
                                             </script>
                                         </tr>
                                     <?php } ?>
+                                    </tbody>
                                     </table>
                                 </div>
                             </div>
