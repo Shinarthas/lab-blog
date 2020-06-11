@@ -236,6 +236,11 @@ $this->title = 'Main';
                                 <div class="card-body">
                                 <h4 class="card-title">Last Orders:</h4>
                                     <table>
+                                        <tr>
+                                        <th>Pairs</th>
+                                        <th>Status</th>
+                                        <th>Rate</th>
+                                        </tr>
                                     <?php foreach ($orders as $order){?>
                                         <tr>
                                             <td><?php echo $order->currency_one?>/<?php echo $order->currency_two?></h4></td>
