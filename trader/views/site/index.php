@@ -154,7 +154,7 @@ $this->title = 'Main';
                 <div class="col-9">
                     <div class="row">
                         <?php foreach ($pairs as $pair){?>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <div class="card stat-widget-one bg-btc">
                                         <div class="card-body">
                                             <div class="row justify-content-between">
