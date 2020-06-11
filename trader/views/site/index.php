@@ -248,7 +248,7 @@ $this->title = 'Main';
                             <div class="card stat-widget-one bg-btc">
                                 <div class="card-body">
                                 <h4 class="card-title">Last Orders:</h4>
-                                    <table class="table" style="width: 100%">
+                                    <table class="table" style="width: 100%; margin-bottom: 0;">
                                     <thead>
                                         <tr>
                                             <th>Pairs</th>
@@ -256,6 +256,9 @@ $this->title = 'Main';
                                             <th>Rate</th>
                                         </tr>
                                     </thead>
+                                    </table>
+                                    <div style="heigh: 500px;overflow: scroll;">
+                                    <table class="table" style="width: 100%; margin-bottom: 0;">
                                     <tbody>
                                     <?php foreach ($orders as $order){?>
                                         <tr>
@@ -270,6 +273,7 @@ $this->title = 'Main';
                                     <?php } ?>
                                     </tbody>
                                     </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
