@@ -229,7 +229,26 @@ $this->title = 'Main';
                         </div>
                     </div>
                 </div>
-                <div class="col-3"></div>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card stat-widget-one bg-btc">
+                                <div class="card-body">
+                                <h4 class="card-title">Last Orders:</h4>
+                                    <table>
+                                    <?php foreach ($orders as $order){?>
+                                        <tr>
+                                            <td><?php echo $order->currency_one?>/<?php echo $order->currency_two?></h4></td>
+                                            <td><?php echo $order->status?></td>
+                                            <td><?php echo $order->rate?></td>
+                                        </tr>
+                                    <?php } ?>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
