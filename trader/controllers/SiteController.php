@@ -77,7 +77,7 @@ class SiteController extends Controller
         foreach ($strategies as $p){
             $strategies_remapped[$p->name][strtotime($p->created_at)]=$p;
         }
-        $account_balances=AccountBalance::find()->select("id, account_id, timestamp, total_margin")->all();
+        $account_balances=AccountBalance::find()->select("id, account_id, timestamp, total_margin, balances_margin")->all();
         $account_balances_remapped=[];
         foreach ($account_balances as $p){
             $account_balances_remapped[$p->account_id][strtotime($p->timestamp)]=$p;
@@ -91,6 +91,7 @@ class SiteController extends Controller
             'orders'=>$orders,
         ]);
     }
+
     /**
      * Login action.
      *

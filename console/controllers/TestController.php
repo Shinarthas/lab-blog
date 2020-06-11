@@ -83,8 +83,66 @@ class TestController extends MainConsoleController
 
                 $s->save();
 
-
                 $ab=new AccountBalance();
+
+                $ts=GlobalPair::find()->orderBy('created_at desc')->limit(1)->one();
+                $aq_r=[];
+                if(!empty($ts)){
+
+                    $aq=GlobalPair::find()->select("id, currency, trading_pair, bid, ask, rating")->where(['created_at'=>$ts->created_at])->all();
+                    foreach ($aq as $a){
+                        $aq_r[$a->currency]=$a;
+                    }
+                }
+
+                //балансы по монетам
+                $percents=[];
+                $balances=[];
+                for($q=0;$q<count($list);$q++){
+                    if($list[$q]=="BTC")
+                        continue;
+                    $cc=$list[$q];
+                    $p=random_float(0,10)/100;
+                    $percents[]=$p;
+                    $b=ArrayHelper::toArray($aq_r[$list[$q]]);
+                    $b['value']=$p*$s->balance*0.998/$b['bid'];
+                    $balances[]=$b;
+                }
+                if(rand(0,1)){//то в чем мы стоим
+                    $b=ArrayHelper::toArray($aq_r["BTC"]);
+                    $b['value']=(1-array_sum($percents))*$s->balance*0.998/$b['bid'];
+                    $balances[]=$b;
+
+                    $balances[]=[
+                        'value'=>0,
+                        'rate'=>1,
+                        'currency'=>'USDT',
+                        'trading_pair'=>'USDTUSDT',
+                        'bid'=>1,
+                        'ask'=>1,
+                        'rating'=>100,
+                        'created_at'=>date("Y-m-d H:i:s", time()),
+                    ];
+                }else{
+                    $b=ArrayHelper::toArray($aq_r["BTC"]);
+                    $b['value']=0;
+                    $balances[]=$b;
+
+                    $balances[]=[
+                        'value'=>(1-array_sum($percents))*$s->balance*0.998,
+                        'rate'=>1,
+                        'currency'=>'USDT',
+                        'trading_pair'=>'USDTUSDT',
+                        'bid'=>1,
+                        'ask'=>1,
+                        'rating'=>100,
+                        'created_at'=>date("Y-m-d H:i:s", time()),
+                    ];
+                }
+                $ab->balances_margin=json_encode($balances);
+                //конец балансов монет
+
+
                 $ab->account_id=$account_name;
                 $ab->timestamp=date("Y-m-d H:i:s",$time);
                 $ab->total_margin=$s->balance*0.998;
@@ -92,15 +150,15 @@ class TestController extends MainConsoleController
 
                 //создадим ордера
                 for($i=0;$i<$orders;$i++){
-                    $random_currency=$list[rand(0,count($list))];
+                    $random_currency=$list[rand(0,count($list)-1)];
                     $ts=GlobalPair::find()->orderBy('created_at desc')
                         ->andWhere(['currency'=>$random_currency])->limit(1)->one();
                     $o=new Order();
-                    $o->currency_two=$o->sell;
+
                     $o->account_id=$account_name;
                     $o->sell=rand(0,1);
                     $o->currency_one=$random_currency;
-
+                    $o->currency_two='USDT';
 
                     $o->tokens_count=10000*random_float(0.5,1.5)/$ts->bid;
                     $o->rate=$ts->bid;
