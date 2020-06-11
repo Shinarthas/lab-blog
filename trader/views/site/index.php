@@ -141,7 +141,8 @@ $this->title = 'Main';
             border-color: rgba(0,0,0,.15);
         }
         ::-webkit-scrollbar {
-		    width: 7px;
+            width: 7px;
+            height: 7px;
 		}
 		/* Track */
 
