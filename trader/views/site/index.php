@@ -245,10 +245,10 @@ $this->title = 'Main';
                                         <tr>
                                             <td><?php echo $order->currency_one?>/<?php echo $order->currency_two?></h4></td>
                                             <td><?php echo $order->status?></td>
-                                            <td id="pr-<?php echo $order->rate?>"></td>
+                                            <td id="pr-<?php echo $order->id?>"></td>
                                             <script>
                                                 var x =<?php echo $order->rate?>;
-                                                document.getElementById("pr-<?php echo $order->rate?>").innerHTML = x.toFixed(2);
+                                                document.getElementById("pr-<?php echo $order->id?>").innerHTML = x.toFixed(2);
                                             </script>
                                         </tr>
                                     <?php } ?>
