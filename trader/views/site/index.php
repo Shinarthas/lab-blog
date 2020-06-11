@@ -1,5 +1,5 @@
 <?php
-
+use common\models\Order;
 /* @var $this yii\web\View */
 
 $this->title = 'Main';
@@ -135,6 +135,7 @@ $this->title = 'Main';
             font-weight: 700;
             letter-spacing: .5px;
             border-color: rgba(0,0,0,.15);
+            border-top: none!important;
         }
         .table tbody tr td {
             vertical-align: middle;
@@ -165,7 +166,6 @@ $this->title = 'Main';
 		    transition: .1s;
 		}
     </style>
-
 <div class="content-trade">
         <div class="content-trade-sidebar">
             <div class="content-trade-sidebar-block">
@@ -272,6 +272,7 @@ $this->title = 'Main';
                             <div class="card stat-widget-one bg-btc">
                                 <div class="card-body">
                                 <h4 class="card-title">Last Orders:</h4>
+                                    <div style="    height: 500px; overflow-y: auto;">
                                     <table class="table" style="width: 100%; margin-bottom: 0;">
                                     <thead>
                                         <tr>
@@ -280,14 +281,11 @@ $this->title = 'Main';
                                             <th>Rate</th>
                                         </tr>
                                     </thead>
-                                    </table>
-                                    <div style="    height: 500px; overflow-y: scroll;">
-                                    <table class="table" style="width: 100%; margin-bottom: 0;">
                                     <tbody>
                                     <?php foreach ($orders as $order){?>
                                         <tr>
                                             <td><?php echo $order->currency_one?>/<?php echo $order->currency_two?></h4></td>
-                                            <td><?php echo $order->status?></td>
+                                            <td><?php echo Order::$statuses[$order->status]?></td>
                                             <td id="pr-<?php echo $order->id?>"></td>
                                             <script>
                                                 var x =<?php echo $order->rate?>;
