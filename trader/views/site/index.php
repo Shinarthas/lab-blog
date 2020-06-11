@@ -140,6 +140,29 @@ $this->title = 'Main';
             vertical-align: middle;
             border-color: rgba(0,0,0,.15);
         }
+        ::-webkit-scrollbar {
+		    width: 7px;
+		}
+		/* Track */
+
+		::-webkit-scrollbar-track {
+		    background: #292929;
+		    /*border:1px solid rgb(34,34,34);*/
+		    border-bottom: none;
+		    border-top: none;
+		}
+		/* Handle */
+
+		::-webkit-scrollbar-thumb {
+		    background: #888;
+		    border-radius: 5px;
+		}
+		/* Handle on hover */
+
+		::-webkit-scrollbar-thumb:hover {
+		    background: #555;
+		    transition: .1s;
+		}
     </style>
 
 <div class="content-trade">
@@ -257,7 +280,7 @@ $this->title = 'Main';
                                         </tr>
                                     </thead>
                                     </table>
-                                    <div style="heigh: 500px;overflow: scroll;">
+                                    <div style="    height: 500px; overflow-y: scroll;">
                                     <table class="table" style="width: 100%; margin-bottom: 0;">
                                     <tbody>
                                     <?php foreach ($orders as $order){?>
